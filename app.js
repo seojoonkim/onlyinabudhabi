@@ -104,8 +104,8 @@ function getScoreCategories() {
     ];
 }
 
-// Dummy image placeholder
-const dummyImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect fill='%23f1f5f9' width='100' height='100'/%3E%3Ctext x='50' y='55' text-anchor='middle' fill='%23cbd5e1' font-size='24'%3E📷%3C/text%3E%3C/svg%3E";
+// Dummy image placeholder - elegant Abu Dhabi themed design
+const dummyImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23faf8f3;stop-opacity:1'/%3E%3Cstop offset='100%25' style='stop-color:%23f5f1e8;stop-opacity:1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23bg)' width='200' height='200'/%3E%3Cg opacity='0.15' fill='%23d4915d'%3E%3Ccircle cx='100' cy='75' r='22'/%3E%3Cpath d='M100 97 Q85 97 85 112 L85 140 L115 140 L115 112 Q115 97 100 97 Z'/%3E%3Crect x='78' y='50' width='6' height='35' rx='3'/%3E%3Crect x='116' y='50' width='6' height='35' rx='3'/%3E%3Cpath d='M78 53 L72 45 L78 45 Z'/%3E%3Cpath d='M122 53 L128 45 L122 45 Z'/%3E%3C/g%3E%3C/svg%3E";
 
 // Initialize
 document.addEventListener('DOMContentLoaded', async function() {
