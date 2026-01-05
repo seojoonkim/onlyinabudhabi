@@ -5,33 +5,11 @@ let rankingsData = null;
 let rankingsById = {};
 let scoresData = null;
 
-// Load rankings data
+// Load rankings data (DEPRECATED - data now loaded via items_base.json in app.js)
 async function loadRankingsData() {
-    try {
-        const response = await fetch('items_with_rankings.json');
-        rankingsData = await response.json();
-
-        // Create lookup by ID
-        rankingsData.items.forEach(item => {
-            rankingsById[item.id] = item;
-        });
-
-        console.log(`✅ Loaded ${rankingsData.items.length} items with rankings`);
-
-        // Load scores data
-        try {
-            const scoresResponse = await fetch('all_score_reasons.json');
-            scoresData = await scoresResponse.json();
-            console.log(`✅ Loaded detailed scores for ${Object.keys(scoresData).length} items`);
-        } catch (error) {
-            console.warn('⚠️ Could not load detailed scores:', error);
-        }
-
-        return true;
-    } catch (error) {
-        console.error('❌ Failed to load rankings data:', error);
-        return false;
-    }
+    // No longer needed - rankings data is now in items_base.json
+    console.log('ℹ️ loadRankingsData() is deprecated - data loaded via items_base.json');
+    return true;
 }
 
 // Get fame text label (language-aware)

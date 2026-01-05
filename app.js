@@ -107,10 +107,7 @@ const dummyImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'
 
 // Initialize
 document.addEventListener('DOMContentLoaded', async function() {
-    // Load rankings data first
-    await loadRankingsData();
-
-    initData();
+    await initData();
     initFilters();
     initScoreFilters();
     initSort();
@@ -123,9 +120,9 @@ document.addEventListener('DOMContentLoaded', async function() {
 });
 
 // Initialize data
-function initData() {
+async function initData() {
     // Don't update URL on initial load, just use the language from URL
-    switchLanguage(currentLang, false);
+    await switchLanguage(currentLang, false);
 }
 
 // Update UI text based on current language
@@ -646,12 +643,8 @@ function createTooltipContent(item) {
     const categoryNames = getCategoryNames();
     const photoSrc = `photos/${item.photo_folder || item.id}/01.jpg`;
 
-    // Get popularity score
-    let popularityScore = '-';
-    const pop = popularityById[item.id];
-    if (pop && pop.activity_rating != null) {
-        popularityScore = Math.round(40 + (pop.activity_rating - 1) * (59 / 4));
-    }
+    // Get popularity score from item data
+    let popularityScore = item.recommendation_score || '-';
 
     return `
         <div style="width: 210px; max-width: 90vw; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: visible; border-radius: 8px; padding: 0; margin: 0; box-sizing: border-box; background: white;">
@@ -678,12 +671,8 @@ function createSpotTooltipContent(item) {
     const config = categoryConfig[item.category] || {};
     const categoryNames = getCategoryNames();
 
-    // Get popularity score
-    let popularityScore = '-';
-    const pop = popularityById[item.id];
-    if (pop && pop.activity_rating != null) {
-        popularityScore = Math.round(40 + (pop.activity_rating - 1) * (59 / 4));
-    }
+    // Get popularity score from item data
+    let popularityScore = item.recommendation_score || '-';
 
     return `
         <div style="width: 160px; max-width: 90vw; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: visible !important; border-radius: 6px; padding: 0; margin: 0; box-sizing: border-box; background: white;">
