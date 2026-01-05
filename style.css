@@ -528,6 +528,8 @@ table th:nth-child(2) {
 
 /* Small screens: Hide category column, show inline badge */
 @media (max-width: 650px) {
+    .main-container { padding: 20px 10px; }
+
     .header { flex-wrap: wrap; gap: 12px; padding: 12px 16px; }
     .header-left { width: 100%; justify-content: center; }
     .header-center { flex: 0 0 auto; justify-content: flex-start; order: 2; }
