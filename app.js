@@ -966,12 +966,21 @@ function openModal(id) {
     currentGalleryImages = photos;
 
     // Display first 12 photos immediately (use onerror for missing images)
-    let galleryHTML = '';
+    galleryGrid.innerHTML = '';
     for (let i = 0; i < 12; i++) {
         const imgSrc = photos[i];
-        galleryHTML += `<img class="gallery-thumb" src="${imgSrc}" onerror="this.src='${dummyImage}'; this.onclick=null;" onclick="openGallery(${i})" alt="Photo ${i+1}" loading="lazy">`;
+        const img = document.createElement('img');
+        img.className = 'gallery-thumb';
+        img.src = imgSrc;
+        img.alt = `Photo ${i+1}`;
+        img.loading = 'lazy';
+        img.onerror = function() {
+            this.src = dummyImage;
+            this.onclick = null;
+        };
+        img.onclick = () => openGallery(i);
+        galleryGrid.appendChild(img);
     }
-    galleryGrid.innerHTML = galleryHTML;
     
     // Information
     document.getElementById('modalAdmission').textContent = translateInfoField(item.admission) || '-';
