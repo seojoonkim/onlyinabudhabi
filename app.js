@@ -964,13 +964,37 @@ function openModal(id) {
 
     currentGalleryImages = photos;
 
-    // Display first 12 photos
-    let galleryHTML = '';
-    for (let i = 0; i < 12; i++) {
-        const imgSrc = photos[i];
-        galleryHTML += `<img class="gallery-thumb" src="${imgSrc}" onerror="this.src='${dummyImage}'; this.classList.add('placeholder');" onclick="openGallery(${i})" alt="Photo ${i+1}">`;
-    }
-    galleryGrid.innerHTML = galleryHTML;
+    // Check which photos actually exist and display only those
+    galleryGrid.innerHTML = '<div style="color: #999; font-size: 14px;">Loading photos...</div>';
+
+    const checkPhotoPromises = photos.map((photoPath) => {
+        return new Promise((resolve) => {
+            const testImg = new Image();
+            testImg.onload = () => resolve({ src: photoPath, exists: true });
+            testImg.onerror = () => resolve({ src: photoPath, exists: false });
+            testImg.src = photoPath;
+        });
+    });
+
+    Promise.all(checkPhotoPromises).then(results => {
+        const validPhotos = results.filter(r => r.exists).map(r => r.src);
+
+        // Display first 12 existing photos
+        let galleryHTML = '';
+        const displayCount = Math.min(12, validPhotos.length);
+
+        for (let i = 0; i < displayCount; i++) {
+            const imgSrc = validPhotos[i];
+            const originalIndex = photos.indexOf(imgSrc);
+            galleryHTML += `<img class="gallery-thumb" src="${imgSrc}" onclick="openGallery(${originalIndex})" alt="Photo ${i+1}">`;
+        }
+
+        if (galleryHTML === '') {
+            galleryHTML = '<div style="color: #999; font-size: 14px;">No photos available</div>';
+        }
+
+        galleryGrid.innerHTML = galleryHTML;
+    });
     
     // Information
     document.getElementById('modalAdmission').textContent = translateInfoField(item.admission) || '-';
