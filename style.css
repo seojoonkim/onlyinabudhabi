@@ -344,23 +344,25 @@ table th:nth-child(2) {
 .popularity-highlight .pop-label { font-weight: 700; }
 .popularity-highlight .pop-value { font-size: 26px; }
 
-/* 6 Metrics Grid (New) - 2 rows × 3 columns */
+/* 6 Metrics Grid (New) - 2 rows × 3 columns Etihad White Card */
 .metrics-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 14px;
   margin-top: 12px;
 }
 .metric-item {
   text-align: center;
-  padding: 14px 12px;
-  background: #e8eaed;
+  padding: 16px 14px;
+  background: #ffffff;
   border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04);
   transition: all 0.2s ease;
 }
 .metric-item:hover {
-  background: #dde1e5;
-  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.06);
+  transform: translateY(-2px);
 }
 .metric-label {
   display: block;
