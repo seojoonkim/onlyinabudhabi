@@ -1,0 +1,47 @@
+# Python scripts (contains API keys)
+*.py
+
+# Backup files
+*_backup*.js
+*backup*.js
+*.backup
+*.backup_*
+*.bak
+*_updated.js
+style_backup*.css
+
+# Analysis scripts
+analyze_reviews.js
+db_reviews_en.js
+
+# Analysis and report files
+*.txt
+*.md
+*.json
+*.sh
+
+# Exclude dummy folder
+dummy/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# But include these specific files needed for the website
+!popularity.js
