@@ -376,7 +376,7 @@ table th:nth-child(2) {
 .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .info-item { display: flex; flex-direction: column; gap: 4px; background: transparent; padding: 0; border-radius: 0; }
 .info-item.full-width { grid-column: 1 / -1; }
-.info-label { font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; font-weight: 600; }
+.info-label { font-size: 11px; color: #5a6c7d; text-transform: uppercase; font-weight: 600; }
 .info-value { font-size: 14px; font-weight: 500; color: var(--text-primary); }
 
 /* Address - 단순화 */
