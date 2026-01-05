@@ -150,7 +150,7 @@ table th:nth-child(2) {
 .category-badge-inline { display: none; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 500; white-space: nowrap; }
 .col-location { color: var(--text-secondary); font-size: 13px; width: 100px; }
 .col-duration { color: var(--text-secondary); font-size: 13px; width: 82px; white-space: nowrap; }
-.col-popularity { color: var(--gold); font-size: 13px; font-weight: 600; width: 90px; min-width: 90px; white-space: nowrap; text-align: center; }
+.col-popularity { color: var(--gold); font-size: 13px; font-weight: 600; width: 70px; min-width: 70px; white-space: nowrap; text-align: center; }
 
 /* Map */
 .map-container { height: 600px; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border); }
