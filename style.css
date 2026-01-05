@@ -183,13 +183,13 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 /* 열 패딩 줄이기 */
 table td:first-child,
 table th:first-child {
-  padding-right: 8px;  /* 16px → 8px */
+  padding-right: 4px;  /* 16px → 8px → 4px */
 }
 
 /* 이미지 열 패딩 줄이기 */
 table td:nth-child(2),
 table th:nth-child(2) {
-  padding-left: 8px;   /* 16px → 8px */
+  padding-left: 4px;   /* 16px → 8px → 4px */
 }
 
 .col-rank { width: 50px; font-weight: 700; color: var(--gold); padding: 12px 4px 12px 16px; text-align: center; }
