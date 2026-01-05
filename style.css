@@ -495,7 +495,7 @@ table th:nth-child(2) {
 .score-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; padding-bottom: 0; border-bottom: none; }
 .score-detail-title { display: flex; align-items: center; gap: 8px; }
 .score-detail-icon { font-size: 22px; opacity: 0.9; }
-.score-detail-name { font-size: 11px; color: #2d3748; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.score-detail-name { font-size: 12px; color: #2d3748; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
 .score-detail-stars { color: #d4915d; font-size: 14px; font-weight: 700; }
 .score-detail-stars .star-filled { color: #d4915d; }
 .score-detail-stars .star-empty { color: #cbd5e0; }
