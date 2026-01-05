@@ -289,12 +289,17 @@ async function switchLanguage(lang, updateURL = true) {
 
     // Load new data structure: items_base.json + lang/{lang}.json
     try {
+        // Get base path (works for localhost, GitHub Pages, and custom domain)
+        const isLocalhost = window.location.hostname === 'localhost';
+        const isGitHubPages = window.location.hostname.includes('github.io');
+        const basePath = isLocalhost ? '' : (isGitHubPages ? '/onlyinabudhabi' : '');
+
         // Load language-independent data
-        const baseResponse = await fetch('data/items_base.json');
+        const baseResponse = await fetch(`${basePath}/data/items_base.json`);
         const baseData = await baseResponse.json();
 
         // Load language-specific data
-        const langResponse = await fetch(`data/lang/${lang}.json`);
+        const langResponse = await fetch(`${basePath}/data/lang/${lang}.json`);
         const langData = await langResponse.json();
 
         // Merge by ID
