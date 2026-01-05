@@ -205,7 +205,7 @@ table th:nth-child(2) {
 .category-badge-inline { display: none; align-items: center; gap: 4px; padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 500; white-space: nowrap; margin-left: 6px; vertical-align: middle; }
 .col-location { color: var(--text-secondary); font-size: 13px; width: 100px; }
 .col-duration { color: var(--text-secondary); font-size: 13px; width: 82px; white-space: nowrap; }
-.col-popularity { color: var(--gold); font-size: 12px; font-weight: 400; width: 65px; min-width: 65px; white-space: nowrap; text-align: center; }
+.col-popularity { color: var(--gold); font-size: 13px; font-weight: 400; width: 65px; min-width: 65px; white-space: nowrap; text-align: center; }
 
 /* Map */
 .map-container { height: 600px; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border); }
@@ -638,7 +638,7 @@ table th:nth-child(2) {
     .name-place { font-size: 11px; white-space: normal !important; }
 
     .landmark-table th.col-popularity,
-    .landmark-table td.col-popularity { width: 18% !important; min-width: 0 !important; max-width: 18% !important; font-size: 12px; font-weight: 400; padding: 8px 6px 8px 6px !important; white-space: nowrap; overflow: visible; text-align: center; }
+    .landmark-table td.col-popularity { width: 18% !important; min-width: 0 !important; max-width: 18% !important; font-size: 13px; font-weight: 400; padding: 8px 6px 8px 6px !important; white-space: nowrap; overflow: visible; text-align: center; }
 
     /* Modal full screen on mobile */
     .modal-overlay { padding: 0; align-items: stretch; overflow-y: hidden; }
