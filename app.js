@@ -142,9 +142,14 @@ function updateUIText() {
     if (viewTabs[1]) viewTabs[1].textContent = i18n[currentLang].mapView;
 
     // Update about section
-    const aboutDesc = document.querySelector('.about-desc');
+    const aboutTitle = document.getElementById('aboutTitle');
+    if (aboutTitle) {
+        aboutTitle.textContent = i18n[currentLang].aboutTitle;
+    }
+
+    const aboutDesc = document.getElementById('aboutDesc');
     if (aboutDesc) {
-        aboutDesc.textContent = i18n[currentLang].aboutDesc1;
+        aboutDesc.textContent = i18n[currentLang].aboutDesc;
     }
 
     // Update filter buttons
