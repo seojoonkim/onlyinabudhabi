@@ -601,7 +601,8 @@ table th:nth-child(2) {
     .filter-btn,
     .score-filter-btn { font-size: 12px; padding: 8px 12px; gap: 4px; }
 
-    /* Mobile about section - smaller fonts */
+    /* Mobile about section - smaller fonts and padding */
+    .about-section { padding: 16px 20px; }
     .about-title { font-size: 17px; margin-bottom: 6px; }
     .about-desc { font-size: 12px; }
 
