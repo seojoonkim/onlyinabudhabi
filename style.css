@@ -330,7 +330,7 @@ table th:nth-child(2) {
 
 .modal { background: #fff; border-radius: 16px; max-width: 1200px; width: 100%; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
 
-.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding: 14px 28px; border-bottom: none; background: linear-gradient(135deg, var(--sidebar-bg) 0%, var(--header-bg) 100%); border-radius: 16px 16px 0 0; position: sticky; top: 0; z-index: 10; }
+.modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding: 14px 28px; border-bottom: none; background: linear-gradient(135deg, var(--sidebar-bg) 0%, var(--header-bg) 100%); border-radius: 16px 16px 0 0; position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
 .modal-header-left { flex: 1; }
 .modal-name { font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px; }
 .modal-place-row { display: flex; align-items: center; gap: 8px; }
