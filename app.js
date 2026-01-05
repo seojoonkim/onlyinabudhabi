@@ -1113,7 +1113,7 @@ function updateNearbyPlaces(currentItem) {
                     <span class="nearby-distance">${distText}</span>
                 </div>
             </div>
-            <button class="nearby-detail-btn" onclick="openModal('${item.id}')">자세히</button>
+            <button class="nearby-detail-btn" onclick="openModal('${item.id}')">${i18n[currentLang].viewDetails}</button>
         </li>`;
     }).join('');
 }

@@ -302,8 +302,8 @@ table th:nth-child(2) {
 .modal-section h3 { font-size: 13px; font-weight: 700; color: var(--header-bg); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.1px; }
 .section-icon { font-size: 14px; }
 
-/* Intro Box - Etihad style */
-.intro-box { background: #e8eaed; padding: 16px 18px; border-radius: 10px; }
+/* Intro Box - No background */
+.intro-box { background: transparent; padding: 0; border-radius: 0; }
 .intro-summary { font-size: 15px; line-height: 1.7; color: #2d3748; font-weight: 400; }
 
 /* Gallery Grid - 4x3 = 12개 */
@@ -315,9 +315,9 @@ table th:nth-child(2) {
 .gallery-thumb:hover { transform: scale(1.05); z-index: 1; }
 .gallery-thumb.placeholder { display: flex; align-items: center; justify-content: center; color: #cbd5e1; font-size: 20px; }
 
-/* Info Grid - Etihad style */
+/* Info Grid - No item boxes */
 .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.info-item { display: flex; flex-direction: column; gap: 4px; background: #e8eaed; padding: 12px 14px; border-radius: 8px; }
+.info-item { display: flex; flex-direction: column; gap: 4px; background: transparent; padding: 0; border-radius: 0; }
 .info-item.full-width { grid-column: 1 / -1; }
 .info-label { font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; font-weight: 600; }
 .info-value { font-size: 14px; font-weight: 500; color: var(--text-primary); }
