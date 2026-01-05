@@ -21,7 +21,8 @@ let currentValidImages = []; // Only images that actually exist
 // Get language from URL path
 function getLanguageFromURL() {
     const path = window.location.pathname;
-    const langMatch = path.match(/^\/(kr|en|ar|ja|zh)/);
+    // Match language code at start or after project name (for GitHub Pages)
+    const langMatch = path.match(/\/(kr|en|ar|ja|zh)(?:\/|$)/);
     if (langMatch) {
         return langMatch[1];
     }
