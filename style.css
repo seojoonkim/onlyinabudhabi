@@ -193,7 +193,7 @@ table th:nth-child(2) {
 }
 
 .col-rank { width: 50px; font-weight: 700; color: var(--gold); padding: 12px 4px 12px 12px; text-align: center; }
-.col-photo { width: 86px; padding: 12px 0px 12px 6px; }
+.col-photo { width: 86px; padding: 12px 0px 12px 3px; }
 .list-photo { width: 86px; height: 86px; min-width: 86px; max-width: 86px; min-height: 86px; max-height: 86px; border-radius: 8px; object-fit: cover; display: block; box-sizing: border-box; flex-shrink: 0; }
 .col-name { width: 283px; max-width: 283px; word-wrap: break-word; overflow-wrap: break-word; padding: 12px 4px 12px 0px; font-weight: 500; }
 .name-cell { display: flex; flex-direction: column; gap: 2px; }
