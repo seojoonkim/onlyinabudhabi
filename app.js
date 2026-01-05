@@ -1347,7 +1347,10 @@ function openGallery(index) {
     realImages.forEach((imgSrc, i) => {
         const thumb = document.createElement('img');
         thumb.src = imgSrc;
-        thumb.onerror = function() { this.src = dummyImage; };
+        thumb.onerror = function() {
+            this.src = dummyImage;
+            this.classList.add('error');
+        };
         thumb.className = 'gallery-thumbnail' + (imgSrc === currentGalleryImages[index] ? ' active' : '');
         thumb.onclick = () => {
             const originalIndex = currentGalleryImages.indexOf(imgSrc);
