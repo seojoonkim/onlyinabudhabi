@@ -173,6 +173,11 @@ function updateUIText() {
     if (scoreFilterBtns[9]) scoreFilterBtns[9].textContent = `🌍 ${i18n[currentLang].scoreTourist}`;
     if (scoreFilterBtns[10]) scoreFilterBtns[10].textContent = `🚇 ${i18n[currentLang].scoreAccessibility}`;
 
+    // Update sort buttons
+    const sortBtns = document.querySelectorAll('.sort-btn');
+    if (sortBtns[0]) sortBtns[0].textContent = i18n[currentLang].sortByNumber;
+    if (sortBtns[1]) sortBtns[1].textContent = i18n[currentLang].sortByAppeal;
+
     // Update table headers
     const tableHeaders = document.querySelectorAll('.landmark-table th');
     const isMobile = window.innerWidth <= 650;
@@ -384,10 +389,18 @@ function initScoreFilters() {
 // Sort data based on currentSort
 function sortData(data) {
     if (currentSort === 'appeal') {
-        // Sort by appeal score (descending)
+        // Sort by appeal score (descending), then by ranking (ascending) as tiebreaker
         return [...data].sort((a, b) => {
             const aScore = a.recommendation_score || 0;
             const bScore = b.recommendation_score || 0;
+
+            // If scores are equal, use overall_rank as tiebreaker (lower rank = higher priority)
+            if (bScore === aScore) {
+                const aRank = a.overall_rank || 999;
+                const bRank = b.overall_rank || 999;
+                return aRank - bRank;
+            }
+
             return bScore - aScore;
         });
     } else {
@@ -1007,7 +1020,7 @@ function openModal(id) {
             categoryLabelEl.textContent = categoryNames[item.category] || 'Category Rank';
         }
 
-        // 1. 매력도 (Attractiveness Score) - 40-99 (no /99)
+        // 1. 매력도 (Attractiveness Score) - 30-99 (no /99)
         if (popularityEl) {
             if (item.recommendation_score) {
                 popularityEl.innerHTML = `<svg width="16" height="16" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:5px"><path d="M21 15H19L15.5 7L11 18L8 12L6 15H4" stroke="currentColor" stroke-width="1.2"/></svg>${item.recommendation_score}`;
@@ -1326,8 +1339,29 @@ function copyAddress() {
 function openGallery(index) {
     if (currentGalleryImages[index] === dummyImage) return;
     currentGalleryIndex = index;
+
+    // Set main image
     document.getElementById('galleryImage').src = currentGalleryImages[index];
-    document.getElementById('galleryCounter').textContent = `${index + 1} / ${currentGalleryImages.filter(img => img !== dummyImage).length}`;
+
+    // Filter real images only
+    const realImages = currentGalleryImages.filter(img => img !== dummyImage);
+    document.getElementById('galleryCounter').textContent = `${realImages.indexOf(currentGalleryImages[index]) + 1} / ${realImages.length}`;
+
+    // Populate thumbnails (only real images)
+    const thumbnailsContainer = document.getElementById('galleryThumbnails');
+    thumbnailsContainer.innerHTML = '';
+    realImages.forEach((imgSrc, i) => {
+        const thumb = document.createElement('img');
+        thumb.src = imgSrc;
+        thumb.onerror = function() { this.src = dummyImage; };
+        thumb.className = 'gallery-thumbnail' + (imgSrc === currentGalleryImages[index] ? ' active' : '');
+        thumb.onclick = () => {
+            const originalIndex = currentGalleryImages.indexOf(imgSrc);
+            jumpToGalleryImage(originalIndex);
+        };
+        thumbnailsContainer.appendChild(thumb);
+    });
+
     document.getElementById('galleryModal').classList.add('active');
 }
 
@@ -1341,4 +1375,31 @@ function navigateGallery(dir) {
     currentGalleryIndex = (currentGalleryIndex + dir + realImages.length) % realImages.length;
     document.getElementById('galleryImage').src = realImages[currentGalleryIndex];
     document.getElementById('galleryCounter').textContent = `${currentGalleryIndex + 1} / ${realImages.length}`;
+
+    // Update active thumbnail
+    updateActiveThumbnail();
+}
+
+function jumpToGalleryImage(index) {
+    currentGalleryIndex = index;
+    document.getElementById('galleryImage').src = currentGalleryImages[index];
+    document.getElementById('galleryCounter').textContent = `${index + 1} / ${currentGalleryImages.filter(img => img !== dummyImage).length}`;
+
+    // Update active thumbnail
+    updateActiveThumbnail();
+}
+
+function updateActiveThumbnail() {
+    const thumbnails = document.querySelectorAll('.gallery-thumbnail');
+    const currentImageSrc = currentGalleryImages[currentGalleryIndex];
+
+    thumbnails.forEach((thumb) => {
+        if (thumb.src === currentImageSrc || thumb.src.endsWith(currentImageSrc)) {
+            thumb.classList.add('active');
+            // Scroll thumbnail into view
+            thumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+            thumb.classList.remove('active');
+        }
+    });
 }

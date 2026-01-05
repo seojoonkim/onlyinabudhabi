@@ -87,7 +87,10 @@ const i18n = {
         unique4: "특별한",
         unique3: "특색 있는",
         unique2: "익숙한 경험",
-        unique1: "평범함"
+        unique1: "평범함",
+        // Sort options
+        sortByNumber: "번호순",
+        sortByAppeal: "매력도순"
     },
     en: {
         siteName: "Only In Abu Dhabi",
@@ -172,7 +175,10 @@ const i18n = {
         unique4: "Special",
         unique3: "Distinctive",
         unique2: "Familiar Experience",
-        unique1: "Common"
+        unique1: "Common",
+        // Sort options
+        sortByNumber: "Original Order",
+        sortByAppeal: "Appeal Score"
     },
     ar: {
         siteName: "Only In Abu Dhabi",
@@ -255,7 +261,10 @@ const i18n = {
         unique4: "مميز للغاية",
         unique3: "مميز",
         unique2: "تجربة مألوفة",
-        unique1: "عادي"
+        unique1: "عادي",
+        // Sort options
+        sortByNumber: "الترتيب الأصلي",
+        sortByAppeal: "نقاط الجاذبية"
     },
     ja: {
         siteName: "Only In Abu Dhabi",
@@ -338,7 +347,10 @@ const i18n = {
         unique4: "特別",
         unique3: "特色ある",
         unique2: "馴染みのある",
-        unique1: "平凡"
+        unique1: "平凡",
+        // Sort options
+        sortByNumber: "元の順序",
+        sortByAppeal: "魅力度スコア"
     },
     zh: {
         siteName: "Only In Abu Dhabi",
@@ -421,7 +433,10 @@ const i18n = {
         unique4: "特别",
         unique3: "特色鲜明",
         unique2: "熟悉体验",
-        unique1: "普通"
+        unique1: "普通",
+        // Sort options
+        sortByNumber: "原始顺序",
+        sortByAppeal: "吸引力评分"
     }
 };
 
