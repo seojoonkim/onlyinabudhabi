@@ -617,7 +617,8 @@ table th:nth-child(2) {
     .landmark-table td.col-name { width: auto !important; max-width: none !important; font-size: 13px; padding: 8px 8px 8px 10px !important; }
     .name-title { font-size: 14px; }
     .name-place { font-size: 11px; }
-    .landmark-table td.col-popularity { width: 50px !important; min-width: 50px !important; font-size: 13px; font-weight: 700; padding: 8px 0 8px 0 !important; white-space: nowrap; overflow: visible; text-align: center; }
+    .landmark-table td.col-popularity { width: 58px !important; min-width: 58px !important; font-size: 13px; font-weight: 700; padding: 8px 4px 8px 4px !important; white-space: nowrap; overflow: visible; text-align: center; }
+    .landmark-table th.col-popularity { width: 58px !important; min-width: 58px !important; padding: 10px 4px !important; }
 
     /* Modal full screen on mobile */
     .modal-overlay { padding: 0; align-items: stretch; overflow-y: auto; }
