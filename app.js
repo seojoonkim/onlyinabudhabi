@@ -16,6 +16,7 @@ let spotMarkers = [];
 let currentInfoWindow = null;
 let currentGalleryImages = [];
 let currentGalleryIndex = 0;
+let currentValidImages = []; // Only images that actually exist
 
 // Get language from URL path
 function getLanguageFromURL() {
@@ -1330,49 +1331,54 @@ function copyAddress() {
 }
 
 // Gallery functions
-function openGallery(index) {
+async function openGallery(index) {
     if (currentGalleryImages[index] === dummyImage) return;
-    currentGalleryIndex = index;
+
+    // Filter out dummy images first
+    const realImages = currentGalleryImages.filter(img => img !== dummyImage);
+
+    // Check which images actually exist
+    const checkPromises = realImages.map((imgSrc) => {
+        return new Promise((resolve) => {
+            const testImg = new Image();
+            testImg.onload = () => resolve({ src: imgSrc, exists: true });
+            testImg.onerror = () => resolve({ src: imgSrc, exists: false });
+            testImg.src = imgSrc;
+        });
+    });
+
+    const results = await Promise.all(checkPromises);
+    currentValidImages = results.filter(r => r.exists).map(r => r.src);
+
+    // If no valid images, don't open gallery
+    if (currentValidImages.length === 0) return;
+
+    // Find the index of clicked image in validImages array
+    const clickedImageSrc = currentGalleryImages[index];
+    currentGalleryIndex = currentValidImages.indexOf(clickedImageSrc);
+
+    // If clicked image doesn't exist, show first valid image
+    if (currentGalleryIndex === -1) {
+        currentGalleryIndex = 0;
+    }
 
     // Set main image
-    document.getElementById('galleryImage').src = currentGalleryImages[index];
-
-    // Filter real images only
-    const realImages = currentGalleryImages.filter(img => img !== dummyImage);
-    document.getElementById('galleryCounter').textContent = `${realImages.indexOf(currentGalleryImages[index]) + 1} / ${realImages.length}`;
+    document.getElementById('galleryImage').src = currentValidImages[currentGalleryIndex];
+    document.getElementById('galleryCounter').textContent = `${currentGalleryIndex + 1} / ${currentValidImages.length}`;
 
     // Populate thumbnails (max 12, only show existing images)
     const thumbnailsContainer = document.getElementById('galleryThumbnails');
     thumbnailsContainer.innerHTML = '';
 
-    // Check which images actually exist by trying to load them
-    const maxThumbnails = Math.min(12, realImages.length);
-    let loadedCount = 0;
-    const thumbnailsToShow = [];
-
-    // Create temporary images to check which ones exist
-    const checkPromises = realImages.slice(0, maxThumbnails).map((imgSrc, i) => {
-        return new Promise((resolve) => {
-            const testImg = new Image();
-            testImg.onload = () => resolve({ src: imgSrc, exists: true, index: i });
-            testImg.onerror = () => resolve({ src: imgSrc, exists: false, index: i });
-            testImg.src = imgSrc;
-        });
-    });
-
-    Promise.all(checkPromises).then(results => {
-        const validImages = results.filter(r => r.exists);
-
-        validImages.forEach(({ src, index: thumbIndex }) => {
-            const thumb = document.createElement('img');
-            thumb.src = src;
-            thumb.className = 'gallery-thumbnail' + (src === currentGalleryImages[index] ? ' active' : '');
-            thumb.onclick = () => {
-                const originalIndex = currentGalleryImages.indexOf(src);
-                jumpToGalleryImage(originalIndex);
-            };
-            thumbnailsContainer.appendChild(thumb);
-        });
+    const maxThumbnails = Math.min(12, currentValidImages.length);
+    currentValidImages.slice(0, maxThumbnails).forEach((src, thumbIndex) => {
+        const thumb = document.createElement('img');
+        thumb.src = src;
+        thumb.className = 'gallery-thumbnail' + (thumbIndex === currentGalleryIndex ? ' active' : '');
+        thumb.onclick = () => {
+            jumpToGalleryImage(thumbIndex);
+        };
+        thumbnailsContainer.appendChild(thumb);
     });
 
     document.getElementById('galleryModal').classList.add('active');
@@ -1383,20 +1389,22 @@ function closeGallery() {
 }
 
 function navigateGallery(dir) {
-    const realImages = currentGalleryImages.filter(img => img !== dummyImage);
-    if (realImages.length === 0) return;
-    currentGalleryIndex = (currentGalleryIndex + dir + realImages.length) % realImages.length;
-    document.getElementById('galleryImage').src = realImages[currentGalleryIndex];
-    document.getElementById('galleryCounter').textContent = `${currentGalleryIndex + 1} / ${realImages.length}`;
+    if (currentValidImages.length === 0) return;
+
+    currentGalleryIndex = (currentGalleryIndex + dir + currentValidImages.length) % currentValidImages.length;
+    document.getElementById('galleryImage').src = currentValidImages[currentGalleryIndex];
+    document.getElementById('galleryCounter').textContent = `${currentGalleryIndex + 1} / ${currentValidImages.length}`;
 
     // Update active thumbnail
     updateActiveThumbnail();
 }
 
-function jumpToGalleryImage(index) {
-    currentGalleryIndex = index;
-    document.getElementById('galleryImage').src = currentGalleryImages[index];
-    document.getElementById('galleryCounter').textContent = `${index + 1} / ${currentGalleryImages.filter(img => img !== dummyImage).length}`;
+function jumpToGalleryImage(validIndex) {
+    if (validIndex < 0 || validIndex >= currentValidImages.length) return;
+
+    currentGalleryIndex = validIndex;
+    document.getElementById('galleryImage').src = currentValidImages[validIndex];
+    document.getElementById('galleryCounter').textContent = `${validIndex + 1} / ${currentValidImages.length}`;
 
     // Update active thumbnail
     updateActiveThumbnail();
@@ -1404,7 +1412,9 @@ function jumpToGalleryImage(index) {
 
 function updateActiveThumbnail() {
     const thumbnails = document.querySelectorAll('.gallery-thumbnail');
-    const currentImageSrc = currentGalleryImages[currentGalleryIndex];
+    if (currentGalleryIndex >= currentValidImages.length) return;
+
+    const currentImageSrc = currentValidImages[currentGalleryIndex];
 
     thumbnails.forEach((thumb) => {
         if (thumb.src === currentImageSrc || thumb.src.endsWith(currentImageSrc)) {
