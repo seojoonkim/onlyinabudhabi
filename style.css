@@ -430,10 +430,10 @@ table th:nth-child(2) {
 .star-filled { color: #d4915d; }
 .star-empty { color: #e8d5b8; }
 
-/* Score Detail Cards - 2열 5행 = 10개 Etihad "Get in touch" Style */
-.scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.score-detail-card { background: #e8eaed; border-radius: 10px; padding: 18px 20px; border: none; box-shadow: none; transition: all 0.3s ease; }
-.score-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+/* Score Detail Cards - 2열 5행 = 10개 Etihad White Card Style */
+.scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.score-detail-card { background: #ffffff; border-radius: 12px; padding: 20px 24px; border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04); transition: all 0.3s ease; }
+.score-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; padding-bottom: 0; border-bottom: none; }
 .score-detail-title { display: flex; align-items: center; gap: 8px; }
 .score-detail-icon { font-size: 22px; opacity: 0.9; }
 .score-detail-name { font-size: 11px; color: #2d3748; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
