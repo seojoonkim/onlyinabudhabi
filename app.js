@@ -376,7 +376,7 @@ function renderTable() {
             </td>
             <td class="col-location">${item.area}</td>
             <td class="col-duration">${item.duration || '-'}</td>
-            <td class="col-popularity">${popularityScore}</td>
+            <td class="col-popularity"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:4px"><circle cx="12" cy="12" r="2" fill="currentColor"/><polygon points="12,2 13.2,9 12,10 10.8,9" fill="currentColor"/><polygon points="22,12 15,13.2 14,12 15,10.8" fill="currentColor"/><polygon points="12,22 10.8,15 12,14 13.2,15" fill="currentColor"/><polygon points="2,12 9,10.8 10,12 9,13.2" fill="currentColor"/><polygon points="18.5,5.5 13.5,10 12.5,10 11.5,9.5" fill="currentColor" opacity="0.8"/><polygon points="18.5,18.5 13.5,14 12.5,14 14,13.5" fill="currentColor" opacity="0.8"/><polygon points="5.5,18.5 10,13.5 10,12.5 10.5,14" fill="currentColor" opacity="0.8"/><polygon points="5.5,5.5 10.5,10 10,12.5 10,11.5" fill="currentColor" opacity="0.8"/></svg>${popularityScore}</td>
         `;
         tbody.appendChild(tr);
     });
@@ -855,9 +855,11 @@ function openModal(id) {
 
         // 1. 매력도 (Attractiveness Score) - 40-99 (no /99)
         if (popularityEl) {
-            popularityEl.textContent = ranking.recommendation_score !== '-'
-                ? ranking.recommendation_score
-                : '-';
+            if (ranking.recommendation_score !== '-') {
+                popularityEl.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:4px"><circle cx="12" cy="12" r="2" fill="currentColor"/><polygon points="12,2 13.2,9 12,10 10.8,9" fill="currentColor"/><polygon points="22,12 15,13.2 14,12 15,10.8" fill="currentColor"/><polygon points="12,22 10.8,15 12,14 13.2,15" fill="currentColor"/><polygon points="2,12 9,10.8 10,12 9,13.2" fill="currentColor"/><polygon points="18.5,5.5 13.5,10 12.5,10 11.5,9.5" fill="currentColor" opacity="0.8"/><polygon points="18.5,18.5 13.5,14 12.5,14 14,13.5" fill="currentColor" opacity="0.8"/><polygon points="5.5,18.5 10,13.5 10,12.5 10.5,14" fill="currentColor" opacity="0.8"/><polygon points="5.5,5.5 10.5,10 10,12.5 10,11.5" fill="currentColor" opacity="0.8"/></svg>${ranking.recommendation_score}`;
+            } else {
+                popularityEl.textContent = '-';
+            }
         }
 
         // 2. 전체순위 (Overall Rank) - #X /101 (with /101 smaller)
