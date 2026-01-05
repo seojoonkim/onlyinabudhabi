@@ -332,7 +332,7 @@ table th:nth-child(2) {
 
 .modal-header { display: flex; justify-content: space-between; align-items: flex-start; padding: 14px 28px; border-bottom: none; background: linear-gradient(135deg, var(--sidebar-bg) 0%, var(--header-bg) 100%); border-radius: 16px 16px 0 0; }
 .modal-header-left { flex: 1; }
-.modal-name { font-size: 24px; font-weight: 500; color: #fff; margin-bottom: 6px; }
+.modal-name { font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 6px; }
 .modal-place-row { display: flex; align-items: center; gap: 8px; }
 .modal-place-name { font-size: 13px; color: rgba(255,255,255,0.8); font-weight: 400; }
 .modal-tag { display: inline-flex; align-items: center; gap: 3px; padding: 3px 8px; border-radius: 10px; font-size: 10px; font-weight: 600; background: rgba(212,145,93,0.25); border: none; }
