@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Background -->
-  <rect width="64" height="64" fill="#2d4a5a" rx="12"/>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d4a5a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d5a6b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
 
-  <!-- Mosque Dome (inspired by Sheikh Zayed Mosque) -->
-  <!-- Main dome -->
-  <ellipse cx="32" cy="30" rx="16" ry="12" fill="#f5f5f5" opacity="0.95"/>
-  <path d="M 16 30 Q 32 20, 48 30" fill="none" stroke="#e8eaed" stroke-width="1.5"/>
-  <path d="M 20 30 Q 32 22, 44 30" fill="none" stroke="#e8eaed" stroke-width="1"/>
+  <!-- Background with rounded corners -->
+  <rect width="64" height="64" fill="url(#bg)" rx="14"/>
 
-  <!-- Crescent moon on top -->
-  <path d="M 32 16 A 4 4 0 1 0 32 12 A 3 3 0 1 1 32 16" fill="#ffd700"/>
-  <circle cx="32" cy="14" r="1.5" fill="#ffd700"/>
+  <!-- Outer diamond -->
+  <path d="M 32 10 L 54 32 L 32 54 L 10 32 Z"
+        fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.9"/>
 
-  <!-- Building/Base -->
-  <rect x="20" y="32" width="24" height="16" fill="#f5f5f5" opacity="0.9"/>
+  <!-- Inner diamond with gold fill -->
+  <path d="M 32 18 L 46 32 L 32 46 L 18 32 Z"
+        fill="#ffd700" opacity="0.3"/>
 
-  <!-- Arches/Windows -->
-  <path d="M 24 36 Q 26 34, 28 36 L 28 44 L 24 44 Z" fill="#2d4a5a" opacity="0.3"/>
-  <path d="M 30 36 Q 32 34, 34 36 L 34 44 L 30 44 Z" fill="#2d4a5a" opacity="0.3"/>
-  <path d="M 36 36 Q 38 34, 40 36 L 40 44 L 36 44 Z" fill="#2d4a5a" opacity="0.3"/>
+  <!-- Top facet (lighter) -->
+  <path d="M 32 10 L 54 32 L 32 32 Z" fill="#ffffff" opacity="0.15"/>
 
-  <!-- Decorative elements -->
-  <rect x="18" y="48" width="28" height="2" fill="#f5f5f5" opacity="0.9"/>
+  <!-- Right facet (darker) -->
+  <path d="M 32 32 L 54 32 L 32 54 Z" fill="#ffffff" opacity="0.08"/>
 
-  <!-- Small stars/sparkles -->
-  <circle cx="12" cy="18" r="1.5" fill="#ffd700" opacity="0.7"/>
-  <circle cx="52" cy="18" r="1.5" fill="#ffd700" opacity="0.7"/>
-  <circle cx="18" cy="52" r="1" fill="#ffd700" opacity="0.5"/>
-  <circle cx="46" cy="52" r="1" fill="#ffd700" opacity="0.5"/>
+  <!-- Left facet (medium) -->
+  <path d="M 32 10 L 10 32 L 32 32 Z" fill="#ffffff" opacity="0.12"/>
+
+  <!-- Bottom facet (darkest) -->
+  <path d="M 32 32 L 10 32 L 32 54 Z" fill="#ffffff" opacity="0.05"/>
 </svg>
