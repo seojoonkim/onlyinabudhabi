@@ -6,7 +6,7 @@
 let allData = [];
 let filteredData = [];
 let currentCategory = 'all';
-let currentLang = 'ko';
+let currentLang = getLanguageFromURL(); // Get language from URL path
 let map = null;
 let markers = [];
 let spotMap = null;
@@ -14,6 +14,17 @@ let spotMarkers = [];
 let currentInfoWindow = null;
 let currentGalleryImages = [];
 let currentGalleryIndex = 0;
+
+// Get language from URL path
+function getLanguageFromURL() {
+    const path = window.location.pathname;
+    const langMatch = path.match(/^\/(kr|en|ar|ja|zh)/);
+    if (langMatch) {
+        return langMatch[1];
+    }
+    // Default to English if no language code in URL
+    return 'en';
+}
 
 // Get category names based on current language
 function getCategoryNames() {
@@ -29,25 +40,30 @@ function getCategoryNames() {
     };
 }
 
-// Score categories config
-const scoreCategories = [
-    { key: "photo", icon: "📷", name: "Photo Opportunities" },
-    { key: "culture", icon: "🎭", name: "Cultural Experience" },
-    { key: "activity", icon: "🎯", name: "Activity Level" },
-    { key: "relaxation", icon: "🧘", name: "Relaxation & Comfort" },
-    { key: "peaceful", icon: "🌿", name: "Peaceful Atmosphere" },
-    { key: "couple", icon: "💑", name: "Couple-Friendly" },
-    { key: "family", icon: "👨‍👩‍👧", name: "Family-Friendly" },
-    { key: "solo", icon: "🚶", name: "Solo Traveler Friendly" },
-    { key: "tourist", icon: "🌍", name: "Tourist Accessibility" },
-    { key: "accessibility", icon: "🚇", name: "Transportation Access" }
-];
+// Score categories config - returns array with translated names
+function getScoreCategories() {
+    return [
+        { key: "photo", icon: "📷", name: i18n[currentLang].scorePhoto },
+        { key: "culture", icon: "🎭", name: i18n[currentLang].scoreCulture },
+        { key: "activity", icon: "🎯", name: i18n[currentLang].scoreActivity },
+        { key: "relaxation", icon: "🧘", name: i18n[currentLang].scoreRelaxation },
+        { key: "peaceful", icon: "🌿", name: i18n[currentLang].scorePeaceful },
+        { key: "couple", icon: "💑", name: i18n[currentLang].scoreCouple },
+        { key: "family", icon: "👨‍👩‍👧", name: i18n[currentLang].scoreFamily },
+        { key: "solo", icon: "🚶", name: i18n[currentLang].scoreSolo },
+        { key: "tourist", icon: "🌍", name: i18n[currentLang].scoreTourist },
+        { key: "accessibility", icon: "🚇", name: i18n[currentLang].scoreAccessibility }
+    ];
+}
 
 // Dummy image placeholder
 const dummyImage = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect fill='%23f1f5f9' width='100' height='100'/%3E%3Ctext x='50' y='55' text-anchor='middle' fill='%23cbd5e1' font-size='24'%3E📷%3C/text%3E%3C/svg%3E";
 
 // Initialize
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    // Load rankings data first
+    await loadRankingsData();
+
     initData();
     initFilters();
     initViewTabs();
@@ -60,7 +76,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Initialize data
 function initData() {
-    switchLanguage(currentLang);
+    // Don't update URL on initial load, just use the language from URL
+    switchLanguage(currentLang, false);
 }
 
 // Update UI text based on current language
@@ -105,7 +122,7 @@ function updateUIText() {
     if (tableHeaders[4]) tableHeaders[4].textContent = i18n[currentLang].colLocation;
     if (tableHeaders[5]) tableHeaders[5].textContent = i18n[currentLang].colDuration;
     if (tableHeaders[6]) {
-        tableHeaders[6].textContent = i18n[currentLang].colPopularity;
+        tableHeaders[6].textContent = isMobile ? i18n[currentLang].colPopularityShort : i18n[currentLang].colPopularity;
     }
 
     // Update modal section headings
@@ -171,6 +188,12 @@ function updateUIText() {
     const labelPopularity = document.getElementById('labelPopularity');
     if (labelPopularity) labelPopularity.textContent = i18n[currentLang].labelPopularity;
 
+    const labelFame = document.getElementById('labelFame');
+    if (labelFame) labelFame.textContent = i18n[currentLang].labelFame;
+
+    const labelUniqueness = document.getElementById('labelUniqueness');
+    if (labelUniqueness) labelUniqueness.textContent = i18n[currentLang].labelUniqueness;
+
     // Update category counts
     updateCategoryCounts();
 }
@@ -185,8 +208,14 @@ function updateResultCount() {
 }
 
 // Switch language
-function switchLanguage(lang) {
+function switchLanguage(lang, updateURL = true) {
     currentLang = lang;
+
+    // Update URL path if needed
+    if (updateURL) {
+        const newPath = lang === 'en' ? '/' : `/${lang}`;
+        window.history.pushState({}, '', newPath);
+    }
 
     // Load appropriate data
     let rawData;
@@ -207,7 +236,7 @@ function switchLanguage(lang) {
             rawData = landmarkData_zh;
             break;
         default:
-            rawData = landmarkData_ko;
+            rawData = landmarkData_en;
     }
 
     // Merge with Korean data to fill in missing structural fields
@@ -318,12 +347,9 @@ function renderTable() {
     filteredData.forEach((item) => {
         const config = categoryConfig[item.category] || {};
 
-        // Calculate popularity score from activity_rating
-        let popularityScore = '-';
-        const pop = popularityById[item.id];
-        if (pop && pop.activity_rating != null) {
-            popularityScore = Math.round(40 + (pop.activity_rating - 1) * (59 / 4));
-        }
+        // Get popularity score from rankings data
+        const ranking = getRankingInfo(item.id);
+        const popularityScore = ranking.recommendation_score;
 
         const tr = document.createElement('tr');
         tr.onclick = () => openModal(item.id);
@@ -378,12 +404,23 @@ function initViewTabs() {
 // Initialize language selector
 function initLangSelector() {
     const langBtns = document.querySelectorAll('.lang-btn');
+
+    // Set active button based on current language
+    langBtns.forEach(btn => {
+        if (btn.getAttribute('data-lang') === currentLang) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
+    // Add click handlers
     langBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             const lang = this.getAttribute('data-lang');
             langBtns.forEach(b => b.classList.remove('active'));
             this.classList.add('active');
-            switchLanguage(lang);
+            switchLanguage(lang, true);
         });
     });
 }
@@ -485,16 +522,19 @@ function createSpotTooltipContent(item) {
     }
 
     return `
-        <div style="width: 160px; max-width: 90vw; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: visible; border-radius: 6px; padding: 0; margin: 0; box-sizing: border-box; background: white;">
-            <div style="padding: 8px 10px; background: white; margin: 0; box-sizing: border-box; border-radius: 6px;">
-                <div style="font-size: 11px; font-weight: 600; color: #2a2a2a; margin-bottom: 3px; line-height: 1.2;">${item.title}</div>
-                <div style="font-size: 9px; color: #999; margin-bottom: 6px; line-height: 1.2;">${item.place}</div>
-                <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div style="width: 160px; max-width: 90vw; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow: visible !important; border-radius: 6px; padding: 0; margin: 0; box-sizing: border-box; background: white;">
+            <div style="padding: 8px 10px; background: white; margin: 0; box-sizing: border-box; border-radius: 6px; overflow: visible !important;">
+                <div style="font-size: 11px; font-weight: 600; color: #2a2a2a; margin-bottom: 2px; line-height: 1.2;">${item.title}</div>
+                <div style="font-size: 9px; color: #999; margin-bottom: 5px; line-height: 1.2;">${item.place}</div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
                     <span style="background: ${config.bg}; color: ${config.color}; padding: 2px 6px; border-radius: 4px; font-size: 8px; font-weight: 500; display: inline-flex; align-items: center; gap: 2px;">
                         ${config.icon} ${categoryNames[item.category]}
                     </span>
                     <span style="color: #d4915d; font-weight: 600; font-size: 9px;">${i18n[currentLang].labelPopularity} ${popularityScore}</span>
                 </div>
+                <button onclick="openModal('${item.id}')" style="display: block !important; width: 100%; background: linear-gradient(135deg, #d4915d 0%, #c97d3d 100%); color: white; border: none; padding: 5px 8px; border-radius: 4px; font-size: 9px; font-weight: 600; cursor: pointer; box-shadow: 0 1px 3px rgba(212,145,93,0.3);">
+                    ${i18n[currentLang].viewDetails}
+                </button>
             </div>
         </div>
     `;
@@ -794,57 +834,76 @@ function openModal(id) {
         tipsList.innerHTML = '<li>방문 팁 준비 중</li>';
     }
 
-    // Popularity metrics (Google Maps + ranks)
+    // 6 Metrics display using new rankings data
     try {
-        const pop = typeof popularityById !== 'undefined' ? popularityById[item.id] : null;
+        const ranking = getRankingInfo(item.id);
         const categoryNames = getCategoryNames();
+
+        // Get elements
+        const popularityEl = document.getElementById('popPopularity');
         const overallRankEl = document.getElementById('popOverallRank');
         const categoryLabelEl = document.getElementById('popCategoryLabel');
         const categoryRankEl = document.getElementById('popCategoryRank');
         const gmScoreEl = document.getElementById('popGmScore');
-        const gmReviewsEl = document.getElementById('popGmReviews');
-        const popularityEl = document.getElementById('popPopularity');
+        const fameEl = document.getElementById('popFame');
+        const uniquenessEl = document.getElementById('popUniqueness');
 
         // Update category label to show actual category name
         if (categoryLabelEl) {
             categoryLabelEl.textContent = categoryNames[item.category] || 'Category Rank';
         }
 
-        // Helper function to add ordinal suffix
-        const addOrdinalSuffix = (num) => {
-            if (!num) return '-';
-            const j = num % 10;
-            const k = num % 100;
-            let suffix;
-            if (j === 1 && k !== 11) suffix = 'st';
-            else if (j === 2 && k !== 12) suffix = 'nd';
-            else if (j === 3 && k !== 13) suffix = 'rd';
-            else suffix = 'th';
-            return num + '<span class="rank-suffix">' + suffix + '</span>';
-        };
-
-        if (pop) {
-            overallRankEl.innerHTML = addOrdinalSuffix(pop.overall_rank);
-            categoryRankEl.innerHTML = addOrdinalSuffix(pop.category_rank);
-            gmScoreEl.textContent = pop.gm_rating != null ? pop.gm_rating.toFixed(1) : '-';
-            gmReviewsEl.textContent = pop.gm_reviews != null ? pop.gm_reviews.toLocaleString() : '-';
-            // activity_rating (1.0~5.0) → 40~99 변환
-            if (pop.activity_rating != null) {
-                const score = Math.round(40 + (pop.activity_rating - 1) * (59 / 4));
-                popularityEl.textContent = score;
-            } else {
-                popularityEl.textContent = '-';
-            }
-        } else {
-            overallRankEl.textContent = '-';
-            categoryRankEl.textContent = '-';
-            gmScoreEl.textContent = '-';
-            gmReviewsEl.textContent = '-';
-            popularityEl.textContent = '-';
+        // 1. 매력도 (Attractiveness Score) - 40-99 (no /99)
+        if (popularityEl) {
+            popularityEl.textContent = ranking.recommendation_score !== '-'
+                ? ranking.recommendation_score
+                : '-';
         }
-    } catch (e) {
-        // fail silently – UI will just show '-'
-        console.error('Failed to render popularity metrics', e);
+
+        // 2. 전체순위 (Overall Rank) - #X /101 (with /101 smaller)
+        if (overallRankEl) {
+            if (ranking.overall_rank !== '-') {
+                overallRankEl.innerHTML = `#${ranking.overall_rank} <span class="rank-denominator">/101</span>`;
+            } else {
+                overallRankEl.textContent = '-';
+            }
+        }
+
+        // 3. 카테고리순위 (Category Rank) - #X /total (with /total smaller)
+        if (categoryRankEl) {
+            if (ranking.category_rank !== '-' && ranking.category_total !== '-') {
+                categoryRankEl.innerHTML = `#${ranking.category_rank} <span class="rank-denominator">/${ranking.category_total}</span>`;
+            } else {
+                categoryRankEl.textContent = '-';
+            }
+        }
+
+        // 4. 구글맵 평점 (Google Rating) - ★ X.X (star before number)
+        if (gmScoreEl) {
+            if (ranking.google_rating && ranking.google_rating !== '-' && ranking.google_rating > 0) {
+                gmScoreEl.textContent = `★ ${ranking.google_rating.toFixed(1)}`;
+            } else {
+                gmScoreEl.textContent = '-';
+            }
+        }
+
+        // 5. 유명세 (Fame) - Text label
+        if (fameEl) {
+            fameEl.textContent = getFameLabel(ranking.fame_stars, currentLang);
+        }
+
+        // 6. 독특함 (Uniqueness) - Text label
+        if (uniquenessEl) {
+            uniquenessEl.textContent = getUniquenessLabel(ranking.uniqueness, currentLang);
+        }
+    } catch (error) {
+        console.error('Error displaying metrics:', error);
+        // Set all to dash on error
+        const ids = ['popPopularity', 'popOverallRank', 'popCategoryRank', 'popGmScore', 'popFame', 'popUniqueness'];
+        ids.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) el.textContent = '-';
+        });
     }
     
     // Spot map
@@ -891,17 +950,19 @@ function openModal(id) {
                     zIndex: dataItem.id === item.id ? 1000 : 1
                 });
 
-                // Highlight current location marker and show tooltip
-                if (dataItem.id === currentItemId) {
-                    marker.setAnimation(google.maps.Animation.BOUNCE);
-                    setTimeout(() => marker.setAnimation(null), 2000);
+                // Add click listener to all markers to show tooltip
+                marker.addListener('click', () => {
+                    // Close previous info window
+                    if (currentSpotInfoWindow) {
+                        currentSpotInfoWindow.close();
+                    }
 
-                    // Create and open info window for current marker (compact version)
+                    // Create and open info window for clicked marker
                     currentSpotInfoWindow = new google.maps.InfoWindow({
                         content: createSpotTooltipContent(dataItem),
                         disableAutoPan: false,
                         maxWidth: 0,
-                        pixelOffset: new google.maps.Size(0, 0)
+                        pixelOffset: new google.maps.Size(0, -15)
                     });
 
                     // Style the info window
@@ -910,27 +971,39 @@ function openModal(id) {
                         const iwContent = document.querySelector('.gm-style-iw-d');
 
                         if (iwOuter) {
-                            iwOuter.style.paddingTop = '13px';
-                            iwOuter.style.paddingLeft = '0';
-                            iwOuter.style.paddingRight = '0';
-                            iwOuter.style.paddingBottom = '0';
+                            iwOuter.style.padding = '0';
                             iwOuter.style.margin = '0';
                             iwOuter.style.borderRadius = '8px';
+                            iwOuter.style.maxHeight = 'none';
+                            iwOuter.style.height = 'auto';
+                            iwOuter.style.overflow = 'visible';
                         }
                         if (iwContent) {
                             iwContent.style.padding = '0';
                             iwContent.style.margin = '0';
-                            iwContent.style.overflow = 'hidden';
+                            iwContent.style.overflow = 'visible';
+                            iwContent.style.maxHeight = 'none';
+                            iwContent.style.height = 'auto';
                             const innerDiv = iwContent.querySelector('div');
                             if (innerDiv) {
                                 innerDiv.style.padding = '0';
                                 innerDiv.style.margin = '0';
+                                innerDiv.style.overflow = 'visible';
                             }
                         }
                     });
 
                     // Open the info window
                     currentSpotInfoWindow.open(spotMap, marker);
+                });
+
+                // Highlight current location marker and auto-open tooltip
+                if (dataItem.id === currentItemId) {
+                    marker.setAnimation(google.maps.Animation.BOUNCE);
+                    setTimeout(() => marker.setAnimation(null), 2000);
+
+                    // Auto-trigger click to show tooltip for current marker
+                    google.maps.event.trigger(marker, 'click');
                 }
 
                 spotMarkers.push(marker);
@@ -962,6 +1035,7 @@ function openModal(id) {
     
     // Scores Summary - 10개
     const scoreSummaryGrid = document.getElementById('modalScoreSummary');
+    const scoreCategories = getScoreCategories();
     scoreSummaryGrid.innerHTML = scoreCategories.map(cat => {
         const score = item.scores?.[cat.key];
         const stars = score
@@ -983,7 +1057,7 @@ function openModal(id) {
         const stars = score
             ? `<span class="star-filled">${'★'.repeat(score)}</span><span class="star-empty">${'★'.repeat(5 - score)}</span>`
             : '-';
-        const reasons = item.score_reasons?.[cat.key] || ['Coming soon'];
+        const reasons = item.score_reasons?.[cat.key] || [i18n[currentLang].comingSoon];
         return `
             <div class="score-detail-card" id="detail-${cat.key}">
                 <div class="score-detail-header">
@@ -1032,14 +1106,14 @@ function updateNearbyPlaces(currentItem) {
         const config = categoryConfig[item.category] || {};
         const distText = item.distance < 1 ? Math.round(item.distance * 1000) + 'm' : item.distance.toFixed(1) + 'km';
         return `<li class="nearby-item">
-            <div>
-                <div>${config.icon} ${item.title}</div>
-                <div style="font-size: 11px; color: #94a3b8; margin-top: 2px;">${item.place}</div>
+            <div class="nearby-content">
+                <div class="nearby-title">${config.icon} ${item.title}</div>
+                <div class="nearby-bottom">
+                    <span class="nearby-place">${item.place}</span>
+                    <span class="nearby-distance">${distText}</span>
+                </div>
             </div>
-            <div class="nearby-action">
-                <span class="nearby-distance">${distText}</span>
-                <button class="nearby-detail-btn" onclick="openModal('${item.id}')">자세히</button>
-            </div>
+            <button class="nearby-detail-btn" onclick="openModal('${item.id}')">자세히</button>
         </li>`;
     }).join('');
 }

@@ -32,7 +32,7 @@
             <div class="lang-selector">
                 <button class="lang-btn" data-lang="en">EN</button>
                 <button class="lang-btn" data-lang="ar">ع</button>
-                <button class="lang-btn active" data-lang="ko">한</button>
+                <button class="lang-btn" data-lang="ko">한</button>
                 <button class="lang-btn" data-lang="zh">中</button>
                 <button class="lang-btn" data-lang="ja">日</button>
             </div>
@@ -162,27 +162,33 @@
                 <!-- Right Column -->
                 <div class="modal-col-right">
                     <div class="modal-section">
-                        <h3><span class="section-icon">⚡</span> <span id="sectionPopularityText">Popularity</span></h3>
-                        <div class="popularity-grid">
-                            <div class="popularity-item">
-                                <span class="pop-label" id="labelOverallRank">Overall Rank</span>
-                                <span class="pop-value" id="popOverallRank">-</span>
+                        <h3><span class="section-icon">⚡</span> <span id="sectionPopularityText">순위 및 매력도</span></h3>
+                        <div class="metrics-grid">
+                            <!-- Row 1: Score-based metrics -->
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelPopularity">매력도</span>
+                                <span class="metric-value" id="popPopularity">-</span>
                             </div>
-                            <div class="popularity-item">
-                                <span class="pop-label" id="popCategoryLabel">Category Rank</span>
-                                <span class="pop-value" id="popCategoryRank">-</span>
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelOverallRank">전체순위</span>
+                                <span class="metric-value" id="popOverallRank">-</span>
                             </div>
-                            <div class="popularity-item">
-                                <span class="pop-label" id="labelGMapScore">G-Map Score</span>
-                                <span class="pop-value" id="popGmScore">-</span>
+                            <div class="metric-item">
+                                <span class="metric-label" id="popCategoryLabel">카테고리순위</span>
+                                <span class="metric-value" id="popCategoryRank">-</span>
                             </div>
-                            <div class="popularity-item">
-                                <span class="pop-label" id="labelGMapReviews">G-Map Reviews</span>
-                                <span class="pop-value" id="popGmReviews">-</span>
+                            <!-- Row 2: Star-based metrics -->
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelGMapScore">구글맵 평점</span>
+                                <span class="metric-value" id="popGmScore">-</span>
                             </div>
-                            <div class="popularity-item popularity-highlight">
-                                <span class="pop-label" id="labelPopularity">Popularity</span>
-                                <span class="pop-value" id="popPopularity">-</span>
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelFame">유명세</span>
+                                <span class="metric-value metric-stars" id="popFame">-</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelUniqueness">독특함</span>
+                                <span class="metric-value metric-stars" id="popUniqueness">-</span>
                             </div>
                         </div>
                     </div>
@@ -239,6 +245,7 @@
     <script src="db_zh.js"></script>
     <script src="i18n.js"></script>
     <script src="popularity.js"></script>
+    <script src="load_rankings.js"></script>
     <script src="app.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfHgqFqiNHlO2MzLKn3H1PBl55kIY8Mzg" async defer></script>
 </body>

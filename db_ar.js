@@ -3,7 +3,7 @@ const landmarkData_ar = [
         id: "emirati-house",
         title: "الطبخ المنزلي في بيت الجدة",
         name: "",
-        place: "Yadoo",
+        place: "Yadoo's House Restaurant & Cafe",
         category: "dining",
         summary: "اختبر دفء الطبخ الإماراتي الأصيل في بيت يدّه، تماماً كزيارة بيت الجدة",
         description: "بيت يدّه هو المطعم الإماراتي المنزلي الأكثر حباً في أبوظبي، حيث تعني كلمة 'يدّه' الجدة بالعربية. ادخل إلى أجواء دافئة ومريحة تشعرك وكأنك تزور بيت جدتك الحقيقي، حيث يمكنك تناول الطعام جالساً على طريقة المجلس التقليدية (الجلوس الأرضي التقليدي). تذوق الأطباق الإماراتية المنزلية الأصيلة بما في ذلك المچبوس والصالونة والشكشوكة، مع إفطار إماراتي مشهور بشكل خاص كأفضل إفطار في أبوظبي. حاز على تقدير في دليل ميشلان 2024، ويحتفي به السكان المحليون والزوار على حد سواء، حاصلاً على تقييم 4.1 نجمة من أكثر من 968 مراجعة على جوجل. إذا كنت ترغب في تجربة الدفء الذي يحمله البيت والطعام في الثقافة الإماراتية، اكتشف الأطباق المحضرة بحب من الجدة في بيت يدّه. ※ تجربة الإفطار الإماراتي الأصلية المعروضة سابقاً 'تجربة الإفطار الإماراتي لعبدالرحمن الجابي' لم تعد تعمل بشكل منتظم وتم استبدالها ببيت يدّه الذي يقدم مفهوماً مشابهاً.",
@@ -15,7 +15,7 @@ const landmarkData_ar = [
         admission: "1인 AED 100-150",
         hours: "08:00-23:00",
         closed: "연중무휴",
-        duration: "1-1.5시간",
+        duration: "1-1.5 ساعة",
         station: "없음",
         tips: [
         "Traditional Emirati breakfast is served only until noon, so visit early.",
@@ -119,11 +119,11 @@ const landmarkData_ar = [
         area: "Al Mushrif",
         lat: 24.4455,
         lng: 54.3995,
-        photo_count: 0,
+        photo_count: 12,
         admission: "그린피 AED 250-450",
         hours: "06:00-22:00",
         closed: "연중무휴",
-        duration: "3-4시간",
+        duration: "3-4 ساعات",
         station: "없음",
         tips: [
         "Book your tee time in advance.",
@@ -231,7 +231,7 @@ const landmarkData_ar = [
         admission: "AED 100-200",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "Yas Mall",
         tips: [
         "Wearing socks is mandatory - non-slip socks are even better.",
@@ -258,7 +258,7 @@ const landmarkData_ar = [
         admission: "AED 80-150",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Yas Mall",
         tips: [
         "Non-slip socks are mandatory - on-site purchase also available.",
@@ -285,7 +285,7 @@ const landmarkData_ar = [
         admission: "액티비티별 AED 50-200",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "3-4시간",
+        duration: "3-4 ساعات",
         station: "없음",
         tips: [
         "Visit early morning or evening to avoid the heat.",
@@ -312,7 +312,7 @@ const landmarkData_ar = [
         admission: "1인 AED 80-150",
         hours: "09:00-23:00",
         closed: "연중무휴",
-        duration: "1-1.5시간",
+        duration: "1-1.5 ساعة",
         station: "Yas Mall",
         tips: [
         "Rugeimat (Emirati donuts) are a must-try.",
@@ -339,7 +339,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "08:00-20:00",
         closed: "금요일 오전",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "Good to visit together with Al Ain National Museum.",
@@ -366,7 +366,7 @@ const landmarkData_ar = [
         admission: "1인 AED 50-80",
         hours: "07:00-23:00",
         closed: "연중무휴",
-        duration: "1시간",
+        duration: "ساعة واحدة",
         station: "없음",
         tips: [
         "Cash payment is convenient.",
@@ -393,7 +393,7 @@ const landmarkData_ar = [
         admission: "AED 200-300",
         hours: "야간 세션",
         closed: "낮시간, 날씨에 따라",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Advance booking essential - it's popular and fills up quickly.",
@@ -420,7 +420,7 @@ const landmarkData_ar = [
         admission: "무료 입장, 구매별도",
         hours: "08:00-22:00",
         closed: "연중무휴",
-        duration: "30분",
+        duration: "30 دقيقة",
         station: "지점별 상이",
         tips: [
         "Pistachio baklava is recommended.",
@@ -447,7 +447,7 @@ const landmarkData_ar = [
         admission: "카약투어 AED 200-350",
         hours: "06:00-18:00",
         closed: "연중무휴",
-        duration: "2시간",
+        duration: "ساعتان",
         station: "없음",
         tips: [
         "Kayak tours require advance booking.",
@@ -474,7 +474,7 @@ const landmarkData_ar = [
         admission: "레스토랑 이용 시 무료",
         hours: "12:00-23:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Visit during sunset for the most spectacular photo opportunities.",
@@ -501,7 +501,7 @@ const landmarkData_ar = [
         admission: "1인 AED 100-200",
         hours: "08:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "Perfect lunch stop after visiting Louvre Abu Dhabi.",
@@ -528,7 +528,7 @@ const landmarkData_ar = [
         admission: "클래스별 AED 150-300",
         hours: "10:00-21:00",
         closed: "월요일",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Book your preferred class in advance.",
@@ -555,7 +555,7 @@ const landmarkData_ar = [
         admission: "카스르 알 호슨 입장권 포함",
         hours: "09:00-19:00",
         closed: "월요일",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "Al Hosn",
         tips: [
         "Accessible after entering Qasr Al Hosn.",
@@ -582,7 +582,7 @@ const landmarkData_ar = [
         admission: "AED 80-150",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Marina Mall",
         tips: [
         "Purchase Bounce-specific grip socks upon arrival.",
@@ -609,7 +609,7 @@ const landmarkData_ar = [
         admission: "클래스별 AED 80-150",
         hours: "06:00-21:00",
         closed: "연중무휴",
-        duration: "1-1.5시간",
+        duration: "1-1.5 ساعة",
         station: "없음",
         tips: [
         "Check class schedules and book in advance.",
@@ -636,7 +636,7 @@ const landmarkData_ar = [
         admission: "최소주문 AED 200-300",
         hours: "12:00-02:00",
         closed: "연중무휴",
-        duration: "3-4시간",
+        duration: "3-4 ساعات",
         station: "Yas Bay",
         tips: [
         "Time your visit for sunset to maximize the experience.",
@@ -663,7 +663,7 @@ const landmarkData_ar = [
         admission: "무료(외부), 호텔이용시 별도",
         hours: "24시간(외부)",
         closed: "연중무휴",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "ADNEC",
         tips: [
         "Find the best angles for exterior photography.",
@@ -690,7 +690,7 @@ const landmarkData_ar = [
         admission: "코스 AED 400-800",
         hours: "12:00-15:00, 19:00-23:00",
         closed: "월요일",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "Yas Bay",
         tips: [
         "Choose the tasting menu to experience the chef's philosophy.",
@@ -717,7 +717,7 @@ const landmarkData_ar = [
         admission: "클래스별 AED 150-350",
         hours: "10:00-22:00",
         closed: "월요일",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Classes require advance booking.",
@@ -744,7 +744,7 @@ const landmarkData_ar = [
         admission: "AED 235(스카이다이빙)",
         hours: "12:00-22:00",
         closed: "연중무휴",
-        duration: "1.5시간",
+        duration: "1.5 ساعة",
         station: "Yas Mall",
         tips: [
         "Wear comfortable athletic wear and sneakers.",
@@ -771,7 +771,7 @@ const landmarkData_ar = [
         admission: "AED 120(클라이밍)",
         hours: "12:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Yas Mall",
         tips: [
         "Climbing shoes are available for rent, so no need to bring your own.",
@@ -798,7 +798,7 @@ const landmarkData_ar = [
         admission: "1인 AED 300-500",
         hours: "12:00-01:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Dinner reservations are essential - it's a popular restaurant.",
@@ -825,7 +825,7 @@ const landmarkData_ar = [
         admission: "전시별 상이, 대부분 무료",
         hours: "09:00-20:00",
         closed: "월요일",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Al Hosn",
         tips: [
         "Check current exhibitions and performance schedules in advance.",
@@ -852,7 +852,7 @@ const landmarkData_ar = [
         admission: "AED 50",
         hours: "09:00-18:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "It's about 45 minutes from downtown Abu Dhabi, so allow plenty of time.",
@@ -879,7 +879,7 @@ const landmarkData_ar = [
         admission: "프로그램별 상이",
         hours: "09:00-18:00",
         closed: "연중무휴",
-        duration: "반나절",
+        duration: "نصف يوم",
         station: "없음",
         tips: [
         "Advance booking is recommended for the Kids Club.",
@@ -906,7 +906,7 @@ const landmarkData_ar = [
         admission: "트리트먼트 AED 500-2000",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "2-4시간",
+        duration: "2-4 ساعات",
         station: "없음",
         tips: [
         "Advance booking is essential.",
@@ -933,7 +933,7 @@ const landmarkData_ar = [
         admission: "골드카푸치노 AED 90",
         hours: "09:00-21:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "Advance booking is recommended - it's popular and waits can be long.",
@@ -960,7 +960,7 @@ const landmarkData_ar = [
         admission: "성인 AED 35, 어린이 AED 30",
         hours: "09:00-20:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Animal feeding experiences have an additional cost.",
@@ -987,7 +987,7 @@ const landmarkData_ar = [
         admission: "프로그램별 상이",
         hours: "09:00-21:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "Join a guided tour for in-depth insights and fascinating stories.",
@@ -1014,7 +1014,7 @@ const landmarkData_ar = [
         admission: "이벤트별 상이",
         hours: "이벤트별 상이",
         closed: "이벤트 없는 날",
-        duration: "이벤트별 상이",
+        duration: "يختلف",
         station: "Yas Bay",
         tips: [
         "Check the event schedule in advance and book your tickets early.",
@@ -1041,7 +1041,7 @@ const landmarkData_ar = [
         admission: "투어 AED 170",
         hours: "10:00-14:00",
         closed: "금요일",
-        duration: "2시간",
+        duration: "ساعتان",
         station: "없음",
         tips: [
         "Advance booking is essential for all tours.",
@@ -1068,7 +1068,7 @@ const landmarkData_ar = [
         admission: "AED 295-345",
         hours: "12:00-20:00",
         closed: "연중무휴",
-        duration: "4-6시간",
+        duration: "4-6 ساعات",
         station: "Yas Mall",
         tips: [
         "Arrive at opening time to significantly reduce wait times.",
@@ -1095,7 +1095,7 @@ const landmarkData_ar = [
         admission: "AED 295-345",
         hours: "12:00-20:00",
         closed: "연중무휴",
-        duration: "4-6시간",
+        duration: "4-6 ساعات",
         station: "Yas Mall",
         tips: [
         "Purchasing a Fast Track pass is highly recommended – wait times reach 2-4 hours.",
@@ -1122,7 +1122,7 @@ const landmarkData_ar = [
         admission: "AED 295-345",
         hours: "12:00-20:00",
         closed: "연중무휴",
-        duration: "4-6시간",
+        duration: "4-6 ساعات",
         station: "Yas Mall",
         tips: [
         "Avoid lunch hours when restaurants are extremely crowded.",
@@ -1149,7 +1149,7 @@ const landmarkData_ar = [
         admission: "1인 AED 200-400",
         hours: "12:00-02:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Book a sunset reservation for the ultimate experience.",
@@ -1176,7 +1176,7 @@ const landmarkData_ar = [
         admission: "1인 AED 150-300",
         hours: "07:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "Weekend brunch is popular – reservations are recommended.",
@@ -1203,7 +1203,7 @@ const landmarkData_ar = [
         admission: "1인 AED 20-50",
         hours: "07:00-23:00",
         closed: "연중무휴",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "지점별 상이",
         tips: [
         "Arabic coffee is traditionally served in small cups for multiple servings.",
@@ -1230,7 +1230,7 @@ const landmarkData_ar = [
         admission: "1인 AED 400-800",
         hours: "18:00-01:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Reservations are essential – this popular restaurant fills up quickly.",
@@ -1257,7 +1257,7 @@ const landmarkData_ar = [
         admission: "카스르 알 호슨 입장권 포함",
         hours: "09:00-19:00",
         closed: "월요일",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Al Hosn",
         tips: [
         "Workshops may require advance booking.",
@@ -1284,7 +1284,7 @@ const landmarkData_ar = [
         admission: "무료(일부시설 유료)",
         hours: "05:00-23:00",
         closed: "연중무휴",
-        duration: "반나절",
+        duration: "نصف يوم",
         station: "없음",
         tips: [
         "Bicycle rentals are available—enjoy exploring the cycling tracks.",
@@ -1311,7 +1311,7 @@ const landmarkData_ar = [
         admission: "데이패스 AED 300-500",
         hours: "07:00-일몰",
         closed: "연중무휴",
-        duration: "반나절-하루",
+        duration: "نصف يوم - يوم كامل",
         station: "없음",
         tips: [
         "During turtle nesting season (June-September), special programs are available.",
@@ -1338,7 +1338,7 @@ const landmarkData_ar = [
         admission: "1인 AED 200-400",
         hours: "17:00-01:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Consult the sommelier for personalized wine recommendations.",
@@ -1365,7 +1365,7 @@ const landmarkData_ar = [
         admission: "성인 AED 63, 18세 이하 무료",
         hours: "화-목 10:00-18:30, 금-일 10:00-20:30",
         closed: "월요일",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Visit at sunrise or sunset when the Rain of Light is most spectacular.",
@@ -1392,7 +1392,7 @@ const landmarkData_ar = [
         admission: "성인 AED 63, 18세 이하 무료",
         hours: "화-목 10:00-18:30, 금-일 10:00-20:30",
         closed: "월요일",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Check current special exhibitions before your visit.",
@@ -1419,7 +1419,7 @@ const landmarkData_ar = [
         admission: "성인 AED 63, 18세 이하 무료",
         hours: "화-목 10:00-18:30, 금-일 10:00-20:30",
         closed: "월요일",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Allow at least 2-3 hours for a complete visit.",
@@ -1446,7 +1446,7 @@ const landmarkData_ar = [
         admission: "카약투어 AED 150-250",
         hours: "일몰 시간대",
         closed: "월요일",
-        duration: "1.5시간",
+        duration: "1.5 ساعة",
         station: "없음",
         tips: [
         "Book your tour for sunset—it's the most beautiful time.",
@@ -1473,7 +1473,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "Price negotiation is expected culture—bargain actively.",
@@ -1500,7 +1500,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "24시간",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "Sunset walks offer the most magical atmosphere.",
@@ -1527,7 +1527,7 @@ const landmarkData_ar = [
         admission: "전시별 상이, 대부분 무료",
         hours: "09:00-20:00",
         closed: "월요일",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "Check the current exhibition schedule in advance.",
@@ -1554,7 +1554,7 @@ const landmarkData_ar = [
         admission: "1인 AED 300-500",
         hours: "18:30-23:00",
         closed: "월,화요일",
-        duration: "2시간",
+        duration: "ساعتان",
         station: "없음",
         tips: [
         "Reservations are essential—seating is limited.",
@@ -1581,7 +1581,7 @@ const landmarkData_ar = [
         admission: "AED 85-145",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Combine your visit with shopping at Galleria Mall for a full day out.",
@@ -1608,7 +1608,7 @@ const landmarkData_ar = [
         admission: "AED 95(애프터눈티 포함)",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "1시간",
+        duration: "ساعة واحدة",
         station: "없음",
         tips: [
         "Sunset visits offer the most spectacular views.",
@@ -1635,7 +1635,7 @@ const landmarkData_ar = [
         admission: "시간당 AED 50-100",
         hours: "14:00-24:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "없음",
         tips: [
         "VR games are charged hourly—plan your budget accordingly.",
@@ -1662,7 +1662,7 @@ const landmarkData_ar = [
         admission: "AED 100-200",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Abu Dhabi Mall",
         tips: [
         "Minimum of 2 people required; 4-6 is the ideal group size.",
@@ -1689,7 +1689,7 @@ const landmarkData_ar = [
         admission: "성인 AED 30, 어린이 AED 15",
         hours: "09:00-19:00",
         closed: "월요일",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Al Hosn",
         tips: [
         "Purchase a combined ticket to explore all facilities together.",
@@ -1716,7 +1716,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "09:00-19:00",
         closed: "월요일",
-        duration: "1시간",
+        duration: "ساعة واحدة",
         station: "없음",
         tips: [
         "Plan a route including Al Ain's other museums.",
@@ -1743,7 +1743,7 @@ const landmarkData_ar = [
         admission: "숙박비 별도, 데이패스 문의",
         hours: "24시간",
         closed: "연중무휴",
-        duration: "1박 이상",
+        duration: "ليلة واحدة أو أكثر",
         station: "없음",
         tips: [
         "Stay at least one night—a day trip doesn't do it justice.",
@@ -1770,7 +1770,7 @@ const landmarkData_ar = [
         admission: "성인 AED 65, 어린이 AED 30",
         hours: "10:00-17:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Rent an audio guide for a more enriching experience.",
@@ -1797,7 +1797,7 @@ const landmarkData_ar = [
         admission: "야간쇼 AED 25 추가",
         hours: "일몰 후 매 30분",
         closed: "연중무휴",
-        duration: "15분",
+        duration: "15 دقيقة",
         station: "없음",
         tips: [
         "Check show times in advance - they vary by season.",
@@ -1824,7 +1824,7 @@ const landmarkData_ar = [
         admission: "1인 AED 400-700",
         hours: "18:00-23:00",
         closed: "일,월요일",
-        duration: "2시간",
+        duration: "ساعتان",
         station: "없음",
         tips: [
         "Reserve a window table for the best views.",
@@ -1851,7 +1851,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "10:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "3-5시간",
+        duration: "3-5 ساعات",
         station: "Reem Island",
         tips: [
         "Snow Abu Dhabi requires a separate admission ticket.",
@@ -1878,7 +1878,7 @@ const landmarkData_ar = [
         admission: "시설별 상이",
         hours: "24시간 (호텔)",
         closed: "연중무휴",
-        duration: "반나절-하루",
+        duration: "نصف يوم - يوم كامل",
         station: "없음",
         tips: [
         "The all-inclusive option offers excellent value for money.",
@@ -1905,7 +1905,7 @@ const landmarkData_ar = [
         admission: "시설별 상이",
         hours: "24시간 (호텔)",
         closed: "연중무휴",
-        duration: "반나절-하루",
+        duration: "نصف يوم - يوم كامل",
         station: "Saadiyat Island",
         tips: [
         "Stay at least 3 nights to maximize your all-inclusive benefits.",
@@ -1932,7 +1932,7 @@ const landmarkData_ar = [
         admission: "평일 AED 200, 주말 AED 300",
         hours: "10:00-일몰",
         closed: "연중무휴",
-        duration: "4-8시간",
+        duration: "4-8 ساعات",
         station: "Saadiyat Island",
         tips: [
         "Check day pass rates in advance - weekday and weekend prices differ.",
@@ -1959,7 +1959,7 @@ const landmarkData_ar = [
         admission: "AED 375 (입장권)",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "3-4시간",
+        duration: "3-4 ساعات",
         station: "Yas Island",
         tips: [
         "Check show schedules in advance and plan your day accordingly.",
@@ -1986,7 +1986,7 @@ const landmarkData_ar = [
         admission: "입장권 포함",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "Yas Island",
         tips: [
         "Join a guided tour if available - you'll learn so much more.",
@@ -2013,7 +2013,7 @@ const landmarkData_ar = [
         admission: "입장권 포함",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "15-30분",
+        duration: "15-30 دقيقة",
         station: "Yas Island",
         tips: [
         "Online advance booking is strongly recommended - same-day availability may be limited.",
@@ -2040,7 +2040,7 @@ const landmarkData_ar = [
         admission: "시설별 상이",
         hours: "24시간 (호텔)",
         closed: "연중무휴",
-        duration: "반나절-하루",
+        duration: "نصف يوم - يوم كامل",
         station: "없음",
         tips: [
         "Request a mosque-view room - the views are spectacular.",
@@ -2067,7 +2067,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "토-목 09:00-22:00, 금 09:00-12:00 & 15:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Grand Mosque",
         tips: [
         "Arrive before Maghrib (sunset prayer) to experience both day and night views.",
@@ -2094,7 +2094,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "토-목 09:00-22:00, 금 09:00-12:00 & 15:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Grand Mosque",
         tips: [
         "Free guided tours run regularly—check the schedule in advance.",
@@ -2121,7 +2121,7 @@ const landmarkData_ar = [
         admission: "사파리 AED 250-500",
         hours: "사파리 스케줄 참조",
         closed: "연중무휴",
-        duration: "반나절-하루",
+        duration: "نصف يوم - يوم كامل",
         station: "없음",
         tips: [
         "At least one overnight stay is recommended.",
@@ -2148,7 +2148,7 @@ const landmarkData_ar = [
         admission: "AED 189-299",
         hours: "12:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "Reem Mall",
         tips: [
         "Wear the winter clothing provided with park admission.",
@@ -2175,7 +2175,7 @@ const landmarkData_ar = [
         admission: "입장권 포함",
         hours: "12:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "Reem Mall",
         tips: [
         "Bring extra socks—they can get wet after snow play.",
@@ -2202,7 +2202,7 @@ const landmarkData_ar = [
         admission: "입장권 포함",
         hours: "12:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "10-15분",
+        duration: "10-15 دقيقة",
         station: "Reem Mall",
         tips: [
         "Take lessons first if you have no skiing or snowboarding experience.",
@@ -2229,7 +2229,7 @@ const landmarkData_ar = [
         admission: "시설별 상이",
         hours: "24시간 (호텔)",
         closed: "연중무휴",
-        duration: "반나절-하루",
+        duration: "نصف يوم - يوم كامل",
         station: "Saadiyat Island",
         tips: [
         "Make full use of the butler service.",
@@ -2256,7 +2256,7 @@ const landmarkData_ar = [
         admission: "AED 299-449",
         hours: "10:00-20:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "Hudayriyat Island",
         tips: [
         "Take beginner lessons first if you have no surfing experience.",
@@ -2283,7 +2283,7 @@ const landmarkData_ar = [
         admission: "무료 (레스토랑별 상이)",
         hours: "12:00-24:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Maryah Island",
         tips: [
         "Paddle tennis requires advance booking.",
@@ -2310,7 +2310,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "10:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "3-5시간",
+        duration: "3-5 ساعات",
         station: "Maryah Island",
         tips: [
         "Enjoy a stroll along the waterfront promenade.",
@@ -2337,7 +2337,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "10:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "3-5시간",
+        duration: "3-5 ساعات",
         station: "Maryah Island",
         tips: [
         "Visit in the evening to dine alongside spectacular night views.",
@@ -2364,7 +2364,7 @@ const landmarkData_ar = [
         admission: "성인 AED 145, 어린이 AED 110",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "Al Qana",
         tips: [
         "Wash your hands thoroughly before the touch pool experience.",
@@ -2391,7 +2391,7 @@ const landmarkData_ar = [
         admission: "AED 315 (다이빙 체험)",
         hours: "10:00-22:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Al Qana",
         tips: [
         "Advance booking is essential—same-day reservations are nearly impossible.",
@@ -2418,7 +2418,7 @@ const landmarkData_ar = [
         admission: "일일권 AED 100-150",
         hours: "06:00-23:00",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Yas Mall",
         tips: [
         "Confirm whether drop-in (day pass) options are available.",
@@ -2445,7 +2445,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "24시간",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Grand Mosque",
         tips: [
         "Visit together with Sheikh Zayed Grand Mosque—they're within walking distance.",
@@ -2472,7 +2472,7 @@ const landmarkData_ar = [
         admission: "AED 315 (입장권)",
         hours: "10:00-20:00",
         closed: "연중무휴",
-        duration: "4-6시간",
+        duration: "4-6 ساعات",
         station: "Yas Mall",
         tips: [
         "Check character appearance schedules in advance on the Yas Island app.",
@@ -2499,7 +2499,7 @@ const landmarkData_ar = [
         admission: "AED 315 (입장권)",
         hours: "10:00-20:00",
         closed: "연중무휴",
-        duration: "4-6시간",
+        duration: "4-6 ساعات",
         station: "Yas Mall",
         tips: [
         "Batman: Knight Flight is absolutely essential—it's the park's crown jewel.",
@@ -2526,7 +2526,7 @@ const landmarkData_ar = [
         admission: "입장료 AED 100-200",
         hours: "23:00-04:00",
         closed: "일-수",
-        duration: "4-6시간",
+        duration: "4-6 ساعات",
         station: "Yas Island",
         tips: [
         "The atmosphere heats up after 10 PM.",
@@ -2553,7 +2553,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "10:00-22:00 (금-토 10:00-23:00)",
         closed: "연중무휴",
-        duration: "2-4시간",
+        duration: "2-4 ساعات",
         station: "없음",
         tips: [
         "Socks are mandatory.",
@@ -2580,7 +2580,7 @@ const landmarkData_ar = [
         admission: "AED 60-150",
         hours: "12:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Yas Mall",
         tips: [
         "Bowling shoes are available for rent.",
@@ -2607,7 +2607,7 @@ const landmarkData_ar = [
         admission: "AED 50-100",
         hours: "10:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "1-2시간",
+        duration: "1-2 ساعة",
         station: "Yas Mall",
         tips: [
         "Each attraction requires a separate ticket purchase.",
@@ -2634,7 +2634,7 @@ const landmarkData_ar = [
         admission: "무료",
         hours: "10:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "3-5시간",
+        duration: "3-5 ساعات",
         station: "Yas Mall",
         tips: [
         "Combine your visit with the theme parks for maximum efficiency.",
@@ -2661,7 +2661,7 @@ const landmarkData_ar = [
         admission: "무료 (레스토랑/클럽별 상이)",
         hours: "12:00-03:00",
         closed: "연중무휴",
-        duration: "2-4시간",
+        duration: "2-4 ساعات",
         station: "Yas Marina",
         tips: [
         "Advance booking is essential for driving experiences.",
@@ -2688,7 +2688,7 @@ const landmarkData_ar = [
         admission: "무료 (레스토랑별 상이)",
         hours: "12:00-24:00",
         closed: "연중무휴",
-        duration: "2-4시간",
+        duration: "2-4 ساعات",
         station: "Yas Marina",
         tips: [
         "Evening sessions on the outdoor track offer cooler temperatures.",
@@ -2715,7 +2715,7 @@ const landmarkData_ar = [
         admission: "AED 310 (입장권)",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "4-6시간",
+        duration: "4-6 ساعات",
         station: "Yas Island",
         tips: [
         "Advance booking is highly recommended—this popular program fills up quickly.",
@@ -2742,7 +2742,7 @@ const landmarkData_ar = [
         admission: "입장권 포함",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "Yas Island",
         tips: [
         "Check the wave schedule in advance and time your visit accordingly.",
@@ -2769,7 +2769,7 @@ const landmarkData_ar = [
         admission: "입장권 포함",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "Yas Island",
         tips: [
         "Recline comfortably on your tube and gaze at the sky above.",
@@ -2796,7 +2796,7 @@ const landmarkData_ar = [
         admission: "입장권 포함",
         hours: "10:00-18:00",
         closed: "연중무휴",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "Yas Island",
         tips: [
         "Minimum height of 120cm required for certain slides.",
@@ -2823,7 +2823,7 @@ const landmarkData_ar = [
         admission: "이벤트별 상이",
         hours: "이벤트 시간에 따름",
         closed: "이벤트 없을 시",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "없음",
         tips: [
         "Verify opening hours for your desired facility in advance.",
@@ -2850,7 +2850,7 @@ const landmarkData_ar = [
         admission: "AED 149-199",
         hours: "12:00-22:00 (금-토 10:00-24:00)",
         closed: "연중무휴",
-        duration: "30분-1시간",
+        duration: "30 دقيقة - ساعة",
         station: "Yas Mall",
         tips: [
         "Advance booking is essential—high demand often means same-day availability is limited.",
@@ -2877,7 +2877,7 @@ const landmarkData_ar = [
         admission: "1인 AED 400-700",
         hours: "12:00-15:00, 18:00-24:00",
         closed: "연중무휴",
-        duration: "2-3시간",
+        duration: "2-3 ساعة",
         station: "Maryah Island",
         tips: [
         "Weekend brunch is extremely popular—reserve your table well in advance.",
