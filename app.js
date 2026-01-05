@@ -1341,22 +1341,38 @@ function openGallery(index) {
     const realImages = currentGalleryImages.filter(img => img !== dummyImage);
     document.getElementById('galleryCounter').textContent = `${realImages.indexOf(currentGalleryImages[index]) + 1} / ${realImages.length}`;
 
-    // Populate thumbnails (only real images)
+    // Populate thumbnails (max 12, only show existing images)
     const thumbnailsContainer = document.getElementById('galleryThumbnails');
     thumbnailsContainer.innerHTML = '';
-    realImages.forEach((imgSrc, i) => {
-        const thumb = document.createElement('img');
-        thumb.src = imgSrc;
-        thumb.onerror = function() {
-            this.src = dummyImage;
-            this.classList.add('error');
-        };
-        thumb.className = 'gallery-thumbnail' + (imgSrc === currentGalleryImages[index] ? ' active' : '');
-        thumb.onclick = () => {
-            const originalIndex = currentGalleryImages.indexOf(imgSrc);
-            jumpToGalleryImage(originalIndex);
-        };
-        thumbnailsContainer.appendChild(thumb);
+
+    // Check which images actually exist by trying to load them
+    const maxThumbnails = Math.min(12, realImages.length);
+    let loadedCount = 0;
+    const thumbnailsToShow = [];
+
+    // Create temporary images to check which ones exist
+    const checkPromises = realImages.slice(0, maxThumbnails).map((imgSrc, i) => {
+        return new Promise((resolve) => {
+            const testImg = new Image();
+            testImg.onload = () => resolve({ src: imgSrc, exists: true, index: i });
+            testImg.onerror = () => resolve({ src: imgSrc, exists: false, index: i });
+            testImg.src = imgSrc;
+        });
+    });
+
+    Promise.all(checkPromises).then(results => {
+        const validImages = results.filter(r => r.exists);
+
+        validImages.forEach(({ src, index: thumbIndex }) => {
+            const thumb = document.createElement('img');
+            thumb.src = src;
+            thumb.className = 'gallery-thumbnail' + (src === currentGalleryImages[index] ? ' active' : '');
+            thumb.onclick = () => {
+                const originalIndex = currentGalleryImages.indexOf(src);
+                jumpToGalleryImage(originalIndex);
+            };
+            thumbnailsContainer.appendChild(thumb);
+        });
     });
 
     document.getElementById('galleryModal').classList.add('active');
