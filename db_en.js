@@ -18,94 +18,94 @@ const landmarkData_en = [
         duration: "1-1.5hrs",
         station: "없음",
         tips: [
-        "Traditional Emirati breakfast is served only until noon, so visit early.",
-        "Request the majlis (floor seating) area for a more traditional experience.",
-        "Don't miss the rugeimat (Emirati donuts) and karak chai.",
-        "Fazaa card holders can receive discounts.",
-        "Portions are generous, so order with sharing in mind."
-    ],
+            "Traditional Emirati breakfast is served only until noon, so visit early.",
+            "Request the majlis (floor seating) area for a more traditional experience.",
+            "Don't miss the rugeimat (Emirati donuts) and karak chai.",
+            "Fazaa card holders can receive discounts.",
+            "Portions are generous, so order with sharing in mind."
+        ],
         score_reasons: {
-        "photo": [
-            "Traditional Emirati décor with authentic artifacts like spice sacks and vintage sewing machines provides cultural photo opportunities",
-            "Colorful traditional dishes like machboos and saloona photograph beautifully for food photography enthusiasts",
-            "The interior captures genuine Emirati home atmosphere rather than being Instagram-staged, yet remains authentic",
-            "Natural daylight during daytime hours (opens 8am) is ideal for natural food photography",
-            "Weekday mornings are less crowded, offering better angles without other guests in the background",
-            "Traditional Arabic coffee service with dallah pots creates cultural detail shots"
-        ],
-        "culture": [
-            "Recognized by the Michelin Guide 2025 as representing authentic Emirati cuisine that preserves local culinary heritage",
-            "The name 'Yadoo's House' means grandmother's home, reflecting traditional family dining culture",
-            "Serves authentic dishes like machboos, saloona, and rigag bread rarely found in modern restaurants",
-            "Staff explain traditional Emirati dining customs and dish origins, enhancing cultural understanding",
-            "Décor features genuine Emirati household items, creating an immersive cultural atmosphere",
-            "One of the few restaurants in Abu Dhabi preserving authentic Emirati home cooking traditions"
-        ],
-        "activity": [
-            "Primarily a dining experience with no additional activities beyond the meal",
-            "Conversations with staff during meals offer opportunities to learn about Emirati culinary traditions",
-            "Traditional bread-making visible from the open kitchen provides some entertainment",
-            "The meal itself takes 45-60 minutes, allowing for a leisurely cultural experience",
-            "While there are no organized activities, cultural immersion comes through the authentic food experience",
-            "Limited to restaurant activities - best combined with nearby attractions for a full day itinerary"
-        ],
-        "relaxation": [
-            "Family-style atmosphere creates a comfortable and welcoming environment like visiting grandmother's home",
-            "Generous portions and moderate pacing allow for unhurried, leisurely dining",
-            "Traditional floor seating options (majlis-style) available for an authentic relaxation experience",
-            "Opens at 8am, allowing peaceful breakfast before city crowds arrive",
-            "Friendly staff provide attentive yet unobtrusive service, maintaining a calm atmosphere",
-            "Air-conditioned interior offers physical comfort in Abu Dhabi's hot weather"
-        ],
-        "peaceful": [
-            "Can get busy with families during peak lunch (1-2pm) and dinner (7-9pm) hours",
-            "Weekday mornings (8-11am) and mid-afternoons (3-5pm) offer the quietest dining times",
-            "Traditional background music plays at moderate volume, maintaining a pleasant ambiance",
-            "Family groups create a lively yet non-disruptive atmosphere typical of Emirati gatherings",
-            "No designated quiet zones, but overall atmosphere is conversational rather than loud",
-            "Located in a residential area away from tourist hotspots, providing a quieter surrounding environment"
-        ],
-        "couple": [
-            "More family-oriented than romantic, but couples seeking cultural experiences will enjoy it",
-            "Sharing dishes like large machboos platters encourages communal dining experiences",
-            "Evening visits (after 6pm) offer a slightly more intimate atmosphere than busy lunch service",
-            "Not traditionally romantic settings, but adventurous couples will appreciate the authentic cultural date",
-            "Moderate pricing (sides under AED 30) makes it budget-friendly for couples",
-            "The educational experience of Emirati culture provides conversation topics and shared learning"
-        ],
-        "family": [
-            "Explicitly designed as a family-friendly restaurant, reflecting Emirati family dining traditions",
-            "Large portions (sides are surprisingly generous) are perfect for family members to share",
-            "Staff are very welcoming to children and families according to multiple reviews",
-            "Fazaa discounts available, making it affordable for local families",
-            "Variety of options from mild to spicy suits different family members' preferences including children",
-            "Cultural educational opportunity - children learn about Emirati food traditions in a welcoming environment"
-        ],
-        "solo": [
-            "Safe and welcoming environment with friendly staff makes solo diners comfortable",
-            "Counter seating available for solo travelers who don't want to occupy an entire table",
-            "Staff engage in friendly conversation while explaining dishes without being overwhelming",
-            "Moderate pricing makes it budget-accessible for solo travelers",
-            "Located in the Embassy district with good public transport connections for solo navigation",
-            "Michelin recognition provides quality assurance for travelers unfamiliar with local cuisine"
-        ],
-        "tourist": [
-            "Michelin Guide listing provides international credibility and easy research for tourists",
-            "Staff speak English and help explain Emirati cuisine to international visitors",
-            "Menu has English translations and staff recommend dishes to first-time visitors",
-            "Located near major hotels, easily accessible for tourists staying in Abu Dhabi",
-            "Authentic cultural experience without tourist-trap pricing (reasonable rates)",
-            "TripAdvisor rating of 4.3/5 with over 1000 reviews provides tourist confidence and detailed feedback"
-        ],
-        "accessibility": [
-            "Ground floor location in Al Nasr Tower 2, accessible by elevator from parking",
-            "Wheelchairs can navigate main dining areas, though traditional floor seating areas may be challenging",
-            "Located on Al Murror Street with street parking and nearby paid parking facilities",
-            "Behind Shakespeare & Co, making landmark-based navigation easy for taxis and ride-shares",
-            "Public bus routes serve the Al Murror area, though a short walk may be required",
-            "Staff willing to accommodate special requirements with advance notice according to reviews"
-        ]
-    }
+            photo: [
+                "Traditional Emirati décor with authentic artifacts like spice sacks and vintage sewing machines provides cultural photo opportunities",
+                "Colorful traditional dishes like machboos and saloona photograph beautifully for food photography enthusiasts",
+                "The interior captures genuine Emirati home atmosphere rather than being Instagram-staged, yet remains authentic",
+                "Natural daylight during daytime hours (opens 8am) is ideal for natural food photography",
+                "Weekday mornings are less crowded, offering better angles without other guests in the background",
+                "Traditional Arabic coffee service with dallah pots creates cultural detail shots"
+            ],
+            culture: [
+                "Recognized by the Michelin Guide 2025 as representing authentic Emirati cuisine that preserves local culinary heritage",
+                "The name 'Yadoo's House' means grandmother's home, reflecting traditional family dining culture",
+                "Serves authentic dishes like machboos, saloona, and rigag bread rarely found in modern restaurants",
+                "Staff explain traditional Emirati dining customs and dish origins, enhancing cultural understanding",
+                "Décor features genuine Emirati household items, creating an immersive cultural atmosphere",
+                "One of the few restaurants in Abu Dhabi preserving authentic Emirati home cooking traditions"
+            ],
+            activity: [
+                "Primarily a dining experience with no additional activities beyond the meal",
+                "Conversations with staff during meals offer opportunities to learn about Emirati culinary traditions",
+                "Traditional bread-making visible from the open kitchen provides some entertainment",
+                "The meal itself takes 45-60 minutes, allowing for a leisurely cultural experience",
+                "While there are no organized activities, cultural immersion comes through the authentic food experience",
+                "Limited to restaurant activities - best combined with nearby attractions for a full day itinerary"
+            ],
+            relaxation: [
+                "Family-style atmosphere creates a comfortable and welcoming environment like visiting grandmother's home",
+                "Generous portions and moderate pacing allow for unhurried, leisurely dining",
+                "Traditional floor seating options (majlis-style) available for an authentic relaxation experience",
+                "Opens at 8am, allowing peaceful breakfast before city crowds arrive",
+                "Friendly staff provide attentive yet unobtrusive service, maintaining a calm atmosphere",
+                "Air-conditioned interior offers physical comfort in Abu Dhabi's hot weather"
+            ],
+            peaceful: [
+                "Can get busy with families during peak lunch (1-2pm) and dinner (7-9pm) hours",
+                "Weekday mornings (8-11am) and mid-afternoons (3-5pm) offer the quietest dining times",
+                "Traditional background music plays at moderate volume, maintaining a pleasant ambiance",
+                "Family groups create a lively yet non-disruptive atmosphere typical of Emirati gatherings",
+                "No designated quiet zones, but overall atmosphere is conversational rather than loud",
+                "Located in a residential area away from tourist hotspots, providing a quieter surrounding environment"
+            ],
+            couple: [
+                "More family-oriented than romantic, but couples seeking cultural experiences will enjoy it",
+                "Sharing dishes like large machboos platters encourages communal dining experiences",
+                "Evening visits (after 6pm) offer a slightly more intimate atmosphere than busy lunch service",
+                "Not traditionally romantic settings, but adventurous couples will appreciate the authentic cultural date",
+                "Moderate pricing (sides under AED 30) makes it budget-friendly for couples",
+                "The educational experience of Emirati culture provides conversation topics and shared learning"
+            ],
+            family: [
+                "Explicitly designed as a family-friendly restaurant, reflecting Emirati family dining traditions",
+                "Large portions (sides are surprisingly generous) are perfect for family members to share",
+                "Staff are very welcoming to children and families according to multiple reviews",
+                "Fazaa discounts available, making it affordable for local families",
+                "Variety of options from mild to spicy suits different family members' preferences including children",
+                "Cultural educational opportunity - children learn about Emirati food traditions in a welcoming environment"
+            ],
+            solo: [
+                "Safe and welcoming environment with friendly staff makes solo diners comfortable",
+                "Counter seating available for solo travelers who don't want to occupy an entire table",
+                "Staff engage in friendly conversation while explaining dishes without being overwhelming",
+                "Moderate pricing makes it budget-accessible for solo travelers",
+                "Located in the Embassy district with good public transport connections for solo navigation",
+                "Michelin recognition provides quality assurance for travelers unfamiliar with local cuisine"
+            ],
+            tourist: [
+                "Michelin Guide listing provides international credibility and easy research for tourists",
+                "Staff speak English and help explain Emirati cuisine to international visitors",
+                "Menu has English translations and staff recommend dishes to first-time visitors",
+                "Located near major hotels, easily accessible for tourists staying in Abu Dhabi",
+                "Authentic cultural experience without tourist-trap pricing (reasonable rates)",
+                "TripAdvisor rating of 4.3/5 with over 1000 reviews provides tourist confidence and detailed feedback"
+            ],
+            accessibility: [
+                "Ground floor location in Al Nasr Tower 2, accessible by elevator from parking",
+                "Wheelchairs can navigate main dining areas, though traditional floor seating areas may be challenging",
+                "Located on Al Murror Street with street parking and nearby paid parking facilities",
+                "Behind Shakespeare & Co, making landmark-based navigation easy for taxis and ride-shares",
+                "Public bus routes serve the Al Murror area, though a short walk may be required",
+                "Staff willing to accommodate special requirements with advance notice according to reviews"
+            ]
+        }
     },
     {
         id: "golf-club",
@@ -126,94 +126,94 @@ const landmarkData_en = [
         duration: "3-4hrs",
         station: "없음",
         tips: [
-        "Book your tee time in advance.",
-        "Night rounds are popular in summer - you can avoid the heat.",
-        "Club rentals are available.",
-        "Check the dress code requirements.",
-        "Non-members can play by paying green fees."
-    ],
+            "Book your tee time in advance.",
+            "Night rounds are popular in summer - you can avoid the heat.",
+            "Club rentals are available.",
+            "Check the dress code requirements.",
+            "Non-members can play by paying green fees."
+        ],
         score_reasons: {
-        "photo": [
-            "Well-maintained green fairways with the city skyline as backdrop create unique contrast photography",
-            "Dramatic golf photography possible at sunrise (opens 5am) or sunset hours with lighting facilities",
-            "Clubhouse terrace provides panoramic shots capturing both greens and city views",
-            "Water hazards and strategic bunkers add visual interest to golf course photography",
-            "Unique background with location inside racecourse - not found at other golf courses",
-            "Family-friendly atmosphere means other golfers are cooperative when taking action shots"
-        ],
-        "culture": [
-            "UAE's first golf course (1976), part of Emirati sports development history",
-            "Converted from sand course to grass course in 1998, reflecting UAE modernization",
-            "Known as 'The People's Golf Course', emphasizing inclusive local sports culture",
-            "Korean and Japanese restaurants present showcase Abu Dhabi's multicultural aspects",
-            "Hospitality from predominantly Indian-origin staff provides UAE diversity experience",
-            "Culture focused on community golf rather than traditionally elite sport"
-        ],
-        "activity": [
-            "18-hole Par 70 course provides appropriate challenge at 6,307 yards for men, 5,403 yards for women",
-            "Temperature-controlled pool, gym, tennis courts, sauna & jacuzzi available",
-            "Golf academy and driving range perfect for beginners and those wanting practice",
-            "Lighting facilities allow early morning (5am) or post-sunset play - avoiding the heat",
-            "Golf club rentals available, allowing travelers to play without equipment",
-            "9-hole option (Par 35) offers quick rounds for those wanting shorter sessions"
-        ],
-        "relaxation": [
-            "Described as an 'oasis' in the heart of the city, a green escape from urban noise",
-            "Family-friendly and leisurely clubhouse and terrace offer relaxed dining overlooking the greens",
-            "Moderately priced food and beverage options allow leisurely meals 'without big spending'",
-            "Non-members can use facilities, creating a relaxed atmosphere without pressure",
-            "Pool, sauna, and jacuzzi are perfect complements for post-round relaxation",
-            "Leisurely play pace rather than competitive - beginners welcome"
-        ],
-        "peaceful": [
-            "Location inside racecourse isolates from main road traffic noise, providing quiet environment",
-            "Weekday mornings (6-9am) and late afternoons (after 4pm) offer the quietest times",
-            "Water hazards and mature trees add natural sounds and bird songs, creating peaceful ambiance",
-            "Weekends are busier but still manageable crowds compared to other Abu Dhabi golf courses",
-            "Par 70 course promotes faster play, reducing backups and wait times",
-            "Clubhouse terrace provides quiet seating areas for non-golfing companions"
-        ],
-        "couple": [
-            "9-hole option is perfect 2-3 hour activity for couples wanting a quick round together",
-            "Non-golfing partners can enjoy pool, gym, or terrace restaurant",
-            "Sunset time rounds (with lighting) provide romantic evening golf experience",
-            "Moderate green fees (€35 per 9 holes) are budget-friendly for couples to enjoy activity without big spending",
-            "Cart-included packages make walking less strenuous, suitable for couples of all fitness levels",
-            "Clubhouse dining offers relaxed meal dates after rounds in comfortable atmosphere"
-        ],
-        "family": [
-            "Explicitly family-friendly clubhouse welcoming children - unlike many Abu Dhabi golf clubs",
-            "Pool, tennis courts, and gym provide alternative activities for non-golfing family members",
-            "Golf academy is great for introducing children to golf - junior lessons available",
-            "Affordable pricing ('without big spending') makes it economical for families to try multiple activities",
-            "9-hole option perfect for young children's shorter attention spans - less commitment than 18 holes",
-            "Terrace restaurant provides family dining space - child-friendly menu options"
-        ],
-        "solo": [
-            "Single golfers welcome - easy to match up with others during busy times",
-            "Safe and well-maintained environment makes solo travelers comfortable playing",
-            "Friendly staff (particularly Waqar mentioned in reviews) make solo visitors feel welcome",
-            "Golf club rentals mean solo traveling golfers don't need to transport equipment",
-            "Driving range and practice facilities allow solo practitioners to improve skills",
-            "Online booking system (through Golfscape) makes reservations easy without language barriers"
-        ],
-        "tourist": [
-            "Non-members can use facilities, allowing tourists to play without membership",
-            "Online booking system (Golfscape) makes advance reservations and price checking easy",
-            "Golf club rentals mean tourists don't need to bring heavy equipment",
-            "Multilingual staff (predominantly Indian-origin) provide support in English and other languages",
-            "City center location easily accessible by taxi/ride-share from major hotels",
-            "Moderate green fees compared to other Abu Dhabi courses make it budget-friendly tourist experience"
-        ],
-        "accessibility": [
-            "Location inside racecourse with clear signage and ample parking",
-            "Golf carts included make entire course accessible for golfers with mobility issues",
-            "Clubhouse is wheelchair accessible with ground floor facilities",
-            "Accessible from main roads with public bus routes serving nearby areas",
-            "Golf club and cart rentals provide convenience for those needing special equipment",
-            "Staff cooperative about special requirements - accommodating with advance notice"
-        ]
-    }
+            photo: [
+                "Well-maintained green fairways with the city skyline as backdrop create unique contrast photography",
+                "Dramatic golf photography possible at sunrise (opens 5am) or sunset hours with lighting facilities",
+                "Clubhouse terrace provides panoramic shots capturing both greens and city views",
+                "Water hazards and strategic bunkers add visual interest to golf course photography",
+                "Unique background with location inside racecourse - not found at other golf courses",
+                "Family-friendly atmosphere means other golfers are cooperative when taking action shots"
+            ],
+            culture: [
+                "UAE's first golf course (1976), part of Emirati sports development history",
+                "Converted from sand course to grass course in 1998, reflecting UAE modernization",
+                "Known as 'The People's Golf Course', emphasizing inclusive local sports culture",
+                "Korean and Japanese restaurants present showcase Abu Dhabi's multicultural aspects",
+                "Hospitality from predominantly Indian-origin staff provides UAE diversity experience",
+                "Culture focused on community golf rather than traditionally elite sport"
+            ],
+            activity: [
+                "18-hole Par 70 course provides appropriate challenge at 6,307 yards for men, 5,403 yards for women",
+                "Temperature-controlled pool, gym, tennis courts, sauna & jacuzzi available",
+                "Golf academy and driving range perfect for beginners and those wanting practice",
+                "Lighting facilities allow early morning (5am) or post-sunset play - avoiding the heat",
+                "Golf club rentals available, allowing travelers to play without equipment",
+                "9-hole option (Par 35) offers quick rounds for those wanting shorter sessions"
+            ],
+            relaxation: [
+                "Described as an 'oasis' in the heart of the city, a green escape from urban noise",
+                "Family-friendly and leisurely clubhouse and terrace offer relaxed dining overlooking the greens",
+                "Moderately priced food and beverage options allow leisurely meals 'without big spending'",
+                "Non-members can use facilities, creating a relaxed atmosphere without pressure",
+                "Pool, sauna, and jacuzzi are perfect complements for post-round relaxation",
+                "Leisurely play pace rather than competitive - beginners welcome"
+            ],
+            peaceful: [
+                "Location inside racecourse isolates from main road traffic noise, providing quiet environment",
+                "Weekday mornings (6-9am) and late afternoons (after 4pm) offer the quietest times",
+                "Water hazards and mature trees add natural sounds and bird songs, creating peaceful ambiance",
+                "Weekends are busier but still manageable crowds compared to other Abu Dhabi golf courses",
+                "Par 70 course promotes faster play, reducing backups and wait times",
+                "Clubhouse terrace provides quiet seating areas for non-golfing companions"
+            ],
+            couple: [
+                "9-hole option is perfect 2-3 hour activity for couples wanting a quick round together",
+                "Non-golfing partners can enjoy pool, gym, or terrace restaurant",
+                "Sunset time rounds (with lighting) provide romantic evening golf experience",
+                "Moderate green fees (€35 per 9 holes) are budget-friendly for couples to enjoy activity without big spending",
+                "Cart-included packages make walking less strenuous, suitable for couples of all fitness levels",
+                "Clubhouse dining offers relaxed meal dates after rounds in comfortable atmosphere"
+            ],
+            family: [
+                "Explicitly family-friendly clubhouse welcoming children - unlike many Abu Dhabi golf clubs",
+                "Pool, tennis courts, and gym provide alternative activities for non-golfing family members",
+                "Golf academy is great for introducing children to golf - junior lessons available",
+                "Affordable pricing ('without big spending') makes it economical for families to try multiple activities",
+                "9-hole option perfect for young children's shorter attention spans - less commitment than 18 holes",
+                "Terrace restaurant provides family dining space - child-friendly menu options"
+            ],
+            solo: [
+                "Single golfers welcome - easy to match up with others during busy times",
+                "Safe and well-maintained environment makes solo travelers comfortable playing",
+                "Friendly staff (particularly Waqar mentioned in reviews) make solo visitors feel welcome",
+                "Golf club rentals mean solo traveling golfers don't need to transport equipment",
+                "Driving range and practice facilities allow solo practitioners to improve skills",
+                "Online booking system (through Golfscape) makes reservations easy without language barriers"
+            ],
+            tourist: [
+                "Non-members can use facilities, allowing tourists to play without membership",
+                "Online booking system (Golfscape) makes advance reservations and price checking easy",
+                "Golf club rentals mean tourists don't need to bring heavy equipment",
+                "Multilingual staff (predominantly Indian-origin) provide support in English and other languages",
+                "City center location easily accessible by taxi/ride-share from major hotels",
+                "Moderate green fees compared to other Abu Dhabi courses make it budget-friendly tourist experience"
+            ],
+            accessibility: [
+                "Location inside racecourse with clear signage and ample parking",
+                "Golf carts included make entire course accessible for golfers with mobility issues",
+                "Clubhouse is wheelchair accessible with ground floor facilities",
+                "Accessible from main roads with public bus routes serving nearby areas",
+                "Golf club and cart rentals provide convenience for those needing special equipment",
+                "Staff cooperative about special requirements - accommodating with advance notice"
+            ]
+        }
     },
     {
         id: "adrenark",
@@ -234,12 +234,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "Yas Mall",
         tips: [
-        "Wearing socks is mandatory - non-slip socks are even better.",
-        "Check height/age restrictions for each activity.",
-        "Weekdays are less crowded than weekends.",
-        "Outside food not allowed - use the park's café.",
-        "It's an hourly rate system, so plan your usage time according to your budget."
-    ],
+            "Wearing socks is mandatory - non-slip socks are even better.",
+            "Check height/age restrictions for each activity.",
+            "Weekdays are less crowded than weekends.",
+            "Outside food not allowed - use the park's café.",
+            "It's an hourly rate system, so plan your usage time according to your budget."
+        ],
         score_reasons: {}
     },
     {
@@ -261,12 +261,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Yas Mall",
         tips: [
-        "Non-slip socks are mandatory - on-site purchase also available.",
-        "Warm up before jumping to prevent injuries.",
-        "Weekends and holidays are very crowded, so weekday visits are recommended.",
-        "Outside food not allowed.",
-        "Online advance booking offers discounts."
-    ],
+            "Non-slip socks are mandatory - on-site purchase also available.",
+            "Warm up before jumping to prevent injuries.",
+            "Weekends and holidays are very crowded, so weekday visits are recommended.",
+            "Outside food not allowed.",
+            "Online advance booking offers discounts."
+        ],
         score_reasons: {}
     },
     {
@@ -288,12 +288,12 @@ const landmarkData_en = [
         duration: "3-4hrs",
         station: "없음",
         tips: [
-        "Visit early morning or evening to avoid the heat.",
-        "Wear comfortable sportswear and sneakers.",
-        "Bring plenty of water - activities are physically demanding.",
-        "Some activities require advance booking.",
-        "Plan your schedule together with the Jebel Hafeet drive."
-    ],
+            "Visit early morning or evening to avoid the heat.",
+            "Wear comfortable sportswear and sneakers.",
+            "Bring plenty of water - activities are physically demanding.",
+            "Some activities require advance booking.",
+            "Plan your schedule together with the Jebel Hafeet drive."
+        ],
         score_reasons: {}
     },
     {
@@ -315,12 +315,12 @@ const landmarkData_en = [
         duration: "1-1.5hrs",
         station: "Yas Mall",
         tips: [
-        "Rugeimat (Emirati donuts) are a must-try.",
-        "There may be waits during lunch/dinner peak hours.",
-        "Karak chai (spiced milk tea) is also recommended.",
-        "Many photo spots, so be ready to take pictures.",
-        "The Festival Plaza branch has better atmosphere than other Yas Mall locations."
-    ],
+            "Rugeimat (Emirati donuts) are a must-try.",
+            "There may be waits during lunch/dinner peak hours.",
+            "Karak chai (spiced milk tea) is also recommended.",
+            "Many photo spots, so be ready to take pictures.",
+            "The Festival Plaza branch has better atmosphere than other Yas Mall locations."
+        ],
         score_reasons: {}
     },
     {
@@ -342,12 +342,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "Good to visit together with Al Ain National Museum.",
-        "Check current exhibitions in advance.",
-        "The building exterior is also great for photos.",
-        "Air conditioning is cool, good for escaping Al Ain's heat.",
-        "Admission is often free."
-    ],
+            "Good to visit together with Al Ain National Museum.",
+            "Check current exhibitions in advance.",
+            "The building exterior is also great for photos.",
+            "Air conditioning is cool, good for escaping Al Ain's heat.",
+            "Admission is often free."
+        ],
         score_reasons: {}
     },
     {
@@ -369,12 +369,12 @@ const landmarkData_en = [
         duration: "1hr",
         station: "없음",
         tips: [
-        "Cash payment is convenient.",
-        "Portions are large, so order moderately.",
-        "Lunch hours are busy with local office workers.",
-        "If Emirati food is new to you, start with machboos.",
-        "Takeout is also available."
-    ],
+            "Cash payment is convenient.",
+            "Portions are large, so order moderately.",
+            "Lunch hours are busy with local office workers.",
+            "If Emirati food is new to you, start with machboos.",
+            "Takeout is also available."
+        ],
         score_reasons: {}
     },
     {
@@ -396,12 +396,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Advance booking essential - it's popular and fills up quickly.",
-        "Visit on nights with clear weather forecasts.",
-        "Prepare warm clothes - desert nights are cold.",
-        "Around new moon (moonless nights) is best for star observation.",
-        "About 1 hour from downtown, so allow plenty of time."
-    ],
+            "Advance booking essential - it's popular and fills up quickly.",
+            "Visit on nights with clear weather forecasts.",
+            "Prepare warm clothes - desert nights are cold.",
+            "Around new moon (moonless nights) is best for star observation.",
+            "About 1 hour from downtown, so allow plenty of time."
+        ],
         score_reasons: {}
     },
     {
@@ -423,12 +423,12 @@ const landmarkData_en = [
         duration: "30min",
         station: "지점별 상이",
         tips: [
-        "Pistachio baklava is recommended.",
-        "Gift box packaging available.",
-        "Can be very sweet, so try small sizes first.",
-        "Eating with Arabic tea balances the sweetness.",
-        "Among multiple locations, Marina Mall branch has good accessibility."
-    ],
+            "Pistachio baklava is recommended.",
+            "Gift box packaging available.",
+            "Can be very sweet, so try small sizes first.",
+            "Eating with Arabic tea balances the sweetness.",
+            "Among multiple locations, Marina Mall branch has good accessibility."
+        ],
         score_reasons: {}
     },
     {
@@ -450,12 +450,12 @@ const landmarkData_en = [
         duration: "2hrs",
         station: "없음",
         tips: [
-        "Kayak tours require advance booking.",
-        "Early morning or evening hours offer the best wildlife viewing opportunities.",
-        "Bring mosquito repellent.",
-        "Pack your camera in a waterproof bag - splashing is inevitable.",
-        "Kayak experiences may be available even for non-hotel guests."
-    ],
+            "Kayak tours require advance booking.",
+            "Early morning or evening hours offer the best wildlife viewing opportunities.",
+            "Bring mosquito repellent.",
+            "Pack your camera in a waterproof bag - splashing is inevitable.",
+            "Kayak experiences may be available even for non-hotel guests."
+        ],
         score_reasons: {}
     },
     {
@@ -477,12 +477,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Visit during sunset for the most spectacular photo opportunities.",
-        "Restaurant reservations are highly recommended.",
-        "Bring your camera - Instagram-worthy spots abound.",
-        "Restaurant access is available even for non-guests.",
-        "White attire photographs beautifully against the backdrop."
-    ],
+            "Visit during sunset for the most spectacular photo opportunities.",
+            "Restaurant reservations are highly recommended.",
+            "Bring your camera - Instagram-worthy spots abound.",
+            "Restaurant access is available even for non-guests.",
+            "White attire photographs beautifully against the backdrop."
+        ],
         score_reasons: {}
     },
     {
@@ -504,12 +504,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "Perfect lunch stop after visiting Louvre Abu Dhabi.",
-        "Window seats offer lovely sea views.",
-        "The brunch menu is particularly popular.",
-        "Excellent air conditioning makes it a great refuge on hot days.",
-        "Avoid peak hours on weekends to skip the crowds."
-    ],
+            "Perfect lunch stop after visiting Louvre Abu Dhabi.",
+            "Window seats offer lovely sea views.",
+            "The brunch menu is particularly popular.",
+            "Excellent air conditioning makes it a great refuge on hot days.",
+            "Avoid peak hours on weekends to skip the crowds."
+        ],
         score_reasons: {}
     },
     {
@@ -531,12 +531,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Book your preferred class in advance.",
-        "Wine and painting sessions are especially popular.",
-        "Take your completed artwork home as a souvenir.",
-        "Family workshops for children are available.",
-        "Check Instagram for upcoming event schedules."
-    ],
+            "Book your preferred class in advance.",
+            "Wine and painting sessions are especially popular.",
+            "Take your completed artwork home as a souvenir.",
+            "Family workshops for children are available.",
+            "Check Instagram for upcoming event schedules."
+        ],
         score_reasons: {}
     },
     {
@@ -558,12 +558,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "Al Hosn",
         tips: [
-        "Accessible after entering Qasr Al Hosn.",
-        "Watch the traditional coffee-making process.",
-        "Sample traditional Emirati snacks alongside your coffee.",
-        "Excellent air conditioning provides welcome relief on hot days.",
-        "The interiors offer wonderful photo opportunities."
-    ],
+            "Accessible after entering Qasr Al Hosn.",
+            "Watch the traditional coffee-making process.",
+            "Sample traditional Emirati snacks alongside your coffee.",
+            "Excellent air conditioning provides welcome relief on hot days.",
+            "The interiors offer wonderful photo opportunities."
+        ],
         score_reasons: {}
     },
     {
@@ -585,12 +585,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Marina Mall",
         tips: [
-        "Purchase Bounce-specific grip socks upon arrival.",
-        "Wear comfortable athletic wear - expect lots of movement.",
-        "X-Park requires a separate safety briefing.",
-        "Saturday afternoons are the busiest times.",
-        "Complete waiver forms online beforehand to save time."
-    ],
+            "Purchase Bounce-specific grip socks upon arrival.",
+            "Wear comfortable athletic wear - expect lots of movement.",
+            "X-Park requires a separate safety briefing.",
+            "Saturday afternoons are the busiest times.",
+            "Complete waiver forms online beforehand to save time."
+        ],
         score_reasons: {}
     },
     {
@@ -612,12 +612,12 @@ const landmarkData_en = [
         duration: "1-1.5hrs",
         station: "없음",
         tips: [
-        "Check class schedules and book in advance.",
-        "Yoga mats are provided by the studio.",
-        "Beach yoga sessions at sunrise/sunset are especially special.",
-        "Bring comfortable workout attire.",
-        "First-time visitors should arrive 10 minutes early."
-    ],
+            "Check class schedules and book in advance.",
+            "Yoga mats are provided by the studio.",
+            "Beach yoga sessions at sunrise/sunset are especially special.",
+            "Bring comfortable workout attire.",
+            "First-time visitors should arrive 10 minutes early."
+        ],
         score_reasons: {}
     },
     {
@@ -639,12 +639,12 @@ const landmarkData_en = [
         duration: "3-4hrs",
         station: "Yas Bay",
         tips: [
-        "Time your visit for sunset to maximize the experience.",
-        "Weekends get very busy - reserve sunbeds in advance.",
-        "Bring swimwear - pool and beach access included.",
-        "Be aware of potential minimum spend requirements.",
-        "Visit on DJ set nights for enhanced atmosphere."
-    ],
+            "Time your visit for sunset to maximize the experience.",
+            "Weekends get very busy - reserve sunbeds in advance.",
+            "Bring swimwear - pool and beach access included.",
+            "Be aware of potential minimum spend requirements.",
+            "Visit on DJ set nights for enhanced atmosphere."
+        ],
         score_reasons: {}
     },
     {
@@ -666,12 +666,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "ADNEC",
         tips: [
-        "Find the best angles for exterior photography.",
-        "Experience the interior at Andaz Hotel restaurants.",
-        "Conveniently located near ADNEC for exhibition visits.",
-        "The nighttime illumination is stunning.",
-        "Building tours aren't typically available, but hotel guests can experience it."
-    ],
+            "Find the best angles for exterior photography.",
+            "Experience the interior at Andaz Hotel restaurants.",
+            "Conveniently located near ADNEC for exhibition visits.",
+            "The nighttime illumination is stunning.",
+            "Building tours aren't typically available, but hotel guests can experience it."
+        ],
         score_reasons: {}
     },
     {
@@ -693,12 +693,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "Yas Bay",
         tips: [
-        "Choose the tasting menu to experience the chef's philosophy.",
-        "Reservations are essential - this is a highly popular restaurant.",
-        "Wine pairing is highly recommended.",
-        "Come with an open mind - unusual ingredients feature prominently.",
-        "The price point is very high - best reserved for special occasions."
-    ],
+            "Choose the tasting menu to experience the chef's philosophy.",
+            "Reservations are essential - this is a highly popular restaurant.",
+            "Wine pairing is highly recommended.",
+            "Come with an open mind - unusual ingredients feature prominently.",
+            "The price point is very high - best reserved for special occasions."
+        ],
         score_reasons: {}
     },
     {
@@ -720,12 +720,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Classes require advance booking.",
-        "Pottery wheel sessions take longer, so allow plenty of time.",
-        "Your piece will need drying and firing time after completion, so shipping may be arranged.",
-        "Wear comfortable clothes - clay can get messy.",
-        "Check their Instagram for class schedules."
-    ],
+            "Classes require advance booking.",
+            "Pottery wheel sessions take longer, so allow plenty of time.",
+            "Your piece will need drying and firing time after completion, so shipping may be arranged.",
+            "Wear comfortable clothes - clay can get messy.",
+            "Check their Instagram for class schedules."
+        ],
         score_reasons: {}
     },
     {
@@ -747,12 +747,12 @@ const landmarkData_en = [
         duration: "1.5hrs",
         station: "Yas Mall",
         tips: [
-        "Wear comfortable athletic wear and sneakers.",
-        "Tie long hair securely.",
-        "Arrive with time to spare for the pre-flight briefing.",
-        "Adding a photo/video package makes for a great souvenir.",
-        "Avoid flying immediately after a meal."
-    ],
+            "Wear comfortable athletic wear and sneakers.",
+            "Tie long hair securely.",
+            "Arrive with time to spare for the pre-flight briefing.",
+            "Adding a photo/video package makes for a great souvenir.",
+            "Avoid flying immediately after a meal."
+        ],
         score_reasons: {}
     },
     {
@@ -774,12 +774,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Yas Mall",
         tips: [
-        "Climbing shoes are available for rent, so no need to bring your own.",
-        "You'll work up a sweat, so bring a change of clothes.",
-        "If you're afraid of heights, start with the lower walls.",
-        "Use chalk if your hands get sweaty - it's provided.",
-        "Advance booking is recommended, and there may be waits during peak times."
-    ],
+            "Climbing shoes are available for rent, so no need to bring your own.",
+            "You'll work up a sweat, so bring a change of clothes.",
+            "If you're afraid of heights, start with the lower walls.",
+            "Use chalk if your hands get sweaty - it's provided.",
+            "Advance booking is recommended, and there may be waits during peak times."
+        ],
         score_reasons: {}
     },
     {
@@ -801,12 +801,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Dinner reservations are essential - it's a popular restaurant.",
-        "Order both the ceviche and anticuchos together.",
-        "Please observe the dress code (smart casual).",
-        "Prices are on the higher end, so plan your budget accordingly.",
-        "Friday/Saturday nights have a strong club vibe, so weekdays are recommended for a quieter dining experience."
-    ],
+            "Dinner reservations are essential - it's a popular restaurant.",
+            "Order both the ceviche and anticuchos together.",
+            "Please observe the dress code (smart casual).",
+            "Prices are on the higher end, so plan your budget accordingly.",
+            "Friday/Saturday nights have a strong club vibe, so weekdays are recommended for a quieter dining experience."
+        ],
         score_reasons: {}
     },
     {
@@ -828,12 +828,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Al Hosn",
         tips: [
-        "Check current exhibitions and performance schedules in advance.",
-        "Visit together with Qasr Al Hosn - it's right next door.",
-        "There's also a library, perfect for spending quiet time.",
-        "The air conditioning is excellent, making it a great escape on hot days.",
-        "Most exhibitions are free."
-    ],
+            "Check current exhibitions and performance schedules in advance.",
+            "Visit together with Qasr Al Hosn - it's right next door.",
+            "There's also a library, perfect for spending quiet time.",
+            "The air conditioning is excellent, making it a great escape on hot days.",
+            "Most exhibitions are free."
+        ],
         score_reasons: {}
     },
     {
@@ -855,12 +855,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "It's about 45 minutes from downtown Abu Dhabi, so allow plenty of time.",
-        "Enter the museum name accurately in your GPS - it's in the middle of the desert.",
-        "Admission is affordable.",
-        "The air conditioning is excellent, making it a great escape from the desert heat.",
-        "Combine your visit with a trip to the Liwa Desert."
-    ],
+            "It's about 45 minutes from downtown Abu Dhabi, so allow plenty of time.",
+            "Enter the museum name accurately in your GPS - it's in the middle of the desert.",
+            "Admission is affordable.",
+            "The air conditioning is excellent, making it a great escape from the desert heat.",
+            "Combine your visit with a trip to the Liwa Desert."
+        ],
         score_reasons: {}
     },
     {
@@ -882,12 +882,12 @@ const landmarkData_en = [
         duration: "Half day",
         station: "없음",
         tips: [
-        "Advance booking is recommended for the Kids Club.",
-        "Bring sunscreen when using the pool.",
-        "Check the program schedule in advance and participate in activities of interest.",
-        "Day passes may be available even for non-guests.",
-        "Kids' lunch menus are available for children."
-    ],
+            "Advance booking is recommended for the Kids Club.",
+            "Bring sunscreen when using the pool.",
+            "Check the program schedule in advance and participate in activities of interest.",
+            "Day passes may be available even for non-guests.",
+            "Kids' lunch menus are available for children."
+        ],
         score_reasons: {}
     },
     {
@@ -909,12 +909,12 @@ const landmarkData_en = [
         duration: "2-4hrs",
         station: "없음",
         tips: [
-        "Advance booking is essential.",
-        "Arrive 30 minutes before your treatment to enjoy the facilities first.",
-        "Bring a swimsuit - pool facilities are available.",
-        "Couple's rooms are available, perfect for anniversaries.",
-        "Prices are high, but worth every dirham."
-    ],
+            "Advance booking is essential.",
+            "Arrive 30 minutes before your treatment to enjoy the facilities first.",
+            "Bring a swimsuit - pool facilities are available.",
+            "Couple's rooms are available, perfect for anniversaries.",
+            "Prices are high, but worth every dirham."
+        ],
         score_reasons: {}
     },
     {
@@ -936,12 +936,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "Advance booking is recommended - it's popular and waits can be long.",
-        "There's a dress code, so visit in smart casual attire.",
-        "Gold cappuccino is available at Le Café or Episode on the 4th floor.",
-        "Enjoy touring the hotel interior as well - it's free to explore.",
-        "Combine your visit with nearby Qasr Al Watan (Presidential Palace)."
-    ],
+            "Advance booking is recommended - it's popular and waits can be long.",
+            "There's a dress code, so visit in smart casual attire.",
+            "Gold cappuccino is available at Le Café or Episode on the 4th floor.",
+            "Enjoy touring the hotel interior as well - it's free to explore.",
+            "Combine your visit with nearby Qasr Al Watan (Presidential Palace)."
+        ],
         score_reasons: {}
     },
     {
@@ -963,12 +963,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Animal feeding experiences have an additional cost.",
-        "Visit early in the morning when animals are more active.",
-        "On hot days, focus on indoor exhibition areas.",
-        "Check if packed lunches are allowed.",
-        "Weekdays are recommended as weekends get crowded."
-    ],
+            "Animal feeding experiences have an additional cost.",
+            "Visit early in the morning when animals are more active.",
+            "On hot days, focus on indoor exhibition areas.",
+            "Check if packed lunches are allowed.",
+            "Weekdays are recommended as weekends get crowded."
+        ],
         score_reasons: {}
     },
     {
@@ -990,12 +990,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "Join a guided tour for in-depth insights and fascinating stories.",
-        "Check out the traditional food experience programs for an authentic taste.",
-        "Bring your camera – there are countless photo-worthy moments throughout.",
-        "An educational experience that children will find both fun and enriching.",
-        "Excellent air conditioning makes it a perfect refuge on hot days."
-    ],
+            "Join a guided tour for in-depth insights and fascinating stories.",
+            "Check out the traditional food experience programs for an authentic taste.",
+            "Bring your camera – there are countless photo-worthy moments throughout.",
+            "An educational experience that children will find both fun and enriching.",
+            "Excellent air conditioning makes it a perfect refuge on hot days."
+        ],
         score_reasons: {}
     },
     {
@@ -1017,12 +1017,12 @@ const landmarkData_en = [
         duration: "Varies",
         station: "Yas Bay",
         tips: [
-        "Check the event schedule in advance and book your tickets early.",
-        "Popular shows sell out quickly – don't hesitate to secure your spot.",
-        "Consider pairing your visit with accommodation on Yas Island for convenience.",
-        "The parking lot is spacious but gets crowded during events – arrive early.",
-        "After the show, Yas Mall restaurants offer excellent dining options nearby."
-    ],
+            "Check the event schedule in advance and book your tickets early.",
+            "Popular shows sell out quickly – don't hesitate to secure your spot.",
+            "Consider pairing your visit with accommodation on Yas Island for convenience.",
+            "The parking lot is spacious but gets crowded during events – arrive early.",
+            "After the show, Yas Mall restaurants offer excellent dining options nearby."
+        ],
         score_reasons: {}
     },
     {
@@ -1044,12 +1044,12 @@ const landmarkData_en = [
         duration: "2hrs",
         station: "없음",
         tips: [
-        "Advance booking is essential for all tours.",
-        "Tours run at specific times – check the schedule when planning your visit.",
-        "Protective gloves are provided when you handle the falcons.",
-        "Photography is permitted throughout your visit.",
-        "Morning tours are recommended when the falcons are most active."
-    ],
+            "Advance booking is essential for all tours.",
+            "Tours run at specific times – check the schedule when planning your visit.",
+            "Protective gloves are provided when you handle the falcons.",
+            "Photography is permitted throughout your visit.",
+            "Morning tours are recommended when the falcons are most active."
+        ],
         score_reasons: {}
     },
     {
@@ -1071,12 +1071,12 @@ const landmarkData_en = [
         duration: "4-6hrs",
         station: "Yas Mall",
         tips: [
-        "Arrive at opening time to significantly reduce wait times.",
-        "Store all belongings in lockers – items can fall during the ride.",
-        "Tackle this along with Flying Aces in the morning for the best experience.",
-        "Photo services are available – check after your ride for memorable shots.",
-        "Weekday visits offer much shorter wait times than weekends."
-    ],
+            "Arrive at opening time to significantly reduce wait times.",
+            "Store all belongings in lockers – items can fall during the ride.",
+            "Tackle this along with Flying Aces in the morning for the best experience.",
+            "Photo services are available – check after your ride for memorable shots.",
+            "Weekday visits offer much shorter wait times than weekends."
+        ],
         score_reasons: {}
     },
     {
@@ -1098,12 +1098,12 @@ const landmarkData_en = [
         duration: "4-6hrs",
         station: "Yas Mall",
         tips: [
-        "Purchasing a Fast Track pass is highly recommended – wait times reach 2-4 hours.",
-        "Quick Passes can sell out on-site, so buy online in advance.",
-        "Sandals and flip-flops are not permitted – wear proper athletic shoes.",
-        "Head straight to Formula Rossa at opening to minimize wait times.",
-        "Those with heart conditions or pregnant visitors should skip this ride for safety."
-    ],
+            "Purchasing a Fast Track pass is highly recommended – wait times reach 2-4 hours.",
+            "Quick Passes can sell out on-site, so buy online in advance.",
+            "Sandals and flip-flops are not permitted – wear proper athletic shoes.",
+            "Head straight to Formula Rossa at opening to minimize wait times.",
+            "Those with heart conditions or pregnant visitors should skip this ride for safety."
+        ],
         score_reasons: {}
     },
     {
@@ -1125,12 +1125,12 @@ const landmarkData_en = [
         duration: "4-6hrs",
         station: "Yas Mall",
         tips: [
-        "Avoid lunch hours when restaurants are extremely crowded.",
-        "The Italian gelato is perfect for cooling down – absolutely worth trying.",
-        "The Ferrari Gallery is beautifully air-conditioned, ideal for a rest break.",
-        "Food inside the park is pricey – consider eating beforehand if budget-conscious.",
-        "Save souvenir shopping for last – carrying items all day is inconvenient."
-    ],
+            "Avoid lunch hours when restaurants are extremely crowded.",
+            "The Italian gelato is perfect for cooling down – absolutely worth trying.",
+            "The Ferrari Gallery is beautifully air-conditioned, ideal for a rest break.",
+            "Food inside the park is pricey – consider eating beforehand if budget-conscious.",
+            "Save souvenir shopping for last – carrying items all day is inconvenient."
+        ],
         score_reasons: {}
     },
     {
@@ -1152,12 +1152,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Book a sunset reservation for the ultimate experience.",
-        "Swimwear is welcome – beach access is available.",
-        "Weekends get very busy – weekday visits are recommended.",
-        "Don't miss the signature cocktails.",
-        "Be aware there may be minimum spend requirements."
-    ],
+            "Book a sunset reservation for the ultimate experience.",
+            "Swimwear is welcome – beach access is available.",
+            "Weekends get very busy – weekday visits are recommended.",
+            "Don't miss the signature cocktails.",
+            "Be aware there may be minimum spend requirements."
+        ],
         score_reasons: {}
     },
     {
@@ -1179,12 +1179,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "Weekend brunch is popular – reservations are recommended.",
-        "Check the seasonal menu – dishes made with fresh seasonal ingredients are exceptional.",
-        "Request terrace seating to enjoy the outdoor ambiance.",
-        "The house-made desserts are delicious – don't skip them.",
-        "Extensive gluten-free and vegan options are available."
-    ],
+            "Weekend brunch is popular – reservations are recommended.",
+            "Check the seasonal menu – dishes made with fresh seasonal ingredients are exceptional.",
+            "Request terrace seating to enjoy the outdoor ambiance.",
+            "The house-made desserts are delicious – don't skip them.",
+            "Extensive gluten-free and vegan options are available."
+        ],
         score_reasons: {}
     },
     {
@@ -1206,12 +1206,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "지점별 상이",
         tips: [
-        "Arabic coffee is traditionally served in small cups for multiple servings.",
-        "Pairing with dates balances the coffee's bitterness perfectly.",
-        "Luqaimat tastes best when served warm.",
-        "Cash payment is preferred.",
-        "Afternoon visits let you observe locals enjoying their tea time."
-    ],
+            "Arabic coffee is traditionally served in small cups for multiple servings.",
+            "Pairing with dates balances the coffee's bitterness perfectly.",
+            "Luqaimat tastes best when served warm.",
+            "Cash payment is preferred.",
+            "Afternoon visits let you observe locals enjoying their tea time."
+        ],
         score_reasons: {}
     },
     {
@@ -1233,12 +1233,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Reservations are essential – this popular restaurant fills up quickly.",
-        "Peking duck requires advance ordering.",
-        "Smart casual dress code or above is required.",
-        "Request terrace seating to enjoy the stunning night views.",
-        "Lunch menus offer more reasonable pricing than dinner."
-    ],
+            "Reservations are essential – this popular restaurant fills up quickly.",
+            "Peking duck requires advance ordering.",
+            "Smart casual dress code or above is required.",
+            "Request terrace seating to enjoy the stunning night views.",
+            "Lunch menus offer more reasonable pricing than dinner."
+        ],
         score_reasons: {}
     },
     {
@@ -1260,12 +1260,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Al Hosn",
         tips: [
-        "Workshops may require advance booking.",
-        "Access is included with your Qasr Al Hosn admission ticket.",
-        "Take home your handcrafted creation as a meaningful souvenir.",
-        "Engage with the artisans to learn about their cultural traditions.",
-        "Weekday visits tend to be less crowded."
-    ],
+            "Workshops may require advance booking.",
+            "Access is included with your Qasr Al Hosn admission ticket.",
+            "Take home your handcrafted creation as a meaningful souvenir.",
+            "Engage with the artisans to learn about their cultural traditions.",
+            "Weekday visits tend to be less crowded."
+        ],
         score_reasons: {}
     },
     {
@@ -1287,12 +1287,12 @@ const landmarkData_en = [
         duration: "Half day",
         station: "없음",
         tips: [
-        "Bicycle rentals are available—enjoy exploring the cycling tracks.",
-        "BBQ facilities require advance reservation.",
-        "Bring plenty of sunscreen and water—shade is limited.",
-        "Visit early morning or evening to escape the heat.",
-        "Ample parking makes vehicle access convenient."
-    ],
+            "Bicycle rentals are available—enjoy exploring the cycling tracks.",
+            "BBQ facilities require advance reservation.",
+            "Bring plenty of sunscreen and water—shade is limited.",
+            "Visit early morning or evening to escape the heat.",
+            "Ample parking makes vehicle access convenient."
+        ],
         score_reasons: {}
     },
     {
@@ -1314,12 +1314,12 @@ const landmarkData_en = [
         duration: "Half-Full day",
         station: "없음",
         tips: [
-        "During turtle nesting season (June-September), special programs are available.",
-        "The beach is breathtaking—don't miss sunrise or sunset walks.",
-        "Plan your visit to include Louvre Abu Dhabi nearby.",
-        "Spa reservations should be made in advance.",
-        "Day passes for beach and pool access may be available."
-    ],
+            "During turtle nesting season (June-September), special programs are available.",
+            "The beach is breathtaking—don't miss sunrise or sunset walks.",
+            "Plan your visit to include Louvre Abu Dhabi nearby.",
+            "Spa reservations should be made in advance.",
+            "Day passes for beach and pool access may be available."
+        ],
         score_reasons: {}
     },
     {
@@ -1341,12 +1341,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Consult the sommelier for personalized wine recommendations.",
-        "Visit during wine tasting events for an enhanced experience.",
-        "Tapas are perfect for sharing multiple dishes.",
-        "For two people, the cheese and charcuterie platter is highly recommended.",
-        "Late evening visits offer a quieter, more romantic ambiance."
-    ],
+            "Consult the sommelier for personalized wine recommendations.",
+            "Visit during wine tasting events for an enhanced experience.",
+            "Tapas are perfect for sharing multiple dishes.",
+            "For two people, the cheese and charcuterie platter is highly recommended.",
+            "Late evening visits offer a quieter, more romantic ambiance."
+        ],
         score_reasons: {}
     },
     {
@@ -1368,12 +1368,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Visit at sunrise or sunset when the Rain of Light is most spectacular.",
-        "Architecture guided tours require advance booking.",
-        "Allow ample time for photography in the outdoor spaces.",
-        "Experience the entire building from the waterfront promenade.",
-        "Wednesday evenings offer extended hours with a different atmosphere."
-    ],
+            "Visit at sunrise or sunset when the Rain of Light is most spectacular.",
+            "Architecture guided tours require advance booking.",
+            "Allow ample time for photography in the outdoor spaces.",
+            "Experience the entire building from the waterfront promenade.",
+            "Wednesday evenings offer extended hours with a different atmosphere."
+        ],
         score_reasons: {}
     },
     {
@@ -1395,12 +1395,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Check current special exhibitions before your visit.",
-        "Interactive exhibits are perfect for families with children.",
-        "Confirm which artworks allow photography.",
-        "Rent an audio guide to hear detailed exhibition explanations.",
-        "Weekday mornings are quieter for leisurely viewing."
-    ],
+            "Check current special exhibitions before your visit.",
+            "Interactive exhibits are perfect for families with children.",
+            "Confirm which artworks allow photography.",
+            "Rent an audio guide to hear detailed exhibition explanations.",
+            "Weekday mornings are quieter for leisurely viewing."
+        ],
         score_reasons: {}
     },
     {
@@ -1422,12 +1422,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Allow at least 2-3 hours for a complete visit.",
-        "Rent the Korean audio guide for deeper understanding.",
-        "Consult the free guidebook for a highlights-focused tour.",
-        "A 1-2 hour express route is also possible.",
-        "Relax at the museum café while enjoying ocean views."
-    ],
+            "Allow at least 2-3 hours for a complete visit.",
+            "Rent the Korean audio guide for deeper understanding.",
+            "Consult the free guidebook for a highlights-focused tour.",
+            "A 1-2 hour express route is also possible.",
+            "Relax at the museum café while enjoying ocean views."
+        ],
         score_reasons: {}
     },
     {
@@ -1449,12 +1449,12 @@ const landmarkData_en = [
         duration: "1.5hrs",
         station: "없음",
         tips: [
-        "Book your tour for sunset—it's the most beautiful time.",
-        "Advance booking is essential—this popular tour fills quickly.",
-        "Bring your camera or phone in a waterproof case.",
-        "Wear comfortable clothes and water-friendly footwear.",
-        "Weekdays are recommended as Fridays and weekends are busier."
-    ],
+            "Book your tour for sunset—it's the most beautiful time.",
+            "Advance booking is essential—this popular tour fills quickly.",
+            "Bring your camera or phone in a waterproof case.",
+            "Wear comfortable clothes and water-friendly footwear.",
+            "Weekdays are recommended as Fridays and weekends are busier."
+        ],
         score_reasons: {}
     },
     {
@@ -1476,12 +1476,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "Price negotiation is expected culture—bargain actively.",
-        "Compare multiple shops before making purchases.",
-        "Buy from reputable stores and verify quality certificates.",
-        "Weekday afternoons tend to be quieter.",
-        "Check international gold prices beforehand as they fluctuate."
-    ],
+            "Price negotiation is expected culture—bargain actively.",
+            "Compare multiple shops before making purchases.",
+            "Buy from reputable stores and verify quality certificates.",
+            "Weekday afternoons tend to be quieter.",
+            "Check international gold prices beforehand as they fluctuate."
+        ],
         score_reasons: {}
     },
     {
@@ -1503,12 +1503,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "Sunset walks offer the most magical atmosphere.",
-        "The public beach is free with shower facilities available.",
-        "Weekend evenings get crowded with families.",
-        "Bicycle rentals are available.",
-        "Pairs perfectly with a visit to nearby Louvre Abu Dhabi."
-    ],
+            "Sunset walks offer the most magical atmosphere.",
+            "The public beach is free with shower facilities available.",
+            "Weekend evenings get crowded with families.",
+            "Bicycle rentals are available.",
+            "Pairs perfectly with a visit to nearby Louvre Abu Dhabi."
+        ],
         score_reasons: {}
     },
     {
@@ -1530,12 +1530,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "Check the current exhibition schedule in advance.",
-        "Pair your visit with Louvre Abu Dhabi for a complete cultural experience.",
-        "The Abu Dhabi Art Fair period offers something truly special.",
-        "Relax at the café while enjoying stunning sea views.",
-        "Convenient parking is available."
-    ],
+            "Check the current exhibition schedule in advance.",
+            "Pair your visit with Louvre Abu Dhabi for a complete cultural experience.",
+            "The Abu Dhabi Art Fair period offers something truly special.",
+            "Relax at the café while enjoying stunning sea views.",
+            "Convenient parking is available."
+        ],
         score_reasons: {}
     },
     {
@@ -1557,12 +1557,12 @@ const landmarkData_en = [
         duration: "2hrs",
         station: "없음",
         tips: [
-        "Reservations are essential—seating is limited.",
-        "Be adventurous and try the camel dishes—they're surprisingly delicious.",
-        "Complete your meal with traditional Emirati coffee and dates.",
-        "Listen to the insights shared by staff dressed in traditional Emirati attire.",
-        "While prices are premium, the experience is worth every dirham."
-    ],
+            "Reservations are essential—seating is limited.",
+            "Be adventurous and try the camel dishes—they're surprisingly delicious.",
+            "Complete your meal with traditional Emirati coffee and dates.",
+            "Listen to the insights shared by staff dressed in traditional Emirati attire.",
+            "While prices are premium, the experience is worth every dirham."
+        ],
         score_reasons: {}
     },
     {
@@ -1584,12 +1584,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Combine your visit with shopping at Galleria Mall for a full day out.",
-        "Allow 2-3 hours when visiting with children.",
-        "Collect mission cards and complete them one by one for extra fun.",
-        "Weekdays are significantly less crowded than weekends.",
-        "Bring your camera—there are plenty of photo-worthy moments."
-    ],
+            "Combine your visit with shopping at Galleria Mall for a full day out.",
+            "Allow 2-3 hours when visiting with children.",
+            "Collect mission cards and complete them one by one for extra fun.",
+            "Weekdays are significantly less crowded than weekends.",
+            "Bring your camera—there are plenty of photo-worthy moments."
+        ],
         score_reasons: {}
     },
     {
@@ -1611,12 +1611,12 @@ const landmarkData_en = [
         duration: "1hr",
         station: "없음",
         tips: [
-        "Sunset visits offer the most spectacular views.",
-        "Advance reservations for afternoon tea are recommended.",
-        "Choose a clear day for your visit—you'll see much farther.",
-        "Jumeirah Hotel guests may enjoy complimentary access.",
-        "Perfectly positioned for a combined visit with Emirates Palace."
-    ],
+            "Sunset visits offer the most spectacular views.",
+            "Advance reservations for afternoon tea are recommended.",
+            "Choose a clear day for your visit—you'll see much farther.",
+            "Jumeirah Hotel guests may enjoy complimentary access.",
+            "Perfectly positioned for a combined visit with Emirates Palace."
+        ],
         score_reasons: {}
     },
     {
@@ -1638,12 +1638,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "없음",
         tips: [
-        "VR games are charged hourly—plan your budget accordingly.",
-        "If prone to motion sickness, start with lighter games.",
-        "Weekend evenings get busy—advance booking is advisable.",
-        "Groups can maximize fun with multiplayer games.",
-        "Located in the same area as the National Aquarium—perfect for a combined visit."
-    ],
+            "VR games are charged hourly—plan your budget accordingly.",
+            "If prone to motion sickness, start with lighter games.",
+            "Weekend evenings get busy—advance booking is advisable.",
+            "Groups can maximize fun with multiplayer games.",
+            "Located in the same area as the National Aquarium—perfect for a combined visit."
+        ],
         score_reasons: {}
     },
     {
@@ -1665,12 +1665,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Abu Dhabi Mall",
         tips: [
-        "Minimum of 2 people required; 4-6 is the ideal group size.",
-        "Wear comfortable clothing and sneakers—there's plenty of movement involved.",
-        "Advance booking is strongly recommended.",
-        "Active participation from all team members enhances the fun.",
-        "You can tackle multiple rooms in one session—allow plenty of time."
-    ],
+            "Minimum of 2 people required; 4-6 is the ideal group size.",
+            "Wear comfortable clothing and sneakers—there's plenty of movement involved.",
+            "Advance booking is strongly recommended.",
+            "Active participation from all team members enhances the fun.",
+            "You can tackle multiple rooms in one session—allow plenty of time."
+        ],
         score_reasons: {}
     },
     {
@@ -1692,12 +1692,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Al Hosn",
         tips: [
-        "Purchase a combined ticket to explore all facilities together.",
-        "Join a guided tour for deeper historical understanding.",
-        "Sample traditional coffee at Bait Al Gahwa.",
-        "Special events are sometimes held on weekend evenings.",
-        "Excellent air conditioning makes it perfect for hot day visits."
-    ],
+            "Purchase a combined ticket to explore all facilities together.",
+            "Join a guided tour for deeper historical understanding.",
+            "Sample traditional coffee at Bait Al Gahwa.",
+            "Special events are sometimes held on weekend evenings.",
+            "Excellent air conditioning makes it perfect for hot day visits."
+        ],
         score_reasons: {}
     },
     {
@@ -1719,12 +1719,12 @@ const landmarkData_en = [
         duration: "1hr",
         station: "없음",
         tips: [
-        "Plan a route including Al Ain's other museums.",
-        "Entry is often complimentary.",
-        "Excellent air conditioning provides welcome relief from Al Ain's heat.",
-        "Learn about Sheikh Zayed's childhood stories.",
-        "Close proximity to Al Ain Oasis makes for an easy combined visit."
-    ],
+            "Plan a route including Al Ain's other museums.",
+            "Entry is often complimentary.",
+            "Excellent air conditioning provides welcome relief from Al Ain's heat.",
+            "Learn about Sheikh Zayed's childhood stories.",
+            "Close proximity to Al Ain Oasis makes for an easy combined visit."
+        ],
         score_reasons: {}
     },
     {
@@ -1746,12 +1746,12 @@ const landmarkData_en = [
         duration: "1+ night",
         station: "없음",
         tips: [
-        "Stay at least one night—a day trip doesn't do it justice.",
-        "Book desert activities in advance.",
-        "Sunrise and sunset desert tours are the most popular.",
-        "Perfect for stargazing at night—you can even see the Milky Way.",
-        "Visit between October and April to avoid extreme summer heat."
-    ],
+            "Stay at least one night—a day trip doesn't do it justice.",
+            "Book desert activities in advance.",
+            "Sunrise and sunset desert tours are the most popular.",
+            "Perfect for stargazing at night—you can even see the Milky Way.",
+            "Visit between October and April to avoid extreme summer heat."
+        ],
         score_reasons: {}
     },
     {
@@ -1773,12 +1773,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Rent an audio guide for a more enriching experience.",
-        "Dress code applies (knees and shoulders must be covered).",
-        "Excellent air conditioning makes it ideal for hot day visits.",
-        "Plan a combined visit with Emirates Palace.",
-        "Morning visits are less crowded than afternoons."
-    ],
+            "Rent an audio guide for a more enriching experience.",
+            "Dress code applies (knees and shoulders must be covered).",
+            "Excellent air conditioning makes it ideal for hot day visits.",
+            "Plan a combined visit with Emirates Palace.",
+            "Morning visits are less crowded than afternoons."
+        ],
         score_reasons: {}
     },
     {
@@ -1800,12 +1800,12 @@ const landmarkData_en = [
         duration: "15min",
         station: "없음",
         tips: [
-        "Check show times in advance - they vary by season.",
-        "Arrive 30 minutes before showtime to secure the best viewing spot.",
-        "Evening tickets include access to the show.",
-        "You can capture great footage without a tripod.",
-        "Bring a light jacket as evenings can get cool."
-    ],
+            "Check show times in advance - they vary by season.",
+            "Arrive 30 minutes before showtime to secure the best viewing spot.",
+            "Evening tickets include access to the show.",
+            "You can capture great footage without a tripod.",
+            "Bring a light jacket as evenings can get cool."
+        ],
         score_reasons: {}
     },
     {
@@ -1827,12 +1827,12 @@ const landmarkData_en = [
         duration: "2hrs",
         station: "없음",
         tips: [
-        "Reserve a window table for the best views.",
-        "Time your visit for sunset to enjoy both golden hour and the glittering night skyline.",
-        "Wine pairing is highly recommended.",
-        "Smart casual dress code applies.",
-        "Be prepared for premium pricing."
-    ],
+            "Reserve a window table for the best views.",
+            "Time your visit for sunset to enjoy both golden hour and the glittering night skyline.",
+            "Wine pairing is highly recommended.",
+            "Smart casual dress code applies.",
+            "Be prepared for premium pricing."
+        ],
         score_reasons: {}
     },
     {
@@ -1854,12 +1854,12 @@ const landmarkData_en = [
         duration: "3-5hrs",
         station: "Reem Island",
         tips: [
-        "Snow Abu Dhabi requires a separate admission ticket.",
-        "The mall is extensive - check the directory map beforehand.",
-        "Weekdays are recommended to avoid weekend crowds.",
-        "Parking is convenient and complimentary.",
-        "Stock up on snacks and beverages at budget-friendly prices from Carrefour."
-    ],
+            "Snow Abu Dhabi requires a separate admission ticket.",
+            "The mall is extensive - check the directory map beforehand.",
+            "Weekdays are recommended to avoid weekend crowds.",
+            "Parking is convenient and complimentary.",
+            "Stock up on snacks and beverages at budget-friendly prices from Carrefour."
+        ],
         score_reasons: {}
     },
     {
@@ -1881,12 +1881,12 @@ const landmarkData_en = [
         duration: "Half-Full day",
         station: "없음",
         tips: [
-        "The all-inclusive option offers excellent value for money.",
-        "Beach cabanas book up quickly - reserve early for prime spots.",
-        "Check the themed dinner night schedule in advance.",
-        "Spa treatments should be booked ahead.",
-        "Weekdays are quieter than weekends."
-    ],
+            "The all-inclusive option offers excellent value for money.",
+            "Beach cabanas book up quickly - reserve early for prime spots.",
+            "Check the themed dinner night schedule in advance.",
+            "Spa treatments should be booked ahead.",
+            "Weekdays are quieter than weekends."
+        ],
         score_reasons: {}
     },
     {
@@ -1908,12 +1908,12 @@ const landmarkData_en = [
         duration: "Half-Full day",
         station: "Saadiyat Island",
         tips: [
-        "Stay at least 3 nights to maximize your all-inclusive benefits.",
-        "Make restaurant reservations at check-in.",
-        "Review the kids' club program schedule.",
-        "Louvre Abu Dhabi is nearby - perfect for a combined visit.",
-        "Beach towels are provided at the beach."
-    ],
+            "Stay at least 3 nights to maximize your all-inclusive benefits.",
+            "Make restaurant reservations at check-in.",
+            "Review the kids' club program schedule.",
+            "Louvre Abu Dhabi is nearby - perfect for a combined visit.",
+            "Beach towels are provided at the beach."
+        ],
         score_reasons: {}
     },
     {
@@ -1935,12 +1935,12 @@ const landmarkData_en = [
         duration: "4-8hrs",
         station: "Saadiyat Island",
         tips: [
-        "Check day pass rates in advance - weekday and weekend prices differ.",
-        "Sunbed reservations are recommended, especially on weekends.",
-        "The beach is pristine and peaceful - perfect for relaxation.",
-        "Visit during sunset for a truly magical experience.",
-        "Bring swimwear and sunscreen."
-    ],
+            "Check day pass rates in advance - weekday and weekend prices differ.",
+            "Sunbed reservations are recommended, especially on weekends.",
+            "The beach is pristine and peaceful - perfect for relaxation.",
+            "Visit during sunset for a truly magical experience.",
+            "Bring swimwear and sunscreen."
+        ],
         score_reasons: {}
     },
     {
@@ -1962,12 +1962,12 @@ const landmarkData_en = [
         duration: "3-4hrs",
         station: "Yas Island",
         tips: [
-        "Check show schedules in advance and plan your day accordingly.",
-        "The Manta roller coaster is more intense than it looks - brace yourself!",
-        "Touch rays directly at the touch pool.",
-        "Save with a Yas Island multi-park pass.",
-        "Visit popular exhibits outside lunch hours for a more relaxed experience."
-    ],
+            "Check show schedules in advance and plan your day accordingly.",
+            "The Manta roller coaster is more intense than it looks - brace yourself!",
+            "Touch rays directly at the touch pool.",
+            "Save with a Yas Island multi-park pass.",
+            "Visit popular exhibits outside lunch hours for a more relaxed experience."
+        ],
         score_reasons: {}
     },
     {
@@ -1989,12 +1989,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "Yas Island",
         tips: [
-        "Join a guided tour if available - you'll learn so much more.",
-        "Allow 1-2 hours if visiting with children for hands-on experiences.",
-        "Bring your camera - there are plenty of photo opportunities.",
-        "Interactive exhibits are less crowded in the morning.",
-        "Most explanations are in English - keep this in mind."
-    ],
+            "Join a guided tour if available - you'll learn so much more.",
+            "Allow 1-2 hours if visiting with children for hands-on experiences.",
+            "Bring your camera - there are plenty of photo opportunities.",
+            "Interactive exhibits are less crowded in the morning.",
+            "Most explanations are in English - keep this in mind."
+        ],
         score_reasons: {}
     },
     {
@@ -2016,12 +2016,12 @@ const landmarkData_en = [
         duration: "15-30min",
         station: "Yas Island",
         tips: [
-        "Online advance booking is strongly recommended - same-day availability may be limited.",
-        "Wear your swimsuit for participation.",
-        "Store valuables in lockers.",
-        "Warm showers are available after the experience.",
-        "Professionally captured underwater photos are available for purchase."
-    ],
+            "Online advance booking is strongly recommended - same-day availability may be limited.",
+            "Wear your swimsuit for participation.",
+            "Store valuables in lockers.",
+            "Warm showers are available after the experience.",
+            "Professionally captured underwater photos are available for purchase."
+        ],
         score_reasons: {}
     },
     {
@@ -2043,12 +2043,12 @@ const landmarkData_en = [
         duration: "Half-Full day",
         station: "없음",
         tips: [
-        "Request a mosque-view room - the views are spectacular.",
-        "Friday brunch is highly popular.",
-        "The private beach is exclusively for hotel guests.",
-        "Complimentary shuttle service to Sheikh Zayed Mosque is available.",
-        "CHI Spa treatments come highly recommended."
-    ],
+            "Request a mosque-view room - the views are spectacular.",
+            "Friday brunch is highly popular.",
+            "The private beach is exclusively for hotel guests.",
+            "Complimentary shuttle service to Sheikh Zayed Mosque is available.",
+            "CHI Spa treatments come highly recommended."
+        ],
         score_reasons: {}
     },
     {
@@ -2070,12 +2070,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Grand Mosque",
         tips: [
-        "Arrive before Maghrib (sunset prayer) to experience both day and night views.",
-        "Night photography turns out beautifully even without a tripod.",
-        "Open until 10 PM (except Fridays).",
-        "Viewing may be restricted during prayer times.",
-        "Free admission and complimentary parking."
-    ],
+            "Arrive before Maghrib (sunset prayer) to experience both day and night views.",
+            "Night photography turns out beautifully even without a tripod.",
+            "Open until 10 PM (except Fridays).",
+            "Viewing may be restricted during prayer times.",
+            "Free admission and complimentary parking."
+        ],
         score_reasons: {}
     },
     {
@@ -2097,12 +2097,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Grand Mosque",
         tips: [
-        "Free guided tours run regularly—check the schedule in advance.",
-        "Dress code must be observed (long pants, long sleeves, headscarves for women).",
-        "Abayas (traditional dress) are available for loan.",
-        "Photography is permitted, but don't photograph people at prayer.",
-        "Friday mornings are reserved for Muslim prayers, with restricted access for non-Muslims."
-    ],
+            "Free guided tours run regularly—check the schedule in advance.",
+            "Dress code must be observed (long pants, long sleeves, headscarves for women).",
+            "Abayas (traditional dress) are available for loan.",
+            "Photography is permitted, but don't photograph people at prayer.",
+            "Friday mornings are reserved for Muslim prayers, with restricted access for non-Muslims."
+        ],
         score_reasons: {}
     },
     {
@@ -2124,12 +2124,12 @@ const landmarkData_en = [
         duration: "Half-Full day",
         station: "없음",
         tips: [
-        "At least one overnight stay is recommended.",
-        "Safari tours require advance booking.",
-        "Early morning safaris offer the best wildlife viewing.",
-        "Bring mosquito repellent.",
-        "Winter visits (October-April) are preferable to summer."
-    ],
+            "At least one overnight stay is recommended.",
+            "Safari tours require advance booking.",
+            "Early morning safaris offer the best wildlife viewing.",
+            "Bring mosquito repellent.",
+            "Winter visits (October-April) are preferable to summer."
+        ],
         score_reasons: {}
     },
     {
@@ -2151,12 +2151,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "Reem Mall",
         tips: [
-        "Wear the winter clothing provided with park admission.",
-        "Gloves and boots are also provided—no need to bring your own.",
-        "Beyond hot chocolate, coffee, tea, and other menu items are available.",
-        "Café seating is limited, so avoid peak hours.",
-        "Card payment is more convenient than cash inside the snow park."
-    ],
+            "Wear the winter clothing provided with park admission.",
+            "Gloves and boots are also provided—no need to bring your own.",
+            "Beyond hot chocolate, coffee, tea, and other menu items are available.",
+            "Café seating is limited, so avoid peak hours.",
+            "Card payment is more convenient than cash inside the snow park."
+        ],
         score_reasons: {}
     },
     {
@@ -2178,12 +2178,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "Reem Mall",
         tips: [
-        "Bring extra socks—they can get wet after snow play.",
-        "Wear light clothing under the winter gear—you'll warm up with activity.",
-        "It gets genuinely cold during extended stays—move to warm zones periodically.",
-        "Hand warmers are available for purchase inside the park if your hands get cold.",
-        "Smartphones can drain in the cold—take photos frequently."
-    ],
+            "Bring extra socks—they can get wet after snow play.",
+            "Wear light clothing under the winter gear—you'll warm up with activity.",
+            "It gets genuinely cold during extended stays—move to warm zones periodically.",
+            "Hand warmers are available for purchase inside the park if your hands get cold.",
+            "Smartphones can drain in the cold—take photos frequently."
+        ],
         score_reasons: {}
     },
     {
@@ -2205,12 +2205,12 @@ const landmarkData_en = [
         duration: "10-15min",
         station: "Reem Mall",
         tips: [
-        "Take lessons first if you have no skiing or snowboarding experience.",
-        "Check equipment rental times and book in advance.",
-        "Avoid crowded weekends when slopes get busy.",
-        "Safety equipment is mandatory.",
-        "Lessons incur additional costs—check your budget beforehand."
-    ],
+            "Take lessons first if you have no skiing or snowboarding experience.",
+            "Check equipment rental times and book in advance.",
+            "Avoid crowded weekends when slopes get busy.",
+            "Safety equipment is mandatory.",
+            "Lessons incur additional costs—check your budget beforehand."
+        ],
         score_reasons: {}
     },
     {
@@ -2232,12 +2232,12 @@ const landmarkData_en = [
         duration: "Half-Full day",
         station: "Saadiyat Island",
         tips: [
-        "Make full use of the butler service.",
-        "The Bloody Mary ritual is a St. Regis signature experience.",
-        "Beach cabanas should be reserved in advance.",
-        "Book spa appointments early.",
-        "Check out the Louvre Abu Dhabi tour packages."
-    ],
+            "Make full use of the butler service.",
+            "The Bloody Mary ritual is a St. Regis signature experience.",
+            "Beach cabanas should be reserved in advance.",
+            "Book spa appointments early.",
+            "Check out the Louvre Abu Dhabi tour packages."
+        ],
         score_reasons: {}
     },
     {
@@ -2259,12 +2259,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "Hudayriyat Island",
         tips: [
-        "Take beginner lessons first if you have no surfing experience.",
-        "Session times are scheduled—book in advance.",
-        "Surfboards and rash guards are available for rent.",
-        "You need to be a good swimmer—consider your swimming ability.",
-        "Bring waterproof sunscreen."
-    ],
+            "Take beginner lessons first if you have no surfing experience.",
+            "Session times are scheduled—book in advance.",
+            "Surfboards and rash guards are available for rent.",
+            "You need to be a good swimmer—consider your swimming ability.",
+            "Bring waterproof sunscreen."
+        ],
         score_reasons: {}
     },
     {
@@ -2286,12 +2286,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Maryah Island",
         tips: [
-        "Paddle tennis requires advance booking.",
-        "Water sports equipment rental is available.",
-        "Bring workout clothes and athletic shoes.",
-        "Check the group fitness class schedule.",
-        "Day passes are available even without membership."
-    ],
+            "Paddle tennis requires advance booking.",
+            "Water sports equipment rental is available.",
+            "Bring workout clothes and athletic shoes.",
+            "Check the group fitness class schedule.",
+            "Day passes are available even without membership."
+        ],
         score_reasons: {}
     },
     {
@@ -2313,12 +2313,12 @@ const landmarkData_en = [
         duration: "3-5hrs",
         station: "Maryah Island",
         tips: [
-        "Enjoy a stroll along the waterfront promenade.",
-        "Valet parking service is available.",
-        "Luxury brands offer discounts during sale seasons.",
-        "Dine with ocean views at the third-floor food court.",
-        "Weekday visits are recommended as weekend evenings get crowded."
-    ],
+            "Enjoy a stroll along the waterfront promenade.",
+            "Valet parking service is available.",
+            "Luxury brands offer discounts during sale seasons.",
+            "Dine with ocean views at the third-floor food court.",
+            "Weekday visits are recommended as weekend evenings get crowded."
+        ],
         score_reasons: {}
     },
     {
@@ -2340,12 +2340,12 @@ const landmarkData_en = [
         duration: "3-5hrs",
         station: "Maryah Island",
         tips: [
-        "Visit in the evening to dine alongside spectacular night views.",
-        "Reservations are recommended for popular restaurants.",
-        "Arrive at sunset to witness the breathtaking golden hour.",
-        "Stroll along the promenade to explore the restaurant options.",
-        "Many restaurants offer Friday brunch experiences."
-    ],
+            "Visit in the evening to dine alongside spectacular night views.",
+            "Reservations are recommended for popular restaurants.",
+            "Arrive at sunset to witness the breathtaking golden hour.",
+            "Stroll along the promenade to explore the restaurant options.",
+            "Many restaurants offer Friday brunch experiences."
+        ],
         score_reasons: {}
     },
     {
@@ -2367,12 +2367,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "Al Qana",
         tips: [
-        "Wash your hands thoroughly before the touch pool experience.",
-        "Touch the stingrays gently—avoid pressing down firmly.",
-        "Time your visit with feeding sessions to witness more dynamic behavior.",
-        "Weekdays are significantly less crowded than weekends.",
-        "Book online in advance to receive discounted rates."
-    ],
+            "Wash your hands thoroughly before the touch pool experience.",
+            "Touch the stingrays gently—avoid pressing down firmly.",
+            "Time your visit with feeding sessions to witness more dynamic behavior.",
+            "Weekdays are significantly less crowded than weekends.",
+            "Book online in advance to receive discounted rates."
+        ],
         score_reasons: {}
     },
     {
@@ -2394,12 +2394,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Al Qana",
         tips: [
-        "Advance booking is essential—same-day reservations are nearly impossible.",
-        "You'll need to complete a health declaration form.",
-        "Ear conditions may restrict participation.",
-        "Bring your swimsuit and towel.",
-        "Wait 24 hours after diving before boarding a flight."
-    ],
+            "Advance booking is essential—same-day reservations are nearly impossible.",
+            "You'll need to complete a health declaration form.",
+            "Ear conditions may restrict participation.",
+            "Bring your swimsuit and towel.",
+            "Wait 24 hours after diving before boarding a flight."
+        ],
         score_reasons: {}
     },
     {
@@ -2421,12 +2421,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Yas Mall",
         tips: [
-        "Confirm whether drop-in (day pass) options are available.",
-        "Combat classes welcome beginners.",
-        "Bring your workout clothes and towel.",
-        "Check the class schedule in advance.",
-        "The Maqta Galleria Mall location offers excellent accessibility."
-    ],
+            "Confirm whether drop-in (day pass) options are available.",
+            "Combat classes welcome beginners.",
+            "Bring your workout clothes and towel.",
+            "Check the class schedule in advance.",
+            "The Maqta Galleria Mall location offers excellent accessibility."
+        ],
         score_reasons: {}
     },
     {
@@ -2448,12 +2448,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Grand Mosque",
         tips: [
-        "Visit together with Sheikh Zayed Grand Mosque—they're within walking distance.",
-        "Arrive at sunset to enjoy the most beautiful views.",
-        "Learn about the historical context at the visitor center.",
-        "Admission is free.",
-        "This is a place of reverence—please observe quietly."
-    ],
+            "Visit together with Sheikh Zayed Grand Mosque—they're within walking distance.",
+            "Arrive at sunset to enjoy the most beautiful views.",
+            "Learn about the historical context at the visitor center.",
+            "Admission is free.",
+            "This is a place of reverence—please observe quietly."
+        ],
         score_reasons: {}
     },
     {
@@ -2475,12 +2475,12 @@ const landmarkData_en = [
         duration: "4-6hrs",
         station: "Yas Mall",
         tips: [
-        "Check character appearance schedules in advance on the Yas Island app.",
-        "The Gotham City zone comes alive with even more atmosphere under evening lighting.",
-        "For character dining, the adjacent Warner Bros. Hotel is highly recommended.",
-        "The gift shop is located near the exit—save it for last.",
-        "Check live show schedules and don't miss the major performances."
-    ],
+            "Check character appearance schedules in advance on the Yas Island app.",
+            "The Gotham City zone comes alive with even more atmosphere under evening lighting.",
+            "For character dining, the adjacent Warner Bros. Hotel is highly recommended.",
+            "The gift shop is located near the exit—save it for last.",
+            "Check live show schedules and don't miss the major performances."
+        ],
         score_reasons: {}
     },
     {
@@ -2502,12 +2502,12 @@ const landmarkData_en = [
         duration: "4-6hrs",
         station: "Yas Mall",
         tips: [
-        "Batman: Knight Flight is absolutely essential—it's the park's crown jewel.",
-        "Most thrill rides require a minimum height of 120cm.",
-        "Flash Pass is unnecessary on quiet days—assess the situation before purchasing.",
-        "Tackle the Gotham City zone right after opening to minimize wait times.",
-        "Photo services are available for each ride—check at the exit."
-    ],
+            "Batman: Knight Flight is absolutely essential—it's the park's crown jewel.",
+            "Most thrill rides require a minimum height of 120cm.",
+            "Flash Pass is unnecessary on quiet days—assess the situation before purchasing.",
+            "Tackle the Gotham City zone right after opening to minimize wait times.",
+            "Photo services are available for each ride—check at the exit."
+        ],
         score_reasons: {}
     },
     {
@@ -2529,12 +2529,12 @@ const landmarkData_en = [
         duration: "4-6hrs",
         station: "Yas Island",
         tips: [
-        "The atmosphere heats up after 10 PM.",
-        "A dress code applies—smart casual is required.",
-        "Table reservations are recommended, especially on weekends.",
-        "Expect premium drink prices.",
-        "Age restrictions apply (21 and over)."
-    ],
+            "The atmosphere heats up after 10 PM.",
+            "A dress code applies—smart casual is required.",
+            "Table reservations are recommended, especially on weekends.",
+            "Expect premium drink prices.",
+            "Age restrictions apply (21 and over)."
+        ],
         score_reasons: {}
     },
     {
@@ -2556,12 +2556,12 @@ const landmarkData_en = [
         duration: "2-4hrs",
         station: "없음",
         tips: [
-        "Socks are mandatory.",
-        "Ensure children play in age-appropriate zones for safety.",
-        "Weekday mornings are less crowded than weekends.",
-        "Hourly rates apply—plan your visit duration in advance.",
-        "Consider visiting after dining at the mall's food court."
-    ],
+            "Socks are mandatory.",
+            "Ensure children play in age-appropriate zones for safety.",
+            "Weekday mornings are less crowded than weekends.",
+            "Hourly rates apply—plan your visit duration in advance.",
+            "Consider visiting after dining at the mall's food court."
+        ],
         score_reasons: {}
     },
     {
@@ -2583,12 +2583,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Yas Mall",
         tips: [
-        "Bowling shoes are available for rent.",
-        "Advance reservations are recommended for laser tag.",
-        "Purchase ticket bundle packages for better value.",
-        "Weekend evenings get crowded—afternoon slots are recommended.",
-        "Perfect to visit after dining at The Galleria Mall restaurants."
-    ],
+            "Bowling shoes are available for rent.",
+            "Advance reservations are recommended for laser tag.",
+            "Purchase ticket bundle packages for better value.",
+            "Weekend evenings get crowded—afternoon slots are recommended.",
+            "Perfect to visit after dining at The Galleria Mall restaurants."
+        ],
         score_reasons: {}
     },
     {
@@ -2610,12 +2610,12 @@ const landmarkData_en = [
         duration: "1-2hrs",
         station: "Yas Mall",
         tips: [
-        "Each attraction requires a separate ticket purchase.",
-        "Save money by purchasing bundle packages.",
-        "Visit on weekdays to avoid weekend crowds.",
-        "Check height and age restrictions for specific attractions.",
-        "Perfect to enjoy after dining at one of Yas Mall's restaurants."
-    ],
+            "Each attraction requires a separate ticket purchase.",
+            "Save money by purchasing bundle packages.",
+            "Visit on weekdays to avoid weekend crowds.",
+            "Check height and age restrictions for specific attractions.",
+            "Perfect to enjoy after dining at one of Yas Mall's restaurants."
+        ],
         score_reasons: {}
     },
     {
@@ -2637,12 +2637,12 @@ const landmarkData_en = [
         duration: "3-5hrs",
         station: "Yas Mall",
         tips: [
-        "Combine your visit with the theme parks for maximum efficiency.",
-        "Experience authentic Emirati cuisine at Al Fanar Restaurant.",
-        "Expect significant crowds on weekends.",
-        "Take advantage of complimentary parking.",
-        "AirManiax is a guaranteed hit with children."
-    ],
+            "Combine your visit with the theme parks for maximum efficiency.",
+            "Experience authentic Emirati cuisine at Al Fanar Restaurant.",
+            "Expect significant crowds on weekends.",
+            "Take advantage of complimentary parking.",
+            "AirManiax is a guaranteed hit with children."
+        ],
         score_reasons: {}
     },
     {
@@ -2664,12 +2664,12 @@ const landmarkData_en = [
         duration: "2-4hrs",
         station: "Yas Marina",
         tips: [
-        "Advance booking is essential for driving experiences.",
-        "Bring a valid driver's license.",
-        "Wear comfortable athletic shoes.",
-        "Experiences may be limited during F1 season in November.",
-        "Choose from an impressive selection of supercar options."
-    ],
+            "Advance booking is essential for driving experiences.",
+            "Bring a valid driver's license.",
+            "Wear comfortable athletic shoes.",
+            "Experiences may be limited during F1 season in November.",
+            "Choose from an impressive selection of supercar options."
+        ],
         score_reasons: {}
     },
     {
@@ -2691,12 +2691,12 @@ const landmarkData_en = [
         duration: "2-4hrs",
         station: "Yas Marina",
         tips: [
-        "Evening sessions on the outdoor track offer cooler temperatures.",
-        "Choose from various session lengths—15 minutes, 30 minutes, and more.",
-        "Minimum height of 150cm required for adult karts.",
-        "Group bookings may qualify for discounts.",
-        "Look out for special promotions during F1 season."
-    ],
+            "Evening sessions on the outdoor track offer cooler temperatures.",
+            "Choose from various session lengths—15 minutes, 30 minutes, and more.",
+            "Minimum height of 150cm required for adult karts.",
+            "Group bookings may qualify for discounts.",
+            "Look out for special promotions during F1 season."
+        ],
         score_reasons: {}
     },
     {
@@ -2718,12 +2718,12 @@ const landmarkData_en = [
         duration: "4-6hrs",
         station: "Yas Island",
         tips: [
-        "Advance booking is highly recommended—this popular program fills up quickly.",
-        "Non-swimmers are welcome to participate.",
-        "While pearl quality varies, each one makes a meaningful souvenir.",
-        "The experience lasts approximately 30 minutes.",
-        "Creates unforgettable memories for children and adults alike."
-    ],
+            "Advance booking is highly recommended—this popular program fills up quickly.",
+            "Non-swimmers are welcome to participate.",
+            "While pearl quality varies, each one makes a meaningful souvenir.",
+            "The experience lasts approximately 30 minutes.",
+            "Creates unforgettable memories for children and adults alike."
+        ],
         score_reasons: {}
     },
     {
@@ -2745,12 +2745,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "Yas Island",
         tips: [
-        "Check the wave schedule in advance and time your visit accordingly.",
-        "Tubes are available for complimentary rental.",
-        "Arrive early to secure prime sunbed locations.",
-        "Reapply sunscreen frequently—it washes off easily in the water.",
-        "Store valuables in waterproof bags or lockers."
-    ],
+            "Check the wave schedule in advance and time your visit accordingly.",
+            "Tubes are available for complimentary rental.",
+            "Arrive early to secure prime sunbed locations.",
+            "Reapply sunscreen frequently—it washes off easily in the water.",
+            "Store valuables in waterproof bags or lockers."
+        ],
         score_reasons: {}
     },
     {
@@ -2772,12 +2772,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "Yas Island",
         tips: [
-        "Recline comfortably on your tube and gaze at the sky above.",
-        "Wear sunglasses and a hat to protect against strong sunlight.",
-        "Watch out for splash zones—keep electronics protected.",
-        "Unlimited rides at no extra cost—float as many times as you like.",
-        "Scenic photo opportunities await around every bend."
-    ],
+            "Recline comfortably on your tube and gaze at the sky above.",
+            "Wear sunglasses and a hat to protect against strong sunlight.",
+            "Watch out for splash zones—keep electronics protected.",
+            "Unlimited rides at no extra cost—float as many times as you like.",
+            "Scenic photo opportunities await around every bend."
+        ],
         score_reasons: {}
     },
     {
@@ -2799,12 +2799,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "Yas Island",
         tips: [
-        "Minimum height of 120cm required for certain slides.",
-        "Visit right after opening to minimize wait times significantly.",
-        "Wear goggles to keep water out of your eyes.",
-        "Each slide offers different thrill levels—choose what suits you best.",
-        "Dawwama is even more fun when riding with a group."
-    ],
+            "Minimum height of 120cm required for certain slides.",
+            "Visit right after opening to minimize wait times significantly.",
+            "Wear goggles to keep water out of your eyes.",
+            "Each slide offers different thrill levels—choose what suits you best.",
+            "Dawwama is even more fun when riding with a group."
+        ],
         score_reasons: {}
     },
     {
@@ -2826,12 +2826,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "없음",
         tips: [
-        "Verify opening hours for your desired facility in advance.",
-        "Ice rink reservations are recommended.",
-        "The bowling alley gets busy during evening hours.",
-        "Expect crowds during major events.",
-        "Most facilities are accessible without membership."
-    ],
+            "Verify opening hours for your desired facility in advance.",
+            "Ice rink reservations are recommended.",
+            "The bowling alley gets busy during evening hours.",
+            "Expect crowds during major events.",
+            "Most facilities are accessible without membership."
+        ],
         score_reasons: {}
     },
     {
@@ -2853,12 +2853,12 @@ const landmarkData_en = [
         duration: "30min-1hr",
         station: "Yas Mall",
         tips: [
-        "Advance booking is essential—high demand often means same-day availability is limited.",
-        "Wear comfortable athletic shoes—you'll be moving a lot.",
-        "Arrive 15 minutes before your scheduled game time.",
-        "First-time VR users should inform staff—they'll provide helpful guidance.",
-        "Book as a group to ensure you play together on the same team."
-    ],
+            "Advance booking is essential—high demand often means same-day availability is limited.",
+            "Wear comfortable athletic shoes—you'll be moving a lot.",
+            "Arrive 15 minutes before your scheduled game time.",
+            "First-time VR users should inform staff—they'll provide helpful guidance.",
+            "Book as a group to ensure you play together on the same team."
+        ],
         score_reasons: {}
     },
     {
@@ -2880,12 +2880,12 @@ const landmarkData_en = [
         duration: "2-3hrs",
         station: "Maryah Island",
         tips: [
-        "Weekend brunch is extremely popular—reserve your table well in advance.",
-        "Order a combination of robata-grilled dishes and sushi to experience the full range of flavors.",
-        "Enjoy signature cocktails at the bar for an immersive izakaya experience.",
-        "Smart casual dress code is required.",
-        "This is a premium dining venue, so plan your budget accordingly."
-    ],
+            "Weekend brunch is extremely popular—reserve your table well in advance.",
+            "Order a combination of robata-grilled dishes and sushi to experience the full range of flavors.",
+            "Enjoy signature cocktails at the bar for an immersive izakaya experience.",
+            "Smart casual dress code is required.",
+            "This is a premium dining venue, so plan your budget accordingly."
+        ],
         score_reasons: {}
     }
 ];
