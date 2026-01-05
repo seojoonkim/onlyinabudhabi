@@ -125,6 +125,9 @@ document.addEventListener('DOMContentLoaded', async function() {
 async function initData() {
     // Don't update URL on initial load, just use the language from URL
     await switchLanguage(currentLang, false);
+
+    // Show content after language is loaded (prevent FOUC)
+    document.body.classList.add('loaded');
 }
 
 // Update UI text based on current language
