@@ -269,7 +269,7 @@ function updateResultCount() {
 }
 
 // Switch language
-function switchLanguage(lang, updateURL = true) {
+async function switchLanguage(lang, updateURL = true) {
     currentLang = lang;
 
     // Update URL path if needed
@@ -278,47 +278,53 @@ function switchLanguage(lang, updateURL = true) {
         window.history.pushState({}, '', newPath);
     }
 
-    // Load appropriate data
-    let rawData;
-    switch(lang) {
-        case 'ko':
-            rawData = landmarkData_ko;
-            break;
-        case 'en':
-            rawData = landmarkData_en;
-            break;
-        case 'ar':
-            rawData = landmarkData_ar;
-            break;
-        case 'ja':
-            rawData = landmarkData_ja;
-            break;
-        case 'zh':
-            rawData = landmarkData_zh;
-            break;
-        default:
-            rawData = landmarkData_en;
-    }
+    // Load new data structure: items_base.json + lang/{lang}.json
+    try {
+        // Load language-independent data
+        const baseResponse = await fetch('data/items_base.json');
+        const baseData = await baseResponse.json();
 
-    // Merge with Korean data to fill in missing structural fields
-    if (lang !== 'ko') {
-        allData = rawData.map(item => {
-            const koItem = landmarkData_ko.find(k => k.id === item.id);
-            if (koItem) {
+        // Load language-specific data
+        const langResponse = await fetch(`data/lang/${lang}.json`);
+        const langData = await langResponse.json();
+
+        // Merge by ID
+        allData = baseData.items.map(baseItem => {
+            const langItem = langData.items.find(l => l.id === baseItem.id);
+            if (langItem) {
                 return {
-                    ...koItem, // Start with Korean data (has num, photos, coordinates, etc.)
-                    ...item,   // Override with translated text fields
-                    num: koItem.num, // Ensure num from Korean
-                    photos: koItem.photos, // Ensure photos from Korean
-                    coordinates: koItem.coordinates, // Ensure coordinates from Korean
-                    lat: koItem.lat, // Ensure lat from Korean
-                    lng: koItem.lng, // Ensure lng from Korean
-                    scores: koItem.scores // Ensure scores from Korean
+                    ...baseItem,  // All language-independent data
+                    ...langItem   // All language-specific text
                 };
             }
-            return item;
+            return baseItem;
         });
-    } else {
+
+        console.log(`✅ Loaded ${allData.length} items for language: ${lang}`);
+    } catch (error) {
+        console.error('❌ Error loading data:', error);
+        // Fallback to old data structure if new files not found
+        console.warn('⚠️  Falling back to old data structure (db_*.js)');
+        let rawData;
+        switch(lang) {
+            case 'ko':
+                rawData = landmarkData_ko;
+                break;
+            case 'en':
+                rawData = landmarkData_en;
+                break;
+            case 'ar':
+                rawData = landmarkData_ar;
+                break;
+            case 'ja':
+                rawData = landmarkData_ja;
+                break;
+            case 'zh':
+                rawData = landmarkData_zh;
+                break;
+            default:
+                rawData = landmarkData_en;
+        }
         allData = rawData;
     }
 
@@ -380,10 +386,8 @@ function sortData(data) {
     if (currentSort === 'appeal') {
         // Sort by appeal score (descending)
         return [...data].sort((a, b) => {
-            const aScore = getRankingInfo(a.id).recommendation_score;
-            const bScore = getRankingInfo(b.id).recommendation_score;
-            if (aScore === '-') return 1;
-            if (bScore === '-') return -1;
+            const aScore = a.recommendation_score || 0;
+            const bScore = b.recommendation_score || 0;
             return bScore - aScore;
         });
     } else {
@@ -490,16 +494,15 @@ function renderTable() {
     filteredData.forEach((item) => {
         const config = categoryConfig[item.category] || {};
 
-        // Get popularity score from rankings data
-        const ranking = getRankingInfo(item.id);
-        const popularityScore = ranking.recommendation_score;
+        // Get popularity score from item data
+        const popularityScore = item.recommendation_score || '-';
 
         const tr = document.createElement('tr');
         tr.onclick = () => openModal(item.id);
         tr.innerHTML = `
             <td class="col-rank">${String(item.num).padStart(2, '0')}</td>
             <td class="col-photo">
-                <img src="${item.photos && item.photos[0] ? item.photos[0] : dummyImage}" alt="${item.title}" class="list-photo">
+                <img src="photos/${item.photo_folder || item.id}/01.jpg" onerror="this.src='${dummyImage}'" alt="${item.title}" class="list-photo">
             </td>
             <td class="col-name">
                 <div class="name-cell">
@@ -623,7 +626,7 @@ function createMarkerIcon(category) {
 function createTooltipContent(item) {
     const config = categoryConfig[item.category] || {};
     const categoryNames = getCategoryNames();
-    const photoSrc = item.photos && item.photos[0] ? item.photos[0] : dummyImage;
+    const photoSrc = `photos/${item.photo_folder || item.id}/01.jpg`;
 
     // Get popularity score
     let popularityScore = '-';
@@ -939,16 +942,25 @@ function openModal(id) {
     // Introduction
     document.getElementById('modalSummary').textContent = item.summary;
     
-    // Photos - 12개 (4x3), 데이터 없으면 더미
+    // Photos - Generate from photo_folder (try 01.jpg to 30.jpg)
     const galleryGrid = document.getElementById('modalGallery');
-    const photos = item.photos && item.photos.length > 0 ? item.photos : [];
-    currentGalleryImages = photos.length > 0 ? photos : Array(12).fill(dummyImage);
-    
+    const photoFolder = item.photo_folder || item.id;
+
+    // Generate photo paths (will try loading, use dummy on error)
+    const maxPhotos = 30; // Try up to 30 photos
+    const photos = [];
+    for (let i = 1; i <= maxPhotos; i++) {
+        const photoPath = `photos/${photoFolder}/${String(i).padStart(2, '0')}.jpg`;
+        photos.push(photoPath);
+    }
+
+    currentGalleryImages = photos;
+
+    // Display first 12 photos
     let galleryHTML = '';
     for (let i = 0; i < 12; i++) {
-        const imgSrc = photos[i] || dummyImage;
-        const isPlaceholder = !photos[i];
-        galleryHTML += `<img class="gallery-thumb ${isPlaceholder ? 'placeholder' : ''}" src="${imgSrc}" onclick="openGallery(${i})" alt="Photo ${i+1}">`;
+        const imgSrc = photos[i];
+        galleryHTML += `<img class="gallery-thumb" src="${imgSrc}" onerror="this.src='${dummyImage}'; this.classList.add('placeholder');" onclick="openGallery(${i})" alt="Photo ${i+1}">`;
     }
     galleryGrid.innerHTML = galleryHTML;
     
@@ -977,9 +989,8 @@ function openModal(id) {
         tipsList.innerHTML = '<li>방문 팁 준비 중</li>';
     }
 
-    // 6 Metrics display using new rankings data
+    // 6 Metrics display using data from item (already has all ranking info)
     try {
-        const ranking = getRankingInfo(item.id);
         const categoryNames = getCategoryNames();
 
         // Get elements
@@ -998,8 +1009,8 @@ function openModal(id) {
 
         // 1. 매력도 (Attractiveness Score) - 40-99 (no /99)
         if (popularityEl) {
-            if (ranking.recommendation_score !== '-') {
-                popularityEl.innerHTML = `<svg width="16" height="16" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:5px"><path d="M21 15H19L15.5 7L11 18L8 12L6 15H4" stroke="currentColor" stroke-width="1.2"/></svg>${ranking.recommendation_score}`;
+            if (item.recommendation_score) {
+                popularityEl.innerHTML = `<svg width="16" height="16" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:5px"><path d="M21 15H19L15.5 7L11 18L8 12L6 15H4" stroke="currentColor" stroke-width="1.2"/></svg>${item.recommendation_score}`;
             } else {
                 popularityEl.textContent = '-';
             }
@@ -1007,8 +1018,8 @@ function openModal(id) {
 
         // 2. 전체순위 (Overall Rank) - #X /101 (with /101 smaller)
         if (overallRankEl) {
-            if (ranking.overall_rank !== '-') {
-                overallRankEl.innerHTML = `#${ranking.overall_rank} <span class="rank-denominator">/101</span>`;
+            if (item.overall_rank) {
+                overallRankEl.innerHTML = `#${item.overall_rank} <span class="rank-denominator">/101</span>`;
             } else {
                 overallRankEl.textContent = '-';
             }
@@ -1016,8 +1027,8 @@ function openModal(id) {
 
         // 3. 카테고리순위 (Category Rank) - #X /total (with /total smaller)
         if (categoryRankEl) {
-            if (ranking.category_rank !== '-' && ranking.category_total !== '-') {
-                categoryRankEl.innerHTML = `#${ranking.category_rank} <span class="rank-denominator">/${ranking.category_total}</span>`;
+            if (item.category_rank && item.category_total) {
+                categoryRankEl.innerHTML = `#${item.category_rank} <span class="rank-denominator">/${item.category_total}</span>`;
             } else {
                 categoryRankEl.textContent = '-';
             }
@@ -1025,8 +1036,8 @@ function openModal(id) {
 
         // 4. 구글맵 평점 (Google Rating) - ★ X.X (star before number)
         if (gmScoreEl) {
-            if (ranking.google_rating && ranking.google_rating !== '-' && ranking.google_rating > 0) {
-                gmScoreEl.textContent = `★ ${ranking.google_rating.toFixed(1)}`;
+            if (item.gm_rating && item.gm_rating > 0) {
+                gmScoreEl.textContent = `★ ${item.gm_rating.toFixed(1)}`;
             } else {
                 gmScoreEl.textContent = '-';
             }
@@ -1034,12 +1045,12 @@ function openModal(id) {
 
         // 5. 유명세 (Fame) - Text label
         if (fameEl) {
-            fameEl.textContent = getFameLabel(ranking.fame_stars, currentLang);
+            fameEl.textContent = getFameLabel(item.fame_stars, currentLang);
         }
 
         // 6. 독특함 (Uniqueness) - Text label
         if (uniquenessEl) {
-            uniquenessEl.textContent = getUniquenessLabel(ranking.uniqueness, currentLang);
+            uniquenessEl.textContent = getUniquenessLabel(item.uniqueness, currentLang);
         }
     } catch (error) {
         console.error('Error displaying metrics:', error);
