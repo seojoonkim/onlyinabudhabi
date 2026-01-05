@@ -419,22 +419,20 @@ table th:nth-child(2) {
 .nearby-item:hover .nearby-distance { opacity: 0; }
 .nearby-item:hover .nearby-detail-btn { opacity: 1; }
 
-/* Score Summary Grid - 5x2 */
+/* Score Summary Grid - 5x2 Etihad Style */
 .score-summary-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 0; }
-.score-item { display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; text-align: center; padding: 6px 4px; background: linear-gradient(135deg, #fdfcfa 0%, #f9f6f1 100%); border-radius: 10px; border: 1px solid rgba(212,145,93,0.2); box-shadow: 0 1px 3px rgba(212,145,93,0.08), 0 1px 2px rgba(0,0,0,0.03); cursor: pointer; transition: all 0.3s ease; position: relative; }
-.score-item::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, rgba(212,145,93,0.05) 0%, rgba(201,125,61,0.08) 100%); opacity: 0; transition: opacity 0.3s ease; }
-.score-item:hover { transform: translateY(-3px); box-shadow: 0 4px 12px rgba(212,145,93,0.15), 0 2px 4px rgba(0,0,0,0.06); border-color: rgba(212,145,93,0.4); }
-.score-item:hover::before { opacity: 1; }
-.score-item:active { transform: translateY(-1px); }
-.score-icon { display: block; font-size: 20px; margin-bottom: 2px; opacity: 0.85; }
-.score-name { display: block; font-size: 11px; color: #8b7355; margin-bottom: 2px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; line-height: 1.2; white-space: normal; word-break: break-word; max-width: 100%; text-align: center; }
-.score-stars { display: block; font-size: 13px; color: #b8860b; font-weight: 700; line-height: 1; }
-.star-filled { color: #b8860b; }
+.score-item { display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: visible; text-align: center; padding: 12px 8px; background: #fff; border-radius: 8px; border: 1px solid #e8d5b8; box-shadow: 0 2px 4px rgba(0,0,0,0.08); cursor: pointer; transition: all 0.2s ease; position: relative; }
+.score-item:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.12); border-color: #d4915d; background: #fffbf7; }
+.score-item:active { transform: translateY(0); }
+.score-icon { display: block; font-size: 24px; margin-bottom: 6px; opacity: 0.9; }
+.score-name { display: block; font-size: 10px; color: #5a4a3a; margin-bottom: 6px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.2; white-space: normal; word-break: break-word; max-width: 100%; text-align: center; }
+.score-stars { display: block; font-size: 14px; color: #d4915d; font-weight: 700; line-height: 1; }
+.star-filled { color: #d4915d; }
 .star-empty { color: #e8d5b8; }
 
-/* Score Detail Cards - 2열 5행 = 10개 */
-.scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-.score-detail-card { background: linear-gradient(135deg, #fafbfc 0%, #f8f9fa 100%); border-radius: 12px; padding: 16px; border: none; transition: all 0.3s ease; }
+/* Score Detail Cards - 2열 5행 = 10개 Etihad Style */
+.scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.score-detail-card { background: #fff; border-radius: 8px; padding: 16px; border: 1px solid #e8d5b8; box-shadow: 0 2px 4px rgba(0,0,0,0.06); transition: all 0.3s ease; }
 .score-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; padding-bottom: 0; border-bottom: none; }
 .score-detail-title { display: flex; align-items: center; gap: 6px; }
 .score-detail-icon { font-size: 20px; opacity: 0.85; }
