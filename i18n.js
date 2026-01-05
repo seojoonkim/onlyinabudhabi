@@ -97,7 +97,7 @@ const i18n = {
         dbCount: " Activities",
         listView: "List",
         mapView: "Map",
-        aboutTitle: "A Comprehensive Guide to Abu Dhabi's Top 101 Attractions",
+        aboutTitle: "A Comprehensive Guide to Abu Dhabi's Top 101",
         aboutDesc: "Curated by DCT Abu Dhabi and systematically organized through analysis of over 30,000 authentic visitor reviews.",
         categoryAll: "All",
         landmark: "Landmarks",
