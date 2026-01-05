@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Only In Abu Dhabi | 101 Do's</title>
+    <link href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=4">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <a href="#" class="logo-link logo-main">Only In Abu Dhabi</a>
+            <a href="#" class="logo-link">
+                <span class="logo-divider">|</span>
+                <span class="logo-sub">아부다비 101가지 즐길거리</span>
+            </a>
+        </div>
+        
+        <div class="header-center">
+            <nav class="view-tabs">
+                <button class="view-tab active" data-view="list">리스트</button>
+                <button class="view-tab" data-view="map">지도</button>
+            </nav>
+        </div>
+        
+        <div class="header-right">
+            <div class="lang-selector">
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="ar">ع</button>
+                <button class="lang-btn" data-lang="ko">한</button>
+                <button class="lang-btn" data-lang="zh">中</button>
+                <button class="lang-btn" data-lang="ja">日</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main-container">
+        <!-- About Section -->
+        <div class="about-section">
+            <h2 class="about-title" id="aboutTitle">아부다비 대표 즐길거리 101가지</h2>
+            <p class="about-desc" id="aboutDesc">
+                아부다비 문화관광청(DCT Abu Dhabi)이 엄선하고, 8만개 이상의 후기 데이터 분석을 통해 체계적으로 정리했습니다.
+            </p>
+        </div>
+
+        <!-- Filters -->
+        <div class="filter-bar">
+            <div class="filter-group" id="categoryFilters">
+                <button class="filter-btn active" data-category="all">전체</button>
+                <button class="filter-btn" data-category="landmark">🏛️ 명소/랜드마크</button>
+                <button class="filter-btn" data-category="themepark">🎢 테마파크</button>
+                <button class="filter-btn" data-category="dining">🍽️ 다이닝</button>
+                <button class="filter-btn" data-category="beach">🏖️ 비치/리조트</button>
+                <button class="filter-btn" data-category="culture">🎨 문화/예술</button>
+                <button class="filter-btn" data-category="adventure">🏄 어드벤처</button>
+                <button class="filter-btn" data-category="shopping">🛍️ 쇼핑</button>
+                <button class="filter-btn" data-category="nature">🦁 자연/야생</button>
+            </div>
+
+            <!-- Score Filters -->
+            <div class="filter-group score-filters" id="scoreFilters">
+                <button class="score-filter-btn active" data-score="all">All</button>
+                <button class="score-filter-btn" data-score="photo">📷 사진촬영</button>
+                <button class="score-filter-btn" data-score="culture">🎭 문화체험</button>
+                <button class="score-filter-btn" data-score="activity">🎯 액티비티</button>
+                <button class="score-filter-btn" data-score="relaxation">🧘 휴식</button>
+                <button class="score-filter-btn" data-score="peaceful">🌿 한적함</button>
+                <button class="score-filter-btn" data-score="couple">💑 커플</button>
+                <button class="score-filter-btn" data-score="family">👨‍👩‍👧 가족</button>
+                <button class="score-filter-btn" data-score="solo">🚶 혼자여행</button>
+                <button class="score-filter-btn" data-score="tourist">🌍 외국인관심</button>
+                <button class="score-filter-btn" data-score="accessibility">🚇 접근성</button>
+            </div>
+        </div>
+
+        <!-- Filter Result Count -->
+        <div class="filter-result">
+            <div class="sort-options">
+                <button class="sort-btn active" data-sort="number">번호순</button>
+                <span class="sort-divider">|</span>
+                <button class="sort-btn" data-sort="appeal">Appeal 점수순</button>
+            </div>
+            <div class="result-count">
+                <span id="filteredCount">101</span> Results
+            </div>
+        </div>
+
+        <!-- List View -->
+        <div class="landmark-table-wrap" id="listView">
+            <table class="landmark-table">
+                <thead>
+                    <tr>
+                        <th class="col-rank">#</th>
+                        <th class="col-photo"></th>
+                        <th class="col-name">이름</th>
+                        <th class="col-category">카테고리</th>
+                        <th class="col-location">지역</th>
+                        <th class="col-duration">소요시간</th>
+                        <th class="col-popularity">인기도</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+        
+        <!-- Map View -->
+        <div class="map-container" id="mapView" style="display: none;">
+            <div id="map"></div>
+        </div>
+    </main>
+
+    <!-- Detail Modal -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal modal-wide">
+            
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <div class="modal-header-left">
+                    <h2 class="modal-name" id="modalName"></h2>
+                    <div class="modal-place-row">
+                        <span class="modal-place-name" id="modalPlaceName"></span>
+                        <span class="modal-tag" id="modalTag"></span>
+                    </div>
+                </div>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            
+            <!-- Modal Body: 2 Column -->
+            <div class="modal-body-two-col">
+                
+                <!-- Left Column -->
+                <div class="modal-col-left">
+                    <div class="modal-section">
+                        <h3><span class="section-icon">⭐</span> <span id="sectionIntroText">Introduction</span></h3>
+                        <div class="intro-box">
+                            <p class="intro-summary" id="modalSummary"></p>
+                        </div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3><span class="section-icon">📷</span> <span id="sectionPhotosText">Photos</span></h3>
+                        <div class="gallery-grid" id="modalGallery"></div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3><span class="section-icon">🕐</span> <span id="sectionInfoText">Information</span></h3>
+                        <div class="info-grid">
+                            <div class="info-item"><span class="info-label" id="labelAdmission">Admission</span><span class="info-value" id="modalAdmission">-</span></div>
+                            <div class="info-item"><span class="info-label" id="labelHours">Hours</span><span class="info-value" id="modalHours">-</span></div>
+                            <div class="info-item"><span class="info-label" id="labelClosed">Closed</span><span class="info-value" id="modalClosed">-</span></div>
+                            <div class="info-item"><span class="info-label" id="labelDuration">Duration</span><span class="info-value" id="modalDuration">-</span></div>
+                            <div class="info-item full-width"><span class="info-label" id="labelStation">Nearest Station</span><span class="info-value" id="modalStation">-</span></div>
+                        </div>
+                    </div>
+
+                    <div class="modal-section" id="tipsSection">
+                        <h3><span class="section-icon">💡</span> <span id="sectionVisitorTipsText">Visitor Tips</span></h3>
+                        <ul class="tips-list" id="modalTips"></ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3><span class="section-icon">📍</span> <span id="sectionAddressText">Address</span></h3>
+                        <div class="address-box">
+                            <span class="address-text" id="modalAddress">-</span>
+                            <button class="copy-btn" onclick="copyAddress()">Copy</button>
+                        </div>
+                        <div class="modal-actions">
+                            <a class="action-btn google" id="modalGoogleMap" href="#" target="_blank">
+                                <img src="https://www.google.com/favicon.ico" alt="" class="btn-favicon"> Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Column -->
+                <div class="modal-col-right">
+                    <div class="modal-section">
+                        <h3><span class="section-icon">⚡</span> <span id="sectionPopularityText">순위 및 매력도</span></h3>
+                        <div class="metrics-grid">
+                            <!-- Row 1: Score-based metrics -->
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelPopularity">매력도</span>
+                                <span class="metric-value" id="popPopularity">-</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelOverallRank">전체순위</span>
+                                <span class="metric-value" id="popOverallRank">-</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-label" id="popCategoryLabel">카테고리순위</span>
+                                <span class="metric-value" id="popCategoryRank">-</span>
+                            </div>
+                            <!-- Row 2: Star-based metrics -->
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelGMapScore">구글맵 평점</span>
+                                <span class="metric-value" id="popGmScore">-</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelFame">유명세</span>
+                                <span class="metric-value metric-stars" id="popFame">-</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-label" id="labelUniqueness">독특함</span>
+                                <span class="metric-value metric-stars" id="popUniqueness">-</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3><span class="section-icon">📄</span> <span id="sectionDescriptionText">Description</span></h3>
+                        <p class="detail-description" id="modalDescription"></p>
+                    </div>
+                    
+                    <div class="map-nearby-row">
+                        <div class="modal-section map-section">
+                            <h3><span class="section-icon">🗺️</span> <span id="sectionLocationText">Location</span></h3>
+                            <div class="spot-map-container" id="spotMapContainer"></div>
+                        </div>
+
+                        <div class="modal-section nearby-section">
+                            <h3><span class="section-icon">🎯</span> <span id="sectionNearbyText">Nearby</span></h3>
+                            <ul class="nearby-list" id="modalNearby"></ul>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-section">
+                        <h3><span class="section-icon">📊</span> <span id="scoreSummaryText">Score Summary</span></h3>
+                        <div class="score-summary-grid" id="modalScoreSummary"></div>
+                    </div>
+
+                    <div class="modal-section">
+                        <h3><span class="section-icon">📋</span> <span id="detailedEvalText">Detailed Evaluation</span></h3>
+                        <div class="scores-grid-2col" id="modalScoresList"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Gallery Modal -->
+    <div class="gallery-overlay" id="galleryModal">
+        <button class="gallery-close" onclick="closeGallery()">✕</button>
+        <button class="gallery-nav gallery-prev" onclick="navigateGallery(-1)">‹</button>
+        <button class="gallery-nav gallery-next" onclick="navigateGallery(1)">›</button>
+        <div class="gallery-content">
+            <img id="galleryImage" src="" alt="">
+            <div class="gallery-info">
+                <span id="galleryCounter">1 / 12</span>
+            </div>
+            <div class="gallery-thumbnails" id="galleryThumbnails"></div>
+        </div>
+    </div>
+
+    <script src="db_ko.js"></script>
+    <script src="db_en.js"></script>
+    <script src="db_ar.js"></script>
+    <script src="db_ja.js"></script>
+    <script src="db_zh.js"></script>
+    <script src="i18n.js"></script>
+    <script src="load_rankings.js"></script>
+    <script src="app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfHgqFqiNHlO2MzLKn3H1PBl55kIY8Mzg" async defer></script>
+</body>
+</html>
