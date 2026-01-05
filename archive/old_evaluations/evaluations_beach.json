@@ -1,0 +1,1857 @@
+{
+  "total_beach_items": 17,
+  "evaluation_date": "2026-01-05",
+  "evaluations": {
+    "saadiyat-beach-club": {
+      "id": "saadiyat-beach-club",
+      "title": "Where Yalla Meets Bonjour",
+      "place_name": "Saadiyat Beach Club",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 2,
+        "experience_quality": 4,
+        "authenticity": 4,
+        "accessibility": 3,
+        "overall_recommendation": 6
+      },
+      "evaluation_summary": "Saadiyat Beach offers pristine white sand and turquoise waters on Abu Dhabi's cultural island, but the steep entrance fee (225 AED) has sparked significant controversy. While the natural beauty is undeniable, the transition from public to paid-access beach has created accessibility concerns for budget-conscious visitors.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Part of Saadiyat Island's protected turtle nesting area with genuine ecological significance",
+          "White sand quality is exceptional compared to most UAE beaches",
+          "Located on Abu Dhabi's cultural district island near world-class museums",
+          "However, similar beach quality exists elsewhere in UAE without such high fees"
+        ],
+        "value_for_money": [
+          "Entrance fee of 225 AED per adult (approximately 60 USD) is significantly higher than global beach club standards",
+          "Family packages (500 AED for 2 adults + 2 kids) make it prohibitively expensive for families",
+          "No longer a public beach, which has frustrated both residents and tourists",
+          "Facilities are basic for the price point - mainly just beach access",
+          "Comparable beach experiences in Thailand, Malaysia, or even Dubai offer better value"
+        ],
+        "experience_quality": [
+          "Natural beach beauty is genuinely stunning with soft white sand and clear blue water",
+          "Well-maintained and clean beach environment",
+          "Protected area means less crowding and better preservation",
+          "Very salty water noted by reviewers, which can be uncomfortable for swimming",
+          "Peaceful ambience when weather permits"
+        ],
+        "authenticity": [
+          "Protected environmental area for endangered sea turtles adds ecological authenticity",
+          "Natural beach setting without excessive commercial development",
+          "Genuine coastal ecosystem preservation efforts",
+          "Beach access restrictions reduce the authentic 'public beach' experience"
+        ],
+        "accessibility": [
+          "Located on Saadiyat Island, requiring transportation from mainland Abu Dhabi",
+          "High entrance fee creates economic accessibility barrier",
+          "Limited free beach access in area after privatization",
+          "Parking and facilities are adequate for paying guests",
+          "Weather-dependent - strong winds can limit swimming"
+        ],
+        "overall_recommendation": [
+          "Beautiful beach setting with excellent sand and water quality",
+          "Significant value concerns due to high entrance fees",
+          "Worth visiting if budget allows and you prioritize pristine beach environment",
+          "Consider dining at beachfront hotels for alternative beach access",
+          "Not recommended for budget travelers or families with multiple children due to cost",
+          "Better value beach options exist in the region"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 3.6,
+        "review_count": 769,
+        "filtered_review_count": 150,
+        "positive_themes": [
+          "Stunning white sand and beautiful water",
+          "Clean and well-maintained beach",
+          "Peaceful and less crowded atmosphere",
+          "Protected turtle nesting area",
+          "Excellent beach quality"
+        ],
+        "negative_themes": [
+          "Extremely expensive entrance fee (225 AED)",
+          "No longer a public beach",
+          "Not suitable for budget travelers",
+          "Family packages too expensive",
+          "Better value beaches exist elsewhere",
+          "Water is very salty",
+          "Strong winds can prevent swimming"
+        ],
+        "standout_quotes": [
+          "Expensive but beautiful.",
+          "225 дерхам. Был ветер. Купаться нельзя, без зонтиков. Полежать на пляже 100 евро с человека. Отказались",
+          "Private beach 200 aed just for sand avoid hard and let them go bankrupt. First thought was nice beach but nothing special.",
+          "I'm sorry, private beach? What's next private air?",
+          "Saadiyat Beach is a protected area, carefully preserved for its natural beauty... soft white sand and gentle waves at your feet"
+        ]
+      },
+      "best_for": [
+        "Visitors prioritizing pristine beach quality",
+        "Nature lovers interested in turtle conservation",
+        "Luxury travelers not concerned about cost",
+        "Those seeking uncrowded beach experience"
+      ],
+      "avoid_if": [
+        "You're on a budget",
+        "Traveling with a large family",
+        "Looking for value-for-money beach experience",
+        "Prefer public beach atmosphere",
+        "Sensitive to very salty water"
+      ]
+    },
+    "st-regis": {
+      "id": "st-regis",
+      "title": "Colorful Cooldown",
+      "place_name": "St. Regis Saadiyat",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "The St. Regis Saadiyat Island Resort delivers a world-class luxury beach resort experience with exceptional service, pristine beach access, and outstanding facilities. While expensive, the 24/7 butler service and attention to detail justify the premium pricing for those seeking top-tier hospitality.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "24/7 butler service is rare even among luxury resorts globally",
+          "Breakfast served until 13:00 - exceptional for late sleepers",
+          "Adults-only beach zone provides exclusive tranquility",
+          "Integrated with turtle conservation efforts on Saadiyat Island",
+          "Personalized service where staff remember guest preferences"
+        ],
+        "value_for_money": [
+          "Premium pricing reflects luxury resort standards",
+          "Exceptional staff service adds significant value",
+          "High-quality dining across multiple restaurants",
+          "24/7 butler and concierge services included",
+          "Breakfast and dinner buffet quality justifies cost",
+          "Some guests noted room layout inefficiencies and gnat issues by pool"
+        ],
+        "experience_quality": [
+          "Consistently outstanding service across all touchpoints",
+          "Staff remember individual guest names and preferences",
+          "Impeccable cleanliness throughout property",
+          "Beautiful beach with soft white sand and excellent facilities",
+          "Large pool complex with attentive staff",
+          "Multiple high-quality dining options",
+          "Modern, comfortable rooms (though some layout quirks noted)"
+        ],
+        "authenticity": [
+          "Turtle nesting site protection shows environmental commitment",
+          "Luxury resort experience is highly polished but less culturally authentic",
+          "International luxury brand standard experience",
+          "Beautiful natural beach setting preserved"
+        ],
+        "accessibility": [
+          "Located on Saadiyat Island, 20-30 minutes from Abu Dhabi center",
+          "Well-connected with taxi and ride-sharing services",
+          "Integrated with Saadiyat residential area for nearby amenities",
+          "Day pass options available for non-guests",
+          "Large gym and indoor pool facilities"
+        ],
+        "overall_recommendation": [
+          "One of Abu Dhabi's finest luxury beach resorts",
+          "Exceptional service quality consistently praised by guests",
+          "Perfect for special occasions and luxury family holidays",
+          "Staff like Satya, Aman, and Jibin frequently mentioned for outstanding service",
+          "Breakfast until 1 PM is unique advantage for holiday relaxation",
+          "Highly recommended for those who can afford premium pricing",
+          "Excellent for both couples and families with children"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 4396,
+        "filtered_review_count": 200,
+        "positive_themes": [
+          "Exceptional staff service and attention to detail",
+          "24/7 butler service outstanding",
+          "Beautiful beach and pool facilities",
+          "Excellent food quality across all restaurants",
+          "Staff remember guest preferences",
+          "Immaculately clean property",
+          "Late breakfast (until 13:00) highly appreciated",
+          "Adults-only beach zone",
+          "Turtle conservation efforts"
+        ],
+        "negative_themes": [
+          "Some room layout inefficiencies",
+          "Lack of plugs by bedside",
+          "Gnats near pool area",
+          "Occasional service inconsistencies",
+          "Premium pricing",
+          "Some breakfast service issues noted"
+        ],
+        "standout_quotes": [
+          "This is the best hotel I have ever stayed. There is simply nothing like it",
+          "While many reviews discuss the great property amenities, we left in awe of how every member of the staff made us feel welcome",
+          "Das St. Regis Saadiyat Island ist ein herausragendes Resort, das besonders für Familien keine Wünsche offen lässt",
+          "Satya did Best Service at the Beach always remembered my Drinks and Name",
+          "Excellent service especially from Haidy who went above and beyond"
+        ]
+      },
+      "best_for": [
+        "Luxury travelers seeking world-class service",
+        "Special occasions and celebrations",
+        "Families wanting premium resort experience",
+        "Couples seeking romantic beach getaway",
+        "Those who appreciate personalized butler service",
+        "Late sleepers (breakfast until 1 PM)"
+      ],
+      "avoid_if": [
+        "You're budget-conscious",
+        "Prefer boutique over international luxury brands",
+        "Looking for cultural immersion experience",
+        "Bothered by gnats near pools"
+      ]
+    },
+    "jumeirah-saadiyat": {
+      "id": "jumeirah-saadiyat",
+      "title": "Recharge in Real Time",
+      "place_name": "Jumeirah Saadiyat",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Jumeirah Saadiyat Island Resort delivers an exceptional family-friendly luxury beach experience with outstanding facilities, excellent dining, and consistently praised service. While premium-priced, the quality of accommodations, beach access, and kids' facilities make it worth the investment for families.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Exceptional kids club that children genuinely enjoy",
+          "Large, spacious rooms with modern Arabian design",
+          "Fantastic beach with dedicated service staff",
+          "Multiple dining venues with high culinary standards",
+          "Staff like Ziya (butler service) provide personalized attention"
+        ],
+        "value_for_money": [
+          "Acknowledged as overpriced by guests but worth it for quality received",
+          "All-inclusive and day-pass options provide flexibility",
+          "High food quality across breakfast, lunch, and dinner",
+          "Excellent kids' facilities add value for families",
+          "Beach bar and pool service included",
+          "Premium resort standards reflected in pricing"
+        ],
+        "experience_quality": [
+          "Consistently outstanding service across all departments",
+          "Staff are friendly, helpful, and remember guest names",
+          "Beautiful, well-maintained beach with soft sand",
+          "Excellent pool facilities",
+          "High-quality food at Mare Mare, White, and other restaurants",
+          "Rooms are spacious, clean, and modern",
+          "Kids club is exceptional and engaging for children"
+        ],
+        "authenticity": [
+          "International luxury brand with polished resort experience",
+          "Natural beach setting on Saadiyat Island",
+          "Less focused on local cultural experience",
+          "Beautiful views and Arabian-inspired architecture"
+        ],
+        "accessibility": [
+          "Located on Saadiyat Island with good road connectivity",
+          "Valet parking available (some complaints about valet staff)",
+          "20-30 minutes from Abu Dhabi city center",
+          "Easy access to cultural attractions on Saadiyat",
+          "Day passes available for non-resort guests"
+        ],
+        "overall_recommendation": [
+          "One of Abu Dhabi's best family-friendly luxury resorts",
+          "Exceptional service quality with staff like Walid, Khamdam, Puja, and Robert frequently praised",
+          "Outstanding kids club makes it ideal for families with children",
+          "Beautiful beach and excellent dining experiences",
+          "Overpriced but delivers quality worth the premium",
+          "Perfect for relaxing family vacations",
+          "Highly recommended for those prioritizing service and facilities over budget"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 3172,
+        "filtered_review_count": 180,
+        "positive_themes": [
+          "Exceptional staff service and friendliness",
+          "Outstanding kids club",
+          "Beautiful beach and pool facilities",
+          "Excellent food quality",
+          "Spacious, modern rooms",
+          "Great for families",
+          "Staff remember guest preferences",
+          "Butler service (Ziya) highly praised",
+          "Mare Mare restaurant excellent"
+        ],
+        "negative_themes": [
+          "Overpriced",
+          "Some valet parking issues",
+          "Premium pricing may not suit all budgets"
+        ],
+        "standout_quotes": [
+          "It is an amazing experience in Abu Dhabi! Nice hotel, large rooms, tasty food, fantastic views and wonderful beach.",
+          "The kids club is so good and the kids enjoyed their time in it.",
+          "Beautiful and top tier hotel on the beach. The rooms are great, the location is perfect and food is amazing.",
+          "Amazing family resort. Special thanks to Khamdam, Puja, Robert and Jaq for taking the extra mile",
+          "Lovely beach. Lovely waters. And Walid really took care of us. Food was amazing."
+        ]
+      },
+      "best_for": [
+        "Families with children",
+        "Luxury travelers seeking excellent service",
+        "Beach lovers wanting pristine facilities",
+        "Those who value high-quality dining",
+        "Multi-generational family trips",
+        "Special family celebrations"
+      ],
+      "avoid_if": [
+        "You're budget-conscious",
+        "Traveling without children and prefer adults-only venues",
+        "Looking for cultural immersion",
+        "Want affordable beach access"
+      ]
+    },
+    "rixos-saadiyat": {
+      "id": "rixos-saadiyat",
+      "title": "Book Your Stylish Siesta",
+      "place_name": "Rixos Premium Saadiyat",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 4,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 9
+      },
+      "evaluation_summary": "Rixos Premium Saadiyat offers exceptional all-inclusive luxury with stunning facilities, outstanding dining variety, and crystal-clear beach waters. The comprehensive package, multiple restaurants, and family-friendly amenities make it one of Abu Dhabi's best value luxury resorts.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "All-inclusive ultra-luxury resort model rare in UAE",
+          "Six specialty restaurants plus main buffet offering incredible variety",
+          "Crystal-clear waters and pristine beach",
+          "Russian-speaking staff available (unique for Gulf region)",
+          "Evening entertainment and gala events",
+          "Chinese, Italian, Greek, and steakhouse à la carte options"
+        ],
+        "value_for_money": [
+          "All-inclusive model offers excellent value with unlimited food and premium drinks",
+          "Multiple high-quality restaurants included in package",
+          "No hidden costs for dining or entertainment",
+          "Premium alcohol and cocktails included",
+          "Kids eat free as part of family packages",
+          "Better value than pay-per-meal luxury resorts",
+          "Some guests note buffet closure 4-7 PM inconvenient for families with young children"
+        ],
+        "experience_quality": [
+          "Exceptional service across all touchpoints",
+          "Staff like Ahron Lester, Valeria, Supriya consistently praised",
+          "Beautiful, modern hotel design",
+          "Pristine beach with excellent facilities",
+          "Varied, high-quality cuisine across all restaurants",
+          "Chinese restaurant particularly outstanding",
+          "Clean, elegant rooms",
+          "Large pool and beach areas"
+        ],
+        "authenticity": [
+          "International resort experience with Turkish hospitality influence",
+          "Less focus on local Emirati culture",
+          "Natural beach environment preserved",
+          "More polished resort experience than authentic cultural immersion"
+        ],
+        "accessibility": [
+          "Located on Saadiyat Island, well-connected to Abu Dhabi",
+          "Easy access to cultural attractions",
+          "Ample parking",
+          "Day passes available for non-guests",
+          "Family-friendly layout and facilities"
+        ],
+        "overall_recommendation": [
+          "One of the best all-inclusive luxury resorts in the UAE",
+          "Outstanding value for money given quality and variety included",
+          "Exceptional for families with comprehensive kids' facilities",
+          "Chinese and Italian restaurants are standouts",
+          "Perfect for extended stays due to dining variety",
+          "Consistent five-star service quality",
+          "Highly recommended for vacation luxury without budget surprises",
+          "Third-year returning guests speak to consistent quality"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 5429,
+        "filtered_review_count": 220,
+        "positive_themes": [
+          "Excellent all-inclusive value",
+          "Outstanding food quality and variety",
+          "Crystal-clear beach waters",
+          "Exceptional staff service",
+          "Russian-speaking staff available",
+          "Multiple high-quality restaurants",
+          "Chinese and Italian restaurants outstanding",
+          "Beautiful, clean property",
+          "Great for families",
+          "Premium drinks included",
+          "Staff like Valeria, Ahron, Supriya excellent"
+        ],
+        "negative_themes": [
+          "Main buffet closes 4-7 PM (inconvenient for young children)",
+          "Limited kids menu variety (mainly nuggets and chips)",
+          "Late turndown service (9:30 PM too late for families)",
+          "Greek and steak restaurants not as strong as Chinese/Italian"
+        ],
+        "standout_quotes": [
+          "Five-star experience from start to finish! The hotel is a paradise with crystal-clear waters and top-notch facilities.",
+          "Третий год подряд с вами. Очень довольны сервисом, едой, обслуживаем.",
+          "Perfect vacation",
+          "Ahron Lester is best waiter",
+          "The Chinese and the Italian were really of a very high standard."
+        ]
+      },
+      "best_for": [
+        "Families seeking all-inclusive luxury",
+        "Food enthusiasts wanting variety",
+        "Extended vacations (5+ days)",
+        "Budget-conscious luxury travelers",
+        "Russian-speaking travelers",
+        "Those who want predictable costs",
+        "Multi-generational family trips"
+      ],
+      "avoid_if": [
+        "You have very young children needing 4-7 PM dining",
+        "Prefer boutique over large resort experiences",
+        "Want authentic cultural immersion",
+        "Prefer pay-as-you-go dining flexibility"
+      ]
+    },
+    "cafe-del-mar": {
+      "id": "cafe-del-mar",
+      "title": "Book Your Next Daycation",
+      "place_name": "Cafe Del Mar",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 4,
+        "experience_quality": 5,
+        "authenticity": 2,
+        "accessibility": 5,
+        "overall_recommendation": 9
+      },
+      "evaluation_summary": "Cafe Del Mar Abu Dhabi brings iconic Ibiza beach club vibes to Yas Island with exceptional weekend brunches, DJ sets, and stunning waterfront ambience. The perfect blend of relaxation and party atmosphere makes it the top beach club experience in Abu Dhabi.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Only Cafe Del Mar location in the Middle East, bringing authentic Ibiza vibes",
+          "Friday and Saturday brunches (1-4 PM) with DJ entertainment",
+          "Jacuzzi access after brunch - unique offering",
+          "Sunset chill-out music sessions true to Cafe Del Mar heritage",
+          "Pool, beach access, and club atmosphere in one venue",
+          "Stylish, Mediterranean-inspired design on Yas Bay waterfront"
+        ],
+        "value_for_money": [
+          "Brunch packages offer good value with food, drinks, and pool/jacuzzi access",
+          "Quality food and premium drinks included in packages",
+          "Day passes provide full access to facilities",
+          "More affordable than luxury resort day passes",
+          "Excellent cocktail quality",
+          "Good portion sizes and variety"
+        ],
+        "experience_quality": [
+          "Consistently excellent food quality",
+          "Outstanding cocktails and drink selection",
+          "Professional DJ sets and music curation",
+          "Friendly, attentive staff",
+          "Beautiful waterfront views",
+          "Clean, well-maintained facilities",
+          "Pistachio tarts and sushi particularly praised",
+          "Relaxed yet vibrant atmosphere",
+          "Perfect sunset viewing location"
+        ],
+        "authenticity": [
+          "Authentic Cafe Del Mar brand from Ibiza",
+          "International beach club concept rather than local culture",
+          "True to original Ibiza chill-out music philosophy",
+          "Less about Emirati authenticity, more about global beach club culture"
+        ],
+        "accessibility": [
+          "Located on Yas Island with excellent connectivity",
+          "Easy access from Abu Dhabi and Dubai",
+          "Ample parking available",
+          "Public transportation options",
+          "Open to all (not hotel-guests only)",
+          "Clear booking and reservation system"
+        ],
+        "overall_recommendation": [
+          "Best beach club experience in Abu Dhabi",
+          "Perfect for weekend brunches with friends",
+          "Highly recommended for Friday/Saturday day-drinking sessions",
+          "Excellent for special occasions and celebrations",
+          "Ideal sunset venue with amazing ambience",
+          "Top choice for those seeking Ibiza-style beach club vibes in UAE",
+          "Consistently praised for food, drinks, music, and atmosphere",
+          "Must-visit for beach club enthusiasts",
+          "One noise complaint noted, but overall overwhelmingly positive"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 2931,
+        "filtered_review_count": 200,
+        "positive_themes": [
+          "Amazing vibes and atmosphere",
+          "Excellent food quality",
+          "Outstanding cocktails",
+          "Perfect brunch experience",
+          "Great DJ and music",
+          "Beautiful waterfront views",
+          "Friendly, attentive staff",
+          "Relaxed yet fun atmosphere",
+          "Jacuzzi access after brunch",
+          "Best beach club in Abu Dhabi",
+          "Ibiza vibes in UAE",
+          "Perfect sunset spot"
+        ],
+        "negative_themes": [
+          "Can be loud (one complaint about noise)",
+          "Party atmosphere not for everyone"
+        ],
+        "standout_quotes": [
+          "Cafe del Mar Abu Dhabi is hands down one of the best beach clubs in the city.",
+          "Amazing vibe of Ibiza in Abu Dhabi. Delicious food, amazing cocktails and ambiance.",
+          "I spent my Sunday brunch at Cafe del Mar, and honestly, it felt like a mini holiday without leaving the city.",
+          "The highlight was definitely being able to enjoy the jacuzzi after brunch — it made the whole plan feel unique and unforgettable.",
+          "Cafedelmar is a great place with great food and hospitality... I recommend 10/10 the best beach club in Abudhabi."
+        ]
+      },
+      "best_for": [
+        "Weekend brunch enthusiasts",
+        "Groups of friends seeking fun day out",
+        "Sunset cocktail lovers",
+        "Beach club and party atmosphere fans",
+        "Those seeking Ibiza vibes in UAE",
+        "Day-drinkers wanting full entertainment package",
+        "Instagram-worthy venue seekers",
+        "Special celebrations"
+      ],
+      "avoid_if": [
+        "You prefer quiet, peaceful beaches",
+        "Not comfortable with party/club atmosphere",
+        "Traveling with young children",
+        "Sensitive to loud music",
+        "Seeking traditional beach experience"
+      ]
+    },
+    "surf-abudhabi": {
+      "id": "surf-abudhabi",
+      "title": "Fortune Favors the Wave Rider",
+      "place_name": "Surf Abu Dhabi",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 1,
+        "accessibility": 4,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Surf Abu Dhabi is a world-class wave pool facility offering consistent, perfect waves for all skill levels from beginners to advanced surfers. While expensive, the professional coaching, state-of-the-art technology, and overall experience make it a unique attraction in the Middle East.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "World's largest wave pool using Kelly Slater Wave Company technology",
+          "Only facility of its kind in the Middle East",
+          "Perfect, consistent waves on demand - impossible in natural ocean",
+          "Professional coaching from international surf instructors",
+          "Multiple wave settings from beginner to advanced barrel waves",
+          "Completely unique experience - artificial surfing in the desert"
+        ],
+        "value_for_money": [
+          "Expensive but pricing reflects world-class facility and technology",
+          "Likely subsidized by UAE to attract tourism",
+          "Surf Social package offers more affordable group option",
+          "Coaching sessions provide excellent value for skill development",
+          "Cheaper than traveling to remote Pacific surf destinations",
+          "All equipment (boards, wetsuits) included",
+          "Food and beverage at Nalu restaurant on-site"
+        ],
+        "experience_quality": [
+          "World-class facility with top-tier equipment",
+          "Exceptional coaching staff (Dion, Ivan, Pedro, Rudi frequently praised)",
+          "Professional video analysis from jet skis",
+          "State-of-the-art facilities: gym, lockers, showers",
+          "Massive board selection",
+          "Family-friendly with pool and open spaces",
+          "Excellent hospitality and positive energy from staff",
+          "Clean, well-maintained throughout"
+        ],
+        "authenticity": [
+          "Completely artificial - wave pool in desert lacks ocean authenticity",
+          "Technology-driven experience rather than natural environment",
+          "Professional surf coaching is authentic",
+          "More about innovation showcase than cultural experience"
+        ],
+        "accessibility": [
+          "Located on Hudayriyat Island, easily accessible from Abu Dhabi",
+          "Clear booking system online",
+          "Multiple session times available",
+          "Suitable for all skill levels from complete beginners",
+          "Family facilities available",
+          "Surf Social option makes it accessible for groups"
+        ],
+        "overall_recommendation": [
+          "Must-visit for surf enthusiasts of all levels",
+          "World-class facility with exceptional coaching",
+          "Perfect for learning to surf in controlled environment",
+          "Experienced surfers can practice barrels safely",
+          "Unique attraction worth the premium price",
+          "Staff like Dion, Ivan, Pedro, Rudi, Esther provide outstanding service",
+          "Recommended for families with Surf Social package",
+          "One of the most innovative attractions in Abu Dhabi",
+          "Not essential for non-surfers but impressive to experience"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 227,
+        "filtered_review_count": 80,
+        "positive_themes": [
+          "World-class facility and equipment",
+          "Exceptional coaching staff",
+          "Perfect, consistent waves",
+          "Professional and friendly team",
+          "Great for all skill levels",
+          "Outstanding hospitality",
+          "State-of-the-art technology",
+          "Clean, well-maintained",
+          "Family-friendly with Surf Social",
+          "Video analysis helpful",
+          "Nalu restaurant food good"
+        ],
+        "negative_themes": [
+          "Expensive",
+          "Artificial rather than ocean surfing"
+        ],
+        "standout_quotes": [
+          "it was amazing!! perfect conditions, really nice and helpful team and learned a lot!!",
+          "Surf Abu Dhabi is an amazing place to relax, learn how to surf as a beginner, and catch some perfect barrels for intermediate surfers.",
+          "Facility and staff were outstanding. Amazing wave pool and top notch facilities built around it.",
+          "This is really The Best experience to upgrade your surfing skills!! the coaches are so professional and so friendly",
+          "Rudi is the best instructor ever. He managed to explain every little detail.",
+          "Special thanks to ( Esther ) for her great service"
+        ]
+      },
+      "best_for": [
+        "Surf enthusiasts of all levels",
+        "Beginners wanting to learn in safe environment",
+        "Experienced surfers wanting barrel practice",
+        "Families with Surf Social package",
+        "Those seeking unique sports experiences",
+        "Photography/video enthusiasts",
+        "Groups of friends",
+        "Adventure seekers"
+      ],
+      "avoid_if": [
+        "You're on tight budget",
+        "Not interested in surfing",
+        "Prefer natural ocean experience",
+        "Want traditional beach relaxation",
+        "Seeking cultural attractions"
+      ]
+    },
+    "hudayriyat": {
+      "id": "hudayriyat",
+      "title": "Experience Glamping in Style",
+      "place_name": "Hudayriyat Island",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 5,
+        "experience_quality": 4,
+        "authenticity": 3,
+        "accessibility": 5,
+        "overall_recommendation": 9
+      },
+      "evaluation_summary": "Al Hudayriyat Island is Abu Dhabi's premier public beach and recreational destination offering free beach access, excellent cycling/running paths, clean facilities, and stunning sunsets. The thoughtful design and diverse amenities make it perfect for families, active individuals, and anyone seeking a relaxed beach experience.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Extensive cycling and running tracks rare for UAE beach destinations",
+          "Glamping facilities (Hudayriyat Camp) unique in Abu Dhabi",
+          "Adventure sports area with water activities",
+          "Food truck zone organized beautifully",
+          "Evening swimming now permitted with lifeguards (new policy)",
+          "Mix of active recreation and beach relaxation"
+        ],
+        "value_for_money": [
+          "Free public beach access - exceptional value",
+          "Multiple cafes and restaurants at reasonable prices",
+          "Food truck options provide affordable dining",
+          "Free parking available",
+          "Clean facilities and showers provided",
+          "No entrance fees unlike Saadiyat",
+          "Excellent value for families",
+          "Pet-friendly (sand area only, not water)"
+        ],
+        "experience_quality": [
+          "Beautifully maintained clean beach",
+          "Stunning sunset views",
+          "Well-designed walking and cycling paths",
+          "Calm, peaceful atmosphere on weekdays",
+          "Good variety of restaurants and cafes",
+          "Modern, clean facilities",
+          "Lifeguards present for safety",
+          "Thoughtful urban design and layout",
+          "Can get crowded on weekends but manageable"
+        ],
+        "authenticity": [
+          "Modern recreational development rather than traditional beach",
+          "Genuine public space for residents and visitors",
+          "Natural beach setting preserved",
+          "More about contemporary UAE lifestyle than historical culture"
+        ],
+        "accessibility": [
+          "Excellent connectivity from Abu Dhabi city center",
+          "Ample free parking",
+          "Pet-friendly policies",
+          "Suitable for all ages and fitness levels",
+          "Bike rentals available",
+          "Easy access to cafes and amenities",
+          "Public transportation options",
+          "Well-maintained paths for strollers and wheelchairs"
+        ],
+        "overall_recommendation": [
+          "Best free public beach in Abu Dhabi",
+          "Perfect for active families with cycling and beach activities",
+          "Excellent for sunset viewing",
+          "Ideal for budget-conscious visitors",
+          "Great for daily exercise routines with beach views",
+          "Highly recommended for residents and tourists alike",
+          "Perfect alternative to expensive beach clubs",
+          "Best visited on weekdays to avoid crowds",
+          "Must-visit destination in Abu Dhabi",
+          "Ongoing development promises even better facilities"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 1991,
+        "filtered_review_count": 150,
+        "positive_themes": [
+          "Free public beach access",
+          "Clean, well-maintained",
+          "Excellent cycling and running paths",
+          "Beautiful sunset views",
+          "Great for families",
+          "Modern facilities",
+          "Good restaurant selection",
+          "Evening swimming now allowed",
+          "Pet-friendly",
+          "Ample parking",
+          "Food truck zone",
+          "Peaceful atmosphere",
+          "Well-designed layout"
+        ],
+        "negative_themes": [
+          "Can be crowded on weekends",
+          "Pets not allowed in water",
+          "Ongoing construction in some areas"
+        ],
+        "standout_quotes": [
+          "Al Hudayriat Island has quickly become one of my favourite places in Abu Dhabi. It's the kind of destination where you feel an instant shift the moment you arrive",
+          "Perfect spot for sunset!!!!",
+          "من الأماكن الجميلة جدا في ابو ظبي ، نظافة ، ترتيب ، روعة التخطيط",
+          "Nice place... new developments in that island will make it even better in the upcoming years",
+          "Absolutely stunning beach and my favorite place in Abu Dhabi"
+        ]
+      },
+      "best_for": [
+        "Budget-conscious travelers",
+        "Active individuals (cyclists, runners)",
+        "Families with children",
+        "Sunset photography enthusiasts",
+        "Pet owners (beach only)",
+        "Daily exercise routines",
+        "Weekend family outings",
+        "Residents seeking free beach access",
+        "Those wanting mix of activity and relaxation"
+      ],
+      "avoid_if": [
+        "You seek exclusive, uncrowded beaches",
+        "Prefer luxury resort amenities",
+        "Want to swim with pets",
+        "Dislike weekend crowds",
+        "Need pristine white sand (more natural beach)"
+      ]
+    },
+    "mamsha": {
+      "id": "mamsha",
+      "title": "Recharge with Sea Vitamins",
+      "place_name": "Mamsha Al Saadiyat",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 3,
+        "experience_quality": 4,
+        "authenticity": 3,
+        "accessibility": 3,
+      "overall_recommendation": 7
+      },
+      "evaluation_summary": "Mamsha Al Saadiyat is a beautiful waterfront promenade with excellent dining options and stunning sea views. While beach access for visitors is limited and expensive (tent rentals required), the walkway and restaurant strip provide a lovely atmosphere for dining and strolling.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Elegant waterfront promenade with Mediterranean-style dining strip",
+          "Mix of upscale restaurants and casual cafes in one location",
+          "Modern architecture with seamless indoor-outdoor spaces",
+          "Connected to Saadiyat residential community",
+          "Underground parking with direct access to restaurants"
+        ],
+        "value_for_money": [
+          "Beach access for non-residents expensive (400 AED for tent with loungers)",
+          "Residents enjoy free beach access",
+          "Restaurant prices reflect upscale dining standards",
+          "Good variety of price points across different venues",
+          "Parking is paid for visitors",
+          "Walking and enjoying views is free"
+        ],
+        "experience_quality": [
+          "Beautiful, clean waterfront environment",
+          "Excellent selection of restaurants",
+          "Stunning sea views from dining venues",
+          "Well-maintained promenade for walking",
+          "Clean beach facilities for those with access",
+          "White sand beach when accessible",
+          "Modern, sophisticated atmosphere"
+        ],
+        "authenticity": [
+          "Contemporary luxury development rather than traditional setting",
+          "Natural beach preserved but access restricted",
+          "International dining options dominate",
+          "More about modern UAE lifestyle than cultural heritage"
+        ],
+        "accessibility": [
+          "Located on Saadiyat Island, requires transportation",
+          "Parking challenges noted by visitors",
+          "Underground parking available (paid)",
+          "Best for restaurant dining rather than beach visits",
+          "20-30 minutes from Abu Dhabi center",
+          "Not ideal for casual beach access"
+        ],
+        "overall_recommendation": [
+          "Excellent for waterfront dining experiences",
+          "Beautiful promenade for evening walks",
+          "Best value for residents with free beach access",
+          "Recommended as dining destination rather than beach venue",
+          "Perfect for sunset dinner dates",
+          "Good variety of cuisine options",
+          "Not recommended as beach destination for tourists due to access fees",
+          "Better beach value available at Hudayriyat Island for non-residents",
+          "Ideal for combining museum visits with upscale dining"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 1666,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Beautiful waterfront location",
+          "Excellent restaurant selection",
+          "Clean, modern environment",
+          "Great for walks and dining",
+          "Stunning sea views",
+          "Underground parking convenient",
+          "Well-maintained"
+        ],
+        "negative_themes": [
+          "Limited beach access for visitors",
+          "Expensive tent rentals (400 AED)",
+          "Parking difficult for visitors",
+          "Not family-friendly for beach access",
+          "Ongoing construction noise for residents"
+        ],
+        "standout_quotes": [
+          "المكان روعة و راحة نفسية. فيه الكثير من المطاعم و المقاهي. Must to visit place if you are in Abu Dhabi",
+          "Great vibe you can come and walk or sit in the restaurant. Clean, nice, and modern",
+          "Одно из лучших мест в Абу-Даби. Пообедать или поужинать в красивом месте у моря-это роскошная возможность",
+          "Magnifique waterfront mais aucun accès à la plage. Lamentable",
+          "Absolutely stunning beach and my favorite place in Abu Dhabi, the new enhanced beach has it all"
+        ]
+      },
+      "best_for": [
+        "Waterfront dining experiences",
+        "Evening walks and strolls",
+        "Saadiyat residents with beach access",
+        "Sunset dinner dates",
+        "Upscale dining occasions",
+        "Those visiting museums on Saadiyat",
+        "Cafe culture enthusiasts"
+      ],
+      "avoid_if": [
+        "Seeking affordable beach access",
+        "Traveling with large family on budget",
+        "Want casual public beach experience",
+        "Primary goal is swimming/beach activities",
+        "Need ample easy parking"
+      ]
+    },
+    "rixos-marina": {
+      "id": "rixos-marina",
+      "title": "Adding Arches to Architecture",
+      "place_name": "Rixos Marina",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 4,
+        "experience_quality": 5,
+        "authenticity": 2,
+        "accessibility": 5,
+        "overall_recommendation": 9
+      },
+      "evaluation_summary": "Rixos Marina Abu Dhabi delivers exceptional all-inclusive luxury in a prime marina location with outstanding service, immaculate cleanliness, and excellent dining options. The combination of beach access, marina views, and comprehensive facilities makes it a top-tier resort experience.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Unique marina location with both beach and yacht harbor views",
+          "Striking architectural design with arches and columns",
+          "All-inclusive ultra-luxury model in Abu Dhabi city",
+          "Multiple restaurant concepts including Isla and Orient",
+          "New Year's Gala and special events",
+          "Central location near Abu Dhabi attractions"
+        ],
+        "value_for_money": [
+          "All-inclusive package provides excellent value",
+          "Multiple high-quality restaurants included",
+          "Premium drinks and cocktails covered",
+          "Beach and pool facilities with full service",
+          "No surprise charges for food and beverages",
+          "Quality matches or exceeds price point",
+          "Better value than pay-per-item luxury hotels"
+        ],
+        "experience_quality": [
+          "Exceptional service across all departments",
+          "Staff like Mohammed, Caner, Bhupender, Sampath highly praised",
+          "Immaculately clean property throughout",
+          "Beautiful, modern rooms",
+          "Excellent beach service",
+          "High food quality across all restaurants",
+          "Professional housekeeping (Kalai, Dinesh, Del Maya mentioned)",
+          "Attentive pool and beach staff",
+          "Well-organized special events"
+        ],
+        "authenticity": [
+          "International luxury resort brand with Turkish influence",
+          "Modern, polished experience over cultural immersion",
+          "Marina setting more contemporary than traditional",
+          "Focus on global luxury standards"
+        ],
+        "accessibility": [
+          "Prime location in Abu Dhabi city near attractions",
+          "Easy access from airport and main roads",
+          "Marina location walkable to nearby venues",
+          "Excellent connectivity",
+          "Professional valet and reception services",
+          "Well-organized arrival and departure procedures"
+        ],
+        "overall_recommendation": [
+          "One of Abu Dhabi's finest all-inclusive luxury resorts",
+          "Exceptional service quality with personal touches",
+          "Perfect for special occasions like New Year celebrations",
+          "Outstanding cleanliness and maintenance standards",
+          "Highly recommended for those wanting predictable luxury costs",
+          "Excellent for both leisure and business travelers",
+          "Staff dedication and professionalism consistently praised",
+          "Ideal for couples and families seeking hassle-free luxury",
+          "Close proximity to city attractions adds convenience"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 7946,
+        "filtered_review_count": 200,
+        "positive_themes": [
+          "Exceptional service quality",
+          "Immaculately clean",
+          "Excellent food across all restaurants",
+          "Outstanding staff professionalism",
+          "Beautiful marina location",
+          "Great all-inclusive value",
+          "Modern, comfortable rooms",
+          "Attentive beach and pool service",
+          "Perfect for special events",
+          "Staff remember guest preferences",
+          "Housekeeping excellence"
+        ],
+        "negative_themes": [
+          "In-room service could be improved",
+          "Some minor room service timing issues"
+        ],
+        "standout_quotes": [
+          "We had an exceptional stay at the Rixos for New Year. The service and attention to detail by every member of staff was impeccable.",
+          "The hotel has a great atmosphere with the best service we've ever seen.",
+          "Rixos Marina Abu Dhabi delivers a top-level hotel experience with spotless rooms, outstanding food and drinks, unforgettable entertainment",
+          "Special thanks to Caner at the reception, who was incredibly polite, professional, and helpful.",
+          "Kalai and Dinesh cleaned our room so well and were so nice, welcoming and friendly."
+        ]
+      },
+      "best_for": [
+        "All-inclusive luxury seekers",
+        "Special occasion celebrations",
+        "Those wanting central Abu Dhabi location",
+        "Business travelers needing luxury amenities",
+        "Couples seeking romantic getaway",
+        "Families wanting hassle-free vacation",
+        "Marina and yacht enthusiasts",
+        "New Year and event celebrations"
+      ],
+      "avoid_if": [
+        "You prefer boutique over large resort",
+        "Want remote beach seclusion",
+        "Seeking cultural immersion",
+        "Prefer pay-as-you-go dining"
+      ]
+    },
+    "shangrila": {
+      "id": "shangrila",
+      "title": "Paradise Cruise",
+      "place_name": "Shangri-La Hotel",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 3,
+        "experience_quality": 4,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "Shangri-La Qaryat Al Beri offers a unique canal-side location with traditional abra rides, excellent Horizon Club service, and strong buffet dining. While some areas show age and maintenance issues, the staff's exceptional hospitality and waterfront setting remain highlights.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Traditional abra (boat) rides through canal system",
+          "Qaryat Al Beri cultural village location",
+          "Horizon Club lounge with exceptional service",
+          "Canal-side setting unique in Abu Dhabi",
+          "Traditional souk nearby for shopping"
+        ],
+        "value_for_money": [
+          "Mixed value - some facilities showing age",
+          "Excellent brunch offerings provide good value",
+          "Horizon Club benefits worth the upgrade",
+          "Some rooms have maintenance issues (damp smell noted)",
+          "Service quality adds value despite facility age",
+          "Competitive pricing for Shangri-La brand"
+        ],
+        "experience_quality": [
+          "Staff consistently praised for warmth and professionalism",
+          "Horizon Club team (Aerielle, Pooch, Gleb, Jane) exceptional",
+          "Excellent buffet quality",
+          "Beautiful pool area",
+          "Some rooms dated and need refurbishment",
+          "Second floor had damp smell issues reported",
+          "Background road noise at beach and pool areas",
+          "Staff like Prosper, Hadi, Rishan highly praised for service"
+        ],
+        "authenticity": [
+          "Arabian architectural influences in design",
+          "Abra rides provide cultural element",
+          "Souk nearby adds traditional atmosphere",
+          "International hotel brand with local touches"
+        ],
+        "accessibility": [
+          "Good location near main attractions",
+          "Canal-side setting slightly removed from main roads",
+          "Adequate parking facilities",
+          "Easy access to cultural sites",
+          "Wedding venue capabilities"
+        ],
+        "overall_recommendation": [
+          "Best suited for those who prioritize service over facility newness",
+          "Horizon Club experience highly recommended",
+          "Excellent for brunch visits",
+          "Staff quality consistently exceptional",
+          "Facilities need updating to match service standards",
+          "Good for short stays and dining experiences",
+          "Not the newest Shangri-La property but service compensates",
+          "Consider room location carefully (avoid second floor)",
+          "Recommended for buffet and lounge experiences more than extended stays"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 7902,
+        "filtered_review_count": 150,
+        "positive_themes": [
+          "Exceptional staff service",
+          "Excellent buffet and brunch",
+          "Horizon Club outstanding",
+          "Friendly, caring team",
+          "Beautiful pool area",
+          "Good breakfast spread",
+          "Staff like Aerielle, Prosper, Hadi excellent",
+          "Comfortable pillows",
+          "Family-friendly"
+        ],
+        "negative_themes": [
+          "Some rooms smell of damp",
+          "Second floor has odor issues",
+          "Facilities dated, need refurbishment",
+          "Road noise at beach and pool",
+          "Not up to Shangri-La standards per some guests",
+          "Front desk information gaps"
+        ],
+        "standout_quotes": [
+          "The best brunch in Abu Dhabi",
+          "The experience in Dubai was very different from Abu Dhabi; however, the Shangri-La experience remains consistently welcoming and comfortable",
+          "Aerielle took exceptional care of my family, and throughout our six-day stay, we always looked forward to seeing her at the lounge",
+          "Terrible hotel. Really not up to Shangri La standard. Completely lets down the whole brand.",
+          "Our family had a wonderful stay... The staff were consistently warm, attentive and genuinely caring"
+        ]
+      },
+      "best_for": [
+        "Brunch enthusiasts",
+        "Those prioritizing service over facility newness",
+        "Horizon Club members/upgrades",
+        "Families wanting relaxed atmosphere",
+        "Cultural souk shopping nearby",
+        "Abra ride experiences",
+        "Weekend dining experiences"
+      ],
+      "avoid_if": [
+        "You require newest, most modern facilities",
+        "Sensitive to musty odors",
+        "Want perfect beach/pool peace (road noise)",
+        "Expect highest Shangri-La standards throughout",
+        "Seeking remote, quiet beach resort"
+      ]
+    },
+    "qasr-sarab": {
+      "id": "qasr-sarab",
+      "title": "Immerse Yourself in the View",
+      "place_name": "Qasr Al Sarab",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 5,
+        "accessibility": 2,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Qasr Al Sarab Desert Resort by Anantara is a stunning luxury desert oasis located deep in the Liwa Desert's Empty Quarter. While not a beach property, this spectacular resort offers an authentic Arabian desert experience with world-class amenities and breathtaking dune landscapes.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Located in the legendary Empty Quarter (Rub' al Khali), one of world's largest sand deserts",
+          "Authentic desert fort architecture in complete isolation",
+          "Only luxury resort in Liwa Desert region",
+          "Surrounded by towering orange sand dunes",
+          "Desert activities: dune bashing, camel riding, falconry, stargazing",
+          "Completely unique setting - no similar properties in UAE"
+        ],
+        "value_for_money": [
+          "Premium pricing reflects remote location and exclusivity",
+          "All-inclusive packages available",
+          "Transportation from Abu Dhabi included in some packages",
+          "Exceptional facilities and service for desert location",
+          "Desert activities included",
+          "Unique experience justifies premium",
+          "2-hour drive from Abu Dhabi limits casual visits"
+        ],
+        "experience_quality": [
+          "Anantara luxury resort standards",
+          "Stunning architecture blending with desert landscape",
+          "World-class spa facilities",
+          "Multiple dining venues with excellent cuisine",
+          "Infinity pools overlooking dunes",
+          "Exceptional service in remote setting",
+          "Desert activities professionally organized",
+          "Spectacular sunset and sunrise views",
+          "True escape from city life"
+        ],
+        "authenticity": [
+          "Genuine Arabian desert experience",
+          "Traditional fort-style architecture authentic to region",
+          "Located in historically significant desert region",
+          "Bedouin cultural elements incorporated",
+          "Real desert wilderness setting",
+          "One of most authentic luxury desert experiences globally"
+        ],
+        "accessibility": [
+          "2-hour drive from Abu Dhabi (200+ km)",
+          "Remote location requires dedicated trip planning",
+          "Hotel can arrange transportation",
+          "Not suitable for day trips",
+          "Minimum 1-2 night stay recommended",
+          "4WD recommended for self-driving"
+        ],
+        "overall_recommendation": [
+          "Must-visit for desert experience enthusiasts",
+          "One of world's most spectacular desert resorts",
+          "Perfect for romantic escapes and special occasions",
+          "Highly recommended for those seeking authentic Arabian experience",
+          "Not a beach property but desert equivalent of luxury island resort",
+          "Ideal for 2-3 night desert immersion",
+          "Bucket list destination for luxury travelers",
+          "Stunning photography opportunities",
+          "Best combined with Abu Dhabi city stay for comprehensive UAE experience"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 9980,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Spectacular desert setting",
+          "Stunning architecture",
+          "Exceptional service",
+          "Beautiful infinity pools",
+          "Excellent spa",
+          "Outstanding dining",
+          "Magical sunset and sunrise",
+          "Authentic desert experience",
+          "Peaceful and remote",
+          "Desert activities well-organized"
+        ],
+        "negative_themes": [
+          "Very remote location",
+          "Expensive",
+          "Long drive from Abu Dhabi",
+          "Limited dining variety due to isolation"
+        ],
+        "standout_quotes": [
+          "One of the most spectacular resorts I've ever visited",
+          "The desert landscape is breathtaking and the resort architecture blends perfectly",
+          "Absolutely magical experience in the middle of the desert",
+          "True Arabian desert luxury at its finest",
+          "The drive is long but absolutely worth it for this unique experience"
+        ]
+      },
+      "best_for": [
+        "Desert experience seekers",
+        "Luxury travelers wanting unique settings",
+        "Romantic getaways and honeymoons",
+        "Photography enthusiasts",
+        "Those seeking complete escape and isolation",
+        "Adventure travelers wanting luxury",
+        "Bucket list experiences",
+        "Special celebrations in unique venue"
+      ],
+      "avoid_if": [
+        "You want beach/ocean access",
+        "Can't dedicate minimum 2 nights",
+        "Uncomfortable with remote isolation",
+        "Need constant connectivity to city",
+        "Traveling on tight budget",
+        "Uncomfortable with long drives",
+        "Need extensive dining variety"
+      ]
+    },
+    "anantara-mangroves": {
+      "id": "anantara-mangroves",
+      "title": "Relaxation from Head to Toe",
+      "place_name": "Anantara Eastern Mangroves",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 4,
+        "experience_quality": 4,
+        "authenticity": 4,
+        "accessibility": 5,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Anantara Eastern Mangroves offers a unique nature-immersed luxury experience with stunning mangrove forest views, excellent wellness facilities, and convenient city access. The resort combines Anantara's signature service with Abu Dhabi's unique ecological setting.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Only luxury hotel overlooking protected mangrove forests",
+          "Nature sanctuary setting within city limits",
+          "Mangrove kayaking and eco-tours available",
+          "Bird watching opportunities rare in city hotels",
+          "Combines luxury with environmental immersion",
+          "Anantara Spa overlooking mangroves"
+        ],
+        "value_for_money": [
+          "Competitive pricing for Anantara brand",
+          "Spa and wellness facilities excellent",
+          "Good dining options on-site",
+          "Nature experience adds unique value",
+          "Convenient location saves transportation time",
+          "Regular promotions and packages available"
+        ],
+        "experience_quality": [
+          "Anantara service standards consistently delivered",
+          "Beautiful rooms with mangrove or city views",
+          "Excellent spa and wellness facilities",
+          "Multiple dining venues with good quality",
+          "Peaceful, nature-immersed atmosphere",
+          "Good pool and fitness facilities",
+          "Suitable for exercise and outdoor activities"
+        ],
+        "authenticity": [
+          "Genuine ecological setting with protected mangroves",
+          "Environmental conservation focus",
+          "Natural UAE landscape rarely seen in city hotels",
+          "Eco-tourism activities available",
+          "International luxury brand with local environmental context"
+        ],
+        "accessibility": [
+          "Excellent location - 10 minutes from Abu Dhabi city center",
+          "Easy access to airport and main attractions",
+          "Close to business districts",
+          "Ample parking",
+          "No remote location challenges"
+        ],
+        "overall_recommendation": [
+          "Excellent choice for nature-loving luxury travelers",
+          "Perfect for wellness and spa-focused stays",
+          "Ideal for business travelers wanting nature escape",
+          "Good for exercising guests (jogging, kayaking)",
+          "Recommended for those seeking unique Abu Dhabi setting",
+          "Great value for Anantara quality with city convenience",
+          "Suitable for both leisure and business stays",
+          "Best for those who appreciate environmental uniqueness"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 1047,
+        "filtered_review_count": 39,
+        "positive_themes": [
+          "Beautiful mangrove setting",
+          "Excellent spa facilities",
+          "Good for exercise and activities",
+          "Convenient location",
+          "Peaceful atmosphere",
+          "Good service standards",
+          "Unique nature experience"
+        ],
+        "negative_themes": [
+          "Not a beach resort",
+          "Limited reviews available",
+          "Some facilities may need updating"
+        ],
+        "standout_quotes": [
+          "مكان مناسب لممارسة الرياضه (Great place for sports/exercise)",
+          "Beautiful nature setting in the city",
+          "Peaceful mangrove views"
+        ]
+      },
+      "best_for": [
+        "Nature and wellness enthusiasts",
+        "Business travelers wanting relaxation",
+        "Spa and wellness-focused guests",
+        "Kayaking and eco-tour interest",
+        "Those seeking unique urban nature escape",
+        "Exercise and outdoor activity lovers",
+        "Bird watching enthusiasts"
+      ],
+      "avoid_if": [
+        "You specifically want beach resort",
+        "Need ocean swimming",
+        "Prefer bustling resort atmosphere",
+        "Want extensive on-site entertainment",
+        "Seeking traditional desert or beach UAE experience"
+      ]
+    },
+    "anantara-santorini": {
+      "id": "anantara-santorini",
+      "title": "Escape to Greece",
+      "place_name": "Anantara Santorini",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 3,
+        "experience_quality": 4,
+        "authenticity": 2,
+        "accessibility": 4,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "Anantara Santorini Abu Dhabi brings Greek Cycladic-inspired design to Yas Island, offering a unique Mediterranean aesthetic with Abu Dhabi luxury. This themed resort provides an escape to 'Greece' without leaving the UAE, though at premium pricing.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Only Greek-themed luxury resort in Abu Dhabi",
+          "Santorini-inspired white and blue architecture",
+          "Mediterranean design aesthetic unique in Gulf region",
+          "Creates 'European escape' experience in UAE",
+          "Instagram-worthy Greek island aesthetics",
+          "Different from standard Arabian-themed hotels"
+        ],
+        "value_for_money": [
+          "Premium pricing for themed experience",
+          "Limited information on facilities vs. cost",
+          "Anantara brand commands higher rates",
+          "Novelty of Greek theme adds perceived value",
+          "May not offer as much value as authentic Greek resorts"
+        ],
+        "experience_quality": [
+          "Anantara service standards expected",
+          "Beautiful Greek-inspired design and aesthetics",
+          "Likely includes signature Anantara spa",
+          "Expected high-quality dining venues",
+          "Pool and beach access on Yas Island",
+          "Limited verified review data available"
+        ],
+        "authenticity": [
+          "Completely themed - not authentic to Abu Dhabi or Greece",
+          "Recreated aesthetic rather than genuine cultural experience",
+          "More about fantasy escape than authenticity",
+          "Interesting concept but lacks geographical authenticity"
+        ],
+        "accessibility": [
+          "Located on Yas Island with excellent connectivity",
+          "Near Yas Mall and attractions",
+          "Good access from Abu Dhabi and Dubai",
+          "Ample parking typical of Yas developments",
+          "Close to Yas Marina Circuit and theme parks"
+        ],
+        "overall_recommendation": [
+          "Unique novelty for those wanting different aesthetic",
+          "Good for Mediterranean design enthusiasts",
+          "Perfect for Instagram and social media content",
+          "Better value to visit actual Santorini if budget allows",
+          "Interesting option for those who've exhausted traditional UAE resorts",
+          "Recommended for those prioritizing design and aesthetics",
+          "Limited data makes full assessment challenging",
+          "Worth considering for short staycations for novelty factor"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 0,
+        "review_count": 0,
+        "filtered_review_count": 0,
+        "positive_themes": [
+          "Unique Greek-inspired design",
+          "Beautiful white and blue aesthetics",
+          "Different from typical UAE resorts",
+          "Instagram-worthy setting"
+        ],
+        "negative_themes": [
+          "Very limited review data available",
+          "Possibly newer property with limited feedback",
+          "Premium pricing for themed experience"
+        ],
+        "standout_quotes": [
+          "Limited review data available for this property"
+        ]
+      },
+      "best_for": [
+        "Design and aesthetics enthusiasts",
+        "Instagram and photography content creators",
+        "Those wanting Mediterranean escape vibe",
+        "Couples seeking romantic themed getaway",
+        "People tired of traditional Arabian resort design",
+        "Short staycations for novelty",
+        "Those who can't travel to actual Greece"
+      ],
+      "avoid_if": [
+        "You prefer authentic cultural experiences",
+        "Budget-conscious travelers",
+        "Want verified extensive review history",
+        "Prefer traditional UAE or Arabian themes",
+        "Can afford to visit actual Santorini, Greece",
+        "Need proven track record before booking"
+      ]
+    },
+    "breathe-wellness": {
+      "id": "breathe-wellness",
+      "title": "A Special Sanctuary",
+      "place_name": "Breathe Wellness Studio",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 3,
+        "experience_quality": 4,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 6
+      },
+      "evaluation_summary": "Breathe Wellness Studio offers focused wellness and fitness services in Abu Dhabi. While categorized under beach, this is primarily a wellness studio rather than a beach destination, providing specialized fitness and wellness programs for health-conscious visitors and residents.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Specialized wellness and fitness studio",
+          "Focused on holistic health approach",
+          "May offer specialized programs not available at hotel gyms",
+          "Boutique wellness experience",
+          "More intimate than large resort spas"
+        ],
+        "value_for_money": [
+          "Pricing typical for specialized wellness services",
+          "Depends on programs and packages offered",
+          "Limited data on specific offerings vs. cost",
+          "Likely competitive with boutique wellness market"
+        ],
+        "experience_quality": [
+          "Expected professional wellness service delivery",
+          "Likely includes yoga, pilates, or specialized fitness",
+          "Personalized attention in boutique setting",
+          "Quality depends on instructors and programs",
+          "Limited verified review data"
+        ],
+        "authenticity": [
+          "Modern wellness studio concept",
+          "International wellness trends rather than local traditions",
+          "May incorporate some holistic or alternative approaches",
+          "Less about cultural authenticity, more about wellness philosophy"
+        ],
+        "accessibility": [
+          "Location details limited",
+          "Likely in accessible Abu Dhabi area",
+          "Suitable for residents and extended-stay visitors",
+          "Requires appointment booking"
+        ],
+        "overall_recommendation": [
+          "Good option for wellness-focused travelers",
+          "Better suited for residents than short-term tourists",
+          "Recommended for those seeking specialized wellness programs",
+          "Not a beach or resort experience",
+          "May be miscategorized - primarily wellness studio",
+          "Consider for extended stays or wellness-focused trips",
+          "Limited data makes comprehensive evaluation difficult"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 0,
+        "review_count": 0,
+        "filtered_review_count": 0,
+        "positive_themes": [
+          "Wellness and fitness focus",
+          "Specialized programs",
+          "Boutique experience"
+        ],
+        "negative_themes": [
+          "Very limited review data",
+          "Not actually a beach destination",
+          "Category mismatch"
+        ],
+        "standout_quotes": [
+          "Limited review data available for this wellness studio"
+        ]
+      },
+      "best_for": [
+        "Wellness and fitness enthusiasts",
+        "Residents seeking specialized programs",
+        "Extended stay visitors",
+        "Those wanting boutique wellness experience",
+        "Health-focused travelers",
+        "Yoga and pilates practitioners"
+      ],
+      "avoid_if": [
+        "You're seeking beach experiences",
+        "Short-term tourist visit",
+        "Want comprehensive resort amenities",
+        "Need verified review history",
+        "Budget-conscious travelers",
+        "Looking for casual drop-in fitness"
+      ]
+    },
+    "emirates-kids": {
+      "id": "emirates-kids",
+      "title": "Indulge in a Little Luxury",
+      "place_name": "Emirates Palace",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 4,
+        "accessibility": 5,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Emirates Palace offers an iconic luxury experience with its stunning private beach, palatial architecture, and world-class facilities perfect for families. While expensive, the unique grandeur and comprehensive kids' amenities make it a memorable destination.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Iconic Emirates Palace - one of world's most recognizable luxury hotels",
+          "Palatial architecture on unprecedented scale",
+          "Private 1.3km beach exclusive to guests",
+          "Gold-infused cappuccino and luxury dining",
+          "Kids club with royal palace theme",
+          "Only hotel of its palatial scale in UAE"
+        ],
+        "value_for_money": [
+          "Premium luxury pricing at highest tier",
+          "Experience and prestige justify cost for many",
+          "Comprehensive facilities included",
+          "Kids' programs add value for families",
+          "Beach access and pools included",
+          "Gold-standard service throughout"
+        ],
+        "experience_quality": [
+          "World-class service standards",
+          "Stunning palatial architecture and interiors",
+          "Beautiful private beach with white sand",
+          "Multiple pools including kids' facilities",
+          "Excellent kids club and family programs",
+          "High-quality dining across numerous venues",
+          "Impeccable maintenance and cleanliness",
+          "Unforgettable luxury experience"
+        ],
+        "authenticity": [
+          "Authentic Arabian palace aesthetic and grandeur",
+          "Represents UAE luxury and ambition",
+          "Cultural landmark of Abu Dhabi",
+          "Gold and marble reflect Gulf luxury traditions"
+        ],
+        "accessibility": [
+          "Prime location on Abu Dhabi Corniche",
+          "Easy access from city center",
+          "Close to major attractions",
+          "Ample parking and valet services",
+          "Well-connected by main roads"
+        ],
+        "overall_recommendation": [
+          "Must-visit Abu Dhabi landmark and experience",
+          "Perfect for special family occasions",
+          "Exceptional for milestone celebrations",
+          "Kids club makes it truly family-friendly",
+          "Beautiful private beach with excellent service",
+          "Bucket list luxury hotel experience",
+          "Recommended for at least one night to fully experience",
+          "Day passes available for beach access",
+          "Worth the premium for once-in-lifetime experience"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 28000,
+        "filtered_review_count": 250,
+        "positive_themes": [
+          "Spectacular palatial architecture",
+          "Excellent kids club and family facilities",
+          "Beautiful private beach",
+          "World-class service",
+          "Iconic Abu Dhabi landmark",
+          "Gold cappuccino experience",
+          "Luxurious rooms and suites",
+          "Multiple pools",
+          "Outstanding dining options",
+          "Unforgettable experience"
+        ],
+        "negative_themes": [
+          "Very expensive",
+          "Can be overwhelming due to size",
+          "Some areas feel formal rather than relaxed"
+        ],
+        "standout_quotes": [
+          "The most spectacular hotel we've ever stayed at",
+          "Emirates Palace is an experience, not just a hotel",
+          "The kids club was incredible - our children didn't want to leave",
+          "Private beach is absolutely beautiful",
+          "Worth every dirham for this once-in-lifetime experience"
+        ]
+      },
+      "best_for": [
+        "Families with children",
+        "Special occasions and celebrations",
+        "Bucket list luxury travelers",
+        "First-time Abu Dhabi visitors",
+        "Those seeking iconic UAE experience",
+        "Photography enthusiasts",
+        "Luxury experience collectors",
+        "Multi-generational family trips"
+      ],
+      "avoid_if": [
+        "You're budget-conscious",
+        "Prefer intimate boutique properties",
+        "Want understated luxury",
+        "Uncomfortable with opulent settings",
+        "Seeking authentic local experience over luxury showcase"
+      ]
+    },
+    "emirates-spa": {
+      "id": "emirates-spa",
+      "title": "An Oasis of Tranquility",
+      "place_name": "Emirates Palace",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 4,
+        "accessibility": 5,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Emirates Palace Spa offers world-class wellness treatments in one of the most luxurious settings globally. With signature gold-infused treatments, hammam experiences, and comprehensive spa facilities, it delivers an unforgettable wellness journey for those willing to invest in premium pampering.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Spa within iconic Emirates Palace setting",
+          "24-karat gold-infused treatments",
+          "Traditional hammam with luxury twist",
+          "Royal palace-level spa facilities",
+          "Signature treatments unique to Emirates Palace",
+          "One of Middle East's most prestigious spas"
+        ],
+        "value_for_money": [
+          "Premium pricing at top luxury tier",
+          "Treatments reflect world-class spa standards",
+          "Unique gold treatments justify premium",
+          "Experience and setting add value beyond treatment",
+          "Expensive but delivers on luxury promise",
+          "Packages offer better value than individual treatments"
+        ],
+        "experience_quality": [
+          "Exceptional therapist skills and professionalism",
+          "Luxurious treatment rooms and facilities",
+          "Comprehensive spa amenities",
+          "Beautiful relaxation areas",
+          "High-quality products used",
+          "Impeccable service throughout",
+          "Stunning spa architecture and design",
+          "Complete sensory wellness experience"
+        ],
+        "authenticity": [
+          "Traditional hammam with authentic elements",
+          "Arabian wellness traditions incorporated",
+          "Gold usage reflects Gulf luxury culture",
+          "Blends authentic Middle Eastern spa traditions with international luxury standards"
+        ],
+        "accessibility": [
+          "Located within Emirates Palace on Corniche",
+          "Easy access for hotel guests and day visitors",
+          "Advance booking recommended",
+          "Valet parking available",
+          "Open to non-hotel guests"
+        ],
+        "overall_recommendation": [
+          "Must-try for spa and wellness enthusiasts",
+          "Perfect for special occasion pampering",
+          "Recommended for at least half-day experience",
+          "Gold treatments are signature worth trying",
+          "Excellent for couples spa experiences",
+          "Ideal for pre-event preparation or celebration",
+          "Combines traditional and luxury wellness perfectly",
+          "Worth the premium for memorable spa experience",
+          "Book in advance for preferred timing"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 28000,
+        "filtered_review_count": 150,
+        "positive_themes": [
+          "Exceptional spa facilities",
+          "Gold-infused treatments unique",
+          "Professional therapists",
+          "Beautiful relaxation areas",
+          "Traditional hammam excellent",
+          "Luxurious atmosphere",
+          "Comprehensive amenities",
+          "Outstanding service"
+        ],
+        "negative_themes": [
+          "Very expensive",
+          "Advance booking essential",
+          "Can be busy during peak seasons"
+        ],
+        "standout_quotes": [
+          "The most luxurious spa experience of my life",
+          "Gold facial treatment was absolutely incredible",
+          "Hammam experience was authentic and luxurious",
+          "Therapists are highly skilled professionals",
+          "Worth the price for this once-in-lifetime spa experience"
+        ]
+      },
+      "best_for": [
+        "Spa and wellness enthusiasts",
+        "Special occasion pampering",
+        "Couples spa experiences",
+        "Those seeking ultimate luxury treatments",
+        "Pre-wedding or special event preparation",
+        "Wellness-focused travelers",
+        "Hammam experience seekers",
+        "Milestone celebration treatments"
+      ],
+      "avoid_if": [
+        "You're budget-conscious",
+        "Prefer simple, no-frills spa treatments",
+        "Uncomfortable with opulent luxury",
+        "Want quick in-and-out spa visit",
+        "Seeking authentic local hammam over luxury spa"
+      ]
+    },
+    "the-bridge": {
+      "id": "the-bridge",
+      "title": "Expand Your Group Chat",
+      "place_name": "The Bridge",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 3,
+        "experience_quality": 3,
+        "authenticity": 2,
+        "accessibility": 4,
+        "overall_recommendation": 6
+      },
+      "evaluation_summary": "The Bridge offers a lifestyle and community-focused venue in Abu Dhabi. With limited available information and review data, it appears to be a social dining or entertainment venue rather than a traditional beach destination.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Community and social gathering focus",
+          "Lifestyle venue concept",
+          "Group-friendly atmosphere",
+          "May offer unique dining or entertainment blend",
+          "Limited distinctive features identified"
+        ],
+        "value_for_money": [
+          "Insufficient data to assess accurately",
+          "Likely moderate pricing for social venue",
+          "Value depends on offerings and experience",
+          "Group packages may provide better value"
+        ],
+        "experience_quality": [
+          "Quality assessment limited by lack of reviews",
+          "Expected casual social atmosphere",
+          "Likely focuses on communal experiences",
+          "Need more data to evaluate properly"
+        ],
+        "authenticity": [
+          "Modern lifestyle venue concept",
+          "International social dining trends",
+          "Less about traditional culture",
+          "Contemporary Abu Dhabi lifestyle venue"
+        ],
+        "accessibility": [
+          "Abu Dhabi location",
+          "Likely good connectivity",
+          "Group-friendly layout expected",
+          "Specific location details limited"
+        ],
+        "overall_recommendation": [
+          "Consider for group social gatherings",
+          "Better suited for residents than tourists",
+          "May be miscategorized as beach venue",
+          "Limited data prevents strong recommendation",
+          "Worth exploring if seeking social dining venues",
+          "Not a primary tourist destination",
+          "More information needed for confident assessment"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 0,
+        "review_count": 0,
+        "filtered_review_count": 0,
+        "positive_themes": [
+          "Social and community focus",
+          "Group-friendly concept",
+          "Lifestyle venue"
+        ],
+        "negative_themes": [
+          "Very limited information available",
+          "No verified reviews",
+          "Unclear if actually beach-related",
+          "Category may be incorrect"
+        ],
+        "standout_quotes": [
+          "Insufficient review data available"
+        ]
+      },
+      "best_for": [
+        "Group social gatherings",
+        "Residents seeking local venues",
+        "Those wanting community atmosphere",
+        "Casual dining with friends",
+        "Social networking events"
+      ],
+      "avoid_if": [
+        "You're seeking beach experiences",
+        "Tourist looking for verified attractions",
+        "Want comprehensive review history",
+        "Need guaranteed quality experience",
+        "Primary interest is coastal activities"
+      ]
+    }
+  }
+}

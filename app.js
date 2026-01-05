@@ -527,7 +527,7 @@ function renderTable() {
         tr.innerHTML = `
             <td class="col-rank">${String(item.num).padStart(2, '0')}</td>
             <td class="col-photo">
-                <img src="photos/${item.photo_folder || item.id}/01.jpg" onerror="this.src='${dummyImage}'" alt="${item.title}" class="list-photo">
+                <img src="photos/${item.photo_folder || item.id}/01.webp" onerror="this.src='${dummyImage}'" alt="${item.title}" class="list-photo">
             </td>
             <td class="col-name">
                 <div class="name-cell">
@@ -651,7 +651,7 @@ function createMarkerIcon(category) {
 function createTooltipContent(item) {
     const config = categoryConfig[item.category] || {};
     const categoryNames = getCategoryNames();
-    const photoSrc = `photos/${item.photo_folder || item.id}/01.jpg`;
+    const photoSrc = `photos/${item.photo_folder || item.id}/01.webp`;
 
     // Get popularity score from item data
     let popularityScore = item.recommendation_score || '-';
@@ -666,7 +666,7 @@ function createTooltipContent(item) {
                     <span style="background: ${config.bg}; color: ${config.color}; padding: 4px 8px; border-radius: 6px; font-size: 10px; font-weight: 500; display: inline-flex; align-items: center; gap: 3px;">
                         ${config.icon} ${categoryNames[item.category]}
                     </span>
-                    <span style="color: #d4915d; font-weight: 600; font-size: 11px;">${i18n[currentLang].labelPopularity} ${popularityScore}</span>
+                    <span style="color: #d4915d; font-weight: 600; font-size: 11px; display: flex; align-items: center; gap: 3px;"><svg width="14" height="14" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;flex-shrink:0"><path d="M21 15H19L15.5 7L11 18L8 12L6 15H4" stroke="currentColor" stroke-width="1.2"/></svg>${popularityScore}</span>
                 </div>
                 <button onclick="openModalFromMap('${item.id}')" style="display: block; width: 100%; background: linear-gradient(135deg, #d4915d 0%, #c97d3d 100%); color: white; border: none; padding: 8px 12px; border-radius: 5px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s; box-shadow: 0 2px 4px rgba(212,145,93,0.3);">
                     ${i18n[currentLang].viewDetails}
@@ -693,7 +693,7 @@ function createSpotTooltipContent(item) {
                     <span style="background: ${config.bg}; color: ${config.color}; padding: 2px 6px; border-radius: 4px; font-size: 8px; font-weight: 500; display: inline-flex; align-items: center; gap: 2px;">
                         ${config.icon} ${categoryNames[item.category]}
                     </span>
-                    <span style="color: #d4915d; font-weight: 600; font-size: 9px;">${i18n[currentLang].labelPopularity} ${popularityScore}</span>
+                    <span style="color: #d4915d; font-weight: 600; font-size: 9px; display: flex; align-items: center; gap: 2px;"><svg width="11" height="11" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;flex-shrink:0"><path d="M21 15H19L15.5 7L11 18L8 12L6 15H4" stroke="currentColor" stroke-width="1.2"/></svg>${popularityScore}</span>
                 </div>
                 <button onclick="openModal('${item.id}')" style="display: block !important; width: 100%; background: linear-gradient(135deg, #d4915d 0%, #c97d3d 100%); color: white; border: none; padding: 5px 8px; border-radius: 4px; font-size: 9px; font-weight: 600; cursor: pointer; box-shadow: 0 1px 3px rgba(212,145,93,0.3);">
                     ${i18n[currentLang].viewDetails}
@@ -959,7 +959,7 @@ function openModal(id) {
     // Introduction
     document.getElementById('modalSummary').textContent = item.summary;
     
-    // Photos - Generate from photo_folder (try 01.jpg to 30.jpg)
+    // Photos - Generate from photo_folder (try 01.webp to 30.webp)
     const galleryGrid = document.getElementById('modalGallery');
     const photoFolder = item.photo_folder || item.id;
 
@@ -967,7 +967,7 @@ function openModal(id) {
     const maxPhotos = 30; // Try up to 30 photos
     const photos = [];
     for (let i = 1; i <= maxPhotos; i++) {
-        const photoPath = `photos/${photoFolder}/${String(i).padStart(2, '0')}.jpg`;
+        const photoPath = `photos/${photoFolder}/${String(i).padStart(2, '0')}.webp`;
         photos.push(photoPath);
     }
 

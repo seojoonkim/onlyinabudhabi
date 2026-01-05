@@ -1,0 +1,3657 @@
+{
+  "total_items": 101,
+  "categories": {
+    "dining": 18,
+    "adventure": 7,
+    "themepark": 28,
+    "culture": 13,
+    "nature": 4,
+    "beach": 17,
+    "landmark": 10,
+    "shopping": 4
+  },
+  "evaluations": {
+    "emirati-house": {
+      "id": "emirati-house",
+      "title": "Home Cooking at Grandma's House",
+      "place_name": "Yadoo's House Restaurant & Cafe",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.1,
+        "review_count": 999,
+        "filtered_review_count": 62,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "احب شي عندي سلطة 🥗 و أكلهم لذيذ",
+          "The food are so tasty and delicious, amazing!!!\nStaff are very friendly and kind.\nHighly recommended!!!"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "golf-club": {
+      "id": "golf-club",
+      "title": "Take Your Swing",
+      "place_name": "Abu Dhabi City Golf Club",
+      "category": "adventure",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 1346,
+        "filtered_review_count": 33,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Fun with family and friends great place to spent your week end",
+          "As always happening place in all weather - all time.. Love the place, love the vibes, love the food & Drinks..",
+          "Excellent place for the F&B if not the Golf and the Horses 👍🏼"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "adrenark": {
+      "id": "adrenark",
+      "title": "Kart Racing Across Three Floors",
+      "place_name": "Adrenark Adventure",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 972,
+        "filtered_review_count": 84,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Manisha instructed my daughter in her painting which boosted her confidence. It was a very creative activity, I would recommend.",
+          "Everything is bestt, it was very fun, just concerned about the price.",
+          "One of the best indoor park for kids… full of adventures and excitement. Staff are so friendly and welcoming. Especially, Abdulaziz and Zainab were the best👌👌👌"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "airmaniax": {
+      "id": "airmaniax",
+      "title": "Become a Ninja Warrior",
+      "place_name": "AirManiax",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.9,
+        "review_count": 2421,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Visited air maniax today was superb, faustina was a very good custumer service, and she is so beautiful and kind, her friendly attitude was amazing, thank you air maniax.",
+          "My kids have a lot of fun in the park, shutout to Faustina who was so helpful and kind to us, thank you",
+          "Faustina was so helpful and kind to my kids, very neat place and we have a lot of fun, thank you air maniax"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "al-ain-adventure": {
+      "id": "al-ain-adventure",
+      "title": "Thrills and Water Fun in Al Ain",
+      "place_name": "Al Ain Adventure Park",
+      "category": "adventure",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 1538,
+        "filtered_review_count": 70,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "I really had fun today in the al ain adventure,it was fun.And this  staff are really welcoming especially JERRY.I really do appreciate Your support at the aqua island.",
+          "Joffi  was the best helped my daughter, very friendly",
+          "Joffi is doing a great work as a river guard. You feel safe here"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "al-fanar": {
+      "id": "al-fanar",
+      "title": "Culinary Wonders",
+      "place_name": "Al Fanar",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.9,
+        "review_count": 12016,
+        "filtered_review_count": 68,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Great food and service. Thoroughly enjoyed the dining experience here.",
+          "Super good place to try local cuisine!\nDough balls with date syrup are the best!",
+          "تجربة رائعة، الجو جميل والأكل لذيذ 🫶"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "al-qattara": {
+      "id": "al-qattara",
+      "title": "Express Yourself in Al Ain",
+      "place_name": "Al Qattara Arts Centre",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 632,
+        "filtered_review_count": 60,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "It’s very lovely center",
+          "It feels like a little escape world. More than just a destination.",
+          "Great, family area, nice vibes"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "al-raiqa": {
+      "id": "al-raiqa",
+      "title": "Legendary Freshness",
+      "place_name": "Al Raiqa",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 269,
+        "filtered_review_count": 45,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Хорошее место, хороший сервис",
+          "Great store , we bought top quality dates & pistachio at very good prices",
+          "대추야자 맛있네요ㅋㅋ 뮤죡규ㅓㄴ 오우쉬이프러 이상 까끄쉐용 초콜릿도 맛있음! 판매하는 애들도 귀여움ㅋㅋ"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "al-sadeem": {
+      "id": "al-sadeem",
+      "title": "Make a Wish Upon the Stars",
+      "place_name": "Al Sadeem Observatory",
+      "category": "nature",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 213,
+        "filtered_review_count": 85,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Sternwarte in Abu Dhabi.\nSchöne Einblicke",
+          "Surprising experience, very competent and bright team! Very recommended 👏",
+          "One of my favorite nights❤️ thank you أسامه for a lovely time."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "al-sultan": {
+      "id": "al-sultan",
+      "title": "Taste the City's Treasures",
+      "place_name": "Al Sultan Bakeries",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.2,
+        "review_count": 980,
+        "filtered_review_count": 39,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "الجوده ممتازه يستاهل التجربه",
+          "Makish is good ones and price is reasonable. other bakery items are good. Not have place to eat",
+          "صمون رهيب وتعامل راقي جدا"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "anantara-mangroves": {
+      "id": "anantara-mangroves",
+      "title": "Relaxation from Head to Toe",
+      "place_name": "Anantara Eastern Mangroves",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 1047,
+        "filtered_review_count": 39,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "مكان مناسب لممارسة الرياضه"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "anantara-santorini": {
+      "id": "anantara-santorini",
+      "title": "Escape to Greece",
+      "place_name": "Anantara Santorini",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 517,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Amazing, spent my bday there - it was truly awesome!",
+          "I just went to see the place and Kevin from front office helped me to show around the places and definitely will be back. Thank you team Santorini."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "annex": {
+      "id": "annex",
+      "title": "Bust Out Your Old Dance Moves",
+      "place_name": "ANNEX",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.1,
+        "review_count": 193,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Had the greatest time",
+          "Rooftop vibes are amazing, great drinks and excellent service. Elijah is very professional and kind.",
+          "Nice place but always empty"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "art-central": {
+      "id": "art-central",
+      "title": "Explore Shams Boutiques",
+      "place_name": "Art Central",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 164,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "To celebrate my birthday, I attended 4 painting sessions where I could experience different techniques with oil and acrylic.",
+          "Brilliant place for getting your ceramic glazes and supplies. They stock Amaco glazes which are fab. Very quick delivery, always packaged properly. They also stock an affordable porcelain clay too."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "bait-gahwa": {
+      "id": "bait-gahwa",
+      "title": "Timeless Vitality",
+      "place_name": "Bait Al Gahwa",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 219,
+        "filtered_review_count": 37,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Good interior though not much to exhibit",
+          "Artigiani lavorano dal vivo a diverse postazioni. Interssante e educativo!"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "bounce": {
+      "id": "bounce",
+      "title": "Jump for the Stars",
+      "place_name": "Bounce Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 2354,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "المكان حلو و يستحق التجربة كبير",
+          "كان العيد ميلاد فنان والموظفين يعرفون يتعاملون مع الاطفال ووايد استانسو ( شكرا زايد ومجد) 🫶🏻",
+          "My daughter loved the place , a great place to meet new friends and stay active"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "breathe-wellness": {
+      "id": "breathe-wellness",
+      "title": "A Special Sanctuary",
+      "place_name": "Breathe Wellness Studio",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 38,
+        "filtered_review_count": 60,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "I did the wellness session on Sunday morning and it was such a beautiful morning. The teachers were really kind, educational and passionate!",
+          "My daughter has done yoga classes for kids for almost three years now and absolutely loves it. It is the only activity she consistently loves and wants to keep doing. Miss Siobhan is wonderful.",
+          "Breathe Saadiyat is a nice studio with a lovely receptionist! I am attending the Zumba Class twice a week with the amazing instructeur Vincent!"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "cafe-del-mar": {
+      "id": "cafe-del-mar",
+      "title": "Book Your Next Daycation",
+      "place_name": "Cafe Del Mar",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 2931,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "This club is amazing, the views are spectacular, as well as the music and the service offered. Definetely I will repeat.",
+          "Amazing place, good music and perfect environment to spent all day long with friends.",
+          "Such a cool place! The food is delicious, the cocktails are excellent, and the atmosphere is amazing. Great music, friendly staff, and a very nice vibe overall. I'd definitely come back🥰"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "capital-gate": {
+      "id": "capital-gate",
+      "title": "Dining That Defies Gravity",
+      "place_name": "Capital Gate Tower",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": null,
+        "review_count": 0,
+        "filtered_review_count": 0,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "central": {
+      "id": "central",
+      "title": "Where Food Meets Fun at Yas Bay",
+      "place_name": "Central",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.1,
+        "review_count": 774,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "المكان حلو وفي ألعاب ومناسب لكل الأعمار",
+          "Fried fish, Chicken Quesadillas, Nachos and the drinks are to die for!! So so tasty. Will definitely try the rest of the menu, too!",
+          "Very nice food , kids love it"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "clay-studio": {
+      "id": "clay-studio",
+      "title": "Spin, Glaze, and Fire",
+      "place_name": "Clay Studio",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 86,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Best experience ever! The atmosphere is 💯. The place is so calm and peaceful, and the staff are welcoming and helpful. I will definitely come again."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "clymb-1": {
+      "id": "clymb-1",
+      "title": "Dive from 32 Meters High",
+      "place_name": "CLYMB Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 914,
+        "filtered_review_count": 9,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Hinda was wonderful in providing indoor skydiving experience",
+          "Clymb indoor skydiving is amazing! Hinda is the absolute best coach ever !"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "clymb-2": {
+      "id": "clymb-2",
+      "title": "Reach for the Summit",
+      "place_name": "CLYMB Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 914,
+        "filtered_review_count": 18,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Very nice place to climb even if it is your first time",
+          "Great experience! It was my first experience on climbing and I really liked!"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "coya": {
+      "id": "coya",
+      "title": "It's Brunch Time",
+      "place_name": "Coya",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 0,
+        "filtered_review_count": 85,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Food was absolutely phenomenal, angels service was top top.",
+          "Thanks to argel , he is very kind and welcoming",
+          "I loved this place! Beautiful decor, exceptional service, great atmosphere, delicious food and very beautifully presented!"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "cultural-foundation": {
+      "id": "cultural-foundation",
+      "title": "A Home for Culture and Creativity",
+      "place_name": "Cultural Foundation",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 774,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Tomorrow new 2026/01/01",
+          "A wonderful space with a library, art studios, exhibitions and more! A great way to spend the day!",
+          "Good place, with childrens library and theater.\nMosques was very beautiful and unique."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "auto-museum": {
+      "id": "auto-museum",
+      "title": "A Car Enthusiast's Paradise",
+      "place_name": "Emirates National Auto Museum",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.3,
+        "review_count": 1256,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Koniecznie trzeba zobaczyć będąc w Abu Dhabi.",
+          "This a great place to visit and a good one to take visitors if you're looking for something a bit different. There's over 200 cars from the Sheikh's collection which is amazing"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "emirates-kids": {
+      "id": "emirates-kids",
+      "title": "Indulge in a Little Luxury",
+      "place_name": "Emirates Palace",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.3,
+        "review_count": 7,
+        "filtered_review_count": 5,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "The place has been a fantastic experience for our boys. The indoor and outdoor activities are amazing.\nThe staff are friendly, and Marta is a super star. Her passion and attitude are outstanding."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "emirates-spa": {
+      "id": "emirates-spa",
+      "title": "An Oasis of Tranquility",
+      "place_name": "Emirates Palace",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 198,
+        "filtered_review_count": 24,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Excellent spa, we had a 90 minute sessions and enjoyed every moment.",
+          "\"The spa experience was exceptional - pure relaxation from start to finish."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "emirates-cafe": {
+      "id": "emirates-cafe",
+      "title": "A Sip of 24 Karats",
+      "place_name": "Emirates Palace",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 274,
+        "filtered_review_count": 34,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "My husband and I enjoyed a lovely tea at Episodes. Fatso provided exceptional service and the general ambience was very inviting. We’ll be back!",
+          "Awesome Turkish coffee"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "emirates-zoo": {
+      "id": "emirates-zoo",
+      "title": "Greet a Wild Morning",
+      "place_name": "Emirates Park Zoo",
+      "category": "nature",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 17884,
+        "filtered_review_count": 48,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Lovely zoo\nGreat collection of animals, reptiles and birds",
+          "Best of the Best contact with Animal very close",
+          "Nice compact Zoo with lot of animal and birds"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "erth": {
+      "id": "erth",
+      "title": "Beyond Hospitality",
+      "place_name": "Erth",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 1247,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Remal restaurant had an amazing buffet experience.\nThere are major renovation going on at the moment, which cause some inconvenience.",
+          "凄くよい。朝食が本当に美味しい。通常のプールだけでなく競泳用のプールもあり！\n気持ちは選手になれます！",
+          "Came back to Betzaa and it was great again! 🍕🔥 Same amazing taste, fresh ingredients, and excellent service from Carla again and again. Always a pleasure to return. Highly recommended! 🙌😍"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "etihad-arena": {
+      "id": "etihad-arena",
+      "title": "Let Your Voice Soar",
+      "place_name": "Etihad Arena",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 3727,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "World class infrastructure. Exceptionally good sound system - spent 5 hrs for Arijit Singh’s concert and it was very nice.",
+          "Wonderful venue! Very organized and friendly. Good value and comfortable seats.",
+          "Great space for events. I recently attended a music event there and was impressed the way it’s made and huge crowds r managed."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "falcon-hospital": {
+      "id": "falcon-hospital",
+      "title": "Spread Your Wings",
+      "place_name": "Falcon Hospital",
+      "category": "nature",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.3,
+        "review_count": 1840,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "這裡的導覽行程成為我在阿布達比最後一天的亮點，獵鷹醫院是阿布達比首屈一指的醫院，感謝有導覽行程的介紹讓我有機會可以了解到獵鷹的生態",
+          "Great place specialize in treating falcons\n\nAs the largest falcon hospital in the world, ADFH is a premier veterinary and research center for falcons and other raptors",
+          "Very Proffessional and friendly"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "ferrari-1": {
+      "id": "ferrari-1",
+      "title": "Zero-Gravity Turbo Thrust",
+      "place_name": "Ferrari World Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 25,
+        "filtered_review_count": 2,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "ferrari-2": {
+      "id": "ferrari-2",
+      "title": "Flying Aces",
+      "place_name": "Ferrari World Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 676,
+        "filtered_review_count": 17,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "It was so excited and I have played 5 times with Quick Pass. One of the roller coaster that must play with.",
+          "Loop-de-loop roller coaster with an appropriate theme.\nSit on the edges for a thrill\nStaff was also friendly and helpful",
+          "This is scary roller coaster"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "ferrari-3": {
+      "id": "ferrari-3",
+      "title": "Italy Meets Abu Dhabi",
+      "place_name": "Ferrari World Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 59201,
+        "filtered_review_count": 54,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Absolute adrenaline rush.. great rides, great vibes, great people… Jasim got us a bday cake and made the trip even more special.. Thanks Ferrari World..",
+          "Ferrari World is a famous theme park located in the United Arab Emirates. It feels like happiness for its Ferrari-themed rides and attractions and more.",
+          "Long queue for the rides. Better to get a quick pass but quick expensive."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "flamingo": {
+      "id": "flamingo",
+      "title": "Paint Your Palate Pink",
+      "place_name": "Flamingo Collection",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 437,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Amazin food, atmosphere and service, thanks to Milton!",
+          "Everything was perfect\nThe food was tasty and the stuff was friendly and helpful\nThank you 🤍",
+          "Bothwell was such a darling he made our evening fun…the manager was amazing too thank you for the service it was amazing ❤️"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "fresh-basil": {
+      "id": "fresh-basil",
+      "title": "Awaken Your Senses",
+      "place_name": "Fresh Basil",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.9,
+        "review_count": 112,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "golden-dallah": {
+      "id": "golden-dallah",
+      "title": "Every Bite is Golden",
+      "place_name": "Golden Dallah",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 0,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "عن جد مطعم شعبي والاكل ولا اروع",
+          "اكلهم لذيذ خصوصا المرقوقة",
+          "يستحق الزيارة وتجربة الأكل\nGood restaurant 😋"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "hakkasan": {
+      "id": "hakkasan",
+      "title": "Beyond Dim Sum",
+      "place_name": "Hakkasan",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 1088,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Good place to reconnect with friends, delicious bites, their signature drink was awesome."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "house-artisans": {
+      "id": "house-artisans",
+      "title": "Master Centuries-Old Crafts",
+      "place_name": "House of Artisans",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.9,
+        "review_count": 8,
+        "filtered_review_count": 7,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "One stop for all dance Jewellery",
+          "Very nice place, must visit to see yourself",
+          "Loved the collection and the girls looked beautiful in their dresses"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "hudayriyat": {
+      "id": "hudayriyat",
+      "title": "Experience Glamping in Style",
+      "place_name": "Hudayriyat Island",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 1991,
+        "filtered_review_count": 80,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "شاطئ جميل وهادئ خلال أيام الأسبوع ومزدحم  خلال  عطلة نهاية الأسبوع توجد عدة مقاهي ومطاعم وجلسات",
+          "Although this place is listed as pet friendly, that is only for the sand area. Peta are not allowed in the water. Beautiful place with good bike and walking routes.",
+          "مكان جميل أتعنى له من الرياض"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "jumeirah-saadiyat": {
+      "id": "jumeirah-saadiyat",
+      "title": "Recharge in Real Time",
+      "place_name": "Jumeirah Saadiyat",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 3172,
+        "filtered_review_count": 59,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Großartiges Hotel in großartiger Lage.Aussergewöhnliche guter und freundlicher Service",
+          "Lovely beach. Lovely waters. And Walid really took care of us. Food was amazing. Couldn’t ask for a better beach day on a weekday."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "la-cava": {
+      "id": "la-cava",
+      "title": "Rosé at Rosewood",
+      "place_name": "La Cava",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 134,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "The atmosphere is just amazing, food from chef Khalil and his approach to customers outstanding, love the place to enjoy with my friends, always coming back to them 🙌❤️‍🔥",
+          "If you love wine and cheese boards then this is the place for you. Nice for a date night i would say.",
+          "The service was outstanding, chef Waleed and Paulo the sommelier were amazing and made the experience unforgettable."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "louvre-1": {
+      "id": "louvre-1",
+      "title": "An Art Tour with a New Perspective",
+      "place_name": "Louvre Abu Dhabi",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 37545,
+        "filtered_review_count": 30,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "New experience, overwhelmed feeling peace and calm, art and architecture are really valuable, incredible.",
+          "Great experience- amazing art work. Worth visiting."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "louvre-2": {
+      "id": "louvre-2",
+      "title": "All-Day Art Tour",
+      "place_name": "Louvre Abu Dhabi",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 37545,
+        "filtered_review_count": 23,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "New experience, overwhelmed feeling peace and calm, art and architecture are really valuable, incredible.",
+          "It’s stunning to see the building surrounded by water, and the size of the dome is impressive.",
+          "That was a big project for my company. We made the agricultural works outside the building. We designed the garden area and walkways. It's a beautiful place to visit."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "louvre-3": {
+      "id": "louvre-3",
+      "title": "Paint Your Own Postcard",
+      "place_name": "Louvre Abu Dhabi",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 37545,
+        "filtered_review_count": 5,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "It's the Louvre. Countless artifacts and exhibitions. Modern and classic art. And on top the ticket is hilariously cheap for what you visit.",
+          "It's the Louvre. Countless artifacts and exhibitions. Modern and classic art. And on top the ticket is hilariously cheap for what you visit."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "louvre-4": {
+      "id": "louvre-4",
+      "title": "Experience Artistic Rainfall",
+      "place_name": "Louvre Abu Dhabi",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 37545,
+        "filtered_review_count": 2,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "gold-souk": {
+      "id": "gold-souk",
+      "title": "Find Treasures to Cherish",
+      "place_name": "Madinat Zayed Gold Souk",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 0,
+        "filtered_review_count": 64,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Regular visit to Al Rizan jewellery great value",
+          "لا خلاف من ان المكان جميل ولكن انا لا أفضل الذهاب الي",
+          "มีให้เลือกหลายหลายมากชอบบบ"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "mamsha": {
+      "id": "mamsha",
+      "title": "Recharge with Sea Vitamins",
+      "place_name": "Mamsha Al Saadiyat",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 1666,
+        "filtered_review_count": 45,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "المكان روعة و راحة نفسية . فيه الكثير من المطاعم و المقاهي . Must to visit place if you are in Abu Dhabi",
+          "Great vibe you can come and walk or sit in the restaurant\nClean, nice, and modern\nThere are many restaurants there",
+          "Одно из лучших мест в Абу-Даби.Пообедать или поужинать в красивом месте у моря-это роскошная возможность.Большой выбор ресторанов и кафе."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "manarat": {
+      "id": "manarat",
+      "title": "Retreat to a Creative Haven",
+      "place_name": "Manarat Al Saadiyat",
+      "category": "culture",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 3215,
+        "filtered_review_count": 32,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "艺术氛围浓，陶艺体验超赞，老师耐心指导，哈利波特展也精彩，空间宽敞停车免费，周末无需排队，适合亲子放松。",
+          "Great venue for exploring art, watching a movie at cinema space with family and enjoy the food & drinks with friends!!!\nAll at one place !",
+          "لديهم كل مره فعاليه الافضل التواصل معهم"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "mezlai": {
+      "id": "mezlai",
+      "title": "Emirati Cuisine Elevated",
+      "place_name": "Mezlai",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 123,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Very nice very good Roja hi to Asa",
+          "Every thing are excellent so guys and family must visit  there"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "nat-geo": {
+      "id": "nat-geo",
+      "title": "Calling All Young Explorers",
+      "place_name": "National Geographic Ultimate Explorer",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 250,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "I loved it 10/10... It is really worth trying",
+          "مكان يستحق الزياره جميل والأطفال يستمتعون والفريق العامل لطيفيين جدا ❤️",
+          "Not just for kids also adults cab enjoyed"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "observation-deck": {
+      "id": "observation-deck",
+      "title": "Afternoon Tea at New Heights",
+      "place_name": "Observation Deck at 300",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 2971,
+        "filtered_review_count": 59,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Fantastic views, am must when you arrive at Abu Dhabi.",
+          "If you stayed at the hotel it’s free to go up!\n一樓紀念品店的東西很貴就是了",
+          "Cool\n24€ con 10 euro di credito al bar"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "pixoul": {
+      "id": "pixoul",
+      "title": "Race to the Finish Line",
+      "place_name": "Pixoul",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 579,
+        "filtered_review_count": 79,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "It’s really good place, there are kids activities. Place to walk around outside.\n\nNearby also good places to visit.",
+          "I had a wonderful timel.\nI got from the staff Emmanuel",
+          "Amazing place great for birthday party especially for older kids"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "prison-island": {
+      "id": "prison-island",
+      "title": "Get Locked In",
+      "place_name": "Prison Island",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.9,
+        "review_count": 2384,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "生日派对首选！爱尔兰主人与Richard团队把流程安排得滴水不漏，孩子大人全程嗨翻。两小时迷宫+密室混合挑战脑力体力，房间多到不用排队，可无限重刷。唯一小建议：部分关卡加一句中文提示更完美。已决定下次再来刷全天！",
+          "Really fun place. Would definitely come again to strive for higher points. Best with 3 people as some of the rooms require more than two.",
+          "It was amazing and all the staffs were very friendly and helped us in soo many in many ways!  Would definitely recommend this!"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "qasr-al-hosn": {
+      "id": "qasr-al-hosn",
+      "title": "Journey to the Beginning",
+      "place_name": "Qasr Al Hosn",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 7515,
+        "filtered_review_count": 24,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "مكان جميل مع الأسرة او الأصدقاء",
+          "Best place to spend evening",
+          "المكان جججدا ججججدا جمممميل"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "qasr-al-muwaiji": {
+      "id": "qasr-al-muwaiji",
+      "title": "Time Travel to 1897",
+      "place_name": "Qasr Al Muwaiji",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 1347,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Very good place for couples for friends cafe",
+          "Very nice and interesting museum .",
+          "Beautiful place! Absolutely stunning! Would be nice if they have traditional Emirati food as well"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "qasr-sarab": {
+      "id": "qasr-sarab",
+      "title": "Immerse Yourself in the View",
+      "place_name": "Qasr Al Sarab",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 9980,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Juste exceptionnel !!! A faire absolument 🤙 par contre la réservation en billet coupe-file sans coupe c'était la queue pour tout le monde, elle est impressionnante mais elle est rapide.",
+          "The Presidential Palace of the UAE. A beautiful palace with symmetrical design, detailed architectural patterns, making each corner unique. The ambience is calm and peaceful."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "qasr-al-watan-1": {
+      "id": "qasr-al-watan-1",
+      "title": "Strike a Power Pose",
+      "place_name": "Qasr Al Watan",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 9980,
+        "filtered_review_count": 25,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "The Presidential Palace of the UAE. A beautiful palace with symmetrical design, detailed architectural patterns, making each corner unique. The ambience is calm and peaceful.",
+          "Incredible atmosphere, simply magical! Definitely worth a visit!\nThe light show at dusk is a little too touristy for our taste, so we didn't find it particularly impressive.",
+          "Amazing presidential palace."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "qasr-al-watan-2": {
+      "id": "qasr-al-watan-2",
+      "title": "Step Into the Spotlight",
+      "place_name": "Qasr Al Watan",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 9980,
+        "filtered_review_count": 5,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "rays-grill": {
+      "id": "rays-grill",
+      "title": "Hello, Chef!",
+      "place_name": "Rays Grill",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 340,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Everything was top notch. We ordered medium steak and it was exactly that. Hats off to the chef",
+          "Ajay شكرا على هذى الخدمة"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "reem-mall": {
+      "id": "reem-mall",
+      "title": "Navigate the Mall",
+      "place_name": "Reem Mall",
+      "category": "shopping",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": null,
+        "review_count": 0,
+        "filtered_review_count": 33,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "one if the best malls  were located",
+          "Un endroit pour les enfants !",
+          "Reem mall has shopping place to all type of ppl."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "rixos-marina": {
+      "id": "rixos-marina",
+      "title": "Adding Arches to Architecture",
+      "place_name": "Rixos Marina",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 7946,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "I am very happy to stay and enjoying the hotel service food was amazing and classy specially bhupender soda great job and room was very neat and clan"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "rixos-saadiyat": {
+      "id": "rixos-saadiyat",
+      "title": "Book Your Stylish Siesta",
+      "place_name": "Rixos Premium Saadiyat",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 5429,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "We had a lovely dinner at Orient restaurant, our server Ahron lester was brilliant and provided great service and the food was delicious"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "saadiyat-beach-club": {
+      "id": "saadiyat-beach-club",
+      "title": "Where Yalla Meets Bonjour",
+      "place_name": "Saadiyat Beach Club",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 3.6,
+        "review_count": 769,
+        "filtered_review_count": 66,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "225 дерхам. Был ветер. Купаться нельзя, без зонтиков. Полежать на пляже 100 евро с человека. Отказались",
+          "Skøn offentlig strand hvor man dog skal betale for at komme ind. Sandet og vandet var perfekt. Maden er OK"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "seaworld-1": {
+      "id": "seaworld-1",
+      "title": "Unlock the Secrets of the Deep",
+      "place_name": "SeaWorld Yas Island",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 0,
+        "filtered_review_count": 17,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "seaworld-2": {
+      "id": "seaworld-2",
+      "title": "Deep Dive into Marine Life",
+      "place_name": "SeaWorld Yas Island",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 0,
+        "filtered_review_count": 20,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "What an creation. No words. I saw walrus, penguins, sharks, ray fishes from less than 1 feet distance. What a marvel created by Abu Dhabi Tourism.",
+          "Dont miss to watch the Amazing dolphin show."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "seaworld-3": {
+      "id": "seaworld-3",
+      "title": "Underwater Trekking",
+      "place_name": "SeaWorld Yas Island",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 0,
+        "filtered_review_count": 19,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Dont miss to watch the Amazing dolphin show.",
+          "Too good, we had a blast here, don't miss the dolphin show..."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "shangrila": {
+      "id": "shangrila",
+      "title": "Paradise Cruise",
+      "place_name": "Shangri-La Hotel",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 7902,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Pour un brunch des plus agréables",
+          "The best brunch in Abu Dhabi",
+          "Great place with wonderful, friendly staff. The  Christmas supper was delicious and i mean delicious. My daughter lost her 18k gold ring there. It's one place that i will definitely not forget."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "mosque-1": {
+      "id": "mosque-1",
+      "title": "Walk Upon a Masterpiece",
+      "place_name": "Sheikh Zayed Grand Mosque",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 59694,
+        "filtered_review_count": 29,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Beautiful grand mosque",
+          "“The mosque architecture and size are breathtaking. Intricate floral marble tiles and colossal chandeliers are awe-inspiring."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "mosque-2": {
+      "id": "mosque-2",
+      "title": "Stroll Through a Marble Garden",
+      "place_name": "Sheikh Zayed Grand Mosque",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 59694,
+        "filtered_review_count": 15,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "sir-bani-yas": {
+      "id": "sir-bani-yas",
+      "title": "Close Encounters with Adventure",
+      "place_name": "Sir Bani Yas Island",
+      "category": "nature",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 887,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Beautiful experience , half day from the cruise, time on the beach, quite sea, with some places you can walk around, very good time in late december.",
+          "It was different experience,...."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "snow-1": {
+      "id": "snow-1",
+      "title": "Sweet Hot Chocolate Moments",
+      "place_name": "Snow Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.2,
+        "review_count": 1269,
+        "filtered_review_count": 20,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "snow-2": {
+      "id": "snow-2",
+      "title": "Battle at Minus 2 Degrees",
+      "place_name": "Snow Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.2,
+        "review_count": 1269,
+        "filtered_review_count": 4,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "snow-3": {
+      "id": "snow-3",
+      "title": "Flight of the Snow Owl",
+      "place_name": "Snow Abu Dhabi",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.2,
+        "review_count": 1269,
+        "filtered_review_count": 4,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "st-regis": {
+      "id": "st-regis",
+      "title": "Colorful Cooldown",
+      "place_name": "St. Regis Saadiyat",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 4396,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Great experience overall, the beach and the pool are amazing. We really had a great time, Satya was very nice and helpful."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "surf-abudhabi": {
+      "id": "surf-abudhabi",
+      "title": "Fortune Favors the Wave Rider",
+      "place_name": "Surf Abu Dhabi",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 227,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "it was amazing!! perfect conditions, really nice and helpful team and learned a lot!! Looking forward to come back soon",
+          "An incredible experience"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "the-bridge": {
+      "id": "the-bridge",
+      "title": "Expand Your Group Chat",
+      "place_name": "The Bridge",
+      "category": "beach",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 2500,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Amazing facilities & wonderful people  Anya & Bhakti.",
+          "One of the best places in AD I spent more than 5 hours working in very quiet and pleasant surroundings. I loved the carrot cake.",
+          "Nice place!! Joined a cosplay event here.."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "galleria-1": {
+      "id": "galleria-1",
+      "title": "Eye-Catching Looks",
+      "place_name": "The Galleria",
+      "category": "shopping",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 20664,
+        "filtered_review_count": 46,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "A Very Nice Mall With Nice Ambience !",
+          "Best to enjoy however avoid keeping teenagers alone in the outdoor area as they tend to fight alot, its common there for them to hang out, the mall is amazing",
+          "The best shopping mall in Abu Dhabi."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "galleria-2": {
+      "id": "galleria-2",
+      "title": "Follow the Fragrance",
+      "place_name": "The Galleria",
+      "category": "shopping",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 20664,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "A Very Nice Mall With Nice Ambience !",
+          "Точно самый лучший мол Абу Даби, все есть, и очень все удобно, приятно и интересно. Все работает, все магазины есть.",
+          "Best to enjoy however avoid keeping teenagers alone in the outdoor area as they tend to fight alot, its common there for them to hang out, the mall is amazing"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "aquarium-1": {
+      "id": "aquarium-1",
+      "title": "A Friendly Staring Contest",
+      "place_name": "The National Aquarium",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 5328,
+        "filtered_review_count": 16,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "aquarium-2": {
+      "id": "aquarium-2",
+      "title": "Take the Plunge",
+      "place_name": "The National Aquarium",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 5328,
+        "filtered_review_count": 16,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "The aquarium was amazing, especially for the kids. But the hospital tour was short and with little information explained by the tour guy.",
+          "It was amazing experience the facilities are top notch! Great job for the whole team and our guide Mohammed very detailed tour behind the scenes.",
+          "Absolutely amazing and worth to pay extra for the extra tour! Very educational and eye opening"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "ufc-gym": {
+      "id": "ufc-gym",
+      "title": "Train Like a Pro",
+      "place_name": "UFC Gym",
+      "category": "adventure",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.2,
+        "review_count": 393,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Very Good and clean Gym 👌😍",
+          "Spacious gym, good facility\nGreat staff especially alvin, lariss, alaa el masry",
+          "Thank you for safeguarding the entrusted items."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "wahat-al-karama": {
+      "id": "wahat-al-karama",
+      "title": "Sit and Reflect",
+      "place_name": "Wahat Al Karama",
+      "category": "landmark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 0,
+        "filtered_review_count": 92,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "warner-1": {
+      "id": "warner-1",
+      "title": "Stroll Down Superhero Street",
+      "place_name": "Warner Bros. World",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 22774,
+        "filtered_review_count": 12,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "had a great day and good rides and i meet a guy in dynamite gutch help my kids in mining activities his name was saying Zaward"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "warner-2": {
+      "id": "warner-2",
+      "title": "Beat the Ultimate Trickster",
+      "place_name": "Warner Bros. World",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.1,
+        "review_count": 16,
+        "filtered_review_count": 4,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "A little scary but cool place for 12-14 y.o. Great atmosphere!"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "white": {
+      "id": "white",
+      "title": "Dress to Impress",
+      "place_name": "White",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 3.5,
+        "review_count": 326,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Best after 2am club in Abu Dhabi.Top vibes drinks just come and enjoy hit recommend !!!🔥🎉",
+          "Thanks Hassan for your treatment ♥️",
+          "White Club整体氛围顶级，DJ与灯光让人瞬间沉浸。服务团队多数热情专业，但点单曾出错且沟通略生硬，所幸经理及时补救。价格偏高，建议提前确认账单。瑕不掩瑜，仍是阿布扎比值得体验的夜生活地标。"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "wtc-mall": {
+      "id": "wtc-mall",
+      "title": "Ready, Set, Slide",
+      "place_name": "World Trade Center Mall",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 11761,
+        "filtered_review_count": 62,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "One of the attractive mall of abu dhabi. Different vibe than any other regular malls.",
+          "Đây là khu mua sắm bạn có thể ghé thăm khi đến Abu Dhabi. Sạch sẽ và giá cả hợp lý",
+          "Great mall and amazing ambience! Has a Lulu Hypermarket in there in addition to a food court and other stores. Definitely worth the time spend."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "xtreme-zone": {
+      "id": "xtreme-zone",
+      "title": "Indoor Family Adventure",
+      "place_name": "Xtreme Zone",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.8,
+        "review_count": 447,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Amexio shop at xtreme zone is absolutely wonderful especially shaz give that guy a raise best employee of the century",
+          "Best experience ever 10/10 and shout out to jefffery",
+          "Amazing experience loved it shoutout to Jeffrey deserves employee of the month"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "yas-mall-challenge": {
+      "id": "yas-mall-challenge",
+      "title": "Drive Like Haaland",
+      "place_name": "Yas Mall",
+      "category": "adventure",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 44633,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Yas Mall is an amazing place for families. Wide variety of shops, great food options, kids’ entertainment, and a very clean, well-organized environment. Always enjoy visiting!",
+          "amazing place to spend a quality time",
+          "James at the help desk on ground floor near M&S is such a knowledgeable and helpful guy. He helped me in converting touchpoints to a voucher."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "yas-mall": {
+      "id": "yas-mall",
+      "title": "Enter the Trendsetter's Era",
+      "place_name": "Yas Mall",
+      "category": "shopping",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 44633,
+        "filtered_review_count": 23,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Yas Mall is an amazing place for families. Wide variety of shops, great food options, kids’ entertainment, and a very clean, well-organized environment. Always enjoy visiting!",
+          "Lovely mall with huge selection of stores. Huge. Family friendly and vibrant. Restaurant options are great as well. Highly recommended.",
+          "A wide variety of stores, both luxury, outlet types and many on between. So strange to see all of the American eateries! One of the better malls we've visited so far."
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "yas-marina-1": {
+      "id": "yas-marina-1",
+      "title": "Master the Drift",
+      "place_name": "Yas Marina Circuit",
+      "category": "adventure",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 2681,
+        "filtered_review_count": 38,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "What an amazing experience I had at the 2025 final f1"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "yas-marina-2": {
+      "id": "yas-marina-2",
+      "title": "190 km/h Road Trip",
+      "place_name": "Yas Marina Circuit",
+      "category": "adventure",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 2681,
+        "filtered_review_count": 33,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "I visit  there,very nice place ,and nice experience 😜😘",
+          "Great experience but staff not very helpful. Multiple gates are often closed, and one needs to take a lot of detours!",
+          "What an amazing experience I had at the 2025 final f1"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "waterworld-1": {
+      "id": "waterworld-1",
+      "title": "Find a Souvenir for Grandma",
+      "place_name": "Yas Waterworld",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 19817,
+        "filtered_review_count": 28,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Great water park. Good mix of rides and not much in terms of a queue. Highly recommend a visit.",
+          "Very family friendly water park, well staffed, a lot for all ages to do and food and drinks available throughout park. Also very clean highly recommend"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "waterworld-2": {
+      "id": "waterworld-2",
+      "title": "Ride the Waves!",
+      "place_name": "Yas Waterworld",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 19817,
+        "filtered_review_count": 11,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Amazing water slides , such an adrenalin rush , but i don’t recommend going there on the weekend unless u wanna wait 45 min each slide",
+          "Amazing park . Great slides , overall experience was excellent"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "waterworld-3": {
+      "id": "waterworld-3",
+      "title": "Leisurely Water Fun",
+      "place_name": "Yas Waterworld",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 19817,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Enjoyed all the rides, there are rides for all the ages.",
+          "Good but lots of people and water was cold",
+          "Top… wie waren im Dezember da und hatten Glück, dass er Park nicht so voll war\nsonst wären die Wartezeiten eine Katastrophe!"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "waterworld-4": {
+      "id": "waterworld-4",
+      "title": "Spiral Down",
+      "place_name": "Yas Waterworld",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 19817,
+        "filtered_review_count": 2,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": []
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "zayed-sports": {
+      "id": "zayed-sports",
+      "title": "Lace Up Your Skates",
+      "place_name": "Zayed Sports City",
+      "category": "adventure",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 9530,
+        "filtered_review_count": 63,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Best place to do lots of activities",
+          "Best place to see the air show",
+          "Adnoc marathon\n\nDec 13 2025 Sat 4am 11am"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "zero-latency": {
+      "id": "zero-latency",
+      "title": "Leave Reality Behind",
+      "place_name": "Zero Latency",
+      "category": "themepark",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.9,
+        "review_count": 2445,
+        "filtered_review_count": 57,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Totally awesome VR experience. Took my wife and kids (15,8) and they both enjoyed it. Pricing is a touch high overall for 30 mins, but it’s a very memorable activity to do while on holiday.",
+          "That’s was so tuff it was really fun like would lowkey come back it’s so good",
+          "Great fun, family friendly and immersive"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    },
+    "zuma": {
+      "id": "zuma",
+      "title": "Abu Dhabi's Premier Izakaya",
+      "place_name": "Zuma",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 0,
+        "value_for_money": 0,
+        "experience_quality": 0,
+        "authenticity": 0,
+        "accessibility": 0,
+        "overall_recommendation": 0
+      },
+      "evaluation_summary": "",
+      "detailed_reasons": {
+        "uniqueness": [],
+        "value_for_money": [],
+        "experience_quality": [],
+        "authenticity": [],
+        "accessibility": [],
+        "overall_recommendation": []
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 2481,
+        "filtered_review_count": 100,
+        "positive_themes": [],
+        "negative_themes": [],
+        "standout_quotes": [
+          "Lugar muy bonito y la comida es muy especial... Es un restaurante para degustar comida no realmente para comer. Gente muy amable en servicio absolutamente impecable.",
+          "Zooma is always great, this one is no exception.",
+          "المطعم معروف مايحتاي امدحه"
+        ]
+      },
+      "best_for": [],
+      "avoid_if": []
+    }
+  }
+}

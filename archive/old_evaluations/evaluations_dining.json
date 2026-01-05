@@ -1,0 +1,1718 @@
+{
+  "total_items": 18,
+  "evaluations": {
+    "emirati-house": {
+      "id": "emirati-house",
+      "title": "Home Cooking at Grandma's House",
+      "place_name": "Yadoo's House Restaurant & Cafe",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 4,
+        "experience_quality": 4,
+        "authenticity": 5,
+        "accessibility": 3,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "Yadoo's House offers an authentic home-style Emirati dining experience in a cozy setting. While the food is genuinely traditional and the atmosphere welcoming, the location and ambiance are more modest compared to upscale alternatives.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Genuine home-cooking experience that feels like visiting a local family",
+          "Traditional Emirati recipes passed down through generations",
+          "Intimate, non-commercialized atmosphere unlike hotel restaurants",
+          "Focus on authentic flavors without Western adaptations"
+        ],
+        "value_for_money": [
+          "Reasonable prices for authentic Emirati cuisine",
+          "Generous portion sizes typical of home cooking",
+          "Good quality ingredients without luxury markup",
+          "Better value than hotel-based Emirati restaurants"
+        ],
+        "experience_quality": [
+          "Friendly and welcoming staff with personal service",
+          "Consistently tasty and well-prepared traditional dishes",
+          "Cozy atmosphere though facilities are basic",
+          "Good for cultural immersion but lacks fine dining polish"
+        ],
+        "authenticity": [
+          "Completely authentic Emirati home cooking",
+          "Run by locals serving traditional family recipes",
+          "No tourist-oriented modifications to dishes",
+          "Represents genuine local food culture",
+          "Attracts Emirati customers, validating authenticity"
+        ],
+        "accessibility": [
+          "May require taxi or car as location is not central",
+          "Basic signage and modest storefront may be hard to find",
+          "Limited English on menu, though staff is helpful",
+          "Not suitable for those requiring upscale amenities"
+        ],
+        "overall_recommendation": [
+          "Highly recommended for travelers seeking authentic cultural experiences",
+          "Better choice than hotel restaurants for genuine Emirati cuisine",
+          "Great value for money despite simple setting",
+          "May not meet expectations of luxury-seeking travelers",
+          "Perfect for food enthusiasts interested in real local flavors"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.1,
+        "review_count": 999,
+        "filtered_review_count": 62,
+        "positive_themes": [
+          "Authentic and delicious traditional food",
+          "Friendly and kind staff",
+          "Great salads and fresh ingredients",
+          "Genuine home-cooking experience",
+          "Good value for money"
+        ],
+        "negative_themes": [
+          "Basic ambiance and simple decor",
+          "Location can be difficult to find",
+          "Limited menu options",
+          "Service can be slow during busy times"
+        ],
+        "standout_quotes": [
+          "احب شي عندي سلطة 🥗 و أكلهم لذيذ",
+          "The food are so tasty and delicious, amazing!!!\nStaff are very friendly and kind.\nHighly recommended!!!"
+        ]
+      },
+      "best_for": [
+        "Food enthusiasts seeking authentic Emirati cuisine",
+        "Cultural explorers wanting genuine local experiences",
+        "Budget-conscious travelers",
+        "Those who value authenticity over luxury",
+        "People interested in traditional home cooking"
+      ],
+      "avoid_if": [
+        "You require fine dining ambiance",
+        "You prefer internationally-adapted cuisine",
+        "You need central location convenience",
+        "You're seeking Instagram-worthy decor"
+      ]
+    },
+    "al-fanar": {
+      "id": "al-fanar",
+      "title": "Culinary Wonders",
+      "place_name": "Al Fanar",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 4,
+        "experience_quality": 5,
+        "authenticity": 5,
+        "accessibility": 5,
+        "overall_recommendation": 9
+      },
+      "evaluation_summary": "Al Fanar is Abu Dhabi's premier destination for experiencing traditional Emirati cuisine in a beautifully designed setting that recreates 1960s Abu Dhabi. With exceptional food quality, atmosphere, and service, it's a must-visit for anyone wanting to understand Emirati culinary culture.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Themed restaurant recreating 1960s Abu Dhabi with authentic decor",
+          "One of the few restaurants specializing exclusively in Emirati cuisine",
+          "Immersive cultural experience combining food, history, and ambiance",
+          "Educational aspect with traditional cooking methods on display",
+          "Signature dishes like Khuzi and Balaleet rarely found elsewhere"
+        ],
+        "value_for_money": [
+          "Moderate pricing for the quality and experience offered",
+          "Large portions that can be shared",
+          "Complete cultural experience beyond just the food",
+          "Better value than hotel Emirati restaurants with similar quality",
+          "Includes atmospheric dining in themed environment"
+        ],
+        "experience_quality": [
+          "Exceptional attention to detail in decor and presentation",
+          "Excellent service from knowledgeable staff",
+          "Consistently high food quality across all dishes",
+          "Beautiful plating and traditional serving methods",
+          "Comfortable seating with various dining areas"
+        ],
+        "authenticity": [
+          "100% authentic Emirati recipes from family traditions",
+          "Traditional cooking techniques and ingredients",
+          "Highly regarded by local Emirati community",
+          "No fusion or Western adaptations",
+          "Educational menu descriptions explaining dish origins"
+        ],
+        "accessibility": [
+          "Multiple locations across Abu Dhabi including Al Seef",
+          "Easy to find with good signage",
+          "English-speaking staff and bilingual menus",
+          "Accepts reservations and walk-ins",
+          "Family-friendly with various seating options"
+        ],
+        "overall_recommendation": [
+          "Must-visit for first-time visitors to Abu Dhabi",
+          "Best combination of authenticity and refined dining",
+          "Exceptional cultural and culinary experience",
+          "Perfect introduction to Emirati cuisine",
+          "Suitable for all types of travelers from budget to luxury"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.9,
+        "review_count": 12016,
+        "filtered_review_count": 68,
+        "positive_themes": [
+          "Exceptional authentic Emirati food",
+          "Beautiful nostalgic 1960s themed atmosphere",
+          "Excellent and attentive service",
+          "Great for experiencing local culture",
+          "Dough balls with date syrup are a highlight",
+          "Perfect for families and groups"
+        ],
+        "negative_themes": [
+          "Can get crowded during peak times",
+          "Wait times for tables without reservation",
+          "Some dishes may be too traditional for Western palates",
+          "Portions are very large, may lead to waste"
+        ],
+        "standout_quotes": [
+          "Great food and service. Thoroughly enjoyed the dining experience here.",
+          "Super good place to try local cuisine!\nDough balls with date syrup are the best!",
+          "تجربة رائعة، الجو جميل والأكل لذيذ 🫶"
+        ]
+      },
+      "best_for": [
+        "First-time visitors wanting to try Emirati cuisine",
+        "Families with children",
+        "Cultural enthusiasts and food lovers",
+        "Those seeking authentic but comfortable dining",
+        "Photography enthusiasts (beautiful themed decor)",
+        "Groups and celebrations"
+      ],
+      "avoid_if": [
+        "You have limited time and can't wait for a table",
+        "You prefer modern fusion cuisine",
+        "You're seeking a quiet romantic dinner",
+        "You have very specific dietary restrictions"
+      ]
+    },
+    "al-raiqa": {
+      "id": "al-raiqa",
+      "title": "Legendary Freshness",
+      "place_name": "Al Raiqa",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 5,
+        "experience_quality": 4,
+        "authenticity": 4,
+        "accessibility": 4,
+        "overall_recommendation": 6
+      },
+      "evaluation_summary": "Al Raiqa is a local favorite for high-quality dates, nuts, and traditional sweets at excellent prices. While not a full dining experience, it's a must-stop for anyone wanting to purchase authentic Emirati treats and gifts.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Specializes in premium local dates and date products",
+          "Traditional sweet shop format common in the region",
+          "Wide variety of date types and preparations",
+          "Offers traditional date-based confections"
+        ],
+        "value_for_money": [
+          "Excellent prices for high-quality dates and nuts",
+          "Much cheaper than hotel shops or airport stores",
+          "Generous samples available before purchase",
+          "Bulk purchasing options available",
+          "Great place for souvenirs and gifts"
+        ],
+        "experience_quality": [
+          "Fresh, high-quality products",
+          "Helpful and friendly staff",
+          "Clean and well-organized store",
+          "Quick service for purchases",
+          "Good packaging for gifts and travel"
+        ],
+        "authenticity": [
+          "Genuine local shop serving Emirati community",
+          "Traditional date varieties and preparations",
+          "No tourist markup on prices",
+          "Authentic selection reflecting local preferences"
+        ],
+        "accessibility": [
+          "Located in accessible area",
+          "Easy parking available",
+          "Staff speaks English",
+          "Straightforward shopping experience",
+          "Cash and card accepted"
+        ],
+        "overall_recommendation": [
+          "Recommended for buying dates and traditional sweets",
+          "Better as a shopping stop than dining destination",
+          "Excellent value makes it worth a visit",
+          "Perfect for purchasing gifts and souvenirs",
+          "Not a substitute for a meal experience"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 269,
+        "filtered_review_count": 45,
+        "positive_themes": [
+          "High quality dates at great prices",
+          "Fresh pistachios and nuts",
+          "Friendly and helpful staff",
+          "Good for buying gifts and souvenirs",
+          "Wide variety of date products",
+          "Chocolate-covered dates are popular"
+        ],
+        "negative_themes": [
+          "Can be crowded during peak seasons",
+          "Limited seating or dining options",
+          "Primarily a shop rather than restaurant",
+          "May feel overwhelming with many choices"
+        ],
+        "standout_quotes": [
+          "Хорошее место, хороший сервис",
+          "Great store , we bought top quality dates & pistachio at very good prices",
+          "대추야자 맛있네요ㅋㅋ 뮤죡규ㅓㄴ 오우쉬이프러 이상 까끄쉐용 초콜릿도 맛있음! 판매하는 애들도 귀여움ㅋㅋ"
+        ]
+      },
+      "best_for": [
+        "Shopping for dates and traditional sweets",
+        "Buying gifts and souvenirs",
+        "Experiencing local market atmosphere",
+        "Those interested in Middle Eastern confections",
+        "Budget travelers seeking authentic products"
+      ],
+      "avoid_if": [
+        "You're looking for a sit-down dining experience",
+        "You don't like dates or traditional sweets",
+        "You have limited luggage space",
+        "You're in a rush"
+      ]
+    },
+    "al-sultan": {
+      "id": "al-sultan",
+      "title": "Taste the City's Treasures",
+      "place_name": "Al Sultan Bakeries",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 5,
+        "experience_quality": 4,
+        "authenticity": 4,
+        "accessibility": 4,
+        "overall_recommendation": 6
+      },
+      "evaluation_summary": "Al Sultan Bakeries is a beloved local bakery chain offering fresh traditional Middle Eastern breads and pastries at very reasonable prices. It's perfect for grabbing authentic baked goods but lacks seating for dining.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Traditional Arabic bakery serving local community",
+          "Fresh bread baked throughout the day",
+          "Authentic Middle Eastern pastries and sweets",
+          "Local chain with consistent quality"
+        ],
+        "value_for_money": [
+          "Extremely affordable prices for fresh baked goods",
+          "Generous portions and large bread sizes",
+          "Much cheaper than hotel or tourist-oriented bakeries",
+          "Great option for budget travelers",
+          "Excellent quality-to-price ratio"
+        ],
+        "experience_quality": [
+          "Fresh, high-quality bread and pastries",
+          "Quick service for takeaway orders",
+          "Clean bakery environment",
+          "Consistent product quality across locations",
+          "No seating area limits the experience"
+        ],
+        "authenticity": [
+          "Genuine local bakery serving Emirati community",
+          "Traditional recipes and baking methods",
+          "Popular with locals, indicating authenticity",
+          "No Western-style adaptations"
+        ],
+        "accessibility": [
+          "Multiple locations across Abu Dhabi",
+          "Easy to find and access",
+          "Takeaway-focused operation",
+          "Staff speaks basic English",
+          "Quick stop for travelers"
+        ],
+        "overall_recommendation": [
+          "Great for experiencing local bakery culture",
+          "Perfect for picking up breakfast or snacks",
+          "Excellent value but limited to takeaway",
+          "Not a destination dining experience",
+          "Recommended as part of broader food exploration"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.2,
+        "review_count": 980,
+        "filtered_review_count": 39,
+        "positive_themes": [
+          "Excellent quality bread and pastries",
+          "Very reasonable prices",
+          "Fresh products",
+          "Good manakish and samoon (traditional breads)",
+          "Friendly service"
+        ],
+        "negative_themes": [
+          "No seating or dining area",
+          "Limited parking at some locations",
+          "Can be crowded during peak times",
+          "Basic packaging"
+        ],
+        "standout_quotes": [
+          "الجوده ممتازه يستاهل التجربه",
+          "Makish is good ones and price is reasonable. other bakery items are good. Not have place to eat",
+          "صمون رهيب وتعامل راقي جدا"
+        ]
+      },
+      "best_for": [
+        "Budget travelers seeking authentic local food",
+        "Quick breakfast or snack stops",
+        "Experiencing traditional Arabic bakery",
+        "Trying fresh Middle Eastern breads",
+        "Takeaway meals and picnic supplies"
+      ],
+      "avoid_if": [
+        "You need a sit-down dining experience",
+        "You're looking for Western-style bakery items",
+        "You have limited time and there's a long queue",
+        "You prefer pre-packaged goods"
+      ]
+    },
+    "annex": {
+      "id": "annex",
+      "title": "Bust Out Your Old Dance Moves",
+      "place_name": "ANNEX",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 3,
+        "experience_quality": 4,
+        "authenticity": 2,
+        "accessibility": 4,
+        "overall_recommendation": 6
+      },
+      "evaluation_summary": "ANNEX is a rooftop bar and lounge offering great drinks, music, and views in a modern setting. It's more about the social atmosphere than dining, though it can sometimes feel empty.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Rooftop venue with city views",
+          "Retro-themed decor and music from past decades",
+          "Combines dining, drinks, and entertainment",
+          "DJ performances and themed nights"
+        ],
+        "value_for_money": [
+          "Moderate to high prices typical of rooftop venues",
+          "Good drink selection but premium pricing",
+          "Food quality doesn't always match the price",
+          "Atmosphere adds value to the experience"
+        ],
+        "experience_quality": [
+          "Great rooftop ambiance and views",
+          "Professional and friendly service",
+          "Good music and entertainment",
+          "Can feel empty on slower nights",
+          "Better for drinks than dining"
+        ],
+        "authenticity": [
+          "International bar concept, not uniquely Emirati",
+          "Western-style cocktail bar atmosphere",
+          "Generic rooftop lounge format",
+          "More cosmopolitan than local"
+        ],
+        "accessibility": [
+          "Located in accessible area",
+          "Easy to reach by taxi",
+          "English-speaking staff",
+          "Dress code may apply",
+          "Reservations recommended for busy nights"
+        ],
+        "overall_recommendation": [
+          "Good for evening drinks and socializing",
+          "Better as a bar than restaurant",
+          "Can be hit or miss depending on crowd",
+          "Not essential but enjoyable for nightlife seekers",
+          "Consider checking if there's a special event"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.1,
+        "review_count": 193,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Amazing rooftop vibes",
+          "Great drinks and cocktails",
+          "Excellent professional service",
+          "Good music and atmosphere",
+          "Friendly staff like Elijah"
+        ],
+        "negative_themes": [
+          "Often empty or low crowd",
+          "Inconsistent attendance",
+          "Can feel quiet for a nightlife venue",
+          "Higher prices"
+        ],
+        "standout_quotes": [
+          "Had the greatest time",
+          "Rooftop vibes are amazing, great drinks and excellent service. Elijah is very professional and kind.",
+          "Nice place but always empty"
+        ]
+      },
+      "best_for": [
+        "Evening drinks and socializing",
+        "Those seeking rooftop venues",
+        "Groups looking for a relaxed atmosphere",
+        "People who enjoy retro music",
+        "After-work drinks crowd"
+      ],
+      "avoid_if": [
+        "You're primarily seeking a dining experience",
+        "You prefer busy, crowded venues",
+        "You're on a tight budget",
+        "You don't drink alcohol"
+      ]
+    },
+    "bait-gahwa": {
+      "id": "bait-gahwa",
+      "title": "Timeless Vitality",
+      "place_name": "Bait Al Gahwa",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 4,
+        "experience_quality": 4,
+        "authenticity": 5,
+        "accessibility": 4,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "Bait Al Gahwa is a cultural cafe offering traditional Arabic coffee experience with live demonstrations of traditional crafts. It's an educational and authentic experience combining coffee culture with Emirati heritage.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Traditional Emirati coffee house concept",
+          "Live artisan demonstrations of traditional crafts",
+          "Educational cultural experience beyond just dining",
+          "Authentic setting recreating traditional coffee house",
+          "Combines beverage service with cultural immersion"
+        ],
+        "value_for_money": [
+          "Reasonable prices for cultural experience",
+          "Free artisan demonstrations included",
+          "Traditional coffee and dates served",
+          "Good value for cultural enthusiasts",
+          "Educational component adds value"
+        ],
+        "experience_quality": [
+          "Authentic traditional setting",
+          "Interesting live craft demonstrations",
+          "Pleasant atmosphere for relaxation",
+          "Good for short cultural stops",
+          "Limited food options beyond coffee and dates"
+        ],
+        "authenticity": [
+          "Completely authentic Emirati coffee house concept",
+          "Traditional coffee preparation methods",
+          "Real artisans demonstrating traditional crafts",
+          "Reflects genuine Emirati hospitality customs",
+          "Part of broader cultural heritage site"
+        ],
+        "accessibility": [
+          "Located in Qasr Al Hosn cultural district",
+          "Easy to find and access",
+          "Part of larger cultural complex",
+          "Bilingual staff",
+          "Free admission to observe"
+        ],
+        "overall_recommendation": [
+          "Highly recommended for cultural immersion",
+          "Perfect stop during heritage site visits",
+          "Great for understanding Emirati coffee culture",
+          "More educational than culinary destination",
+          "Excellent complement to cultural tourism"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 219,
+        "filtered_review_count": 37,
+        "positive_themes": [
+          "Good interior design",
+          "Interesting artisan demonstrations",
+          "Educational and cultural experience",
+          "Traditional atmosphere",
+          "Live craftspeople at work"
+        ],
+        "negative_themes": [
+          "Limited exhibits",
+          "Small space",
+          "Not much to see beyond demonstrations",
+          "Limited food menu"
+        ],
+        "standout_quotes": [
+          "Good interior though not much to exhibit",
+          "Artigiani lavorano dal vivo a diverse postazioni. Interssante e educativo!"
+        ]
+      },
+      "best_for": [
+        "Cultural enthusiasts and heritage tourists",
+        "Those interested in traditional crafts",
+        "Quick cultural coffee break",
+        "Photography of traditional settings",
+        "Understanding Emirati hospitality customs"
+      ],
+      "avoid_if": [
+        "You're looking for a full meal",
+        "You have limited interest in cultural experiences",
+        "You prefer modern cafe environments",
+        "You're in a rush"
+      ]
+    },
+    "central": {
+      "id": "central",
+      "title": "Where Food Meets Fun at Yas Bay",
+      "place_name": "Central",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 4,
+        "experience_quality": 4,
+        "authenticity": 2,
+        "accessibility": 5,
+        "overall_recommendation": 6
+      },
+      "evaluation_summary": "Central at Yas Bay is a family-friendly dining venue with games and entertainment. It offers good casual food in a fun atmosphere, making it ideal for families with children.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Combines dining with entertainment and games",
+          "Family-focused concept with activities for all ages",
+          "Part of the Yas Bay waterfront development",
+          "Casual dining with arcade-style entertainment"
+        ],
+        "value_for_money": [
+          "Reasonable prices for family dining",
+          "Good portion sizes",
+          "Entertainment value included",
+          "Kids eat and play in one location",
+          "Moderate pricing for the area"
+        ],
+        "experience_quality": [
+          "Tasty casual food (fried fish, quesadillas, nachos)",
+          "Fun atmosphere with games and activities",
+          "Good for children and families",
+          "Pleasant Yas Bay waterfront location",
+          "Can be noisy due to entertainment"
+        ],
+        "authenticity": [
+          "International casual dining concept",
+          "Western-style menu items",
+          "Not uniquely Emirati or local",
+          "Generic family entertainment venue"
+        ],
+        "accessibility": [
+          "Located in Yas Bay, easy to reach",
+          "Ample parking available",
+          "Family-friendly with good facilities",
+          "English-speaking staff",
+          "Walk-ins welcome"
+        ],
+        "overall_recommendation": [
+          "Recommended for families with children",
+          "Good casual dining option at Yas Bay",
+          "Not a destination restaurant but solid choice",
+          "Better for the experience than culinary excellence",
+          "Convenient when visiting Yas Island attractions"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.1,
+        "review_count": 774,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Nice place with games for all ages",
+          "Very good food (fried fish, quesadillas, nachos)",
+          "Kids love it",
+          "Tasty drinks",
+          "Fun atmosphere"
+        ],
+        "negative_themes": [
+          "Can be noisy",
+          "Crowded on weekends",
+          "Service can be slow when busy",
+          "Games may require additional payment"
+        ],
+        "standout_quotes": [
+          "المكان حلو وفي ألعاب ومناسب لكل الأعمار",
+          "Fried fish, Chicken Quesadillas, Nachos and the drinks are to die for!! So so tasty. Will definitely try the rest of the menu, too!",
+          "Very nice food , kids love it"
+        ]
+      },
+      "best_for": [
+        "Families with children",
+        "Casual dining with entertainment",
+        "Groups looking for fun atmosphere",
+        "Visitors to Yas Bay area",
+        "Those seeking family-friendly venues"
+      ],
+      "avoid_if": [
+        "You're seeking a quiet dining experience",
+        "You prefer fine dining",
+        "You want authentic local cuisine",
+        "You dislike noisy environments"
+      ]
+    },
+    "coya": {
+      "id": "coya",
+      "title": "It's Brunch Time",
+      "place_name": "Coya",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "Coya is an upscale Peruvian restaurant known for its phenomenal food, beautiful decor, and exceptional service. It's a great choice for special occasions and brunch, though prices are premium.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Peruvian cuisine concept in Abu Dhabi",
+          "Part of international Coya restaurant group",
+          "Beautiful Latin American-inspired decor",
+          "Popular brunch destination",
+          "Contemporary Peruvian gastronomy"
+        ],
+        "value_for_money": [
+          "Premium pricing reflecting upscale positioning",
+          "Excellent food quality justifies higher cost",
+          "Beautiful presentation and plating",
+          "Brunch packages can be expensive",
+          "Worth it for special occasions"
+        ],
+        "experience_quality": [
+          "Phenomenal food quality and taste",
+          "Exceptional service from attentive staff",
+          "Beautiful restaurant decor and ambiance",
+          "Expertly crafted dishes",
+          "Great for celebrations and special meals"
+        ],
+        "authenticity": [
+          "Authentic Peruvian cooking techniques",
+          "International restaurant chain concept",
+          "Not local to Abu Dhabi/UAE",
+          "Professional interpretation of Peruvian cuisine",
+          "Similar to other Coya locations worldwide"
+        ],
+        "accessibility": [
+          "Located in accessible area",
+          "Easy to book reservations",
+          "English-speaking staff",
+          "Well-known and easy to find",
+          "Dress code may apply"
+        ],
+        "overall_recommendation": [
+          "Highly recommended for upscale dining experience",
+          "Excellent choice for brunch and special occasions",
+          "Outstanding food and service quality",
+          "Premium price point limits frequency of visits",
+          "One of Abu Dhabi's better international restaurants"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.6,
+        "review_count": 0,
+        "filtered_review_count": 85,
+        "positive_themes": [
+          "Absolutely phenomenal food",
+          "Top-notch service",
+          "Beautiful decor and atmosphere",
+          "Delicious and beautifully presented dishes",
+          "Exceptional staff like Angel and Argel",
+          "Great for special occasions"
+        ],
+        "negative_themes": [
+          "High prices",
+          "Can be expensive for regular dining",
+          "Reservations often needed",
+          "Portion sizes could be larger for the price"
+        ],
+        "standout_quotes": [
+          "Food was absolutely phenomenal, angels service was top top.",
+          "Thanks to argel , he is very kind and welcoming",
+          "I loved this place! Beautiful decor, exceptional service, great atmosphere, delicious food and very beautifully presented!"
+        ]
+      },
+      "best_for": [
+        "Special occasions and celebrations",
+        "Upscale brunch experiences",
+        "Food enthusiasts seeking quality",
+        "Romantic dinners",
+        "Business dinners",
+        "Those who appreciate Peruvian cuisine"
+      ],
+      "avoid_if": [
+        "You're on a tight budget",
+        "You prefer casual dining",
+        "You're seeking local Emirati cuisine",
+        "You want large portion sizes"
+      ]
+    },
+    "emirates-cafe": {
+      "id": "emirates-cafe",
+      "title": "A Sip of 24 Karats",
+      "place_name": "Emirates Palace",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 2,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "The cafe at Emirates Palace offers a luxurious experience, famous for its 24-karat gold cappuccino. While expensive, it's a unique bucket-list experience in one of the world's most opulent hotels.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Famous 24-karat gold cappuccino",
+          "Located in the iconic Emirates Palace Hotel",
+          "One of the world's most luxurious hotel cafes",
+          "Instagram-worthy gold coffee experience",
+          "Unique gold-infused menu items"
+        ],
+        "value_for_money": [
+          "Very expensive pricing",
+          "Gold cappuccino costs premium price",
+          "Paying for the experience and location",
+          "Not about value but about luxury",
+          "Once-in-a-lifetime splurge"
+        ],
+        "experience_quality": [
+          "Exceptional service and hospitality",
+          "Stunning palace interior and ambiance",
+          "High-quality beverages beyond the gold coffee",
+          "Very inviting atmosphere",
+          "Professional staff providing excellent service"
+        ],
+        "authenticity": [
+          "International luxury hotel concept",
+          "Good Turkish coffee alongside novelty items",
+          "More about luxury than local culture",
+          "Represents UAE's opulence but not traditional",
+          "Emirates Palace itself is architecturally significant"
+        ],
+        "accessibility": [
+          "Located in Emirates Palace Hotel",
+          "Easy to reach by taxi",
+          "Hotel is tourist-friendly",
+          "English-speaking staff",
+          "May require hotel entry procedures"
+        ],
+        "overall_recommendation": [
+          "Recommended as a bucket-list experience",
+          "Worth it once for the novelty and ambiance",
+          "Not for regular visits due to cost",
+          "Great for special occasions and photos",
+          "Part of experiencing Abu Dhabi's luxury side"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 274,
+        "filtered_review_count": 34,
+        "positive_themes": [
+          "Lovely tea service",
+          "Exceptional service from staff",
+          "Beautiful ambiance",
+          "Awesome Turkish coffee",
+          "Inviting atmosphere",
+          "Famous gold cappuccino"
+        ],
+        "negative_themes": [
+          "Very expensive prices",
+          "Gold cappuccino is more novelty than taste",
+          "Can feel touristy",
+          "Long wait times possible"
+        ],
+        "standout_quotes": [
+          "My husband and I enjoyed a lovely tea at Episodes. Fatso provided exceptional service and the general ambience was very inviting. We'll be back!",
+          "Awesome Turkish coffee"
+        ]
+      },
+      "best_for": [
+        "Bucket-list experiences",
+        "Special occasions and celebrations",
+        "Instagram and photography enthusiasts",
+        "Those seeking luxury experiences",
+        "First-time visitors to Abu Dhabi",
+        "Afternoon tea lovers"
+      ],
+      "avoid_if": [
+        "You're on a budget",
+        "You prefer authentic local experiences",
+        "You think gold in coffee is gimmicky",
+        "You want value-focused dining"
+      ]
+    },
+    "flamingo": {
+      "id": "flamingo",
+      "title": "Paint Your Palate Pink",
+      "place_name": "Flamingo Collection",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 4,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Flamingo Collection offers amazing food, beautiful atmosphere, and exceptional service. The pink-themed venue provides a great dining experience with friendly staff who make every visit memorable.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Pink flamingo-themed restaurant with Instagram-worthy decor",
+          "Distinctive visual identity and branding",
+          "Contemporary Mediterranean-inspired cuisine",
+          "Trendy atmosphere popular with younger crowds",
+          "Part of growing lifestyle dining trend"
+        ],
+        "value_for_money": [
+          "Moderate to good pricing for quality offered",
+          "Tasty food with good portion sizes",
+          "Atmosphere adds value to experience",
+          "Fair pricing for upscale casual dining",
+          "Good balance of quality and cost"
+        ],
+        "experience_quality": [
+          "Amazing food quality and taste",
+          "Perfect presentation and plating",
+          "Exceptional service from friendly staff",
+          "Beautiful, photogenic atmosphere",
+          "Staff go above and beyond (Milton, Bothwell mentioned)"
+        ],
+        "authenticity": [
+          "International contemporary dining concept",
+          "Mediterranean-influenced menu",
+          "Not traditional or local cuisine",
+          "Global dining trend interpretation"
+        ],
+        "accessibility": [
+          "Located in accessible area",
+          "Easy to book and find",
+          "English-speaking staff",
+          "Friendly and helpful service",
+          "Accommodating to different groups"
+        ],
+        "overall_recommendation": [
+          "Highly recommended for quality dining experience",
+          "Great for dates, celebrations, and social gatherings",
+          "Excellent food, atmosphere, and service combination",
+          "Popular venue that delivers consistently",
+          "Worth visiting for both food and ambiance"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.7,
+        "review_count": 437,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Amazing food and atmosphere",
+          "Exceptional service from staff",
+          "Perfect experience overall",
+          "Tasty food",
+          "Friendly and helpful staff",
+          "Great for evenings and special occasions",
+          "Beautiful decor"
+        ],
+        "negative_themes": [
+          "Can be crowded on weekends",
+          "Reservations recommended",
+          "May have wait times",
+          "Trendy atmosphere may not suit everyone"
+        ],
+        "standout_quotes": [
+          "Amazin food, atmosphere and service, thanks to Milton!",
+          "Everything was perfect\nThe food was tasty and the stuff was friendly and helpful\nThank you 🤍",
+          "Bothwell was such a darling he made our evening fun…the manager was amazing too thank you for the service it was amazing ❤️"
+        ]
+      },
+      "best_for": [
+        "Dates and romantic dinners",
+        "Instagram and social media enthusiasts",
+        "Groups and celebrations",
+        "Contemporary dining lovers",
+        "Those seeking good service and atmosphere",
+        "Photo opportunities"
+      ],
+      "avoid_if": [
+        "You prefer traditional dining",
+        "You're seeking authentic local cuisine",
+        "You dislike trendy themed restaurants",
+        "You prefer quiet, understated venues"
+      ]
+    },
+    "fresh-basil": {
+      "id": "fresh-basil",
+      "title": "Awaken Your Senses",
+      "place_name": "Fresh Basil",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 3,
+        "value_for_money": 4,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "Fresh Basil is a highly-rated restaurant offering fresh, quality food in a pleasant setting. With a 4.9 Google rating, it delivers consistent quality though specific standout features are less defined.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Focus on fresh ingredients and preparation",
+          "Mediterranean or international cuisine concept",
+          "Clean, modern restaurant environment",
+          "Emphasis on healthy, fresh options"
+        ],
+        "value_for_money": [
+          "Good pricing for quality offered",
+          "Fresh ingredients justify pricing",
+          "Reasonable portion sizes",
+          "Good value proposition overall",
+          "Competitive with similar restaurants"
+        ],
+        "experience_quality": [
+          "Exceptional 4.9 Google rating indicates high satisfaction",
+          "Consistent quality and service",
+          "Fresh, well-prepared food",
+          "Pleasant dining environment",
+          "Reliable experience"
+        ],
+        "authenticity": [
+          "International cuisine concept",
+          "Fresh ingredients but not uniquely local",
+          "Standard contemporary dining approach",
+          "Quality focus over cultural specificity"
+        ],
+        "accessibility": [
+          "Located in accessible area",
+          "Easy to find and visit",
+          "English-speaking staff",
+          "Standard restaurant booking and service",
+          "Welcoming to tourists"
+        ],
+        "overall_recommendation": [
+          "Highly recommended based on ratings",
+          "Reliable choice for quality dining",
+          "Good for those seeking fresh, healthy options",
+          "Safe bet for consistent experience",
+          "Worth trying when in the area"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.9,
+        "review_count": 112,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Fresh, quality ingredients",
+          "Excellent food preparation",
+          "Good service",
+          "Pleasant atmosphere",
+          "Consistent quality"
+        ],
+        "negative_themes": [
+          "Limited specific feedback in reviews",
+          "Smaller review sample size"
+        ],
+        "standout_quotes": []
+      },
+      "best_for": [
+        "Health-conscious diners",
+        "Those seeking fresh, quality food",
+        "Reliable dining experiences",
+        "Mediterranean cuisine lovers",
+        "Casual upscale dining"
+      ],
+      "avoid_if": [
+        "You're seeking adventure dining",
+        "You want traditional Emirati cuisine",
+        "You prefer well-known restaurant chains",
+        "You need extensive menu variety"
+      ]
+    },
+    "golden-dallah": {
+      "id": "golden-dallah",
+      "title": "Every Bite is Golden",
+      "place_name": "Golden Dallah",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 5,
+        "experience_quality": 4,
+        "authenticity": 5,
+        "accessibility": 4,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Golden Dallah is an authentic popular restaurant serving traditional Emirati and Khaleeji cuisine, particularly known for its excellent Margoog. It offers genuine local food at great value.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Specializes in traditional Emirati and Khaleeji cuisine",
+          "Famous for Margoog (traditional Emirati dish)",
+          "Popular restaurant with locals",
+          "Authentic traditional recipes",
+          "Focus on regional specialties"
+        ],
+        "value_for_money": [
+          "Excellent prices for authentic local food",
+          "Large portions typical of traditional dining",
+          "Much better value than hotel restaurants",
+          "Popular with locals indicates fair pricing",
+          "Great quality-to-price ratio"
+        ],
+        "experience_quality": [
+          "Delicious traditional food",
+          "Consistently good quality",
+          "Authentic dining atmosphere",
+          "Good service",
+          "Popular restaurant indicating reliability"
+        ],
+        "authenticity": [
+          "Completely authentic Emirati/Khaleeji cuisine",
+          "Popular restaurant with local community",
+          "Traditional recipes and preparation",
+          "Represents genuine regional food culture",
+          "No tourist adaptations"
+        ],
+        "accessibility": [
+          "Located in accessible area",
+          "Popular restaurant easy to find",
+          "Staff may have limited English but helpful",
+          "Straightforward ordering",
+          "Welcome to tourists"
+        ],
+        "overall_recommendation": [
+          "Highly recommended for authentic Emirati cuisine",
+          "Must-try for food enthusiasts",
+          "Excellent value and authenticity combination",
+          "Great alternative to hotel Emirati restaurants",
+          "Worth seeking out for cultural food experience"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 0,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Genuine popular traditional restaurant",
+          "Excellent Margoog (traditional stew)",
+          "Delicious authentic food",
+          "Worth visiting and trying",
+          "Good traditional dining experience"
+        ],
+        "negative_themes": [
+          "May lack upscale ambiance",
+          "Limited English language support",
+          "Basic restaurant setting",
+          "Traditional food may be unfamiliar to some"
+        ],
+        "standout_quotes": [
+          "عن جد مطعم شعبي والاكل ولا اروع",
+          "اكلهم لذيذ خصوصا المرقوقة",
+          "يستحق الزيارة وتجربة الأكل\nGood restaurant 😋"
+        ]
+      },
+      "best_for": [
+        "Authentic Emirati cuisine seekers",
+        "Food enthusiasts and cultural explorers",
+        "Budget-conscious travelers",
+        "Those wanting to try traditional Margoog",
+        "People seeking local favorites",
+        "Adventurous eaters"
+      ],
+      "avoid_if": [
+        "You need upscale dining atmosphere",
+        "You have conservative taste preferences",
+        "You prefer Western-style food",
+        "You need extensive English language support"
+      ]
+    },
+    "hakkasan": {
+      "id": "hakkasan",
+      "title": "Beyond Dim Sum",
+      "place_name": "Hakkasan",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 4,
+        "accessibility": 5,
+        "overall_recommendation": 8
+      },
+      "evaluation_summary": "Hakkasan is an upscale Cantonese restaurant offering delicious dim sum and contemporary Chinese cuisine. Part of the renowned international chain, it delivers excellent food and atmosphere for special occasions.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Part of prestigious Hakkasan international restaurant group",
+          "Contemporary Cantonese fine dining",
+          "Signature dim sum and innovative Chinese dishes",
+          "Upscale Chinese dining experience in Abu Dhabi",
+          "Distinctive modern Chinese restaurant design"
+        ],
+        "value_for_money": [
+          "Premium pricing reflecting fine dining positioning",
+          "High-quality ingredients and preparation",
+          "Good for special occasions rather than regular dining",
+          "Signature drinks add to experience but increase cost",
+          "Worth the price for quality received"
+        ],
+        "experience_quality": [
+          "Delicious food with excellent flavors",
+          "Great for reconnecting with friends and socializing",
+          "Beautiful restaurant ambiance",
+          "Awesome signature drinks",
+          "Professional service and presentation"
+        ],
+        "authenticity": [
+          "Authentic Cantonese cooking techniques",
+          "Michelin-guide recognized internationally",
+          "Contemporary interpretation of Chinese cuisine",
+          "International chain but maintains quality",
+          "Professional Chinese culinary team"
+        ],
+        "accessibility": [
+          "Located in Emirates Palace",
+          "Easy to book reservations",
+          "Well-known international brand",
+          "English-speaking staff",
+          "Tourist-friendly environment"
+        ],
+        "overall_recommendation": [
+          "Highly recommended for Chinese fine dining",
+          "Excellent choice for special occasions",
+          "Reliable quality from established brand",
+          "Great for business dinners and celebrations",
+          "One of Abu Dhabi's best Asian restaurants"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 1088,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Great place to reconnect with friends",
+          "Delicious food and bites",
+          "Awesome signature drinks",
+          "Excellent Chinese cuisine",
+          "Good atmosphere for socializing",
+          "Quality dim sum"
+        ],
+        "negative_themes": [
+          "Expensive pricing",
+          "Premium cost may limit frequency of visits",
+          "Can be busy, reservations needed",
+          "Small portions for sharing"
+        ],
+        "standout_quotes": [
+          "Good place to reconnect with friends, delicious bites, their signature drink was awesome."
+        ]
+      },
+      "best_for": [
+        "Chinese cuisine enthusiasts",
+        "Special occasions and celebrations",
+        "Business dinners",
+        "Dim sum lovers",
+        "Those seeking upscale Asian dining",
+        "Social dining with friends"
+      ],
+      "avoid_if": [
+        "You're on a budget",
+        "You prefer casual dining",
+        "You're seeking local Emirati cuisine",
+        "You want large portion sizes"
+      ]
+    },
+    "la-cava": {
+      "id": "la-cava",
+      "title": "Rosé at Rosewood",
+      "place_name": "La Cava",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "La Cava at Rosewood Hotel is an upscale wine bar and restaurant offering amazing atmosphere, excellent cheese boards, and outstanding service. Perfect for wine lovers and date nights.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Wine-focused dining experience at luxury hotel",
+          "Extensive wine selection with sommelier service",
+          "Specializes in wine and cheese pairings",
+          "Sophisticated wine bar atmosphere",
+          "Located in prestigious Rosewood Hotel"
+        ],
+        "value_for_money": [
+          "Premium pricing for luxury hotel venue",
+          "Excellent quality but expensive",
+          "Wine list can significantly increase costs",
+          "Good for special occasions rather than regular visits",
+          "Worth it for wine enthusiasts"
+        ],
+        "experience_quality": [
+          "Amazing atmosphere and ambiance",
+          "Outstanding service from chef and sommelier",
+          "Excellent wine selection and recommendations",
+          "Great cheese boards and food",
+          "Unforgettable experience reported by guests"
+        ],
+        "authenticity": [
+          "International wine bar concept",
+          "Professional sommelier and chef approach",
+          "Not culturally specific to region",
+          "Luxury hotel dining standard",
+          "Quality-focused rather than traditional"
+        ],
+        "accessibility": [
+          "Located in Rosewood Hotel",
+          "Easy to book reservations",
+          "English-speaking staff",
+          "Well-known hotel location",
+          "Dress code may apply"
+        ],
+        "overall_recommendation": [
+          "Highly recommended for wine and cheese lovers",
+          "Perfect for date nights",
+          "Excellent choice for special occasions",
+          "Outstanding service makes it memorable",
+          "One of the better wine experiences in Abu Dhabi"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 134,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Amazing atmosphere",
+          "Outstanding service from Chef Khalil and Paulo the sommelier",
+          "Excellent for wine and cheese lovers",
+          "Perfect for date nights",
+          "Unforgettable experience",
+          "Great approach to customers"
+        ],
+        "negative_themes": [
+          "Expensive pricing",
+          "Wine can significantly increase bill",
+          "May feel too formal for some",
+          "Limited menu beyond wine and cheese"
+        ],
+        "standout_quotes": [
+          "The atmosphere is just amazing, food from chef Khalil and his approach to customers outstanding, love the place to enjoy with my friends, always coming back to them 🙌❤️‍🔥",
+          "If you love wine and cheese boards then this is the place for you. Nice for a date night i would say.",
+          "The service was outstanding, chef Waleed and Paulo the sommelier were amazing and made the experience unforgettable."
+        ]
+      },
+      "best_for": [
+        "Wine and cheese enthusiasts",
+        "Date nights and romantic occasions",
+        "Wine education and tasting experiences",
+        "Those seeking sophisticated atmosphere",
+        "Special celebrations",
+        "Friends gatherings over wine"
+      ],
+      "avoid_if": [
+        "You're on a budget",
+        "You don't drink alcohol",
+        "You prefer casual dining",
+        "You want substantial meals rather than small plates"
+      ]
+    },
+    "mezlai": {
+      "id": "mezlai",
+      "title": "Emirati Cuisine Elevated",
+      "place_name": "Mezlai",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 5,
+        "accessibility": 4,
+        "overall_recommendation": 9
+      },
+      "evaluation_summary": "Mezlai at Emirates Palace is the premier fine dining destination for authentic Emirati cuisine. It elevates traditional dishes to luxury standards with impeccable service in an opulent setting.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Abu Dhabi's first fine dining Emirati restaurant",
+          "Located in iconic Emirates Palace",
+          "Elevates traditional Emirati cuisine to luxury level",
+          "One of few Michelin-recognized Emirati restaurants",
+          "Exclusive haute cuisine interpretation of local dishes",
+          "Combines cultural heritage with fine dining"
+        ],
+        "value_for_money": [
+          "Expensive pricing reflecting luxury hotel setting",
+          "Premium quality ingredients and preparation",
+          "Emirates Palace experience included",
+          "Better value than similar fine dining globally",
+          "Worth the splurge for special occasions"
+        ],
+        "experience_quality": [
+          "Excellent food quality and execution",
+          "Impeccable service standards",
+          "Opulent Emirates Palace setting",
+          "Beautiful presentation of traditional dishes",
+          "Must-visit experience according to reviews"
+        ],
+        "authenticity": [
+          "100% authentic Emirati recipes refined for fine dining",
+          "Traditional dishes prepared with premium ingredients",
+          "Highly respected by local Emirati community",
+          "Preserves authentic flavors while elevating presentation",
+          "Educational menu explaining cultural significance"
+        ],
+        "accessibility": [
+          "Located in Emirates Palace Hotel",
+          "Reservations strongly recommended",
+          "English-speaking staff",
+          "Dress code enforced",
+          "May require hotel security entry procedures"
+        ],
+        "overall_recommendation": [
+          "Must-visit for serious food enthusiasts",
+          "Best fine dining Emirati experience in Abu Dhabi",
+          "Perfect for special occasions and celebrations",
+          "Combines luxury, culture, and culinary excellence",
+          "Essential experience for understanding elevated Emirati cuisine"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 123,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Everything is excellent",
+          "Must visit for families",
+          "Very nice and very good",
+          "Exceptional Emirati fine dining",
+          "Beautiful Emirates Palace setting",
+          "Great service"
+        ],
+        "negative_themes": [
+          "Very expensive pricing",
+          "Dress code requirements",
+          "Advance reservations often required",
+          "May feel too formal for casual diners"
+        ],
+        "standout_quotes": [
+          "Very nice very good Roja hi to Asa",
+          "Every thing are excellent so guys and family must visit  there"
+        ]
+      },
+      "best_for": [
+        "Special occasions and celebrations",
+        "Fine dining enthusiasts",
+        "Those seeking elevated Emirati cuisine",
+        "Visitors wanting luxury cultural experience",
+        "Business dinners with cultural element",
+        "Memorable milestone celebrations"
+      ],
+      "avoid_if": [
+        "You're on a budget",
+        "You prefer casual dining",
+        "You don't want formal dress code",
+        "You're seeking value-oriented meals"
+      ]
+    },
+    "rays-grill": {
+      "id": "rays-grill",
+      "title": "Hello, Chef!",
+      "place_name": "Rays Grill",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 3,
+        "accessibility": 4,
+        "overall_recommendation": 7
+      },
+      "evaluation_summary": "Rays Grill is an upscale steakhouse known for perfectly cooked steaks and top-notch quality. With excellent chef execution and service, it's a reliable choice for meat lovers.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "High-end steakhouse concept",
+          "Focus on premium grilled meats",
+          "Open kitchen with chef interaction",
+          "Upscale Western dining in Abu Dhabi",
+          "Premium cuts and preparation methods"
+        ],
+        "value_for_money": [
+          "Expensive pricing typical of premium steakhouses",
+          "High-quality meat justifies cost",
+          "Precise cooking execution adds value",
+          "Better than average steakhouse quality",
+          "Worth it for steak enthusiasts"
+        ],
+        "experience_quality": [
+          "Top-notch food quality",
+          "Perfectly cooked steaks to specification",
+          "Excellent chef skills (hats off to the chef)",
+          "Great service from staff",
+          "Consistent quality reported"
+        ],
+        "authenticity": [
+          "International steakhouse concept",
+          "Western cuisine rather than local",
+          "Professional execution of classic dishes",
+          "Not culturally specific to region"
+        ],
+        "accessibility": [
+          "Located in accessible area",
+          "Easy to book reservations",
+          "English-speaking staff",
+          "International menu familiar to tourists",
+          "Standard upscale dining environment"
+        ],
+        "overall_recommendation": [
+          "Highly recommended for steak lovers",
+          "Excellent choice for meat-focused meals",
+          "Reliable quality and execution",
+          "Great for celebrations and special dinners",
+          "One of the better steakhouses in Abu Dhabi"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.5,
+        "review_count": 340,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Top-notch quality",
+          "Perfectly cooked steaks",
+          "Excellent chef execution",
+          "Great service",
+          "Medium steak cooked exactly right",
+          "Quality worth the price"
+        ],
+        "negative_themes": [
+          "Expensive pricing",
+          "Premium cost limits frequency",
+          "May be too formal for some",
+          "Limited options for non-meat eaters"
+        ],
+        "standout_quotes": [
+          "Everything was top notch. We ordered medium steak and it was exactly that. Hats off to the chef",
+          "Ajay شكرا على هذى الخدمة"
+        ]
+      },
+      "best_for": [
+        "Steak and meat enthusiasts",
+        "Special occasions and celebrations",
+        "Business dinners",
+        "Those seeking quality grilled meats",
+        "People who appreciate precise cooking",
+        "Western cuisine lovers"
+      ],
+      "avoid_if": [
+        "You're on a budget",
+        "You're vegetarian or don't eat meat",
+        "You prefer casual dining",
+        "You're seeking local Emirati cuisine"
+      ]
+    },
+    "white": {
+      "id": "white",
+      "title": "Dress to Impress",
+      "place_name": "White",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 4,
+        "value_for_money": 2,
+        "experience_quality": 4,
+        "authenticity": 1,
+        "accessibility": 3,
+        "overall_recommendation": 5
+      },
+      "evaluation_summary": "White is an upscale nightclub and late-night venue with top atmosphere, DJ, and lighting. It's more about nightlife than dining, with high prices and occasional service issues, but remains a landmark venue.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Premier after-hours club (best after 2am)",
+          "Top-tier atmosphere and production",
+          "DJ performances and lighting effects",
+          "High-end nightclub experience",
+          "Abu Dhabi nightlife landmark"
+        ],
+        "value_for_money": [
+          "Very high prices typical of luxury clubs",
+          "Expensive drinks and cover charges",
+          "Paying for atmosphere more than value",
+          "Important to confirm billing before ordering",
+          "Premium nightlife pricing"
+        ],
+        "experience_quality": [
+          "Top-level atmosphere and vibes",
+          "Excellent DJ and lighting",
+          "Most staff are enthusiastic and professional",
+          "Occasional service mistakes and communication issues",
+          "Management responsive to problems",
+          "Immersive club environment"
+        ],
+        "authenticity": [
+          "International nightclub concept",
+          "Western-style club culture",
+          "Not culturally connected to UAE",
+          "Generic luxury nightclub format"
+        ],
+        "accessibility": [
+          "Located in accessible area",
+          "Strict dress code enforced",
+          "Age restrictions apply",
+          "Entry may be selective",
+          "Need to check event schedule"
+        ],
+        "overall_recommendation": [
+          "Recommended for nightlife enthusiasts",
+          "Best after 2am when fully active",
+          "Worth experiencing the atmosphere",
+          "Be aware of high costs and potential issues",
+          "Not essential but fun for club-goers"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 3.5,
+        "review_count": 326,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Best after-2am club in Abu Dhabi",
+          "Top vibes and atmosphere",
+          "Excellent DJ and lighting",
+          "Immersive environment",
+          "Great nightlife experience",
+          "Some staff very helpful"
+        ],
+        "negative_themes": [
+          "Very expensive prices",
+          "Occasional order mistakes",
+          "Communication issues with some staff",
+          "Need to verify bills carefully",
+          "Service quality can be inconsistent",
+          "High costs"
+        ],
+        "standout_quotes": [
+          "Best after 2am club in Abu Dhabi.Top vibes drinks just come and enjoy hit recommend !!!🔥🎉",
+          "Thanks Hassan for your treatment ♥️",
+          "White Club整体氛围顶级，DJ与灯光让人瞬间沉浸。服务团队多数热情专业，但点单曾出错且沟通略生硬，所幸经理及时补救。价格偏高，建议提前确认账单。瑕不掩瑜，仍是阿布扎比值得体验的夜生活地标。"
+        ]
+      },
+      "best_for": [
+        "Late-night party enthusiasts",
+        "Those seeking premium nightclub experience",
+        "People who enjoy DJ and dancing",
+        "Groups celebrating special occasions",
+        "Nightlife tourists",
+        "After-2am crowd"
+      ],
+      "avoid_if": [
+        "You're on a budget",
+        "You don't enjoy loud nightclub environments",
+        "You prefer early evening activities",
+        "You want value-focused experiences",
+        "You don't drink alcohol"
+      ]
+    },
+    "zuma": {
+      "id": "zuma",
+      "title": "Abu Dhabi's Premier Izakaya",
+      "place_name": "Zuma",
+      "category": "dining",
+      "scores": {
+        "uniqueness": 5,
+        "value_for_money": 3,
+        "experience_quality": 5,
+        "authenticity": 4,
+        "accessibility": 5,
+        "overall_recommendation": 9
+      },
+      "evaluation_summary": "Zuma is a world-renowned contemporary Japanese izakaya offering exceptional food in a beautiful setting. Part of the prestigious international chain, it delivers an outstanding dining experience with impeccable service.",
+      "detailed_reasons": {
+        "uniqueness": [
+          "Part of globally acclaimed Zuma restaurant group",
+          "Contemporary Japanese izakaya concept",
+          "Distinctive modern Japanese dining in Abu Dhabi",
+          "Open robata grill and sushi bar experience",
+          "Signature dishes and innovative presentations",
+          "Sophisticated Japanese fine dining"
+        ],
+        "value_for_money": [
+          "Premium pricing reflecting international reputation",
+          "High-quality ingredients and preparation",
+          "Special food meant for savoring not just eating",
+          "Worth it for quality and experience",
+          "Better value than many similar establishments"
+        ],
+        "experience_quality": [
+          "Very beautiful restaurant design",
+          "Absolutely impeccable service",
+          "Special, refined food presentation",
+          "Friendly and kind staff",
+          "Consistently great across all Zuma locations",
+          "Perfect for special occasions"
+        ],
+        "authenticity": [
+          "Authentic Japanese techniques and ingredients",
+          "Contemporary interpretation of izakaya dining",
+          "Professional Japanese culinary team",
+          "Internationally recognized for quality",
+          "True to Japanese culinary traditions with modern twist"
+        ],
+        "accessibility": [
+          "Located at Al Maryah Island",
+          "Easy to book reservations",
+          "Well-known international brand",
+          "English-speaking staff",
+          "Tourist-friendly environment"
+        ],
+        "overall_recommendation": [
+          "Must-visit for Japanese cuisine lovers",
+          "One of Abu Dhabi's best restaurants",
+          "Excellent for special occasions and celebrations",
+          "Consistently delivers exceptional experience",
+          "Worth the premium pricing for quality received",
+          "Famous restaurant that lives up to reputation"
+        ]
+      },
+      "review_insights": {
+        "google_rating": 4.4,
+        "review_count": 2481,
+        "filtered_review_count": 100,
+        "positive_themes": [
+          "Very beautiful place",
+          "Special and refined food",
+          "Absolutely impeccable service",
+          "Friendly and kind staff",
+          "Great for savoring not just eating",
+          "Zuma always delivers quality",
+          "Famous and well-deserved reputation"
+        ],
+        "negative_themes": [
+          "Expensive pricing",
+          "Premium cost limits regular visits",
+          "Reservations often necessary",
+          "Can be busy during peak times"
+        ],
+        "standout_quotes": [
+          "Lugar muy bonito y la comida es muy especial... Es un restaurante para degustar comida no realmente para comer. Gente muy amable en servicio absolutamente impecable.",
+          "Zooma is always great, this one is no exception.",
+          "المطعم معروف مايحتاي امدحه"
+        ]
+      },
+      "best_for": [
+        "Japanese cuisine enthusiasts",
+        "Special occasions and celebrations",
+        "Business dinners",
+        "Food connoisseurs",
+        "Those seeking premium dining experience",
+        "Sushi and robata grill lovers",
+        "Romantic dinners"
+      ],
+      "avoid_if": [
+        "You're on a tight budget",
+        "You prefer casual dining",
+        "You're seeking local Emirati cuisine",
+        "You don't enjoy Japanese food",
+        "You want large portion sizes"
+      ]
+    }
+  }
+}

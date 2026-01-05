@@ -1,0 +1,254 @@
+{
+  "matches": {
+    "emirati-house": {
+      "db": {
+        "place": "Yadoo's House Restaurant & Cafe",
+        "address": "Al Murror Street, Al Nasr Tower 2, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4305,
+          "lng": 54.4336
+        }
+      },
+      "google": {
+        "name": "Yadoo`s House Restaurant & Cafe",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.1,
+        "reviews_count": 999
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.967741935483871,
+        "address_similarity": 0
+      }
+    },
+    "bait-gahwa": {
+      "db": {
+        "place": "Bait Al Gahwa",
+        "address": "Al Hosn, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4825,
+          "lng": 54.3548
+        }
+      },
+      "google": {
+        "name": "House Of Artisans -بيت الحرفيين",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.6,
+        "reviews_count": 219
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.13636363636363635,
+        "address_similarity": 0
+      }
+    },
+    "ferrari-1": {
+      "db": {
+        "place": "Ferrari World Abu Dhabi",
+        "address": "Yas Island, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4839,
+          "lng": 54.6077
+        }
+      },
+      "google": {
+        "name": "Turbo Track",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.4,
+        "reviews_count": 25
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.17647058823529413,
+        "address_similarity": 0
+      }
+    },
+    "ferrari-2": {
+      "db": {
+        "place": "Ferrari World Abu Dhabi",
+        "address": "Yas Island, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4839,
+          "lng": 54.6077
+        }
+      },
+      "google": {
+        "name": "Flying Aces",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.8,
+        "reviews_count": 162
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.23529411764705882,
+        "address_similarity": 0
+      }
+    },
+    "clymb-1": {
+      "db": {
+        "place": "CLYMB Abu Dhabi",
+        "address": "Yas Island, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4833,
+          "lng": 54.6083
+        }
+      },
+      "google": {
+        "name": "CLYMB Yas Island, Abu Dhabi",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.6,
+        "reviews_count": 914
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.7142857142857143,
+        "address_similarity": 0
+      }
+    },
+    "clymb-2": {
+      "db": {
+        "place": "CLYMB Abu Dhabi",
+        "address": "Yas Island, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4833,
+          "lng": 54.6083
+        }
+      },
+      "google": {
+        "name": "CLYMB Yas Island, Abu Dhabi",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.6,
+        "reviews_count": 914
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.7142857142857143,
+        "address_similarity": 0
+      }
+    },
+    "emirates-spa": {
+      "db": {
+        "place": "Emirates Palace",
+        "address": "West Corniche Road, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4622,
+          "lng": 54.3173
+        }
+      },
+      "google": {
+        "name": "The Spa at Mandarin Oriental, Emirates Palace",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.6,
+        "reviews_count": 198
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.5,
+        "address_similarity": 0
+      }
+    },
+    "emirates-kids": {
+      "db": {
+        "place": "Emirates Palace",
+        "address": "West Corniche Road, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4622,
+          "lng": 54.3173
+        }
+      },
+      "google": {
+        "name": "Kids Palace at Emirates Palace Mandarin Oriental",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.3,
+        "reviews_count": 7
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.47619047619047616,
+        "address_similarity": 0
+      }
+    },
+    "emirates-cafe": {
+      "db": {
+        "place": "Emirates Palace",
+        "address": "West Corniche Road, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4622,
+          "lng": 54.3173
+        }
+      },
+      "google": {
+        "name": "Episodes at Emirates Palace Mandarin Oriental",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.5,
+        "reviews_count": 274
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.5,
+        "address_similarity": 0
+      }
+    },
+    "warner-2": {
+      "db": {
+        "place": "Warner Bros. World",
+        "address": "Yas Island, Abu Dhabi",
+        "coordinates": {
+          "lat": 24.4881,
+          "lng": 54.6074
+        }
+      },
+      "google": {
+        "name": "The Joker FUNHOUSE",
+        "address": "",
+        "coordinates": {
+          "lat": null,
+          "lng": null
+        },
+        "rating": 4.1,
+        "reviews_count": 16
+      },
+      "match_quality": {
+        "distance_km": null,
+        "name_similarity": 0.2777777777777778,
+        "address_similarity": 0
+      }
+    }
+  }
+}
