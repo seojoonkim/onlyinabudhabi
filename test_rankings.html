@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Rankings Data Test</title>
+</head>
+<body>
+    <h1>Rankings Data Test</h1>
+    <div id="output"></div>
+
+    <script src="load_rankings.js"></script>
+    <script>
+        async function test() {
+            const output = document.getElementById('output');
+            output.innerHTML = '<p>Loading rankings data...</p>';
+
+            try {
+                const success = await loadRankingsData();
+
+                if (success) {
+                    output.innerHTML += '<p>✅ Rankings data loaded successfully!</p>';
+                    output.innerHTML += '<p>Total items: ' + Object.keys(rankingsById).length + '</p>';
+
+                    // Test emirati-house
+                    const ranking = getRankingInfo('emirati-house');
+                    output.innerHTML += '<h2>Test: emirati-house</h2>';
+                    output.innerHTML += '<pre>' + JSON.stringify(ranking, null, 2) + '</pre>';
+
+                    // Show first 5 IDs
+                    const ids = Object.keys(rankingsById).slice(0, 5);
+                    output.innerHTML += '<h2>First 5 IDs in rankingsById:</h2>';
+                    output.innerHTML += '<ul>' + ids.map(id => '<li>' + id + '</li>').join('') + '</ul>';
+                } else {
+                    output.innerHTML += '<p>❌ Failed to load rankings data</p>';
+                }
+            } catch (error) {
+                output.innerHTML += '<p>❌ Error: ' + error.message + '</p>';
+                console.error(error);
+            }
+        }
+
+        test();
+    </script>
+</body>
+</html>

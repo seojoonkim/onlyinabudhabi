@@ -6,6 +6,8 @@
 let allData = [];
 let filteredData = [];
 let currentCategory = 'all';
+let currentScoreFilter = 'all'; // 'all' for 4+ stars, or specific score category
+let currentSort = 'number'; // 'number' or 'appeal'
 let currentLang = getLanguageFromURL(); // Get language from URL path
 let map = null;
 let markers = [];
@@ -25,6 +27,50 @@ function getLanguageFromURL() {
     // Default to English if no language code in URL
     return 'en';
 }
+
+// Category configuration with icons and colors
+const categoryConfig = {
+    landmark: {
+        icon: '🏛️',
+        bg: '#e8f4f8',
+        color: '#0277bd'
+    },
+    themepark: {
+        icon: '🎢',
+        bg: '#fce4ec',
+        color: '#c2185b'
+    },
+    dining: {
+        icon: '🍽️',
+        bg: '#fff3e0',
+        color: '#e65100'
+    },
+    beach: {
+        icon: '🏖️',
+        bg: '#e0f2f1',
+        color: '#00695c'
+    },
+    culture: {
+        icon: '🎨',
+        bg: '#f3e5f5',
+        color: '#6a1b9a'
+    },
+    adventure: {
+        icon: '🏄',
+        bg: '#fff8e1',
+        color: '#f57c00'
+    },
+    shopping: {
+        icon: '🛍️',
+        bg: '#fce4ec',
+        color: '#ad1457'
+    },
+    nature: {
+        icon: '🦁',
+        bg: '#e8f5e9',
+        color: '#2e7d32'
+    }
+};
 
 // Get category names based on current language
 function getCategoryNames() {
@@ -66,6 +112,8 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     initData();
     initFilters();
+    initScoreFilters();
+    initSort();
     initViewTabs();
     initLangSelector();
     renderTable();
@@ -110,6 +158,20 @@ function updateUIText() {
     if (filterBtns[6]) filterBtns[6].innerHTML = `${categoryConfig.adventure.icon} ${categoryNames.adventure}`;
     if (filterBtns[7]) filterBtns[7].innerHTML = `${categoryConfig.shopping.icon} ${categoryNames.shopping}`;
     if (filterBtns[8]) filterBtns[8].innerHTML = `${categoryConfig.nature.icon} ${categoryNames.nature}`;
+
+    // Update score filter buttons
+    const scoreFilterBtns = document.querySelectorAll('.score-filter-btn');
+    if (scoreFilterBtns[0]) scoreFilterBtns[0].textContent = i18n[currentLang].categoryAll;
+    if (scoreFilterBtns[1]) scoreFilterBtns[1].textContent = `📷 ${i18n[currentLang].scorePhoto}`;
+    if (scoreFilterBtns[2]) scoreFilterBtns[2].textContent = `🎭 ${i18n[currentLang].scoreCulture}`;
+    if (scoreFilterBtns[3]) scoreFilterBtns[3].textContent = `🎯 ${i18n[currentLang].scoreActivity}`;
+    if (scoreFilterBtns[4]) scoreFilterBtns[4].textContent = `🧘 ${i18n[currentLang].scoreRelaxation}`;
+    if (scoreFilterBtns[5]) scoreFilterBtns[5].textContent = `🌿 ${i18n[currentLang].scorePeaceful}`;
+    if (scoreFilterBtns[6]) scoreFilterBtns[6].textContent = `💑 ${i18n[currentLang].scoreCouple}`;
+    if (scoreFilterBtns[7]) scoreFilterBtns[7].textContent = `👨‍👩‍👧 ${i18n[currentLang].scoreFamily}`;
+    if (scoreFilterBtns[8]) scoreFilterBtns[8].textContent = `🚶 ${i18n[currentLang].scoreSolo}`;
+    if (scoreFilterBtns[9]) scoreFilterBtns[9].textContent = `🌍 ${i18n[currentLang].scoreTourist}`;
+    if (scoreFilterBtns[10]) scoreFilterBtns[10].textContent = `🚇 ${i18n[currentLang].scoreAccessibility}`;
 
     // Update table headers
     const tableHeaders = document.querySelectorAll('.landmark-table th');
@@ -200,10 +262,9 @@ function updateUIText() {
 
 // Update result count with language
 function updateResultCount() {
-    const resultText = document.querySelector('.filter-result');
-    if (resultText) {
-        const count = filteredData.length;
-        resultText.innerHTML = `<span>${count}</span>${i18n[currentLang].searchResults}`;
+    const countSpan = document.getElementById('filteredCount');
+    if (countSpan) {
+        countSpan.textContent = filteredData.length;
     }
 }
 
@@ -288,13 +349,95 @@ function initFilters() {
     });
 }
 
+// Initialize sort buttons
+function initSort() {
+    const sortBtns = document.querySelectorAll('.sort-btn');
+    sortBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            sortBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            currentSort = this.dataset.sort;
+            filterData();
+        });
+    });
+}
+
+// Initialize score filter buttons
+function initScoreFilters() {
+    const scoreFilterBtns = document.querySelectorAll('.score-filter-btn');
+    scoreFilterBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            scoreFilterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            currentScoreFilter = this.dataset.score;
+            filterData();
+        });
+    });
+}
+
+// Sort data based on currentSort
+function sortData(data) {
+    if (currentSort === 'appeal') {
+        // Sort by appeal score (descending)
+        return [...data].sort((a, b) => {
+            const aScore = getRankingInfo(a.id).recommendation_score;
+            const bScore = getRankingInfo(b.id).recommendation_score;
+            if (aScore === '-') return 1;
+            if (bScore === '-') return -1;
+            return bScore - aScore;
+        });
+    } else {
+        // Sort by number (ascending)
+        return [...data].sort((a, b) => a.num - b.num);
+    }
+}
+
 // Filter data
 function filterData() {
+    // Ensure currentCategory and currentScoreFilter have default values
+    if (!currentCategory) currentCategory = 'all';
+    if (!currentScoreFilter) currentScoreFilter = 'all';
+
+    console.log(`🎯 filterData called: category=${currentCategory}, scoreFilter=${currentScoreFilter}`);
+    console.log(`📦 allData length: ${allData.length}`);
+
+    let data;
     if (currentCategory === 'all') {
-        filteredData = [...allData].sort((a, b) => a.num - b.num);
+        data = [...allData];
     } else {
-        filteredData = allData.filter(item => item.category === currentCategory).sort((a, b) => a.num - b.num);
+        data = allData.filter(item => item.category === currentCategory);
     }
+
+    console.log(`📦 After category filter: ${data.length} items`);
+
+    // Apply score filter (only if not 'all')
+    if (currentScoreFilter !== 'all') {
+        console.log(`🔍 Filtering by score: ${currentScoreFilter}`);
+        console.log(`📦 Data before score filter: ${data.length} items`);
+        data = data.filter(item => {
+            // Use scores directly from item data (already in db_ko.js, db_en.js, etc.)
+            if (!item.scores || !item.scores[currentScoreFilter]) {
+                console.log(`❌ No score for ${item.id} - ${currentScoreFilter}`);
+                return false;
+            }
+
+            // Show items where specific score category >= 4
+            const score = item.scores[currentScoreFilter];
+            const numScore = parseFloat(score);
+            const passes = !isNaN(numScore) && numScore >= 4;
+
+            if (passes) {
+                console.log(`✅ ${item.title}: ${currentScoreFilter} = ${numScore}`);
+            } else {
+                console.log(`❌ ${item.title}: ${currentScoreFilter} = ${numScore} (< 4)`);
+            }
+
+            return passes;
+        });
+        console.log(`📊 Filtered results: ${data.length} items`);
+    }
+
+    filteredData = sortData(data);
     renderTable();
     updateCounts();
     if (map) updateMapMarkers();
@@ -334,7 +477,7 @@ function updateCategoryCounts() {
 
     const aboutCategories = document.getElementById('aboutCategories');
     if (aboutCategories) {
-        aboutCategories.textContent = categoryTexts.join(', ');
+        aboutCategories.innerHTML = categoryTexts.join(', ');
     }
 }
 

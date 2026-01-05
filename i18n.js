@@ -425,18 +425,6 @@ const i18n = {
     }
 };
 
-// Category icons and colors
-const categoryConfig = {
-    landmark: { icon: "🏛️", color: "#BD9A5F", bg: "#FFF8E7" },
-    themepark: { icon: "🎢", color: "#E74C3C", bg: "#FDEDEC" },
-    dining: { icon: "🍽️", color: "#9B59B6", bg: "#F5EEF8" },
-    beach: { icon: "🏖️", color: "#3498DB", bg: "#EBF5FB" },
-    culture: { icon: "🎨", color: "#E67E22", bg: "#FDF2E9" },
-    adventure: { icon: "🏄", color: "#27AE60", bg: "#E9F7EF" },
-    shopping: { icon: "🛍️", color: "#E91E63", bg: "#FCE4EC" },
-    nature: { icon: "🦁", color: "#795548", bg: "#EFEBE9" }
-};
-
 // Get current language
 function getCurrentLang() {
     return localStorage.getItem('lang') || 'ko';

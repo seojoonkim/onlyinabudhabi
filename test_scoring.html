@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Scoring Algorithm</title>
+</head>
+<body>
+    <h1>Testing Score Calculation</h1>
+    <div id="output"></div>
+
+    <script src="load_rankings.js"></script>
+    <script>
+        // Test with Kart Racing peaceful reasons
+        const kartRacingPeacefulReasons = [
+            "Peaceful environment non-existent with roaring engines, tire smoke, and high-speed driving defining the experience",
+            "Circuit noise from multiple simultaneous driving experiences creates constant motorsport sound environment",
+            "Even spectator areas maintain energetic atmosphere of racing facility rather than tranquil observation spaces",
+            "Paddock tours quieter than on-track activities but still within professional racing facility ambiance",
+            "Not recommended for visitors sensitive to loud engine noise or seeking calm automotive experiences",
+            "Activity specifically designed to deliver opposite of peaceful with emphasis on power and performance"
+        ];
+
+        // Test with Al Fanar relaxation reasons (should be high)
+        const alFanarRelaxationReasons = [
+            "Family-style atmosphere creates comfortable welcoming environment as described in reviews mentioning pleasant stops and relaxation",
+            "Generous portions and moderate service pacing allow for unhurried leisurely dining without feeling rushed to leave",
+            "Traditional setting with warm decor provides psychological comfort and stress-free atmosphere for peaceful dining",
+            "Located in air-conditioned Yas Mall offering respite from Abu Dhabi's heat as noted by reviewers",
+            "Calm and inviting atmosphere mentioned specifically in reviews emphasizes the relaxation-focused dining experience",
+            "Service described as smooth and friendly throughout the meal creating stress-free enjoyable dining environment"
+        ];
+
+        const score1 = calculateScoreFromReasons(kartRacingPeacefulReasons);
+        const score2 = calculateScoreFromReasons(alFanarRelaxationReasons);
+
+        document.getElementById('output').innerHTML = `
+            <h2>Results:</h2>
+            <p><strong>Kart Racing (Peaceful):</strong> ${score1} (should be < 4)</p>
+            <p style="color: ${score1 < 4 ? 'green' : 'red'}">
+                ${score1 < 4 ? '✓ PASS - Correctly filtered out' : '✗ FAIL - Should be below 4'}
+            </p>
+
+            <p><strong>Al Fanar (Relaxation):</strong> ${score2} (should be >= 4)</p>
+            <p style="color: ${score2 >= 4 ? 'green' : 'red'}">
+                ${score2 >= 4 ? '✓ PASS - Correctly included' : '✗ FAIL - Should be 4 or above'}
+            </p>
+        `;
+    </script>
+</body>
+</html>
