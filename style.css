@@ -92,8 +92,8 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 .view-tab:hover { color: #fff; background: rgba(255,255,255,0.1); }
 .view-tab.active { background: var(--gold); color: #fff; }
 
-.lang-selector { display: flex; gap: 0; border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; overflow: hidden; position: relative; z-index: 10; }
-.lang-btn { width: 30px; height: 30px; border: none; border-right: 1px solid rgba(255,255,255,0.2); background: transparent; border-radius: 0; font-size: 11px; font-weight: 600; color: rgba(255,255,255,0.7); cursor: pointer; transition: var(--transition); pointer-events: auto; }
+.lang-selector { display: flex; gap: 0; border: 1px solid rgba(255,255,255,0.2); border-radius: 5px; overflow: hidden; position: relative; z-index: 10; }
+.lang-btn { width: 26px; height: 26px; border: none; border-right: 1px solid rgba(255,255,255,0.2); background: transparent; border-radius: 0; font-size: 10px; font-weight: 600; color: rgba(255,255,255,0.7); cursor: pointer; transition: var(--transition); pointer-events: auto; }
 .lang-btn:last-child { border-right: none; }
 .lang-btn:hover { color: var(--gold); background: rgba(201,169,97,0.1); }
 .lang-btn.active { background: var(--gold); color: #fff; }
