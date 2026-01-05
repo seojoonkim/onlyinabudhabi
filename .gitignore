@@ -17,8 +17,9 @@ db_reviews_en.js
 # Analysis and report files
 *.txt
 *.md
-*.json
 *.sh
+# But include data JSON files
+!data/**/*.json
 
 # Exclude dummy folder
 dummy/
