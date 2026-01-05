@@ -965,32 +965,13 @@ function openModal(id) {
 
     currentGalleryImages = photos;
 
-    // Display first 12 photos (show dummy image if photo doesn't exist)
-    galleryGrid.innerHTML = '<div style="color: #999; font-size: 14px;">Loading photos...</div>';
-
-    const first12Photos = photos.slice(0, 12);
-    const checkPhotoPromises = first12Photos.map((photoPath) => {
-        return new Promise((resolve) => {
-            const testImg = new Image();
-            testImg.onload = () => resolve({ src: photoPath, exists: true });
-            testImg.onerror = () => resolve({ src: photoPath, exists: false });
-            testImg.src = photoPath;
-        });
-    });
-
-    Promise.all(checkPhotoPromises).then(results => {
-        let galleryHTML = '';
-
-        // Always display 12 slots
-        for (let i = 0; i < 12; i++) {
-            const result = results[i];
-            const imgSrc = result.exists ? result.src : dummyImage;
-            const clickHandler = result.exists ? `onclick="openGallery(${i})"` : '';
-            galleryHTML += `<img class="gallery-thumb" src="${imgSrc}" ${clickHandler} alt="Photo ${i+1}">`;
-        }
-
-        galleryGrid.innerHTML = galleryHTML;
-    });
+    // Display first 12 photos immediately (use onerror for missing images)
+    let galleryHTML = '';
+    for (let i = 0; i < 12; i++) {
+        const imgSrc = photos[i];
+        galleryHTML += `<img class="gallery-thumb" src="${imgSrc}" onerror="this.src='${dummyImage}'; this.onclick=null;" onclick="openGallery(${i})" alt="Photo ${i+1}" loading="lazy">`;
+    }
+    galleryGrid.innerHTML = galleryHTML;
     
     // Information
     document.getElementById('modalAdmission').textContent = translateInfoField(item.admission) || '-';
@@ -1351,42 +1332,16 @@ function copyAddress() {
 }
 
 // Gallery functions
-async function openGallery(index) {
-    if (currentGalleryImages[index] === dummyImage) return;
-
-    // Filter out dummy images first
-    const realImages = currentGalleryImages.filter(img => img !== dummyImage);
-
-    // Check which images actually exist
-    const checkPromises = realImages.map((imgSrc) => {
-        return new Promise((resolve) => {
-            const testImg = new Image();
-            testImg.onload = () => resolve({ src: imgSrc, exists: true });
-            testImg.onerror = () => resolve({ src: imgSrc, exists: false });
-            testImg.src = imgSrc;
-        });
-    });
-
-    const results = await Promise.all(checkPromises);
-    currentValidImages = results.filter(r => r.exists).map(r => r.src);
-
-    // If no valid images, don't open gallery
-    if (currentValidImages.length === 0) return;
-
-    // Find the index of clicked image in validImages array
-    const clickedImageSrc = currentGalleryImages[index];
-    currentGalleryIndex = currentValidImages.indexOf(clickedImageSrc);
-
-    // If clicked image doesn't exist, show first valid image
-    if (currentGalleryIndex === -1) {
-        currentGalleryIndex = 0;
-    }
+function openGallery(index) {
+    // Use all images (browser will handle loading)
+    currentValidImages = currentGalleryImages;
+    currentGalleryIndex = index;
 
     // Set main image
-    document.getElementById('galleryImage').src = currentValidImages[currentGalleryIndex];
-    document.getElementById('galleryCounter').textContent = `${currentGalleryIndex + 1} / ${currentValidImages.length}`;
+    document.getElementById('galleryImage').src = currentValidImages[index];
+    document.getElementById('galleryCounter').textContent = `${index + 1} / ${currentValidImages.length}`;
 
-    // Populate thumbnails (max 12, only show existing images)
+    // Populate thumbnails (max 12)
     const thumbnailsContainer = document.getElementById('galleryThumbnails');
     thumbnailsContainer.innerHTML = '';
 
@@ -1394,7 +1349,12 @@ async function openGallery(index) {
     currentValidImages.slice(0, maxThumbnails).forEach((src, thumbIndex) => {
         const thumb = document.createElement('img');
         thumb.src = src;
-        thumb.className = 'gallery-thumbnail' + (thumbIndex === currentGalleryIndex ? ' active' : '');
+        thumb.className = 'gallery-thumbnail' + (thumbIndex === index ? ' active' : '');
+        thumb.loading = 'lazy';
+        thumb.onerror = function() {
+            this.src = dummyImage;
+            this.style.opacity = '0.3';
+        };
         thumb.onclick = () => {
             jumpToGalleryImage(thumbIndex);
         };
