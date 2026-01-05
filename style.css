@@ -430,20 +430,20 @@ table th:nth-child(2) {
 .star-filled { color: #d4915d; }
 .star-empty { color: #e8d5b8; }
 
-/* Score Detail Cards - 2열 5행 = 10개 Etihad Style */
+/* Score Detail Cards - 2열 5행 = 10개 Etihad "Get in touch" Style */
 .scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.score-detail-card { background: #fff; border-radius: 8px; padding: 16px; border: 1px solid #e8d5b8; box-shadow: 0 2px 4px rgba(0,0,0,0.06); transition: all 0.3s ease; }
-.score-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; padding-bottom: 0; border-bottom: none; }
-.score-detail-title { display: flex; align-items: center; gap: 6px; }
-.score-detail-icon { font-size: 20px; opacity: 0.85; }
-.score-detail-name { font-size: 11px; color: #8b7355; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; }
-.score-detail-stars { color: #b8860b; font-size: 13px; font-weight: 700; }
-.score-detail-stars .star-filled { color: #b8860b; }
-.score-detail-stars .star-empty { color: #e8d5b8; }
+.score-detail-card { background: #e8eaed; border-radius: 10px; padding: 18px 20px; border: none; box-shadow: none; transition: all 0.3s ease; }
+.score-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(0,0,0,0.08); }
+.score-detail-title { display: flex; align-items: center; gap: 8px; }
+.score-detail-icon { font-size: 22px; opacity: 0.9; }
+.score-detail-name { font-size: 11px; color: #2d3748; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+.score-detail-stars { color: #d4915d; font-size: 14px; font-weight: 700; }
+.score-detail-stars .star-filled { color: #d4915d; }
+.score-detail-stars .star-empty { color: #cbd5e0; }
 .score-detail-reasons { list-style: none; padding-left: 0; margin: 0; }
-.score-detail-reasons li { font-size: 13px; color: var(--text-secondary); line-height: 1.6; padding: 5px 0 5px 16px; text-indent: -16px; }
+.score-detail-reasons li { font-size: 13px; color: #4a5568; line-height: 1.7; padding: 6px 0 6px 16px; text-indent: -16px; }
 .score-detail-reasons li:last-child { border-bottom: none; }
-.score-detail-reasons li::before { content: "•"; color: var(--gold); margin-right: 8px; }
+.score-detail-reasons li::before { content: "•"; color: #d4915d; margin-right: 8px; font-weight: 700; }
 
 /* Gallery Modal */
 .gallery-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.95); z-index: 2000; align-items: center; justify-content: center; }
