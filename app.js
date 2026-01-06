@@ -1036,7 +1036,7 @@ function openModal(id) {
         // 1. 매력도 (Attractiveness Score) - 30-99 (no /99)
         if (popularityEl) {
             if (item.recommendation_score) {
-                popularityEl.innerHTML = `<svg width="16" height="16" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:5px"><path d="M21 15H19L15.5 7L11 18L8 12L6 15H4" stroke="currentColor" stroke-width="1.2"/></svg>${item.recommendation_score}`;
+                popularityEl.innerHTML = `<svg width="18" height="18" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:5px"><path d="M21 15H19L15.5 7L11 18L8 12L6 15H4" stroke="currentColor" stroke-width="1.2"/></svg>${item.recommendation_score}`;
             } else {
                 popularityEl.textContent = '-';
             }
