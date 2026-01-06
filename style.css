@@ -555,12 +555,12 @@ table th:first-child {
   table td:nth-child(2),
   table th:nth-child(2) {
     width: 60px;
-    padding: 4px;
+    padding: 4px 10px 4px 4px;
   }
 
   /* 이미지 셀 오른쪽 패딩 늘리기 */
   table td:nth-child(2) {
-    padding-right: 10px;  /* 6px → 10px */
+    padding: 4px 10px 4px 4px;
   }
 
   table td:nth-child(2) img {
@@ -571,7 +571,7 @@ table th:first-child {
   /* 이름 셀 왼쪽 패딩도 약간 */
   table td:nth-child(3) {
     max-width: 170px;     /* 194px → 170px */
-    padding-left: 6px;    /* 3px → 6px */
+    padding-left: 8px;    /* 6px → 8px */
   }
 
   table th:nth-child(3) {
@@ -635,11 +635,11 @@ table th:first-child {
     .landmark-table td.col-rank { width: 11% !important; min-width: 0 !important; max-width: 11% !important; font-size: 12px; padding: 8px 3px 8px 8px !important; overflow: hidden; }
 
     .landmark-table th.col-photo,
-    .landmark-table td.col-photo { width: 19% !important; min-width: 0 !important; max-width: 19% !important; padding: 7px 0px 7px 2px !important; overflow: hidden; }
+    .landmark-table td.col-photo { width: 19% !important; min-width: 0 !important; max-width: 19% !important; padding: 7px 6px 7px 2px !important; overflow: hidden; }
     .list-photo { width: 68px; height: 68px; min-width: 68px; max-width: 68px; min-height: 68px; max-height: 68px; box-sizing: border-box; flex-shrink: 0; }
 
     .landmark-table th.col-name,
-    .landmark-table td.col-name { width: 52% !important; min-width: 0 !important; max-width: 52% !important; font-size: 13px; padding: 8px 4px 8px 0px !important; word-break: break-word; overflow-wrap: break-word; overflow: hidden; }
+    .landmark-table td.col-name { width: 52% !important; min-width: 0 !important; max-width: 52% !important; font-size: 13px; padding: 8px 4px 8px 6px !important; word-break: break-word; overflow-wrap: break-word; overflow: hidden; }
     .name-title { font-size: 14px; line-height: 1.3; white-space: normal !important; }
     .name-place { font-size: 11px; white-space: normal !important; }
 
@@ -660,7 +660,7 @@ table th:first-child {
     .category-badge-inline { margin-left: 0; padding: 3px 8px; font-size: 10px; }
 
     /* Further reduce grid columns on very small screens */
-    .score-summary-grid { grid-template-columns: repeat(3, 1fr); gap: 5px; }
+    .score-summary-grid { grid-template-columns: repeat(4, 1fr); gap: 5px; }
     .gallery-grid { grid-template-columns: repeat(4, 1fr); gap: 3px; }
     #modalGallery { grid-template-columns: repeat(4, 1fr); gap: 3px; }
     .metrics-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
@@ -683,7 +683,7 @@ table th:first-child {
 /* Ultra small screens (very narrow phones) */
 @media (max-width: 360px) {
     /* Force single column for all grids */
-    .score-summary-grid { grid-template-columns: repeat(2, 1fr); gap: 4px; }
+    .score-summary-grid { grid-template-columns: repeat(4, 1fr); gap: 3px; }
     .gallery-grid,
     #modalGallery { grid-template-columns: repeat(4, 1fr); gap: 2px; }
 
@@ -697,10 +697,10 @@ table th:first-child {
     .modal-place-name { font-size: 12px; }
 
     /* Compact score items */
-    .score-item { padding: 6px 3px; }
-    .score-icon { font-size: 18px; }
-    .score-name { font-size: 8px; }
-    .score-stars { font-size: 11px; }
+    .score-item { padding: 6px 2px; }
+    .score-icon { font-size: 16px; margin-bottom: 3px; }
+    .score-name { font-size: 8px; margin-bottom: 3px; }
+    .score-stars { font-size: 10px; }
 }
 
 ::-webkit-scrollbar { width: 8px; }
