@@ -146,7 +146,7 @@ const i18n = {
         labelDuration: "Duration",
         labelStation: "Nearest Station",
         labelOverallRank: "Overall Rank",
-        labelGMapScore: "G-Map Score",
+        labelGMapScore: "Google Map Rate",
         labelGMapReviews: "G-Map Reviews",
         labelPopularity: "Appeal",
         labelFame: "Fame",
