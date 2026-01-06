@@ -73,12 +73,10 @@
     --transition: 0.2s ease;
 }
 
-html { height: 100%; }
-
-body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.6; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0; padding: 0; display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
+body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background: var(--bg-primary); color: var(--text-primary); line-height: 1.6; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin: 0; padding: 0; padding-top: 72px; }
 
 /* Header */
-.header { display: flex; align-items: center; justify-content: space-between; padding: 12px max(20px, calc((100vw - 1200px) / 2 + 20px)); background: var(--header-bg); border-bottom: none; flex-shrink: 0; z-index: 100; gap: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.header { display: flex; align-items: center; justify-content: space-between; padding: 12px max(20px, calc((100vw - 1200px) / 2 + 20px)); background: var(--header-bg); border-bottom: none; position: fixed; top: 0; left: 0; right: 0; z-index: 100; gap: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
 .header-left { display: flex; align-items: center; gap: 12px; }
 .header-center { display: flex; justify-content: center; flex: 1; }
 .header-right { display: flex; justify-content: flex-end; flex: 1; }
@@ -101,7 +99,7 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 .lang-btn.active { background: var(--gold); color: #fff; }
 
 /* Main */
-.main-container { max-width: 1200px; margin: 0 auto; padding: 20px; padding-top: 24px; flex: 1; overflow-y: auto; width: 100%; }
+.main-container { max-width: 1200px; margin: 0 auto; padding: 20px; padding-top: 24px; }
 
 .about-section { background: #eceff1; border: none; border-radius: 12px; padding: 24px 28px; margin-bottom: 24px; box-shadow: none; }
 .about-title { font-size: 18px; color: #1a202c; font-weight: 700; margin: 0 0 8px 0; line-height: 1.25; }
