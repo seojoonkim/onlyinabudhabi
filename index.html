@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Maps optimization -->
+    <link rel="preconnect" href="https://maps.googleapis.com">
+    <link rel="preconnect" href="https://maps.gstatic.com">
+    <link rel="dns-prefetch" href="https://maps.googleapis.com">
+    <link rel="dns-prefetch" href="https://maps.gstatic.com">
     <link rel="icon" type="image/svg+xml" href="favicon.svg?v=4">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -117,6 +122,10 @@
         
         <!-- Map View -->
         <div class="map-container" id="mapView" style="display: none;">
+            <div id="mapLoader" class="map-loader">
+                <div class="map-spinner"></div>
+                <div class="map-loading-text" id="mapLoadingText">Loading map...</div>
+            </div>
             <div id="map"></div>
         </div>
     </main>
@@ -264,11 +273,12 @@
         </div>
     </div>
 
-    <script src="db_ko.js"></script>
-    <script src="db_en.js"></script>
-    <script src="db_ar.js"></script>
-    <script src="db_ja.js"></script>
-    <script src="db_zh.js"></script>
+    <script src="data_base.js"></script>
+    <script src="lang_ko.js"></script>
+    <script src="lang_en.js"></script>
+    <script src="lang_ar.js"></script>
+    <script src="lang_ja.js"></script>
+    <script src="lang_zh.js"></script>
     <script src="i18n.js"></script>
     <script src="load_rankings.js"></script>
     <script src="app.js"></script>

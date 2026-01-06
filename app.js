@@ -18,15 +18,14 @@ let currentGalleryImages = [];
 let currentGalleryIndex = 0;
 let currentValidImages = []; // Only images that actually exist
 
-// Get language from URL path
+// Get language from URL query parameter
 function getLanguageFromURL() {
-    const path = window.location.pathname;
-    // Match language code at start or after project name (for GitHub Pages)
-    const langMatch = path.match(/\/(kr|en|ar|ja|zh)(?:\/|$)/);
-    if (langMatch) {
-        return langMatch[1];
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get('lang');
+    if (lang && ['ko', 'en', 'ar', 'ja', 'zh'].includes(lang)) {
+        return lang;
     }
-    // Default to English if no language code in URL
+    // Default to English if no language parameter
     return 'en';
 }
 
@@ -122,9 +121,9 @@ document.addEventListener('DOMContentLoaded', async function() {
 });
 
 // Initialize data
-async function initData() {
+function initData() {
     // Don't update URL on initial load, just use the language from URL
-    await switchLanguage(currentLang, false);
+    switchLanguage(currentLang, false);
 
     // Show content after language is loaded (prevent FOUC)
     document.body.classList.add('loaded');
@@ -268,6 +267,10 @@ function updateUIText() {
     const labelUniqueness = document.getElementById('labelUniqueness');
     if (labelUniqueness) labelUniqueness.textContent = i18n[currentLang].labelUniqueness;
 
+    // Update map loading text
+    const mapLoadingText = document.getElementById('mapLoadingText');
+    if (mapLoadingText) mapLoadingText.textContent = i18n[currentLang].mapLoading;
+
     // Update category counts
     updateCategoryCounts();
 }
@@ -281,68 +284,57 @@ function updateResultCount() {
 }
 
 // Switch language
-async function switchLanguage(lang, updateURL = true) {
+function switchLanguage(lang, updateURL = true) {
     currentLang = lang;
 
-    // Update URL path if needed
+    // Update URL with query parameter if needed
     if (updateURL) {
-        const newPath = lang === 'en' ? '/' : `/${lang}`;
-        window.history.pushState({}, '', newPath);
+        const newURL = lang === 'en' ? '/' : `/?lang=${lang}`;
+        window.history.pushState({}, '', newURL);
     }
 
-    // Load new data structure: items_base.json + lang/{lang}.json
-    try {
-        // Get base path (works for localhost, GitHub Pages, and custom domain)
-        const isLocalhost = window.location.hostname === 'localhost';
-        const isGitHubPages = window.location.hostname.includes('github.io');
-        const basePath = isLocalhost ? '' : (isGitHubPages ? '/onlyinabudhabi' : '');
+    // Get language-specific data
+    let langData;
+    switch(lang) {
+        case 'ko':
+            langData = langData_ko;
+            break;
+        case 'en':
+            langData = langData_en;
+            break;
+        case 'ar':
+            langData = langData_ar;
+            break;
+        case 'ja':
+            langData = langData_ja;
+            break;
+        case 'zh':
+            langData = langData_zh;
+            break;
+        default:
+            langData = langData_en;
+    }
 
-        // Load language-independent data
-        const baseResponse = await fetch(`${basePath}/data/items_base.json`);
-        const baseData = await baseResponse.json();
-
-        // Load language-specific data
-        const langResponse = await fetch(`${basePath}/data/lang/${lang}.json`);
-        const langData = await langResponse.json();
-
-        // Merge by ID
-        allData = baseData.items.map(baseItem => {
-            const langItem = langData.items.find(l => l.id === baseItem.id);
-            if (langItem) {
-                return {
-                    ...baseItem,  // All language-independent data
-                    ...langItem   // All language-specific text
-                };
-            }
-            return baseItem;
-        });
-
-        console.log(`✅ Loaded ${allData.length} items for language: ${lang}`);
-    } catch (error) {
-        console.error('❌ Error loading data:', error);
-        // Fallback to old data structure if new files not found
-        console.warn('⚠️  Falling back to old data structure (db_*.js)');
-        let rawData;
-        switch(lang) {
-            case 'ko':
-                rawData = landmarkData_ko;
-                break;
-            case 'en':
-                rawData = landmarkData_en;
-                break;
-            case 'ar':
-                rawData = landmarkData_ar;
-                break;
-            case 'ja':
-                rawData = landmarkData_ja;
-                break;
-            case 'zh':
-                rawData = landmarkData_zh;
-                break;
-            default:
-                rawData = landmarkData_en;
+    // Merge baseData with language-specific data
+    allData = baseData.map(baseItem => {
+        const langItem = langData[baseItem.id];
+        if (langItem) {
+            return {
+                ...baseItem,  // All language-independent data
+                ...langItem   // All language-specific text
+            };
         }
-        allData = rawData;
+        return baseItem;
+    });
+
+    console.log(`✅ Loaded ${allData.length} items for language: ${lang}`);
+
+    // Debug: Check if score_reasons exists
+    const firstItem = allData[0];
+    console.log('First item ID:', firstItem.id);
+    console.log('Has score_reasons:', !!firstItem.score_reasons);
+    if (firstItem.score_reasons) {
+        console.log('score_reasons keys:', Object.keys(firstItem.score_reasons));
     }
 
     // Re-filter and render
@@ -599,6 +591,7 @@ function initLangSelector() {
 // Initialize Google Map
 function initGoogleMap() {
     const mapEl = document.getElementById('map');
+    const mapLoader = document.getElementById('mapLoader');
     if (!mapEl || typeof google === 'undefined') return;
 
     map = new google.maps.Map(mapEl, {
@@ -609,6 +602,13 @@ function initGoogleMap() {
         streetViewControl: false,
         fullscreenControl: false,
         zoomControl: false
+    });
+
+    // Hide loader when map is ready
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+        if (mapLoader) {
+            mapLoader.classList.add('hidden');
+        }
     });
 
     // Close info window when clicking on map (with delay to prevent conflict with marker clicks)
@@ -1234,6 +1234,15 @@ function openModal(id) {
     
     // Detailed Evaluation - 10개 카드
     const scoresListGrid = document.getElementById('modalScoresList');
+
+    // Debug: Check item data in modal
+    console.log('Modal item ID:', item.id);
+    console.log('Modal item has score_reasons:', !!item.score_reasons);
+    if (item.score_reasons) {
+        console.log('Modal score_reasons keys:', Object.keys(item.score_reasons));
+        console.log('Modal score_reasons.photo:', item.score_reasons.photo);
+    }
+
     scoresListGrid.innerHTML = scoreCategories.map(cat => {
         const score = item.scores?.[cat.key];
         const stars = score
