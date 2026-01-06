@@ -1308,10 +1308,12 @@ function updateNearbyPlaces(currentItem) {
                 <div class="nearby-title">${config.icon} ${item.title}</div>
                 <div class="nearby-bottom">
                     <span class="nearby-place">${item.place}</span>
-                    <span class="nearby-distance">${distText}</span>
+                    <div class="nearby-right">
+                        <span class="nearby-distance">${distText}</span>
+                        <button class="nearby-detail-btn" onclick="openModal('${item.id}')">${i18n[currentLang].viewDetails}</button>
+                    </div>
                 </div>
             </div>
-            <button class="nearby-detail-btn" onclick="openModal('${item.id}')">${i18n[currentLang].viewDetails}</button>
         </li>`;
     }).join('');
 }
