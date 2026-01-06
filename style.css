@@ -529,7 +529,7 @@ table th:first-child {
     .modal-body-two-col { grid-template-columns: 1fr; }
     .modal-col-left { border-right: none; border-bottom: 1px solid var(--border); }
     .modal-col-right { max-height: none; }
-    .desc-tips-row, .map-nearby-row { grid-template-columns: 1fr; }
+    .desc-tips-row, .map-nearby-row { grid-template-columns: 1fr; gap: 36px; }
     .score-summary-grid { grid-template-columns: repeat(5, 1fr); }
     .popularity-grid { grid-template-columns: repeat(2, 1fr); }
     .metrics-grid { grid-template-columns: repeat(3, 1fr); }
