@@ -359,8 +359,8 @@ table th:first-child {
 
 .modal-section { margin: 0; }
 .modal-col-left .modal-section { margin-bottom: 0; }
-.modal-section h3 { font-size: 13px; font-weight: 800; color: var(--header-bg); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.1px; }
-.section-icon { font-size: 14px; }
+.modal-section h3 { font-size: 17px; font-weight: 400; color: var(--header-bg); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.1px; }
+.section-icon { display: none; }
 
 /* Intro Box - No background */
 .intro-box { background: transparent; padding: 0; border-radius: 0; }
