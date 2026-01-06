@@ -347,7 +347,7 @@ table th:first-child {
   display: flex;
   flex-direction: column;
   gap: 42px;
-  padding: 28px;
+  padding: 28px 28px 80px 28px;
   min-width: 0;
   overflow: visible;
   height: auto;
@@ -669,7 +669,7 @@ table th:first-child {
 
     /* Reduce modal padding on very small screens */
     .modal-col-left,
-    .modal-col-right { padding: 20px 16px; gap: 32px; }
+    .modal-col-right { padding: 20px 16px 80px 16px; gap: 32px; }
 
     /* Adjust score items for better fit */
     .score-item { padding: 8px 4px; }
@@ -691,7 +691,7 @@ table th:first-child {
 
     /* Further reduce padding */
     .modal-col-left,
-    .modal-col-right { padding: 16px 12px; gap: 28px; }
+    .modal-col-right { padding: 16px 12px 80px 12px; gap: 28px; }
 
     /* Smaller header on ultra-small screens */
     .modal-header { padding: 12px 16px; }
