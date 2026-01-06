@@ -349,8 +349,9 @@ table th:first-child {
   gap: 42px;
   padding: 28px;
   min-width: 0;
-  overflow-x: hidden;
-  overflow-y: visible;
+  overflow: visible;
+  height: auto;
+  max-height: none;
 }
 
 .modal-col-left { background: #eceff1; }
