@@ -355,7 +355,7 @@ table th:first-child {
 }
 
 .modal-col-left { background: #eceff1; }
-.modal-col-right { background: #ffffff; }
+.modal-col-right { background: #ffffff; padding-right: 20px; }
 
 .modal-section { margin: 0; }
 .modal-col-left .modal-section { margin-bottom: 0; }
