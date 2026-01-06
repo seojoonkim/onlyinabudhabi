@@ -492,7 +492,7 @@ table th:first-child {
 .star-empty { color: #e8d5b8; }
 
 /* Score Detail Cards - 2열 4행 = 8개 Etihad White Card Style */
-.scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
 .score-detail-card { background: #ffffff; border-radius: 12px; padding: 14px; border: none; box-shadow: 0 6px 24px 0 rgba(0,0,0,0.08); }
 .score-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; padding-bottom: 0; border-bottom: none; }
 .score-detail-title { display: flex; align-items: center; gap: 8px; }
