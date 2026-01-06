@@ -652,6 +652,10 @@ table th:first-child {
     .modal-header { border-radius: 0; padding: 14px 20px 14px 28px; flex-shrink: 0; position: sticky; top: 0; z-index: 10; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
     .modal-name { font-size: 19px; }
     .modal-body-two-col { flex: 1; overflow-y: visible; }
+
+    /* Add bottom padding to prevent Safari bottom bar from covering content */
+    .modal-col-left,
+    .modal-col-right { padding-bottom: 80px; }
 }
 
 /* Extra small screens */
