@@ -108,7 +108,7 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 
 .filter-bar { margin-bottom: 20px; }
 .filter-group { display: flex; flex-wrap: wrap; gap: 6px; }
-.filter-group.score-filters { margin-top: 14px; }
+.filter-group.score-filters { margin-top: 18px; }
 .filter-btn,
 .score-filter-btn { padding: 6px 10px; background: #ffffff; border: 0.5px solid #2d4a5a; border-radius: 24px; font-size: 12px; font-weight: 400; color: #2d4a5a; cursor: pointer; transition: var(--transition); box-shadow: none; }
 .filter-btn:hover,
@@ -608,7 +608,7 @@ table th:first-child {
     .filter-bar { margin-bottom: 16px; }
 
     /* Mobile about section - smaller fonts and padding */
-    .about-section { padding: 16px 20px; }
+    .about-section { padding: 16px 20px; margin-top: 8px; }
     .about-title { font-size: 16px; margin-bottom: 6px; }
     .about-desc { font-size: 11px; }
 
