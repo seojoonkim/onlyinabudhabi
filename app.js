@@ -950,7 +950,7 @@ function openModal(id) {
     const categoryNames = getCategoryNames();
 
     // Header - 제목 옆에 카테고리 태그
-    document.getElementById('modalName').textContent = item.title;
+    document.getElementById('modalName').textContent = `#${String(item.num).padStart(2, '0')} ${item.title}`;
     document.getElementById('modalPlaceName').textContent = item.place;
     document.getElementById('modalTag').innerHTML = `${config.icon} ${categoryNames[item.category]}`;
     document.getElementById('modalTag').style.background = config.bg;
