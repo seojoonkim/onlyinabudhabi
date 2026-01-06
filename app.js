@@ -517,7 +517,7 @@ function renderTable() {
         const tr = document.createElement('tr');
         tr.onclick = () => openModal(item.id);
         tr.innerHTML = `
-            <td class="col-rank">${String(item.num).padStart(2, '0')}</td>
+            <td class="col-rank">#${String(item.num).padStart(2, '0')}</td>
             <td class="col-photo">
                 <img src="photos/${item.photo_folder || item.id}/01.webp" onerror="this.src='${dummyImage}'" alt="${item.title}" class="list-photo">
             </td>
