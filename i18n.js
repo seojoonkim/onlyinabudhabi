@@ -75,6 +75,7 @@ const i18n = {
         scoreSolo: "혼자 방문 적합도",
         scoreTourist: "관광객 친화도",
         scoreAccessibility: "접근성",
+        sameLocation: "같은 장소",
         comingSoon: "준비 중",
         // Fame levels
         fame5: "수많은 방문객",
@@ -163,6 +164,7 @@ const i18n = {
         scoreSolo: "Solo Travel Friendly",
         scoreTourist: "Tourist-Friendly",
         scoreAccessibility: "Accessibility",
+        sameLocation: "Here",
         comingSoon: "Coming Soon",
         // Fame levels
         fame5: "Highly Visited",
@@ -249,6 +251,7 @@ const i18n = {
         scoreSolo: "ملاءمة للسفر الفردي",
         scoreTourist: "ملاءمة للسياح",
         scoreAccessibility: "سهولة الوصول",
+        sameLocation: "نفس الموقع",
         comingSoon: "قريبًا",
         // Fame levels
         fame5: "زوار كثيرون",
@@ -335,6 +338,7 @@ const i18n = {
         scoreSolo: "一人旅向け度",
         scoreTourist: "観光客向け度",
         scoreAccessibility: "アクセス",
+        sameLocation: "同じ場所",
         comingSoon: "準備中",
         // Fame levels
         fame5: "多くの訪問者",
@@ -421,6 +425,7 @@ const i18n = {
         scoreSolo: "独自旅行适合度",
         scoreTourist: "游客友好度",
         scoreAccessibility: "便利度",
+        sameLocation: "同一地点",
         comingSoon: "即将推出",
         // Fame levels
         fame5: "众多访客",

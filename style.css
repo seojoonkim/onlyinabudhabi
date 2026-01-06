@@ -475,14 +475,16 @@ table th:first-child {
 .nearby-place { font-size: 12px; color: #94a3b8; }
 .nearby-distance { font-size: 12px; color: #94a3b8; transition: opacity 0.3s ease; }
 .nearby-detail-btn { position: absolute; top: 50%; right: 12px; transform: translateY(-50%); background: linear-gradient(135deg, #d4915d 0%, #c97d3d 100%); color: white; border: none; padding: 6px 14px; border-radius: 5px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; opacity: 0; white-space: nowrap; }
-.nearby-detail-btn:hover { box-shadow: 0 2px 6px rgba(212,145,93,0.4); }
+.nearby-detail-btn:hover { background: var(--header-bg); color: white; }
 .nearby-item:hover .nearby-distance { opacity: 0; }
 .nearby-item:hover .nearby-detail-btn { opacity: 1; }
 
 /* Score Summary Grid - 4x2 Etihad Style */
 .score-summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 0; min-width: 0; }
 .score-item { display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; text-align: center; padding: 10px 6px; background: linear-gradient(135deg, #fffbf5 0%, #fff9f0 50%, #ffffff 100%); border-radius: 10px; border: 0.5px solid #2d4a5a; box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04); cursor: pointer; transition: all 0.2s ease; position: relative; min-width: 0; }
-.score-item:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.06); background: linear-gradient(135deg, #fff8ed 0%, #fff3e0 50%, #fffbf5 100%); }
+.score-item:hover { background: var(--header-bg); color: white; }
+.score-item:hover .score-name { color: white; }
+.score-item:hover .score-stars { color: white; }
 .score-item:active { transform: translateY(0); }
 .score-icon { display: block; font-size: 24px; margin-bottom: 6px; opacity: 0.9; }
 .score-name { display: block; font-size: 10px; color: #5a4a3a; margin-bottom: 6px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.2; white-space: normal; word-break: break-word; max-width: 100%; text-align: center; }

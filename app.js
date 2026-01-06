@@ -1295,7 +1295,14 @@ function updateNearbyPlaces(currentItem) {
     
     nearbyList.innerHTML = nearby.map(item => {
         const config = categoryConfig[item.category] || {};
-        const distText = item.distance < 1 ? Math.round(item.distance * 1000) + 'm' : item.distance.toFixed(1) + 'km';
+        let distText;
+        if (item.distance < 0.001) {
+            distText = i18n[currentLang].sameLocation;
+        } else if (item.distance < 1) {
+            distText = Math.round(item.distance * 1000) + 'm';
+        } else {
+            distText = item.distance.toFixed(1) + 'km';
+        }
         return `<li class="nearby-item">
             <div class="nearby-content">
                 <div class="nearby-title">${config.icon} ${item.title}</div>
