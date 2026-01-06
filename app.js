@@ -94,10 +94,8 @@ function getScoreCategories() {
         { key: "culture", icon: "🎭", name: i18n[currentLang].scoreCulture },
         { key: "activity", icon: "🎯", name: i18n[currentLang].scoreActivity },
         { key: "relaxation", icon: "🧘", name: i18n[currentLang].scoreRelaxation },
-        { key: "peaceful", icon: "🌿", name: i18n[currentLang].scorePeaceful },
         { key: "couple", icon: "💑", name: i18n[currentLang].scoreCouple },
         { key: "family", icon: "👨‍👩‍👧", name: i18n[currentLang].scoreFamily },
-        { key: "solo", icon: "🚶", name: i18n[currentLang].scoreSolo },
         { key: "tourist", icon: "🌍", name: i18n[currentLang].scoreTourist },
         { key: "accessibility", icon: "🚇", name: i18n[currentLang].scoreAccessibility }
     ];
@@ -172,12 +170,10 @@ function updateUIText() {
     if (scoreFilterBtns[2]) scoreFilterBtns[2].textContent = `🎭 ${i18n[currentLang].scoreCulture}`;
     if (scoreFilterBtns[3]) scoreFilterBtns[3].textContent = `🎯 ${i18n[currentLang].scoreActivity}`;
     if (scoreFilterBtns[4]) scoreFilterBtns[4].textContent = `🧘 ${i18n[currentLang].scoreRelaxation}`;
-    if (scoreFilterBtns[5]) scoreFilterBtns[5].textContent = `🌿 ${i18n[currentLang].scorePeaceful}`;
-    if (scoreFilterBtns[6]) scoreFilterBtns[6].textContent = `💑 ${i18n[currentLang].scoreCouple}`;
-    if (scoreFilterBtns[7]) scoreFilterBtns[7].textContent = `👨‍👩‍👧 ${i18n[currentLang].scoreFamily}`;
-    if (scoreFilterBtns[8]) scoreFilterBtns[8].textContent = `🚶 ${i18n[currentLang].scoreSolo}`;
-    if (scoreFilterBtns[9]) scoreFilterBtns[9].textContent = `🌍 ${i18n[currentLang].scoreTourist}`;
-    if (scoreFilterBtns[10]) scoreFilterBtns[10].textContent = `🚇 ${i18n[currentLang].scoreAccessibility}`;
+    if (scoreFilterBtns[5]) scoreFilterBtns[5].textContent = `💑 ${i18n[currentLang].scoreCouple}`;
+    if (scoreFilterBtns[6]) scoreFilterBtns[6].textContent = `👨‍👩‍👧 ${i18n[currentLang].scoreFamily}`;
+    if (scoreFilterBtns[7]) scoreFilterBtns[7].textContent = `🌍 ${i18n[currentLang].scoreTourist}`;
+    if (scoreFilterBtns[8]) scoreFilterBtns[8].textContent = `🚇 ${i18n[currentLang].scoreAccessibility}`;
 
     // Update sort buttons
     const sortBtns = document.querySelectorAll('.sort-btn');
@@ -1028,9 +1024,13 @@ function openModal(id) {
         const fameEl = document.getElementById('popFame');
         const uniquenessEl = document.getElementById('popUniqueness');
 
-        // Update category label to show actual category name
+        // Update category label to show actual category name + Rank
         if (categoryLabelEl) {
-            categoryLabelEl.textContent = categoryNames[item.category] || 'Category Rank';
+            const rankSuffix = currentLang === 'ko' ? '순위' :
+                              currentLang === 'ja' ? 'ランキング' :
+                              currentLang === 'zh' ? '排名' :
+                              currentLang === 'ar' ? 'الترتيب' : 'Rank';
+            categoryLabelEl.textContent = `${categoryNames[item.category]} ${rankSuffix}` || 'Category Rank';
         }
 
         // 1. 매력도 (Attractiveness Score) - 30-99 (no /99)

@@ -418,14 +418,9 @@ table th:first-child {
   background: #ffffff;
   border-radius: 10px;
   border: none;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04);
-  transition: all 0.2s ease;
+  box-shadow: 0 6px 24px 0 rgba(0,0,0,0.08);
   min-width: 0;
   overflow: hidden;
-}
-.metric-item:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.06);
-  transform: translateY(-2px);
 }
 .metric-label {
   display: block;
@@ -472,7 +467,7 @@ table th:first-child {
 .map-section, .nearby-section { margin-bottom: 0; }
 .spot-map-container { border-radius: 8px; overflow: hidden; background: #f8fafc; height: 347px; }
 .nearby-list { list-style: none; }
-.nearby-list li { position: relative; padding: 10px 12px; background: #f8fafc; border-radius: 6px; margin-bottom: 8px; font-size: 14px; transition: all 0.3s ease; }
+.nearby-list li { position: relative; padding: 10px 12px; background: #f8fafe; border-radius: 6px; margin-bottom: 8px; font-size: 14px; transition: all 0.3s ease; border: 0.5px solid #2d4a5a; }
 .nearby-list li:hover { background: var(--gold-bg); transform: scale(1.03); box-shadow: 0 2px 8px rgba(212,145,93,0.15); }
 .nearby-content { display: flex; flex-direction: column; gap: 4px; }
 .nearby-title { font-size: 14px; font-weight: 400; color: var(--text-primary); }
@@ -484,9 +479,9 @@ table th:first-child {
 .nearby-item:hover .nearby-distance { opacity: 0; }
 .nearby-item:hover .nearby-detail-btn { opacity: 1; }
 
-/* Score Summary Grid - 5x2 Etihad Style */
-.score-summary-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 0; min-width: 0; }
-.score-item { display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; text-align: center; padding: 10px 6px; background: linear-gradient(135deg, #fffbf5 0%, #fff9f0 50%, #ffffff 100%); border-radius: 10px; border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04); cursor: pointer; transition: all 0.2s ease; position: relative; min-width: 0; }
+/* Score Summary Grid - 4x2 Etihad Style */
+.score-summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 0; min-width: 0; }
+.score-item { display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; text-align: center; padding: 10px 6px; background: linear-gradient(135deg, #fffbf5 0%, #fff9f0 50%, #ffffff 100%); border-radius: 10px; border: 0.5px solid #2d4a5a; box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04); cursor: pointer; transition: all 0.2s ease; position: relative; min-width: 0; }
 .score-item:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.12), 0 2px 6px rgba(0,0,0,0.06); background: linear-gradient(135deg, #fff8ed 0%, #fff3e0 50%, #fffbf5 100%); }
 .score-item:active { transform: translateY(0); }
 .score-icon { display: block; font-size: 24px; margin-bottom: 6px; opacity: 0.9; }
@@ -495,9 +490,9 @@ table th:first-child {
 .star-filled { color: #d4915d; }
 .star-empty { color: #e8d5b8; }
 
-/* Score Detail Cards - 2열 5행 = 10개 Etihad White Card Style */
+/* Score Detail Cards - 2열 4행 = 8개 Etihad White Card Style */
 .scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.score-detail-card { background: #ffffff; border-radius: 12px; padding: 14px; border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04); transition: all 0.3s ease; }
+.score-detail-card { background: #ffffff; border-radius: 12px; padding: 14px; border: none; box-shadow: 0 6px 24px 0 rgba(0,0,0,0.08); }
 .score-detail-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; padding-bottom: 0; border-bottom: none; }
 .score-detail-title { display: flex; align-items: center; gap: 8px; }
 .score-detail-icon { font-size: 22px; opacity: 0.9; }
@@ -532,7 +527,7 @@ table th:first-child {
     .modal-col-left { border-right: none; border-bottom: 1px solid var(--border); }
     .modal-col-right { max-height: none; }
     .desc-tips-row, .map-nearby-row { grid-template-columns: 1fr; gap: 36px; }
-    .score-summary-grid { grid-template-columns: repeat(5, 1fr); }
+    .score-summary-grid { grid-template-columns: repeat(4, 1fr); }
     .popularity-grid { grid-template-columns: repeat(2, 1fr); }
     .metrics-grid { grid-template-columns: repeat(3, 1fr); }
 }
@@ -615,7 +610,7 @@ table th:first-child {
     .about-desc { font-size: 11px; }
 
     .filter-group { justify-content: flex-start; }
-    .score-summary-grid { grid-template-columns: repeat(5, 1fr); gap: 6px; }
+    .score-summary-grid { grid-template-columns: repeat(4, 1fr); gap: 6px; }
     .scores-grid-2col { grid-template-columns: 1fr; }
     .gallery-grid { grid-template-columns: repeat(4, 1fr); }
     #modalGallery { grid-template-columns: repeat(4, 1fr); }
