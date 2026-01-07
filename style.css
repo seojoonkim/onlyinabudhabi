@@ -79,8 +79,10 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 .header { position: sticky; top: 0; display: flex; align-items: center; justify-content: space-between; padding: 12px max(20px, calc((100vw - 1200px) / 2 + 20px)); background: var(--header-bg); border-bottom: none; z-index: 100; gap: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
 .header-left { display: flex; align-items: center; gap: 12px; }
 .header-center { display: flex; justify-content: center; flex: 1; }
-.header-right { display: flex; justify-content: flex-end; flex: 1; }
+.header-right { display: flex; justify-content: flex-end; align-items: center; flex: 1; gap: 16px; }
 .logo-link { text-decoration: none; display: flex; align-items: center; gap: 4px; }
+.about-link { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 14px; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease; }
+.about-link:hover { background: rgba(255,255,255,0.1); color: #ffffff; }
 .logo-main { font-size: 18px; font-weight: 600; color: #ffffff; letter-spacing: -0.3px; display: flex; align-items: center; gap: 8px; }
 .logo-icon { flex-shrink: 0; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); transition: transform 0.2s ease; width: 26px; height: 26px; }
 .logo-main:hover .logo-icon { transform: scale(1.05); }
