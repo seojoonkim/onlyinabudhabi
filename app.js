@@ -165,7 +165,7 @@ function updateUIText() {
 
     // Update score filter buttons
     const scoreFilterBtns = document.querySelectorAll('.score-filter-btn');
-    if (scoreFilterBtns[0]) scoreFilterBtns[0].textContent = i18n[currentLang].categoryAll;
+    if (scoreFilterBtns[0]) scoreFilterBtns[0].textContent = i18n[currentLang].scoreAll;
     if (scoreFilterBtns[1]) scoreFilterBtns[1].textContent = `📷 ${i18n[currentLang].scorePhoto}`;
     if (scoreFilterBtns[2]) scoreFilterBtns[2].textContent = `🎭 ${i18n[currentLang].scoreCulture}`;
     if (scoreFilterBtns[3]) scoreFilterBtns[3].textContent = `🎯 ${i18n[currentLang].scoreActivity}`;
