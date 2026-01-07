@@ -178,7 +178,9 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 .landmark-table th.col-popularity { text-align: center; }
 .landmark-table td { padding: 12px 12px; border-bottom: 1px solid var(--border-light); vertical-align: middle; }
 .landmark-table tr { cursor: pointer; transition: var(--transition); }
-.landmark-table tbody tr:hover { background: #f5f5f5; transform: scale(1.001); box-shadow: 0 2px 4px rgba(0,0,0,0.08); }
+@media (hover: hover) {
+    .landmark-table tbody tr:hover { background: #f5f5f5; transform: scale(1.001); box-shadow: 0 2px 4px rgba(0,0,0,0.08); }
+}
 
 /* 열 패딩 줄이기 */
 table td:first-child,
@@ -372,7 +374,9 @@ table th:first-child {
 .photo-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; min-width: 0; }
 .photo-grid img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; min-width: 0; }
 .gallery-thumb { width: 100%; max-width: 100%; height: 100%; min-height: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 6px; cursor: pointer; transition: transform 0.2s ease; background: #f1f5f9; border: 1px solid #fff; display: block; box-sizing: border-box; min-width: 0; }
-.gallery-thumb:hover { transform: scale(1.05); z-index: 1; }
+@media (hover: hover) {
+    .gallery-thumb:hover { transform: scale(1.05); z-index: 1; }
+}
 .gallery-thumb.placeholder { display: flex; align-items: center; justify-content: center; color: #cbd5e1; font-size: 20px; }
 
 /* Info Grid - No item boxes */
@@ -390,7 +394,9 @@ table th:first-child {
 .modal-actions { display: flex; gap: 12px; }
 .action-btn { display: inline-flex; align-items: center; gap: 8px; padding: 11px 18px; border-radius: 8px; font-size: 13px; font-weight: 600; text-decoration: none; transition: var(--transition); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
 .action-btn.google { background: var(--accent-gradient); color: white; }
-.action-btn.google:hover { background: linear-gradient(135deg, var(--gold-dark) 0%, #b56d30 100%); transform: translateY(-1px); box-shadow: 0 3px 6px rgba(212,145,93,0.3); }
+@media (hover: hover) {
+    .action-btn.google:hover { background: linear-gradient(135deg, var(--gold-dark) 0%, #b56d30 100%); transform: translateY(-1px); box-shadow: 0 3px 6px rgba(212,145,93,0.3); }
+}
 .btn-favicon { width: 16px; height: 16px; }
 
 /* Popularity Section - Etihad style */
@@ -467,8 +473,10 @@ table th:first-child {
 .map-section, .nearby-section { margin-bottom: 0; }
 .spot-map-container { border-radius: 8px; overflow: hidden; background: #f8fafc; height: 347px; }
 .nearby-list { list-style: none; }
-.nearby-list li { position: relative; display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px; background: white; border-radius: 6px; margin-bottom: 8px; font-size: 14px; transition: all 0.3s ease; border: 0.5px solid #2d4a5a; }
-.nearby-list li:hover { background: var(--gold-bg); transform: scale(1.03); box-shadow: 0 2px 8px rgba(212,145,93,0.15); }
+.nearby-list li { position: relative; display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px; background: white; border-radius: 6px; margin-bottom: 8px; font-size: 14px; transition: all 0.3s ease; border: 0.5px solid #2d4a5a; cursor: pointer; }
+@media (hover: hover) {
+    .nearby-list li:hover { background: var(--gold-bg); transform: scale(1.03); box-shadow: 0 2px 8px rgba(212,145,93,0.15); }
+}
 .nearby-thumbnail { width: 56px; height: 56px; object-fit: cover; border-radius: 4px; flex-shrink: 0; }
 .nearby-content { display: flex; flex-direction: column; gap: 4px; flex: 1; }
 .nearby-title { font-size: 13px; font-weight: 500; color: var(--text-primary); }
@@ -478,14 +486,18 @@ table th:first-child {
 .nearby-distance { font-size: 12px; color: #94a3b8; transition: opacity 0.3s ease; }
 .nearby-arrow { font-size: 18px; color: #94a3b8; margin-left: 4px; font-weight: 400; }
 .nearby-detail-btn { position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: linear-gradient(135deg, #d4915d 0%, #c97d3d 100%); color: white; border: none; padding: 6px 14px; border-radius: 5px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; opacity: 0; white-space: nowrap; }
-.nearby-detail-btn:hover { background: var(--header-bg); color: white; }
-.nearby-item:hover .nearby-distance { opacity: 0; }
-.nearby-item:hover .nearby-detail-btn { opacity: 1; }
+@media (hover: hover) {
+    .nearby-detail-btn:hover { background: var(--header-bg); color: white; }
+    .nearby-item:hover .nearby-distance { opacity: 0; }
+    .nearby-item:hover .nearby-detail-btn { opacity: 1; }
+}
 
 /* Score Summary Grid - 4x2 Etihad Style */
 .score-summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 0; min-width: 0; }
 .score-item { display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; text-align: center; padding: 10px 6px; background: white; border-radius: 10px; border: 0.5px solid #2d4a5a; box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.04); cursor: pointer; transition: all 0.3s ease; position: relative; min-width: 0; }
-.score-item:hover { background: var(--gold-bg); transform: scale(1.03); box-shadow: 0 2px 8px rgba(212,145,93,0.15); }
+@media (hover: hover) {
+    .score-item:hover { background: var(--gold-bg); transform: scale(1.03); box-shadow: 0 2px 8px rgba(212,145,93,0.15); }
+}
 .score-item:active { transform: translateY(0); }
 .score-icon { display: block; font-size: 24px; margin-bottom: 6px; opacity: 0.9; }
 .score-name { display: block; font-size: 11px; color: var(--text-primary); margin-bottom: 6px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.2; white-space: normal; word-break: break-word; max-width: 100%; text-align: center; }
@@ -521,11 +533,13 @@ table th:first-child {
 .gallery-info { margin-top: 16px; color: white; }
 .gallery-thumbnails { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; margin-top: 16px; max-width: 450px; padding: 8px 0; justify-content: center; margin-left: auto; margin-right: auto; }
 .gallery-thumbnail { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 3px; cursor: pointer; opacity: 0.6; transition: all 0.2s; border: 2px solid transparent; }
-.gallery-thumbnail:hover { opacity: 0.9; }
+@media (hover: hover) {
+    .gallery-thumbnail:hover { opacity: 0.9; }
+}
 .gallery-thumbnail.active { opacity: 1; border-color: white; }
 
 /* Responsive */
-@media (max-width: 1024px) {
+@media (max-width: 950px) {
     .modal-body-two-col { grid-template-columns: 1fr; }
     .modal-col-left { border-right: none; border-bottom: 1px solid var(--border); }
     .modal-col-right { max-height: none; }
@@ -533,6 +547,12 @@ table th:first-child {
     .score-summary-grid { grid-template-columns: repeat(4, 1fr); }
     .popularity-grid { grid-template-columns: repeat(2, 1fr); }
     .metrics-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Tablet view: 6 photos per row */
+@media (min-width: 651px) and (max-width: 950px) {
+    .gallery-grid { grid-template-columns: repeat(6, 1fr); gap: 6px; }
+    #modalGallery { grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(2, 1fr); gap: 6px; }
 }
 
 /* Medium screens: Hide location and duration columns */
