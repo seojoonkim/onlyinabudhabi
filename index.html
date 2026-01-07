@@ -25,7 +25,90 @@
     <!-- Header -->
     <header class="header">
         <div class="header-left">
-            <a href="#" class="logo-link logo-main">Only In Abu Dhabi</a>
+            <a href="#" class="logo-link logo-main">
+                <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="32" height="32">
+                    <defs>
+                        <linearGradient id="logoSky" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#8b6f47"/>
+                            <stop offset="100%" style="stop-color:#6d5a3d"/>
+                        </linearGradient>
+                        <linearGradient id="logoDome" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#f5e6d3"/>
+                            <stop offset="50%" style="stop-color:#e8d4ba"/>
+                            <stop offset="100%" style="stop-color:#d4c4a8"/>
+                        </linearGradient>
+                        <linearGradient id="logoGold" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#d4a574"/>
+                            <stop offset="100%" style="stop-color:#b8935f"/>
+                        </linearGradient>
+                        <linearGradient id="logoAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#c9a86a"/>
+                            <stop offset="100%" style="stop-color:#a88f5f"/>
+                        </linearGradient>
+                    </defs>
+
+                    <!-- Transparent Background -->
+                    <rect width="80" height="80" fill="transparent" rx="16"/>
+
+                    <!-- Main building foundation -->
+                    <rect x="8" y="50" width="64" height="26" fill="url(#logoDome)"/>
+                    <rect x="8" y="50" width="64" height="2" fill="url(#logoGold)" opacity="0.4"/>
+
+                    <!-- Central large dome (Sheikh Zayed Mosque signature) -->
+                    <ellipse cx="40" cy="42" rx="24" ry="19" fill="url(#logoDome)"/>
+                    <ellipse cx="40" cy="42" rx="24" ry="19" fill="url(#logoGold)" opacity="0.15"/>
+
+                    <!-- Dome architectural details -->
+                    <ellipse cx="40" cy="36" rx="18" ry="9" fill="#f5e6d3" opacity="0.6"/>
+                    <path d="M 20 42 Q 40 38 60 42" stroke="#c9a86a" stroke-width="0.5" fill="none" opacity="0.6"/>
+                    <path d="M 24 44 Q 40 41 56 44" stroke="#c9a86a" stroke-width="0.5" fill="none" opacity="0.6"/>
+
+                    <!-- Side domes with shadows -->
+                    <ellipse cx="18" cy="52" rx="10" ry="8" fill="#6d5a3d" opacity="0.2"/>
+                    <ellipse cx="18" cy="51" rx="10" ry="8" fill="url(#logoDome)"/>
+                    <ellipse cx="18" cy="51" rx="10" ry="8" fill="url(#logoGold)" opacity="0.12"/>
+
+                    <ellipse cx="62" cy="52" rx="10" ry="8" fill="#6d5a3d" opacity="0.2"/>
+                    <ellipse cx="62" cy="51" rx="10" ry="8" fill="url(#logoDome)"/>
+                    <ellipse cx="62" cy="51" rx="10" ry="8" fill="url(#logoGold)" opacity="0.12"/>
+
+                    <!-- Minarets with detailed structure -->
+                    <rect x="5" y="54" width="5" height="22" fill="url(#logoDome)" rx="2.5"/>
+                    <rect x="5" y="54" width="5" height="1" fill="url(#logoGold)" opacity="0.4"/>
+                    <ellipse cx="7.5" cy="52" rx="4" ry="3" fill="url(#logoGold)"/>
+                    <circle cx="7.5" cy="50" r="2" fill="url(#logoAccent)"/>
+                    <path d="M 7.5 48 L 8.5 50 L 6.5 50 Z" fill="url(#logoGold)"/>
+
+                    <rect x="70" y="54" width="5" height="22" fill="url(#logoDome)" rx="2.5"/>
+                    <rect x="70" y="54" width="5" height="1" fill="url(#logoGold)" opacity="0.4"/>
+                    <ellipse cx="72.5" cy="52" rx="4" ry="3" fill="url(#logoGold)"/>
+                    <circle cx="72.5" cy="50" r="2" fill="url(#logoAccent)"/>
+                    <path d="M 72.5 48 L 73.5 50 L 71.5 50 Z" fill="url(#logoGold)"/>
+
+                    <!-- Inner minarets -->
+                    <rect x="26" y="58" width="3" height="18" fill="url(#logoDome)" rx="1.5"/>
+                    <circle cx="27.5" cy="56" r="2.5" fill="url(#logoGold)"/>
+
+                    <rect x="51" y="58" width="3" height="18" fill="url(#logoDome)" rx="1.5"/>
+                    <circle cx="52.5" cy="56" r="2.5" fill="url(#logoGold)"/>
+
+                    <!-- Central decorative arches -->
+                    <path d="M 32 60 Q 32 55 36 55 Q 40 55 40 60 L 40 76 L 32 76 Z" fill="#6d5a3d" opacity="0.35"/>
+                    <path d="M 40 60 Q 40 55 44 55 Q 48 55 48 60 L 48 76 L 40 76 Z" fill="#6d5a3d" opacity="0.35"/>
+
+                    <!-- Golden finial on central dome -->
+                    <ellipse cx="40" cy="23" rx="5" ry="4" fill="url(#logoGold)"/>
+                    <rect x="38.5" y="19" width="3" height="4" fill="url(#logoGold)" rx="1.5"/>
+                    <circle cx="40" cy="17" r="3" fill="url(#logoAccent)"/>
+                    <ellipse cx="40" cy="15" rx="2" ry="3" fill="url(#logoGold)"/>
+                    <path d="M 40 12 L 41 15 L 39 15 Z" fill="url(#logoGold)"/>
+
+                    <!-- Subtle architectural lines -->
+                    <line x1="16" y1="42" x2="16" y2="50" stroke="#c9a86a" stroke-width="0.5" opacity="0.5"/>
+                    <line x1="64" y1="42" x2="64" y2="50" stroke="#c9a86a" stroke-width="0.5" opacity="0.5"/>
+                </svg>
+                Only In Abu Dhabi
+            </a>
             <a href="#" class="logo-link">
                 <span class="logo-divider">|</span>
                 <span class="logo-sub">아부다비 101가지 즐길거리</span>

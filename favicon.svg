@@ -1,37 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#2d4a5a"/>
-      <stop offset="100%" style="stop-color:#3d5a6b"/>
+    <linearGradient id="dome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3"/>
+      <stop offset="50%" style="stop-color:#e8d4ba"/>
+      <stop offset="100%" style="stop-color:#d4c4a8"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#d4915d"/>
-      <stop offset="100%" style="stop-color:#c97d3d"/>
+      <stop offset="0%" style="stop-color:#d4a574"/>
+      <stop offset="100%" style="stop-color:#b8935f"/>
     </linearGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="64" height="64" fill="url(#bg)" rx="14"/>
+  <!-- Header Background Color -->
+  <rect width="64" height="64" fill="#2d4a5a" rx="10"/>
 
-  <!-- Central dome -->
-  <ellipse cx="32" cy="28" rx="10" ry="8" fill="url(#gold)"/>
-  <rect x="22" y="28" width="20" height="16" fill="url(#gold)"/>
+  <!-- Main building base - larger -->
+  <rect x="8" y="36" width="48" height="24" fill="url(#dome)"/>
 
-  <!-- Side minarets -->
-  <rect x="16" y="18" width="3" height="12" fill="url(#gold)" rx="1.5"/>
-  <circle cx="17.5" cy="17" r="2.5" fill="url(#gold)"/>
+  <!-- Central large dome - much bigger -->
+  <ellipse cx="32" cy="32" rx="20" ry="16" fill="url(#dome)"/>
+  <ellipse cx="32" cy="32" rx="20" ry="16" fill="url(#gold)" opacity="0.15"/>
 
-  <rect x="45" y="18" width="3" height="12" fill="url(#gold)" rx="1.5"/>
-  <circle cx="46.5" cy="17" r="2.5" fill="url(#gold)"/>
+  <!-- Dome shine effect - brighter -->
+  <ellipse cx="32" cy="26" rx="14" ry="7" fill="#f5e6d3" opacity="0.6"/>
 
-  <!-- Central minaret -->
-  <rect x="30.5" y="12" width="3" height="8" fill="url(#gold)" rx="1.5"/>
-  <path d="M 32 8 L 34 12 L 30 12 Z" fill="url(#gold)"/>
+  <!-- Side domes - bigger -->
+  <ellipse cx="16" cy="40" rx="9" ry="7" fill="url(#dome)"/>
+  <ellipse cx="16" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.12"/>
 
-  <!-- Arched entrance -->
-  <path d="M 28 38 Q 28 32 32 32 Q 36 32 36 38 L 36 44 L 28 44 Z" fill="#2d4a5a"/>
+  <ellipse cx="48" cy="40" rx="9" ry="7" fill="url(#dome)"/>
+  <ellipse cx="48" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.12"/>
 
-  <!-- Side domes -->
-  <ellipse cx="26" cy="26" rx="4" ry="3" fill="url(#gold)" opacity="0.9"/>
-  <ellipse cx="38" cy="26" rx="4" ry="3" fill="url(#gold)" opacity="0.9"/>
+  <!-- Minarets - thicker and more visible -->
+  <rect x="6" y="42" width="4" height="18" fill="url(#dome)" rx="2"/>
+  <circle cx="8" cy="40" r="3.5" fill="url(#gold)"/>
+
+  <rect x="54" y="42" width="4" height="18" fill="url(#dome)" rx="2"/>
+  <circle cx="56" cy="40" r="3.5" fill="url(#gold)"/>
+
+  <!-- Central arch entrance - larger -->
+  <path d="M 26 48 Q 26 42 32 42 Q 38 42 38 48 L 38 60 L 26 60 Z" fill="#2d4a5a" opacity="0.6"/>
+
+  <!-- Decorative golden accent on central dome top - bigger -->
+  <ellipse cx="32" cy="16" rx="4.5" ry="3.5" fill="url(#gold)"/>
+  <rect x="30.5" y="12" width="3" height="4" fill="url(#gold)" rx="1.5"/>
+  <circle cx="32" cy="10" r="2.5" fill="url(#gold)"/>
 </svg>
