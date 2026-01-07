@@ -584,6 +584,64 @@ function initLangSelector() {
     });
 }
 
+// Add current location button to map
+function addCurrentLocationButton(mapInstance) {
+    if (!mapInstance) return;
+
+    // Create the button
+    const locationButton = document.createElement('button');
+    locationButton.innerHTML = '📍';
+    locationButton.style.cssText = `
+        background: white;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        cursor: pointer;
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+    `;
+
+    locationButton.addEventListener('mouseover', () => {
+        locationButton.style.background = '#f5f5f5';
+    });
+
+    locationButton.addEventListener('mouseout', () => {
+        locationButton.style.background = 'white';
+    });
+
+    locationButton.addEventListener('click', () => {
+        if (navigator.geolocation) {
+            locationButton.innerHTML = '⏳';
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    const pos = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
+                    mapInstance.setCenter(pos);
+                    mapInstance.setZoom(14);
+                    locationButton.innerHTML = '📍';
+                },
+                () => {
+                    alert('현재 위치를 가져올 수 없습니다.');
+                    locationButton.innerHTML = '📍';
+                }
+            );
+        } else {
+            alert('브라우저가 위치 정보를 지원하지 않습니다.');
+        }
+    });
+
+    mapInstance.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(locationButton);
+}
+
 // Initialize Google Map
 function initGoogleMap() {
     const mapEl = document.getElementById('map');
@@ -599,6 +657,9 @@ function initGoogleMap() {
         fullscreenControl: false,
         zoomControl: false
     });
+
+    // Add current location button
+    addCurrentLocationButton(map);
 
     // Hide loader when map is ready
     google.maps.event.addListenerOnce(map, 'idle', () => {
@@ -1103,6 +1164,9 @@ function openModal(id) {
             fullscreenControl: false,
             zoomControl: false
         });
+
+        // Add current location button
+        addCurrentLocationButton(spotMap);
 
         // Function to render spot markers
         function renderSpotMarkers(currentItemId) {

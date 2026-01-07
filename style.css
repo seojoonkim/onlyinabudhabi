@@ -340,7 +340,7 @@ table th:first-child {
 
 /* Modal Body 2 Column */
 .modal-body { display: flex; flex-direction: column; gap: 36px; }
-.modal-body-two-col { display: grid; grid-template-columns: 380px 1fr; gap: 0; flex: 1; overflow-y: auto; margin-top: 1px; min-width: 0; }
+.modal-body-two-col { display: grid; grid-template-columns: 380px 1fr; gap: 0; flex: 1; overflow-y: auto; margin-top: 0; min-width: 0; }
 
 .modal-col-left,
 .modal-col-right {
@@ -460,14 +460,14 @@ table th:first-child {
 .detail-description { font-size: 14px; color: var(--text-secondary); line-height: 1.8; font-weight: 500; }
 .tips-list { list-style: none; padding-left: 0; }
 .tips-list li { padding: 0; background: transparent; border-radius: 6px; margin-bottom: 1px; font-size: 14px; color: var(--text-secondary); line-height: 1.5; display: flex; align-items: flex-start; gap: 8px; font-weight: 400; }
-.tips-list li::before { content: "✓"; color: var(--gold); font-weight: bold; flex-shrink: 0; }
+.tips-list li::before { content: "✓"; color: #e8a54b; font-weight: bold; flex-shrink: 0; }
 
 /* Map & Nearby Row */
 .map-nearby-row { display: grid; grid-template-columns: 3fr 2fr; gap: 24px; margin-bottom: 0; }
 .map-section, .nearby-section { margin-bottom: 0; }
 .spot-map-container { border-radius: 8px; overflow: hidden; background: #f8fafc; height: 347px; }
 .nearby-list { list-style: none; }
-.nearby-list li { position: relative; display: flex; align-items: center; gap: 12px; padding: 10px 12px; background: white; border-radius: 6px; margin-bottom: 8px; font-size: 14px; transition: all 0.3s ease; border: 0.5px solid #2d4a5a; }
+.nearby-list li { position: relative; display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px; background: white; border-radius: 6px; margin-bottom: 8px; font-size: 14px; transition: all 0.3s ease; border: 0.5px solid #2d4a5a; }
 .nearby-list li:hover { background: var(--gold-bg); transform: scale(1.03); box-shadow: 0 2px 8px rgba(212,145,93,0.15); }
 .nearby-thumbnail { width: 56px; height: 56px; object-fit: cover; border-radius: 4px; flex-shrink: 0; }
 .nearby-content { display: flex; flex-direction: column; gap: 4px; flex: 1; }
@@ -489,9 +489,9 @@ table th:first-child {
 .score-item:active { transform: translateY(0); }
 .score-icon { display: block; font-size: 24px; margin-bottom: 6px; opacity: 0.9; }
 .score-name { display: block; font-size: 11px; color: var(--text-primary); margin-bottom: 6px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.2; white-space: normal; word-break: break-word; max-width: 100%; text-align: center; }
-.score-stars { display: block; font-size: 14px; color: #d4915d; font-weight: 700; line-height: 1; }
-.star-filled { color: #d4915d; }
-.star-empty { color: #e8d5b8; }
+.score-stars { display: block; font-size: 14px; color: #e8a54b; font-weight: 700; line-height: 1; }
+.star-filled { color: #e8a54b; }
+.star-empty { color: #cbd5e0; }
 
 /* Score Detail Cards - 2열 4행 = 8개 Etihad White Card Style */
 .scores-grid-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
@@ -500,13 +500,13 @@ table th:first-child {
 .score-detail-title { display: flex; align-items: center; gap: 8px; }
 .score-detail-icon { font-size: 22px; opacity: 0.9; }
 .score-detail-name { font-size: 14px; color: #2d3748; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
-.score-detail-stars { color: #d4915d; font-size: 14px; font-weight: 700; }
-.score-detail-stars .star-filled { color: #d4915d; }
+.score-detail-stars { color: #e8a54b; font-size: 14px; font-weight: 700; }
+.score-detail-stars .star-filled { color: #e8a54b; }
 .score-detail-stars .star-empty { color: #cbd5e0; }
 .score-detail-reasons { list-style: none; padding-left: 0; margin: 0; }
 .score-detail-reasons li { font-size: 13px; color: #4a5568; line-height: 1.6; padding: 4px 0 4px 16px; text-indent: -16px; }
 .score-detail-reasons li:last-child { border-bottom: none; }
-.score-detail-reasons li::before { content: "•"; color: #d4915d; margin-right: 8px; font-weight: 700; }
+.score-detail-reasons li::before { content: "•"; color: #e8a54b; margin-right: 8px; font-weight: 700; }
 
 /* Gallery Modal */
 .gallery-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.95); z-index: 2000; align-items: center; justify-content: center; }
