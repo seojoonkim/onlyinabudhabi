@@ -1309,7 +1309,7 @@ function updateNearbyPlaces(currentItem) {
         return `<li class="nearby-item" onclick="focusOnNearbyLocation('${item.id}')">
             <img class="nearby-thumbnail" src="photos/${item.id}/01.webp" alt="" onerror="this.style.display='none'">
             <div class="nearby-content">
-                <div class="nearby-title">${config.icon} ${item.title}</div>
+                <div class="nearby-title">${item.title}</div>
                 <div class="nearby-bottom">
                     <span class="nearby-place">${item.place}</span>
                     <div class="nearby-right">
