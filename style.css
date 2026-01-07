@@ -107,7 +107,11 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 
 .about-section { background: #eceff1; border: none; border-radius: 12px; padding: 24px 28px; margin-bottom: 24px; box-shadow: none; }
 .about-title { font-size: 20px; color: var(--header-bg); font-weight: 500; margin: 0 0 8px 0; line-height: 1.25; }
-.about-desc { font-size: 12px; color: var(--header-bg); margin: 0; line-height: 1.5; font-weight: 500; }
+.about-desc { font-size: 12px; color: var(--header-bg); margin: 0 0 0px 0; line-height: 1.5; font-weight: 500; }
+.about-section .about-link { display: inline-flex; align-items: center; gap: 4px; color: #c48530; font-size: 13px; font-weight: 500; text-decoration: none; transition: all 0.2s ease; padding: 4px 8px; margin-left: -8px; border-radius: 4px; }
+.about-section .about-link:hover { color: #d4a15a; background: rgba(212, 161, 90, 0.1); }
+.about-section .about-link::after { content: ''; display: inline-block; width: 12px; height: 12px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23c48530' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'%3E%3C/path%3E%3Cpolyline points='15 3 21 3 21 9'%3E%3C/polyline%3E%3Cline x1='10' y1='14' x2='21' y2='3'%3E%3C/line%3E%3C/svg%3E"); background-size: contain; background-repeat: no-repeat; }
+.about-section .about-link:hover::after { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23d4a15a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'%3E%3C/path%3E%3Cpolyline points='15 3 21 3 21 9'%3E%3C/polyline%3E%3Cline x1='10' y1='14' x2='21' y2='3'%3E%3C/line%3E%3C/svg%3E"); }
 .about-categories { font-size: 14px; color: #4a5568; background: transparent; padding: 0; border-radius: 0; border: none; letter-spacing: 0.2px; font-weight: 500; line-height: 1.6; }
 
 .filter-bar { margin-bottom: 20px; }
@@ -341,8 +345,10 @@ table th:first-child {
 .modal-place-row { display: flex; align-items: center; gap: 8px; }
 .modal-place-name { font-size: 13px; color: rgba(255,255,255,0.8); font-weight: 500; }
 .modal-tag { display: inline-flex; align-items: center; gap: 3px; padding: 2px 7px; border-radius: 10px; font-size: 10px; background: rgba(212,145,93,0.25); border: none; }
-.modal-close { width: 42px; height: 42px; border: none; background: transparent; border-radius: 0; font-size: 26px; color: rgba(255,255,255,0.95); cursor: pointer; transition: var(--transition); margin-right: -8px; }
-.modal-close:hover { color: rgba(255,255,255,1); }
+.modal-close,
+.close-modal { width: 42px; height: 42px; border: none; background: transparent; border-radius: 0; font-size: 26px; color: rgba(255,255,255,0.95); cursor: pointer; transition: var(--transition); margin-right: -8px; }
+.modal-close:hover,
+.close-modal:hover { color: rgba(255,255,255,1); }
 
 /* Modal Body 2 Column */
 .modal-body { display: flex; flex-direction: column; gap: 36px; }
@@ -367,6 +373,13 @@ table th:first-child {
 .modal-col-left .modal-section { margin-bottom: 0; }
 .modal-section h3 { font-size: 17px; font-weight: 500; color: var(--header-bg); margin-bottom: 14px; display: flex; align-items: center; gap: 8px; text-transform: uppercase; letter-spacing: 0.1px; }
 .section-icon { display: none; }
+
+/* About Modal specific styles */
+#aboutModal .modal { overflow: hidden; }
+#aboutModal .modal-body { padding: 32px 28px; gap: 24px; overflow-y: auto; flex: 1; }
+#aboutModal .modal-section { margin-bottom: 0; }
+#aboutModal .modal-section h3 { font-size: 15px; margin-bottom: 12px; }
+#aboutModal .section-icon { display: inline; }
 
 /* Intro Box - No background */
 .intro-box { background: transparent; padding: 0; border-radius: 0; }
@@ -634,7 +647,8 @@ table th:first-child {
     /* Mobile about section - smaller fonts and padding */
     .about-section { padding: 16px 20px; margin-top: 8px; }
     .about-title { font-size: 16px; margin-bottom: 6px; }
-    .about-desc { font-size: 11px; }
+    .about-desc { font-size: 11px; margin-bottom: 10px; }
+    .about-section .about-link { font-size: 12px; }
 
     .filter-group { justify-content: flex-start; }
     .score-summary-grid { grid-template-columns: repeat(4, 1fr); gap: 6px; }
@@ -677,6 +691,13 @@ table th:first-child {
     .modal-name { font-size: 19px; }
     .modal-section h3 { font-size: 16px; }
     .modal-body-two-col { flex: 1; overflow-y: visible; }
+
+    /* About Modal - Stack images and text vertically on mobile */
+    #aboutModal .modal-section[style*="flex"] { flex-direction: column !important; gap: 12px !important; }
+    #aboutModal .modal-section > div[style*="flex: 1"] { flex: 1 1 auto !important; }
+    #aboutModal .modal-section > div[style*="flex: 0 0 280px"] { flex: 1 1 auto !important; max-width: 70% !important; width: 70% !important; margin: 0 auto !important; }
+    /* First section: move image to top */
+    #aboutModal .modal-body > .modal-section:first-child > div:last-child { order: -1; }
 
     /* Add bottom padding to prevent Safari bottom bar from covering content */
     .modal-col-left,

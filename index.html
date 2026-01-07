@@ -157,6 +157,7 @@
             <p class="about-desc" id="aboutDesc">
                 Curated by DCT Abu Dhabi and systematically organized through analysis of over 100,000 authentic visitor reviews.
             </p>
+            <a href="#" class="about-link" id="openAboutModal"></a>
         </div>
 
         <!-- Filters -->
@@ -230,52 +231,57 @@
     <!-- About Modal -->
     <div class="modal-overlay" id="aboutModal" style="display: none;">
         <div class="modal" style="max-width: 700px;">
-            <div class="modal-header">
-                <div>
-                    <h2 class="modal-name">About This Project</h2>
-                </div>
-                <button class="close-modal" id="closeAboutModal">&times;</button>
+            <div class="modal-header" style="position: relative; align-items: center;">
+                <h2 class="modal-name" id="aboutModalTitle" style="margin-bottom: 0;"></h2>
+                <button class="close-modal" id="closeAboutModal" style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%);">&times;</button>
             </div>
 
             <div class="modal-body">
-                <div class="modal-section">
-                    <p style="font-size: 15px; line-height: 1.7; color: #555; margin-bottom: 16px;">
-                        Curated by DCT Abu Dhabi and systematically organized through analysis of over 100,000 authentic visitor reviews.
-                    </p>
-                    <p style="font-size: 15px; line-height: 1.7; color: #555; margin-bottom: 16px;">
-                        The Department of Culture and Tourism - Abu Dhabi created <a href="https://visitabudhabi.ae/en/plan-your-trip/article-hub/101-things-to-do" target="_blank" style="color: #d4a574; text-decoration: none; font-weight: 600;">an official guide</a> of 101 things to do in Abu Dhabi. However, finding this valuable information wasn't always easy for travelers. This inspired me to create a more accessible, user-friendly version.
-                    </p>
+                <div class="modal-section" style="display: flex; gap: 24px; align-items: flex-start;">
+                    <div style="flex: 1;">
+                        <p style="font-size: 13px; line-height: 1.7; color: #555; margin-bottom: 0;" id="aboutModalDescCombined"></p>
+                    </div>
+                    <div style="flex: 0 0 280px;">
+                        <img src="101.webp" alt="101 Things to Do in Abu Dhabi" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    </div>
                 </div>
 
-                <div class="modal-section">
-                    <h3><span class="section-icon">👤</span> Created By</h3>
-                    <div style="padding: 16px; background: #f8f9fa; border-radius: 10px; border-left: 3px solid #d4a574;">
-                        <h4 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #2d4a5a;">Simon Kim</h4>
-                        <p style="margin: 0 0 10px 0; color: #666; font-size: 13px;">CEO at Hashed</p>
-                        <p style="margin: 0 0 10px 0; color: #555; font-size: 14px; line-height: 1.6;">As a frequent traveler to Abu Dhabi, I wanted to make this information more accessible to everyone.</p>
-                        <a href="https://twitter.com/simonkim_nft" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; color: #1DA1F2; text-decoration: none; font-size: 13px; font-weight: 600;">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                            @simonkim_nft
-                        </a>
+                <div class="modal-section" style="display: flex; gap: 24px; align-items: flex-start;">
+                    <div style="flex: 0 0 280px;">
+                        <img src="101-2.jpeg" alt="Abu Dhabi Guide" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    </div>
+                    <div style="flex: 1;">
+                        <p style="font-size: 13px; line-height: 1.7; color: #555; margin-bottom: 0;" id="aboutModalStoryText"></p>
                     </div>
                 </div>
 
                 <div class="modal-section">
-                    <h3><span class="section-icon">📊</span> Key Features</h3>
-                    <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="padding: 12px; background: #f8f9fa; border-radius: 8px; margin-bottom: 10px; font-size: 14px; color: #555;">
-                            <strong style="color: #2d4a5a;">8 Score Categories</strong><br>
-                            Photo spots, cultural experiences, activities, relaxation, couple/family suitability, accessibility
-                        </li>
-                        <li style="padding: 12px; background: #f8f9fa; border-radius: 8px; margin-bottom: 10px; font-size: 14px; color: #555;">
-                            <strong style="color: #2d4a5a;">Interactive Map</strong><br>
-                            Explore attractions geographically and discover nearby experiences
-                        </li>
-                        <li style="padding: 12px; background: #f8f9fa; border-radius: 8px; font-size: 14px; color: #555;">
-                            <strong style="color: #2d4a5a;">Multilingual Support</strong><br>
-                            Available in English, Korean, Chinese, and Japanese
-                        </li>
-                    </ul>
+                    <p style="font-size: 13px; line-height: 1.7; color: #555; margin-bottom: 8px;" id="aboutModalContactText"></p>
+                    <p style="margin: 0; font-size: 13px; line-height: 1.7; color: #555;" id="aboutModalDateText"></p>
+                </div>
+
+                <div class="modal-section">
+                    <p style="font-size: 13px; line-height: 1.7; color: #555; margin-bottom: 10px;" id="aboutModalCreatedByText"></p>
+                    <p style="margin: 0 0 4px 0; font-size: 13px; color: #555;">
+                        <span style="color: #888;">email:</span> <a href="mailto:simon@hashed.com" style="color: #c48530; text-decoration: none; font-weight: 500;">simon@hashed.com</a>
+                    </p>
+                    <p style="margin: 0; font-size: 13px; color: #555;">
+                        <span style="color: #888;">X (Twitter):</span> <a href="https://twitter.com/simonkim_nft" target="_blank" style="color: #1DA1F2; text-decoration: none; font-weight: 500;">@simonkim_nft</a>
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <p style="font-size: 12px; line-height: 1.6; color: #888; margin-bottom: 0;" id="aboutModalReplacementNote"></p>
+                </div>
+
+                <div class="modal-section">
+                    <p style="font-size: 12px; line-height: 1.6; color: #888; margin: 0 0 8px 0;">
+                        <span id="aboutModalCollaborationText"></span>
+                    </p>
+                    <p style="font-size: 12px; line-height: 1.8; color: #888; margin: 0;">
+                        • <a href="https://visitabudhabi.ae/en/plan-your-trip/article-hub/101-things-to-do" target="_blank" style="color: #d4a574; text-decoration: none; font-weight: 500;">visitabudhabi.ae/en/plan-your-trip/article-hub/101-things-to-do</a><br>
+                        • <a href="https://issuu.com/visitabudhabi/docs/101_abu_dhabi_do_s_" target="_blank" style="color: #d4a574; text-decoration: none; font-weight: 500;">issuu.com/visitabudhabi/docs/101_abu_dhabi_do_s_</a>
+                    </p>
                 </div>
             </div>
         </div>

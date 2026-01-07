@@ -92,7 +92,19 @@ const i18n = {
         unique1: "평범함",
         // Sort options
         sortByNumber: "번호순",
-        sortByAppeal: "매력도순"
+        sortByAppeal: "매력도순",
+        // About modal
+        aboutLink: "프로젝트 소개 보기",
+        aboutModalTitle: "About \"Only In Abu Dhabi\"",
+        aboutModalDesc1: "아부다비 문화관광청(DCT Abu Dhabi)의 공식 \"101가지 즐길거리\" 가이드를 더 쉽고 유용하게 활용하고자 재구성해본 프로젝트입니다.",
+        aboutModalDesc2: "원본 가이드의 훌륭한 콘텐츠를 기반으로, 10만개 이상의 실제 방문자 리뷰 데이터를 참고하여 101가지 경험을 검색하고 탐색하기 편하게 정리해보았습니다.",
+        aboutModalStory: "이 프로젝트는 서울에서 아부다비로 가는 에티하드 항공 기내에서 시작되었습니다. 기내 스크린에서 아부다비 문화관광청의 \"101가지 즐길거리\" 영상을 보고 온라인에서 가이드를 찾아보았지만, 웹사이트의 사용성이 너무 떨어졌습니다. 비행기 안에서 바로 노트북을 열고 Claude와 함께 재구성 작업을 시작했습니다. 출장 3일동안 구글맵에서 10만개 이상의 리뷰를 크롤링하고 분석하여, 원본 데이터를 체계적이고 사용하기 편리한 플랫폼으로 완성했습니다. 폰트와 색상 테마는 프로젝트에 영감을 준 에티하드 항공 웹사이트에서 벤치마킹했습니다.",
+        aboutModalContact: "협력 제안이나 피드백이 있으시면 이메일이나 트위터로 언제든 연락 주세요.",
+        aboutModalCreatedBy: "개발: Simon Kim, CEO at Hashed",
+        aboutModalDate: "2025년 1월 7일",
+        aboutModalReplacementNote: "※ 오리지널 가이드에 #01번으로 소개되었던 '압둘라만 알 자비의 에미라티 아침식사 체험'은 현재 정기적으로 운영되지 않아, 비슷한 컨셉의 야두스 하우스(Yadoo's House)로 대체합니다.",
+        aboutModalOriginalGuide: "협력 제안이나 피드백이 있으시면 이메일이나 트위터로 언제든 연락 주세요.",
+        aboutModalCollaboration: "※ 아부다비 문화관광청이 제작한 원본 가이드:"
     },
     en: {
         siteName: "Only In Abu Dhabi",
@@ -182,7 +194,19 @@ const i18n = {
         unique1: "Common",
         // Sort options
         sortByNumber: "Original Order",
-        sortByAppeal: "Appeal Score"
+        sortByAppeal: "Appeal Score",
+        // About modal
+        aboutLink: "Learn more about this project",
+        aboutModalTitle: "About \"Only In Abu Dhabi\"",
+        aboutModalDesc1: "This project aims to make DCT Abu Dhabi's official \"101 Things to Do\" guide easier and more useful to navigate.",
+        aboutModalDesc2: "Building on the excellent content from the Department of Culture and Tourism - Abu Dhabi, I've reorganized all 101 experiences into a searchable format, referencing data from over 100,000 authentic visitor reviews to help travelers plan their visit.",
+        aboutModalStory: "This project was born on an Etihad Airways flight from Seoul to Abu Dhabi. After watching the in-flight promotional video about DCT Abu Dhabi's \"101 Things to Do,\" I searched for the guide online—only to find the website difficult to navigate and explore. Right there on the plane, I opened my laptop and began building this redesigned version with Claude. Over three days during my business trip, I completed the initial version by crawling and analyzing over 100,000 Google Maps reviews, transforming raw data into an organized, user-friendly platform. The fonts and color theme were benchmarked from the Etihad Airways website, which inspired this project.",
+        aboutModalContact: "For collaboration opportunities or feedback, feel free to reach out via email or Twitter.",
+        aboutModalCreatedBy: "Created by Simon Kim, CEO at Hashed",
+        aboutModalDate: "January 7, 2025",
+        aboutModalReplacementNote: "※ The #01 item in the original guide 'Emirati Breakfast Experience with Abdelrahman Al Zabi' is no longer regularly available, so it has been replaced with a similar concept, Yadoo's House.",
+        aboutModalOriginalGuide: "For collaboration opportunities or feedback, feel free to reach out via email or Twitter.",
+        aboutModalCollaboration: "※ Reference: DCT Abu Dhabi's original guide"
     },
     ar: {
         siteName: "Only In Abu Dhabi",
@@ -272,7 +296,19 @@ const i18n = {
         unique1: "عادي",
         // Sort options
         sortByNumber: "الترتيب الأصلي",
-        sortByAppeal: "نقاط الجاذبية"
+        sortByAppeal: "نقاط الجاذبية",
+        // About modal
+        aboutLink: "اقرأ المزيد عن هذا المشروع",
+        aboutModalTitle: "About \"Only In Abu Dhabi\"",
+        aboutModalDesc1: "هذا المشروع يهدف إلى جعل دليل \"101 شيء للقيام به\" الرسمي من هيئة أبوظبي للسياحة أسهل وأكثر فائدة للاستخدام.",
+        aboutModalDesc2: "بناءً على المحتوى الممتاز من هيئة أبوظبي للثقافة والسياحة، قمت بإعادة تنظيم جميع التجارب الـ101 في شكل قابل للبحث، بالرجوع إلى بيانات من أكثر من 100,000 مراجعة حقيقية من الزوار لمساعدة المسافرين على التخطيط لزيارتهم.",
+        aboutModalStory: "ولد هذا المشروع على متن رحلة طيران الاتحاد من سيول إلى أبوظبي. بعد مشاهدة الفيديو الترويجي على متن الطائرة حول \"101 شيء للقيام به\" من هيئة أبوظبي للسياحة، بحثت عن الدليل عبر الإنترنت - لأجد أن موقع الويب صعب التصفح والاستكشاف. هناك على متن الطائرة، فتحت الكمبيوتر المحمول وبدأت في بناء هذه النسخة المعاد تصميمها مع Claude. على مدى ثلاثة أيام خلال رحلة العمل، أكملت النسخة الأولية من خلال جمع وتحليل أكثر من 100,000 مراجعة من خرائط جوجل، محولاً البيانات الأولية إلى منصة منظمة وسهلة الاستخدام. تم اقتباس الخطوط والألوان من موقع طيران الاتحاد الذي ألهم هذا المشروع.",
+        aboutModalContact: "لفرص التعاون أو التعليقات، لا تتردد في التواصل عبر البريد الإلكتروني أو تويتر.",
+        aboutModalCreatedBy: "تم إنشاؤه بواسطة Simon Kim، الرئيس التنفيذي في Hashed",
+        aboutModalDate: "٧ يناير ٢٠٢٥",
+        aboutModalReplacementNote: "※ العنصر رقم ١ في الدليل الأصلي 'تجربة الإفطار الإماراتي مع عبدالرحمن الزعابي' لم يعد متاحًا بشكل منتظم، لذا تم استبداله بمفهوم مشابه، بيت يادو (Yadoo's House).",
+        aboutModalOriginalGuide: "لفرص التعاون أو التعليقات، لا تتردد في التواصل عبر البريد الإلكتروني أو تويتر.",
+        aboutModalCollaboration: "※ المرجع: الدليل الأصلي من هيئة أبوظبي للثقافة والسياحة"
     },
     ja: {
         siteName: "Only In Abu Dhabi",
@@ -362,7 +398,19 @@ const i18n = {
         unique1: "平凡",
         // Sort options
         sortByNumber: "元の順序",
-        sortByAppeal: "魅力度スコア"
+        sortByAppeal: "魅力度スコア",
+        // About modal
+        aboutLink: "プロジェクトについて詳しく見る",
+        aboutModalTitle: "About \"Only In Abu Dhabi\"",
+        aboutModalDesc1: "アブダビ文化観光局(DCT Abu Dhabi)の公式「101のやるべきこと」ガイドをより簡単で便利に活用できるよう再構成したプロジェクトです。",
+        aboutModalDesc2: "文化観光局の優れたコンテンツをベースに、10万件以上の実際の訪問者レビューデータを参考にしながら、101の体験を検索・探索しやすい形でまとめてみました。",
+        aboutModalStory: "このプロジェクトは、ソウルからアブダビへのエティハド航空機内で生まれました。機内スクリーンでアブダビ文化観光局の「101のやるべきこと」のプロモーション動画を見た後、オンラインでガイドを検索しましたが、ウェブサイトのナビゲーションが非常に困難でした。飛行機の中で直ちにノートパソコンを開き、Claudeと共にこの再設計版の構築を始めました。出張中の3日間で、Googleマップから10万件以上のレビューをクロールして分析し、生データを整理された使いやすいプラットフォームに変換して初版を完成させました。フォントとカラーテーマは、このプロジェクトに影響を与えたエティハド航空のウェブサイトをベンチマークしました。",
+        aboutModalContact: "コラボレーションやフィードバックについては、メールまたはTwitterでお気軽にご連絡ください。",
+        aboutModalCreatedBy: "作成者：Simon Kim、Hashed CEO",
+        aboutModalDate: "2025年1月7日",
+        aboutModalReplacementNote: "※ オリジナルガイドの#01「アブデルラーマン・アル・ザービとのエミラティ朝食体験」は現在定期的に運営されていないため、類似コンセプトのヤドゥース・ハウス(Yadoo's House)に置き換えられています。",
+        aboutModalOriginalGuide: "コラボレーションやフィードバックについては、メールまたはTwitterでお気軽にご連絡ください。",
+        aboutModalCollaboration: "※ 参照：アブダビ文化観光局の元のガイド"
     },
     zh: {
         siteName: "Only In Abu Dhabi",
@@ -452,7 +500,19 @@ const i18n = {
         unique1: "普通",
         // Sort options
         sortByNumber: "原始顺序",
-        sortByAppeal: "吸引力评分"
+        sortByAppeal: "吸引力评分",
+        // About modal
+        aboutLink: "了解更多关于此项目",
+        aboutModalTitle: "About \"Only In Abu Dhabi\"",
+        aboutModalDesc1: "本项目旨在让阿布扎比文化旅游局(DCT Abu Dhabi)官方的「101件必做之事」指南更易用、更实用。",
+        aboutModalDesc2: "基于文化旅游局的优秀内容，我参考了超过10万条真实游客评论的数据，将所有101种体验整理成易于搜索的格式，帮助旅行者规划行程。",
+        aboutModalStory: "这个项目诞生于从首尔飞往阿布扎比的阿提哈德航空航班上。在观看机上宣传视频介绍阿布扎比旅游局的「101件必做之事」后，我在线搜索了该指南——却发现网站难以浏览和探索。就在飞机上，我打开笔记本电脑，开始与Claude一起构建这个重新设计的版本。在出差期间的三天内，通过爬取和分析超过10万条谷歌地图评论，我完成了初始版本，将原始数据转化为一个有序、用户友好的平台。字体和配色方案参考了启发本项目的阿提哈德航空网站。",
+        aboutModalContact: "如有合作机会或反馈意见，欢迎通过电子邮件或Twitter联系。",
+        aboutModalCreatedBy: "创建者：Simon Kim，Hashed CEO",
+        aboutModalDate: "2025年1月7日",
+        aboutModalReplacementNote: "※ 原始指南中的#01项目「与Abdelrahman Al Zabi的阿联酋早餐体验」目前不再定期运营，已被替换为类似概念的Yadoo's House。",
+        aboutModalOriginalGuide: "如有合作机会或反馈意见，欢迎通过电子邮件或Twitter联系。",
+        aboutModalCollaboration: "※ 参考：阿布扎比文化旅游局的原始指南"
     }
 };
 

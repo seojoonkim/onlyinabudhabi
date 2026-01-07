@@ -151,6 +151,53 @@ function updateUIText() {
         aboutDesc.textContent = i18n[currentLang].aboutDesc;
     }
 
+    // Update about link
+    const aboutLink = document.getElementById('openAboutModal');
+    if (aboutLink) {
+        aboutLink.textContent = i18n[currentLang].aboutLink;
+    }
+
+    // Update about modal
+    const aboutModalTitle = document.getElementById('aboutModalTitle');
+    if (aboutModalTitle) {
+        aboutModalTitle.textContent = i18n[currentLang].aboutModalTitle;
+    }
+
+    const aboutModalDescCombined = document.getElementById('aboutModalDescCombined');
+    if (aboutModalDescCombined) {
+        aboutModalDescCombined.textContent = i18n[currentLang].aboutModalDesc1 + ' ' + i18n[currentLang].aboutModalDesc2;
+    }
+
+    const aboutModalStoryText = document.getElementById('aboutModalStoryText');
+    if (aboutModalStoryText) {
+        aboutModalStoryText.textContent = i18n[currentLang].aboutModalStory;
+    }
+
+    const aboutModalContactText = document.getElementById('aboutModalContactText');
+    if (aboutModalContactText) {
+        aboutModalContactText.textContent = i18n[currentLang].aboutModalContact;
+    }
+
+    const aboutModalCreatedByText = document.getElementById('aboutModalCreatedByText');
+    if (aboutModalCreatedByText) {
+        aboutModalCreatedByText.textContent = i18n[currentLang].aboutModalCreatedBy;
+    }
+
+    const aboutModalCollaborationText = document.getElementById('aboutModalCollaborationText');
+    if (aboutModalCollaborationText) {
+        aboutModalCollaborationText.textContent = i18n[currentLang].aboutModalCollaboration;
+    }
+
+    const aboutModalDateText = document.getElementById('aboutModalDateText');
+    if (aboutModalDateText) {
+        aboutModalDateText.textContent = i18n[currentLang].aboutModalDate;
+    }
+
+    const aboutModalReplacementNote = document.getElementById('aboutModalReplacementNote');
+    if (aboutModalReplacementNote) {
+        aboutModalReplacementNote.textContent = i18n[currentLang].aboutModalReplacementNote;
+    }
+
     // Update filter buttons
     const filterBtns = document.querySelectorAll('.filter-btn');
     if (filterBtns[0]) filterBtns[0].textContent = i18n[currentLang].categoryAll;
@@ -1467,7 +1514,30 @@ document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
         closeModal();
         closeGallery();
+        closeAboutModal();
     }
+});
+
+// About modal functions
+function openAboutModal() {
+    document.getElementById('aboutModal').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+}
+
+function closeAboutModal() {
+    document.getElementById('aboutModal').style.display = 'none';
+    document.body.style.overflow = '';
+}
+
+document.getElementById('openAboutModal')?.addEventListener('click', function(e) {
+    e.preventDefault();
+    openAboutModal();
+});
+
+document.getElementById('closeAboutModal')?.addEventListener('click', closeAboutModal);
+
+document.getElementById('aboutModal')?.addEventListener('click', function(e) {
+    if (e.target === this) closeAboutModal();
 });
 
 // Copy address
