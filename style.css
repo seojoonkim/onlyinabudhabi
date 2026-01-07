@@ -475,6 +475,7 @@ table th:first-child {
 .nearby-place { font-size: 12px; color: #94a3b8; }
 .nearby-right { position: relative; }
 .nearby-distance { font-size: 12px; color: #94a3b8; transition: opacity 0.3s ease; }
+.nearby-arrow { font-size: 18px; color: #94a3b8; margin-left: 4px; font-weight: 400; }
 .nearby-detail-btn { position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: linear-gradient(135deg, #d4915d 0%, #c97d3d 100%); color: white; border: none; padding: 6px 14px; border-radius: 5px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; opacity: 0; white-space: nowrap; }
 .nearby-detail-btn:hover { background: var(--header-bg); color: white; }
 .nearby-item:hover .nearby-distance { opacity: 0; }

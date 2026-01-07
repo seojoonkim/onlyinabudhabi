@@ -1309,7 +1309,7 @@ function updateNearbyPlaces(currentItem) {
                 <div class="nearby-bottom">
                     <span class="nearby-place">${item.place}</span>
                     <div class="nearby-right">
-                        <span class="nearby-distance">${distText}</span>
+                        <span class="nearby-distance">${distText} <span class="nearby-arrow">›</span></span>
                         <button class="nearby-detail-btn" onclick="openModal('${item.id}')">${i18n[currentLang].viewDetails}</button>
                     </div>
                 </div>
