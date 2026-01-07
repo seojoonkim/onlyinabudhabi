@@ -94,7 +94,7 @@ const i18n = {
         sortByNumber: "번호순",
         sortByAppeal: "매력도순",
         // About modal
-        aboutLink: "프로젝트 소개 보기",
+        aboutLink: "개발 비하인드 스토리",
         aboutModalTitle: "About \"Only In Abu Dhabi\"",
         aboutModalDesc1: "아부다비 문화관광청(DCT Abu Dhabi)의 공식 \"101가지 즐길거리\" 가이드를 더 쉽고 유용하게 활용하고자 재구성해본 프로젝트입니다.",
         aboutModalDesc2: "원본 가이드의 훌륭한 콘텐츠를 기반으로, 10만개 이상의 실제 방문자 리뷰 데이터를 참고하여 101가지 경험을 검색하고 탐색하기 편하게 정리해보았습니다.",
@@ -196,7 +196,7 @@ const i18n = {
         sortByNumber: "Original Order",
         sortByAppeal: "Appeal Score",
         // About modal
-        aboutLink: "Learn more about this project",
+        aboutLink: "Behind the Scenes",
         aboutModalTitle: "About \"Only In Abu Dhabi\"",
         aboutModalDesc1: "This project aims to make DCT Abu Dhabi's official \"101 Things to Do\" guide easier and more useful to navigate.",
         aboutModalDesc2: "Building on the excellent content from the Department of Culture and Tourism - Abu Dhabi, I've reorganized all 101 experiences into a searchable format, referencing data from over 100,000 authentic visitor reviews to help travelers plan their visit.",
@@ -298,7 +298,7 @@ const i18n = {
         sortByNumber: "الترتيب الأصلي",
         sortByAppeal: "نقاط الجاذبية",
         // About modal
-        aboutLink: "اقرأ المزيد عن هذا المشروع",
+        aboutLink: "قصة التطوير من وراء الكواليس",
         aboutModalTitle: "About \"Only In Abu Dhabi\"",
         aboutModalDesc1: "هذا المشروع يهدف إلى جعل دليل \"101 شيء للقيام به\" الرسمي من هيئة أبوظبي للسياحة أسهل وأكثر فائدة للاستخدام.",
         aboutModalDesc2: "بناءً على المحتوى الممتاز من هيئة أبوظبي للثقافة والسياحة، قمت بإعادة تنظيم جميع التجارب الـ101 في شكل قابل للبحث، بالرجوع إلى بيانات من أكثر من 100,000 مراجعة حقيقية من الزوار لمساعدة المسافرين على التخطيط لزيارتهم.",
@@ -400,7 +400,7 @@ const i18n = {
         sortByNumber: "元の順序",
         sortByAppeal: "魅力度スコア",
         // About modal
-        aboutLink: "プロジェクトについて詳しく見る",
+        aboutLink: "開発の裏側ストーリー",
         aboutModalTitle: "About \"Only In Abu Dhabi\"",
         aboutModalDesc1: "アブダビ文化観光局(DCT Abu Dhabi)の公式「101のやるべきこと」ガイドをより簡単で便利に活用できるよう再構成したプロジェクトです。",
         aboutModalDesc2: "文化観光局の優れたコンテンツをベースに、10万件以上の実際の訪問者レビューデータを参考にしながら、101の体験を検索・探索しやすい形でまとめてみました。",
@@ -502,7 +502,7 @@ const i18n = {
         sortByNumber: "原始顺序",
         sortByAppeal: "吸引力评分",
         // About modal
-        aboutLink: "了解更多关于此项目",
+        aboutLink: "开发幕后故事",
         aboutModalTitle: "About \"Only In Abu Dhabi\"",
         aboutModalDesc1: "本项目旨在让阿布扎比文化旅游局(DCT Abu Dhabi)官方的「101件必做之事」指南更易用、更实用。",
         aboutModalDesc2: "基于文化旅游局的优秀内容，我参考了超过10万条真实游客评论的数据，将所有101种体验整理成易于搜索的格式，帮助旅行者规划行程。",
