@@ -82,7 +82,7 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 .header-right { display: flex; justify-content: flex-end; flex: 1; }
 .logo-link { text-decoration: none; display: flex; align-items: center; gap: 4px; }
 .logo-main { font-size: 18px; font-weight: 600; color: #ffffff; letter-spacing: -0.3px; display: flex; align-items: center; gap: 8px; }
-.logo-icon { flex-shrink: 0; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); transition: transform 0.2s ease; }
+.logo-icon { flex-shrink: 0; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); transition: transform 0.2s ease; width: 26px; height: 26px; }
 .logo-main:hover .logo-icon { transform: scale(1.05); }
 .logo-divider { color: rgba(255,255,255,0.3); margin: 0 4px; }
 .logo-sub { color: rgba(255,255,255,0.9); font-weight: 400; font-size: 14px; }

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d4a5a"/>
+      <stop offset="100%" style="stop-color:#1e3540"/>
+    </linearGradient>
+    <linearGradient id="logoDome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3"/>
+      <stop offset="50%" style="stop-color:#e8d4ba"/>
+      <stop offset="100%" style="stop-color:#d4c4a8"/>
+    </linearGradient>
+    <linearGradient id="logoGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a15a"/>
+      <stop offset="100%" style="stop-color:#b8884a"/>
+    </linearGradient>
+    <linearGradient id="logoAccent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c69f52"/>
+      <stop offset="100%" style="stop-color:#a88444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Decorative pattern -->
+  <circle cx="100" cy="100" r="150" fill="#3d5a6b" opacity="0.3"/>
+  <circle cx="1100" cy="530" r="150" fill="#3d5a6b" opacity="0.3"/>
+
+  <!-- Logo (centered, larger) -->
+  <g transform="translate(480, 180)">
+    <!-- Main building foundation -->
+    <rect x="40" y="170" width="160" height="65" fill="url(#logoDome)"/>
+    <rect x="40" y="170" width="160" height="5" fill="url(#logoGold)" opacity="0.4"/>
+
+    <!-- Central large dome -->
+    <ellipse cx="120" cy="140" rx="60" ry="48" fill="url(#logoDome)"/>
+    <ellipse cx="120" cy="140" rx="60" ry="48" fill="url(#logoGold)" opacity="0.25"/>
+
+    <!-- Dome shine effect -->
+    <ellipse cx="120" cy="120" rx="45" ry="22" fill="#ffffff" opacity="0.5"/>
+    <path d="M 70 140 Q 120 130 170 140" stroke="#b8884a" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 80 150 Q 120 142 160 150" stroke="#b8884a" stroke-width="2" fill="none" opacity="0.7"/>
+
+    <!-- Side domes -->
+    <ellipse cx="60" cy="175" rx="25" ry="20" fill="#6d5a3d" opacity="0.3"/>
+    <ellipse cx="60" cy="172" rx="25" ry="20" fill="url(#logoDome)"/>
+    <ellipse cx="60" cy="172" rx="25" ry="20" fill="url(#logoGold)" opacity="0.2"/>
+
+    <ellipse cx="180" cy="175" rx="25" ry="20" fill="#6d5a3d" opacity="0.3"/>
+    <ellipse cx="180" cy="172" rx="25" ry="20" fill="url(#logoDome)"/>
+    <ellipse cx="180" cy="172" rx="25" ry="20" fill="url(#logoGold)" opacity="0.2"/>
+
+    <!-- Outer minarets -->
+    <rect x="25" y="180" width="12" height="55" fill="url(#logoDome)" rx="6"/>
+    <rect x="25" y="180" width="12" height="2" fill="url(#logoGold)" opacity="0.4"/>
+    <ellipse cx="31" cy="175" rx="10" ry="7.5" fill="url(#logoGold)"/>
+    <circle cx="31" cy="168" r="5" fill="url(#logoAccent)"/>
+    <path d="M 31 160 L 34 168 L 28 168 Z" fill="url(#logoGold)"/>
+
+    <rect x="203" y="180" width="12" height="55" fill="url(#logoDome)" rx="6"/>
+    <rect x="203" y="180" width="12" height="2" fill="url(#logoGold)" opacity="0.4"/>
+    <ellipse cx="209" cy="175" rx="10" ry="7.5" fill="url(#logoGold)"/>
+    <circle cx="209" cy="168" r="5" fill="url(#logoAccent)"/>
+    <path d="M 209 160 L 212 168 L 206 168 Z" fill="url(#logoGold)"/>
+
+    <!-- Inner minarets -->
+    <rect x="88" y="192" width="7.5" height="45" fill="url(#logoDome)" rx="3.75"/>
+    <circle cx="91.5" cy="188" r="6.5" fill="url(#logoGold)"/>
+
+    <rect x="144.5" y="192" width="7.5" height="45" fill="url(#logoDome)" rx="3.75"/>
+    <circle cx="148" cy="188" r="6.5" fill="url(#logoGold)"/>
+
+    <!-- Central arches -->
+    <path d="M 95 200 Q 95 188 105 188 Q 115 188 115 200 L 115 235 L 95 235 Z" fill="#6d5a3d" opacity="0.35"/>
+    <path d="M 115 200 Q 115 188 125 188 Q 135 188 135 200 L 135 235 L 115 235 Z" fill="#6d5a3d" opacity="0.35"/>
+
+    <!-- Golden finial -->
+    <ellipse cx="120" cy="90" rx="12.5" ry="10" fill="url(#logoGold)"/>
+    <rect x="116.25" y="80" width="7.5" height="10" fill="url(#logoGold)" rx="3.75"/>
+    <circle cx="120" cy="72" r="7.5" fill="url(#logoAccent)"/>
+    <ellipse cx="120" cy="65" rx="5" ry="7.5" fill="url(#logoGold)"/>
+    <path d="M 120 55 L 123 65 L 117 65 Z" fill="url(#logoGold)"/>
+
+    <!-- Architectural lines -->
+    <line x1="65" y1="140" x2="65" y2="170" stroke="#c9a86a" stroke-width="1.5" opacity="0.5"/>
+    <line x1="175" y1="140" x2="175" y2="170" stroke="#c9a86a" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="480" font-family="'Etihad Altis', 'Inter', sans-serif" font-size="64" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-1">Only In Abu Dhabi</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="530" font-family="'Pretendard', 'Inter', sans-serif" font-size="36" font-weight="500" fill="rgba(255,255,255,0.85)" text-anchor="middle">아부다비 101가지 즐길거리</text>
+
+  <!-- Tag -->
+  <text x="600" y="575" font-family="'Inter', sans-serif" font-size="20" font-weight="400" fill="#d4a15a" text-anchor="middle">Discover the best of Abu Dhabi</text>
+</svg>

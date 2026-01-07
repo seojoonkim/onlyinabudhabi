@@ -6,30 +6,30 @@
       <stop offset="100%" style="stop-color:#d4c4a8"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#d4a574"/>
-      <stop offset="100%" style="stop-color:#b8935f"/>
+      <stop offset="0%" style="stop-color:#d4a15a"/>
+      <stop offset="100%" style="stop-color:#b8884a"/>
     </linearGradient>
   </defs>
 
-  <!-- Header Background Color -->
-  <rect width="64" height="64" fill="#2d4a5a" rx="10"/>
+  <!-- Transparent Background -->
+  <rect width="64" height="64" fill="transparent" rx="10"/>
 
   <!-- Main building base - larger -->
   <rect x="8" y="36" width="48" height="24" fill="url(#dome)"/>
 
   <!-- Central large dome - much bigger -->
   <ellipse cx="32" cy="32" rx="20" ry="16" fill="url(#dome)"/>
-  <ellipse cx="32" cy="32" rx="20" ry="16" fill="url(#gold)" opacity="0.15"/>
+  <ellipse cx="32" cy="32" rx="20" ry="16" fill="url(#gold)" opacity="0.2"/>
 
   <!-- Dome shine effect - brighter -->
   <ellipse cx="32" cy="26" rx="14" ry="7" fill="#f5e6d3" opacity="0.6"/>
 
   <!-- Side domes - bigger -->
   <ellipse cx="16" cy="40" rx="9" ry="7" fill="url(#dome)"/>
-  <ellipse cx="16" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.12"/>
+  <ellipse cx="16" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.16"/>
 
   <ellipse cx="48" cy="40" rx="9" ry="7" fill="url(#dome)"/>
-  <ellipse cx="48" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.12"/>
+  <ellipse cx="48" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.16"/>
 
   <!-- Minarets - thicker and more visible -->
   <rect x="6" y="42" width="4" height="18" fill="url(#dome)" rx="2"/>
@@ -39,7 +39,7 @@
   <circle cx="56" cy="40" r="3.5" fill="url(#gold)"/>
 
   <!-- Central arch entrance - larger -->
-  <path d="M 26 48 Q 26 42 32 42 Q 38 42 38 48 L 38 60 L 26 60 Z" fill="#2d4a5a" opacity="0.6"/>
+  <path d="M 26 48 Q 26 42 32 42 Q 38 42 38 48 L 38 60 L 26 60 Z" fill="#6d5a3d" opacity="0.5"/>
 
   <!-- Decorative golden accent on central dome top - bigger -->
   <ellipse cx="32" cy="16" rx="4.5" ry="3.5" fill="url(#gold)"/>
