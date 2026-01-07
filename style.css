@@ -624,8 +624,8 @@ table th:first-child {
     .category-badge-inline { display: inline-flex; vertical-align: middle; }
 
     /* Optimize mobile table */
-    .landmark-table th { font-size: 11px; padding: 8px 10px; }
-    .landmark-table td { padding: 8px 10px; }
+    .landmark-table th { font-size: 11px; padding: 9px 10px; }
+    .landmark-table td { padding: 9px 10px; }
 
     /* Force fixed table layout on mobile */
     .landmark-table { table-layout: fixed !important; width: 100% !important; }
@@ -636,7 +636,7 @@ table th:first-child {
 
     .landmark-table th.col-photo,
     .landmark-table td.col-photo { width: 19% !important; min-width: 0 !important; max-width: 19% !important; padding: 7px 6px 7px 2px !important; overflow: hidden; }
-    .list-photo { width: 68px; height: 68px; min-width: 68px; max-width: 68px; min-height: 68px; max-height: 68px; box-sizing: border-box; flex-shrink: 0; }
+    .list-photo { width: 70px; height: 70px; min-width: 70px; max-width: 70px; min-height: 70px; max-height: 70px; box-sizing: border-box; flex-shrink: 0; }
 
     .landmark-table th.col-name,
     .landmark-table td.col-name { width: 52% !important; min-width: 0 !important; max-width: 52% !important; font-size: 13px; padding: 8px 4px 8px 6px !important; word-break: break-word; overflow-wrap: break-word; overflow: hidden; }
