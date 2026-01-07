@@ -655,7 +655,10 @@ function initGoogleMap() {
         mapTypeControl: false,
         streetViewControl: false,
         fullscreenControl: false,
-        zoomControl: false
+        zoomControl: true,
+        zoomControlOptions: {
+            position: google.maps.ControlPosition.RIGHT_CENTER
+        }
     });
 
     // Add current location button
@@ -1162,7 +1165,10 @@ function openModal(id) {
             mapTypeControl: false,
             streetViewControl: false,
             fullscreenControl: false,
-            zoomControl: false
+            zoomControl: true,
+            zoomControlOptions: {
+                position: google.maps.ControlPosition.RIGHT_CENTER
+            }
         });
 
         // Add current location button
@@ -1413,19 +1419,37 @@ window.scrollToDetailCard = scrollToDetailCard;
 
 // Focus on nearby location in spot map
 function focusOnNearbyLocation(itemId) {
-    const targetItem = allData.find(item => item.id === itemId);
-    if (!targetItem || !targetItem.coordinates || !spotMap) return;
+    console.log('focusOnNearbyLocation called with:', itemId);
+    console.log('spotMap exists:', !!spotMap);
+    console.log('spotMarkers count:', spotMarkers.length);
 
+    const targetItem = allData.find(item => item.id === itemId);
+    if (!targetItem) {
+        console.log('Target item not found');
+        return;
+    }
+    if (!targetItem.coordinates) {
+        console.log('Target item has no coordinates');
+        return;
+    }
+    if (!spotMap) {
+        console.log('spotMap not initialized');
+        return;
+    }
+
+    console.log('Panning to:', targetItem.coordinates);
     // Pan to the location
     spotMap.panTo(targetItem.coordinates);
+    spotMap.setZoom(14);
 
     // Find and click the marker to show tooltip
     setTimeout(() => {
         const targetMarker = spotMarkers.find(marker => marker.itemId === itemId);
+        console.log('Target marker found:', !!targetMarker);
         if (targetMarker) {
             google.maps.event.trigger(targetMarker, 'click');
         }
-    }, 300); // Small delay to ensure pan animation starts
+    }, 500); // Increased delay for mobile
 }
 window.focusOnNearbyLocation = focusOnNearbyLocation;
 
