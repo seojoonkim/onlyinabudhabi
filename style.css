@@ -81,7 +81,7 @@ body { font-family: 'Etihad Altis', 'Pretendard', -apple-system, BlinkMacSystemF
 .header-center { display: flex; justify-content: center; flex: 1; }
 .header-right { display: flex; justify-content: flex-end; align-items: center; flex: 1; gap: 16px; }
 .logo-link { text-decoration: none; display: flex; align-items: center; gap: 4px; }
-.about-link { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 14px; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease; }
+.about-link { color: rgba(255,255,255,0.9); background: transparent; border: none; font-size: 14px; font-weight: 500; padding: 8px 16px; border-radius: 6px; transition: all 0.2s ease; cursor: pointer; font-family: 'Etihad Altis', 'Inter', sans-serif; }
 .about-link:hover { background: rgba(255,255,255,0.1); color: #ffffff; }
 .logo-main { font-size: 18px; font-weight: 600; color: #ffffff; letter-spacing: -0.3px; display: flex; align-items: center; gap: 8px; }
 .logo-icon { flex-shrink: 0; border-radius: 6px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); transition: transform 0.2s ease; width: 26px; height: 26px; }
