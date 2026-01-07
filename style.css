@@ -424,7 +424,7 @@ table th:first-child {
 }
 .metric-label {
   display: block;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text-tertiary);
   margin-bottom: 8px;
   text-transform: uppercase;
@@ -467,9 +467,10 @@ table th:first-child {
 .map-section, .nearby-section { margin-bottom: 0; }
 .spot-map-container { border-radius: 8px; overflow: hidden; background: #f8fafc; height: 347px; }
 .nearby-list { list-style: none; }
-.nearby-list li { position: relative; padding: 10px 12px; background: white; border-radius: 6px; margin-bottom: 8px; font-size: 14px; transition: all 0.3s ease; border: 0.5px solid #2d4a5a; }
+.nearby-list li { position: relative; display: flex; align-items: center; gap: 12px; padding: 10px 12px; background: white; border-radius: 6px; margin-bottom: 8px; font-size: 14px; transition: all 0.3s ease; border: 0.5px solid #2d4a5a; }
 .nearby-list li:hover { background: var(--gold-bg); transform: scale(1.03); box-shadow: 0 2px 8px rgba(212,145,93,0.15); }
-.nearby-content { display: flex; flex-direction: column; gap: 4px; }
+.nearby-thumbnail { width: 56px; height: 56px; object-fit: cover; border-radius: 4px; flex-shrink: 0; }
+.nearby-content { display: flex; flex-direction: column; gap: 4px; flex: 1; }
 .nearby-title { font-size: 13px; font-weight: 500; color: var(--text-primary); }
 .nearby-bottom { display: flex; justify-content: space-between; align-items: center; }
 .nearby-place { font-size: 12px; color: #94a3b8; }
