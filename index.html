@@ -140,7 +140,6 @@
         </div>
         
         <div class="header-right">
-            <a href="about.html" class="about-link">About</a>
             <div class="lang-selector">
                 <button class="lang-btn" data-lang="en">EN</button>
                 <button class="lang-btn" data-lang="ko">한</button>
@@ -154,9 +153,9 @@
     <main class="main-container">
         <!-- About Section -->
         <div class="about-section">
-            <h2 class="about-title" id="aboutTitle">아부다비 대표 즐길거리 101가지</h2>
+            <h2 class="about-title" id="aboutTitle">A Comprehensive Guide to Abu Dhabi's Top 101</h2>
             <p class="about-desc" id="aboutDesc">
-                아부다비 문화관광청(DCT Abu Dhabi)이 엄선하고, 8만개 이상의 후기 데이터 분석을 통해 체계적으로 정리했습니다.
+                Curated by DCT Abu Dhabi and systematically organized through analysis of over 100,000 authentic visitor reviews.
             </p>
         </div>
 
@@ -227,6 +226,60 @@
             <div id="map"></div>
         </div>
     </main>
+
+    <!-- About Modal -->
+    <div class="modal-overlay" id="aboutModal" style="display: none;">
+        <div class="modal" style="max-width: 700px;">
+            <div class="modal-header">
+                <div>
+                    <h2 class="modal-name">About This Project</h2>
+                </div>
+                <button class="close-modal" id="closeAboutModal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-section">
+                    <p style="font-size: 15px; line-height: 1.7; color: #555; margin-bottom: 16px;">
+                        Curated by DCT Abu Dhabi and systematically organized through analysis of over 100,000 authentic visitor reviews.
+                    </p>
+                    <p style="font-size: 15px; line-height: 1.7; color: #555; margin-bottom: 16px;">
+                        The Department of Culture and Tourism - Abu Dhabi created <a href="https://visitabudhabi.ae/en/plan-your-trip/article-hub/101-things-to-do" target="_blank" style="color: #d4a574; text-decoration: none; font-weight: 600;">an official guide</a> of 101 things to do in Abu Dhabi. However, finding this valuable information wasn't always easy for travelers. This inspired me to create a more accessible, user-friendly version.
+                    </p>
+                </div>
+
+                <div class="modal-section">
+                    <h3><span class="section-icon">👤</span> Created By</h3>
+                    <div style="padding: 16px; background: #f8f9fa; border-radius: 10px; border-left: 3px solid #d4a574;">
+                        <h4 style="margin: 0 0 6px 0; font-size: 16px; font-weight: 600; color: #2d4a5a;">Simon Kim</h4>
+                        <p style="margin: 0 0 10px 0; color: #666; font-size: 13px;">CEO at Hashed</p>
+                        <p style="margin: 0 0 10px 0; color: #555; font-size: 14px; line-height: 1.6;">As a frequent traveler to Abu Dhabi, I wanted to make this information more accessible to everyone.</p>
+                        <a href="https://twitter.com/simonkim_nft" target="_blank" style="display: inline-flex; align-items: center; gap: 6px; color: #1DA1F2; text-decoration: none; font-size: 13px; font-weight: 600;">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            @simonkim_nft
+                        </a>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3><span class="section-icon">📊</span> Key Features</h3>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="padding: 12px; background: #f8f9fa; border-radius: 8px; margin-bottom: 10px; font-size: 14px; color: #555;">
+                            <strong style="color: #2d4a5a;">8 Score Categories</strong><br>
+                            Photo spots, cultural experiences, activities, relaxation, couple/family suitability, accessibility
+                        </li>
+                        <li style="padding: 12px; background: #f8f9fa; border-radius: 8px; margin-bottom: 10px; font-size: 14px; color: #555;">
+                            <strong style="color: #2d4a5a;">Interactive Map</strong><br>
+                            Explore attractions geographically and discover nearby experiences
+                        </li>
+                        <li style="padding: 12px; background: #f8f9fa; border-radius: 8px; font-size: 14px; color: #555;">
+                            <strong style="color: #2d4a5a;">Multilingual Support</strong><br>
+                            Available in English, Korean, Chinese, and Japanese
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Detail Modal -->
     <div class="modal-overlay" id="modal">
