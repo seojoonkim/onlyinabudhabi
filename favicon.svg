@@ -6,8 +6,8 @@
       <stop offset="100%" style="stop-color:#d4c4a8"/>
     </linearGradient>
     <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#d4a15a"/>
-      <stop offset="100%" style="stop-color:#b8884a"/>
+      <stop offset="0%" style="stop-color:#e8a745"/>
+      <stop offset="100%" style="stop-color:#c48530"/>
     </linearGradient>
   </defs>
 
@@ -19,17 +19,17 @@
 
   <!-- Central large dome - much bigger -->
   <ellipse cx="32" cy="32" rx="20" ry="16" fill="url(#dome)"/>
-  <ellipse cx="32" cy="32" rx="20" ry="16" fill="url(#gold)" opacity="0.2"/>
+  <ellipse cx="32" cy="32" rx="20" ry="16" fill="url(#gold)" opacity="0.28"/>
 
   <!-- Dome shine effect - brighter -->
   <ellipse cx="32" cy="26" rx="14" ry="7" fill="#f5e6d3" opacity="0.6"/>
 
   <!-- Side domes - bigger -->
   <ellipse cx="16" cy="40" rx="9" ry="7" fill="url(#dome)"/>
-  <ellipse cx="16" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.16"/>
+  <ellipse cx="16" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.22"/>
 
   <ellipse cx="48" cy="40" rx="9" ry="7" fill="url(#dome)"/>
-  <ellipse cx="48" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.16"/>
+  <ellipse cx="48" cy="40" rx="9" ry="7" fill="url(#gold)" opacity="0.22"/>
 
   <!-- Minarets - thicker and more visible -->
   <rect x="6" y="42" width="4" height="18" fill="url(#dome)" rx="2"/>

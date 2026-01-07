@@ -10,12 +10,12 @@
       <stop offset="100%" style="stop-color:#d4c4a8"/>
     </linearGradient>
     <linearGradient id="logoGold" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#d4a15a"/>
-      <stop offset="100%" style="stop-color:#b8884a"/>
+      <stop offset="0%" style="stop-color:#e8a745"/>
+      <stop offset="100%" style="stop-color:#c48530"/>
     </linearGradient>
     <linearGradient id="logoAccent" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#c69f52"/>
-      <stop offset="100%" style="stop-color:#a88444"/>
+      <stop offset="0%" style="stop-color:#d69438"/>
+      <stop offset="100%" style="stop-color:#b37828"/>
     </linearGradient>
   </defs>
 
@@ -34,7 +34,7 @@
 
     <!-- Central large dome -->
     <ellipse cx="120" cy="140" rx="60" ry="48" fill="url(#logoDome)"/>
-    <ellipse cx="120" cy="140" rx="60" ry="48" fill="url(#logoGold)" opacity="0.25"/>
+    <ellipse cx="120" cy="140" rx="60" ry="48" fill="url(#logoGold)" opacity="0.32"/>
 
     <!-- Dome shine effect -->
     <ellipse cx="120" cy="120" rx="45" ry="22" fill="#ffffff" opacity="0.5"/>
@@ -42,13 +42,13 @@
     <path d="M 80 150 Q 120 142 160 150" stroke="#b8884a" stroke-width="2" fill="none" opacity="0.7"/>
 
     <!-- Side domes -->
-    <ellipse cx="60" cy="175" rx="25" ry="20" fill="#6d5a3d" opacity="0.3"/>
+    <ellipse cx="60" cy="175" rx="25" ry="20" fill="#6d5a3d" opacity="0.35"/>
     <ellipse cx="60" cy="172" rx="25" ry="20" fill="url(#logoDome)"/>
-    <ellipse cx="60" cy="172" rx="25" ry="20" fill="url(#logoGold)" opacity="0.2"/>
+    <ellipse cx="60" cy="172" rx="25" ry="20" fill="url(#logoGold)" opacity="0.26"/>
 
-    <ellipse cx="180" cy="175" rx="25" ry="20" fill="#6d5a3d" opacity="0.3"/>
+    <ellipse cx="180" cy="175" rx="25" ry="20" fill="#6d5a3d" opacity="0.35"/>
     <ellipse cx="180" cy="172" rx="25" ry="20" fill="url(#logoDome)"/>
-    <ellipse cx="180" cy="172" rx="25" ry="20" fill="url(#logoGold)" opacity="0.2"/>
+    <ellipse cx="180" cy="172" rx="25" ry="20" fill="url(#logoGold)" opacity="0.26"/>
 
     <!-- Outer minarets -->
     <rect x="25" y="180" width="12" height="55" fill="url(#logoDome)" rx="6"/>
