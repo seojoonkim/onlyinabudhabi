@@ -1132,6 +1132,9 @@ function openModal(id) {
                     zIndex: dataItem.id === item.id ? 1000 : 1
                 });
 
+                // Store itemId for later reference
+                marker.itemId = dataItem.id;
+
                 // Add click listener to all markers to show tooltip
                 marker.addListener('click', () => {
                     // Close previous info window
@@ -1303,14 +1306,14 @@ function updateNearbyPlaces(currentItem) {
         } else {
             distText = item.distance.toFixed(1) + 'km';
         }
-        return `<li class="nearby-item">
+        return `<li class="nearby-item" onclick="focusOnNearbyLocation('${item.id}')">
             <div class="nearby-content">
                 <div class="nearby-title">${config.icon} ${item.title}</div>
                 <div class="nearby-bottom">
                     <span class="nearby-place">${item.place}</span>
                     <div class="nearby-right">
                         <span class="nearby-distance">${distText} <span class="nearby-arrow">›</span></span>
-                        <button class="nearby-detail-btn" onclick="openModal('${item.id}')">${i18n[currentLang].viewDetails}</button>
+                        <button class="nearby-detail-btn" onclick="event.stopPropagation(); openModal('${item.id}')">${i18n[currentLang].viewDetails}</button>
                     </div>
                 </div>
             </div>
@@ -1342,6 +1345,24 @@ function scrollToDetailCard(cardId) {
     }
 }
 window.scrollToDetailCard = scrollToDetailCard;
+
+// Focus on nearby location in spot map
+function focusOnNearbyLocation(itemId) {
+    const targetItem = allData.find(item => item.id === itemId);
+    if (!targetItem || !targetItem.coordinates || !spotMap) return;
+
+    // Pan to the location
+    spotMap.panTo(targetItem.coordinates);
+
+    // Find and click the marker to show tooltip
+    setTimeout(() => {
+        const targetMarker = spotMarkers.find(marker => marker.itemId === itemId);
+        if (targetMarker) {
+            google.maps.event.trigger(targetMarker, 'click');
+        }
+    }, 300); // Small delay to ensure pan animation starts
+}
+window.focusOnNearbyLocation = focusOnNearbyLocation;
 
 // Close modal
 function closeModal() {
