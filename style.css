@@ -632,7 +632,7 @@ table th:first-child {
 
     /* Column-specific overrides with percentage widths for guaranteed sizing */
     .landmark-table th.col-rank,
-    .landmark-table td.col-rank { width: 11% !important; min-width: 0 !important; max-width: 11% !important; font-size: 12px; padding: 8px 3px 8px 8px !important; overflow: hidden; }
+    .landmark-table td.col-rank { width: 11% !important; min-width: 0 !important; max-width: 11% !important; font-size: 12px; padding: 8px 3px 8px 4px !important; overflow: hidden; }
 
     .landmark-table th.col-photo,
     .landmark-table td.col-photo { width: 19% !important; min-width: 0 !important; max-width: 19% !important; padding: 7px 6px 7px 2px !important; overflow: hidden; }
@@ -655,7 +655,13 @@ table th:first-child {
 
     /* Add bottom padding to prevent Safari bottom bar from covering content */
     .modal-col-left,
-    .modal-col-right { padding: 28px 20px 80px 20px; }
+    .modal-col-right { padding: 28px 20px 80px 20px; gap: 32px; }
+
+    /* Reduce gap after address section */
+    .modal-col-left .modal-section:has(.address-box) { margin-bottom: -12px; }
+
+    /* Add extra gap before popularity section on mobile */
+    .modal-col-right .modal-section:first-child { margin-top: 8px; }
 }
 
 /* Extra small screens */
