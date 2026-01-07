@@ -678,7 +678,7 @@ table th:first-child {
     .modal-col-right { padding: 28px 20px 80px 20px; gap: 32px; }
 
     /* Reduce gap after address section */
-    .modal-col-left .modal-section:has(.address-box) { margin-bottom: -12px; }
+    .modal-col-left .modal-section:has(.address-box) { margin-bottom: -18px; }
 
     /* Add extra gap before popularity section on mobile */
     .modal-col-right .modal-section:first-child { margin-top: 8px; }
